@@ -3,15 +3,27 @@
 
 This repository contains a curated list of YouTube channels and other resources (like vignettes) that cover a wide range of topics in bioinformatics, statistics, data science, and etc. These channels provide valuable resources for learning and staying up-to-date with the latest advancements in these fields. The channels are organized into sections based on their primary focus.
 
-[List will be UPDATED]
+# [List will be UPDATED] (Last Update: 8 June,2023)
 
 ## Table of Contents
 
-- [Bioinformatics](#bioinformatics)
-- [Statistics & Scientometrics](#statistics-and-scientometrics)
-- [Data Science](#data-science)
-- [R](#r)
-- [Python](#python)
+### [Bioinformatics](#bioinformatics)
+### [Statistics & Scientometrics](#statistics-and-scientometrics)
+### [Data Science](#data-science)
+### [R](#r)
+### [Python](#python)
+
+
+## Bioinformatics
+
+- [Danny Arends](https://youtube.com/@DannyArends)
+
+_Description of the channel._
+
+- [Channel Name](https://www.youtube.com/channel-link)
+
+_Description of the channel._
+
 
 ## statistics-and-scientometrics
 
@@ -19,36 +31,7 @@ This repository contains a curated list of YouTube channels and other resources 
 
 _a YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular._
 
-- [Danny Arends](https://youtube.com/@DannyArends)
-
-_Description of the channel._
-
-
-## Bioinformatics
-
-### [Channel Name](https://www.youtube.com/channel-link)
-
-![Channel Screenshot](path/to/screenshot.png)
-
-_Description of the channel._
-
 - [Channel Name](https://www.youtube.com/channel-link)
-
-![Channel Screenshot](path/to/screenshot.png)
-
-_Description of the channel._
-
-## statistics-and-scientometrics
-
-### [Channel Name](https://www.youtube.com/channel-link)
-
-![Channel Screenshot](path/to/screenshot.png)
-
-_Description of the channel._
-
-- [Channel Name](https://www.youtube.com/channel-link)
-
-![Channel Screenshot](path/to/screenshot.png)
 
 _Description of the channel._
 
