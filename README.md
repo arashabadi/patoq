@@ -20,9 +20,7 @@ This repository contains a curated list of YouTube channels and other resources 
 
 _World-class geneticist, Lecturencer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube. I create educational streams about my work on genetics and multi-omics analysis using amongst others DNA and RNA sequencing techniques. Occasionally, you can find me playing games on my Twitch.tv channel._
 
-- [Channel Name](https://www.youtube.com/channel-link)
-
-_Description of the channel._
+- [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
 
 
 ## statistics-and-scientometrics
