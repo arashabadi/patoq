@@ -22,7 +22,7 @@ This repository contains a curated list of YouTube channels that cover a wide ra
 
 _a YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular._
 
-- [Channel Name](https://www.youtube.com/channel-link)
+- [SS](https://www.youtube.com/channel-link)
 
 ![Channel Screenshot](path/to/screenshot.png)
 
