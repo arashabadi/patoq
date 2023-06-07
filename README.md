@@ -10,7 +10,7 @@ This repository contains a curated list of YouTube channels and other resources 
 - [Bioinformatics](#bioinformatics)
 - [Statistics & Scientometrics](#statistics-and-scientometrics)
 - [Data Science](#data-science)
--- [R](#r)
+- [R](#r)
 - [Python](#python)
 
 
