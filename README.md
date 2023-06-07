@@ -7,18 +7,18 @@ This repository contains a curated list of YouTube channels and other resources 
 
 ## Table of Contents
 
-### [Bioinformatics](#bioinformatics)
-### [Statistics & Scientometrics](#statistics-and-scientometrics)
-### [Data Science](#data-science)
-### [R](#r)
-### [Python](#python)
+- [Bioinformatics](#bioinformatics)
+- [Statistics & Scientometrics](#statistics-and-scientometrics)
+- [Data Science](#data-science)
+-- [R](#r)
+- [Python](#python)
 
 
 ## Bioinformatics
 
 - [Danny Arends](https://youtube.com/@DannyArends)
 
-_Description of the channel._
+_World-class geneticist, Lecturencer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube. I create educational streams about my work on genetics and multi-omics analysis using amongst others DNA and RNA sequencing techniques. Occasionally, you can find me playing games on my Twitch.tv channel._
 
 - [Channel Name](https://www.youtube.com/channel-link)
 
