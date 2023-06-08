@@ -1,7 +1,7 @@
 # PATOGH (گردگاه)
 ## a Collection of Resources around Bioinformatics, Statistics, Data Science, and etc./ + Persian Resources / Gathered by Ashi :D 
 
-This repository contains a curated list of YouTube channels and other resources (like vignettes) that cover a wide range of topics in bioinformatics, statistics, data science, and etc. These channels provide valuable resources for learning and staying up-to-date with the latest advancements in these fields. The channels are organized into sections based on their primary focus.
+This repository contains a curated list of resources that cover a wide range of topics in bioinformatics, statistics, data science, and etc. I hope they provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
 #### [List will be UPDATED] (Last Update: 8 June,2023)
 
@@ -12,6 +12,7 @@ This repository contains a curated list of YouTube channels and other resources 
 - [Books](#Books)
 - [Papers](#Papers)
 - [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
+- [vignettes](#vignettes)
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
@@ -73,8 +74,15 @@ _a list of free courses about bioinformatics in persian. If you are at beginner 
 
 _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
 
+## vignettes
+- [clusterProfiler](https://bioconductor.org/packages/devel/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html)
+
+_clusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters._
+
+
 ## Miscellaneous
 Nothing at the moment.
+
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
 
