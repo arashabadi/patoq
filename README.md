@@ -78,13 +78,13 @@ _ a great curated collection series for many things..._
 #### Thanks to https://t.me/Genome_X/99 , here are three selected awsome repo for the field of Computational Biology and Bioinformatics:
 
 - [openbiox-awosome-bioinformatics](https://github.com/openbiox/awosome-bioinformatics)
-_A curated list of resources for learning bioinformatics._
+_ A curated list of resources for learning bioinformatics. _
 
 - [inoue0426-awesome-computational-biology](https://github.com/inoue0426/awesome-computational-biology)
-_A knowledge collection of databases, software and papers related to computational biology._
+_ A knowledge collection of databases, software and papers related to computational biology. _
 
 - [danielecook-awosome-bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
-_A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source._
+_ A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source. _
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
 
