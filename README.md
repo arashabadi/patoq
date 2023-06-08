@@ -1,6 +1,5 @@
 # PATOGH (پاتوق)
-# Collection of Resources for Bioinformatics, Statistics, Data Science, and etc. gathered by Ashi 
-# + Persian Resources for Persian Speakers :D
+## Collection of Resources for Bioinformatics, Statistics, Data Science, and etc. gathered by Ashi + Persian Resources for Persian Speakers :D
 
 This repository contains a curated list of YouTube channels and other resources (like vignettes) that cover a wide range of topics in bioinformatics, statistics, data science, and etc. These channels provide valuable resources for learning and staying up-to-date with the latest advancements in these fields. The channels are organized into sections based on their primary focus.
 
