@@ -12,7 +12,7 @@ This repository contains a curated list of resources that cover a wide range of 
 - [Books](#Books)
 - [Papers](#Papers)
 - [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
-- [vignettes](#vignettes)
+- [Vignettes](#vignettes)
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
