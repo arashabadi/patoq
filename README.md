@@ -71,7 +71,7 @@ _a list of free courses about bioinformatics in persian. If you are at beginner 
 
 - [Bioinformatics by Dr. Farshid Noorbakhsh](https://www.aparat.com/TUMS_Immunology/playlists)
 
-_This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing courses related to your need!
+_This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
 
 ## Miscellaneous
 Nothing at the moment.
