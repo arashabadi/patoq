@@ -11,7 +11,7 @@ This repository contains a curated list of YouTube channels and other resources 
 - [GitHub Repositories](#GitHub-Repositories)
 - [Books](#Books)
 - [Papers](#Papers)
-- [Persian Resources](# منابع-پارسی)
+- [Persian Resources(بنمایگان پارسی)](https://github.com/bioinfmatters/patogh#%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D9%BE%D8%A7%D8%B1%D8%B3%DB%8C)
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
