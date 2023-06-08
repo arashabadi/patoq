@@ -60,15 +60,14 @@ _A curated list of awesome Bioinformatics software, resources, and libraries. Mo
 ## Papers
 
 
-## #منابع پارسی
-- [Bioinformatics by Dr. Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
+## منابع پارسی
+- [Bioinformatics by Dr. Ali Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
 
 _a list of free courses about bioinformatics in persian. If you are at beginner level, consider learning first from: [this](https://maktabkhooneh.org/course/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%AA%D8%AD%D9%84%DB%8C%D9%84-%D8%AF%D8%A7%D8%AF%D9%87-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-mk374/) and then [this](https://maktabkhooneh.org/course/%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk375/)_
 
-- []()
+- [Bioinformatics by Dr. Farshid Noorbakhsh](https://www.aparat.com/TUMS_Immunology/playlists)
 
-_a_
-
+_This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing courses related to your need!
 
 ## Miscellaneous
 
