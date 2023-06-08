@@ -59,7 +59,7 @@ _A curated list of awesome Bioinformatics software, resources, and libraries. Mo
 
 
 ## Papers
-[A guide to machine learning for biologists](https://www.nature.com/articles/s41580-021-00407-0)
+- [A guide to machine learning for biologists](https://www.nature.com/articles/s41580-021-00407-0)
 
 _Joe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones 
 Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)_
@@ -75,7 +75,7 @@ _a list of free courses about bioinformatics in persian. If you are at beginner 
 _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
 
 ## vignettes
-- [clusterProfiler](https://bioconductor.org/packages/devel/bioc/vignettes/clusterProfiler/inst/doc/clusterProfiler.html)
+- [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
 
 _clusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters._
 
