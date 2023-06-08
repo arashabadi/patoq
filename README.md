@@ -74,7 +74,7 @@ _a list of free courses about bioinformatics in persian. If you are at beginner 
 
 _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
 
-## vignettes
+## Vignettes
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
 
 _clusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters._
