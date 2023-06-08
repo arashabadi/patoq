@@ -1,5 +1,5 @@
 # PATOGH (پاتوق)
-## Collection of Resources for Bioinformatics, Statistics, Data Science, and etc. gathered by Ashi + Persian Resources for Persian Speakers :D
+## a Collection of Resources for Bioinformatics, Statistics, Data Science, and etc. gathered by Ashi + Persian Resources for Persian Speakers :D
 
 This repository contains a curated list of YouTube channels and other resources (like vignettes) that cover a wide range of topics in bioinformatics, statistics, data science, and etc. These channels provide valuable resources for learning and staying up-to-date with the latest advancements in these fields. The channels are organized into sections based on their primary focus.
 
@@ -38,7 +38,7 @@ _This is a solid path for those of you who want to complete a Bioinformatics cou
 
 _a great curated collection series for many things..._
 
-#### Thanks to https://t.me/Genome_X/99 , here are three selected awsome repo for the field of Computational Biology and Bioinformatics:
+Thanks to https://t.me/Genome_X/99 , here are three selected awsome repo for the field of Computational Biology and Bioinformatics:
 
 - [openbiox-awosome-bioinformatics](https://github.com/openbiox/awosome-bioinformatics)
 
@@ -53,45 +53,17 @@ _A knowledge collection of databases, software and papers related to computation
 _A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source._
 
 
-## data-science
-
-- [Channel Name](https://www.youtube.com/channel-link)
-
-_Description of the channel._
-
-- [Channel Name](https://www.youtube.com/channel-link)
-
-_Description of the channel._
+## Books
 
 
-## R
 
-- [Channel Name](https://www.youtube.com/channel-link)
+## Papers
 
-_Description of the channel._
-
-- [Channel Name](https://www.youtube.com/channel-link)
-
-_Description of the channel._
-
-
-## python
-
-- [Channel Name](https://www.youtube.com/channel-link)
-
-_Description of the channel._
-
-
-- [Test](https://www.youtube.com/channel-link)
-
-![Channel Screenshot](path/to/screenshot.png)
-
-_Description of the channel._
 
 ## IR Platforms
-- [Ali Sharifi-Zarchi]()
+- [Bioinformatics by Dr. Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
 
-_a_
+_a list of free courses about bioinformatics in persian. If you are at beginner level, consider learning first from: [this](https://maktabkhooneh.org/course/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%AA%D8%AD%D9%84%DB%8C%D9%84-%D8%AF%D8%A7%D8%AF%D9%87-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-mk374/) and then [this](https://maktabkhooneh.org/course/%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk375/)_
 
 - []()
 
