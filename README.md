@@ -7,11 +7,11 @@ This repository contains a curated list of YouTube channels and other resources 
 
 ## Table of Contents
 
-- [YouTube Channels](#YouTube Channels)
-- [GitHub Repositories](#GitHub Repositories)
+- [YouTube Channels](#YouTube-Channels)
+- [GitHub Repositories](#GitHub-Repositories)
 - [Books](#Books)
 - [Papers](#Papers)
-- [Persian Resources](# منابع پارسی)
+- [Persian Resources](#-منابع-پارسی)
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
