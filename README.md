@@ -7,14 +7,14 @@ This repository contains a curated list of YouTube channels and other resources 
 
 ## Table of Contents
 
-- [Bioinformatics](#bioinformatics)
-- [Statistics & Scientometrics](#statistics-and-scientometrics)
-- [Data Science](#data-science)
-- [R](#r)
-- [Python](#python)
+- [YouTube Channels](#YouTube)
+- [GitHub Repositories](#statistics-and-scientometrics)
+- [Books](#data-science)
+- [Papers](#r)
+- [?](#python)
 
 
-## Bioinformatics
+## YouTube Channels
 
 - [Danny Arends](https://youtube.com/@DannyArends)
 
@@ -23,6 +23,7 @@ _World-class geneticist, Lecturencer, ESPRIT Fanboy, and Associate Professor in 
 - [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
 
 - [Open Source Society University_Bioinformatics](https://github.com/ossu/bioinformatics)
+
 _This is a solid path for those of you who want to complete a Bioinformatics course on your own time, for free, with courses from the best universities in the World._
 
 ## statistics-and-scientometrics
@@ -73,11 +74,13 @@ _Description of the channel._
 
 ## Miscellaneous
 - [Awesome Series](https://github.com/sindresorhus/awesome) 
-_ a great curated collection series for many things..._
+
+_a great curated collection series for many things..._
 
 #### Thanks to https://t.me/Genome_X/99 , here are three selected awsome repo for the field of Computational Biology and Bioinformatics:
 
 - [openbiox-awosome-bioinformatics](https://github.com/openbiox/awosome-bioinformatics)
+
 _ A curated list of resources for learning bioinformatics. _
 
 - [inoue0426-awesome-computational-biology](https://github.com/inoue0426/awesome-computational-biology)
