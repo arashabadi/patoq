@@ -31,7 +31,7 @@ _a YouTube channel dedicated to promoting and propagating anything scientific ab
 
 - [Lana Caldarevic](https://www.youtube.com/@LanaCaldarevic)
 
-_Learn biopython with her + extra bioinformatics stuff!
+_Learn biopython with her + extra bioinformatics stuff!_
 
 ## GitHub Repositories
 
