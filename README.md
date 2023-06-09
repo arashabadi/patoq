@@ -3,7 +3,7 @@
 
 This repository contains a curated list of resources that cover a wide range of topics in bioinformatics, statistics, data science, and etc. I hope they provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
-#### [List will be UPDATED] (Last Update: 10 June,2023)
+#### [List is UPDATING...] (Last Update: 10 June,2023)
 
 ## Table of Contents
 
