@@ -21,27 +21,26 @@ This repository contains a curated list of resources that cover a wide range of 
 
 _Bioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content.  Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io._
 
+- [Sanbomics](https://www.youtube.com/@sanbomics)
+
+_Bioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more._
+
+- [Bioinformagician](https://www.youtube.com/@Bioinformagician)
+
+_a new page uploading bioinformatics videos(Suggested)_
+
+- [Farhan Haq](https://www.youtube.com/@FarhanHaqj)
+
+__
 
 - []()
 
 __
 
-- []()
 
-__
+- [OGGY INFORMATICS](https://www.youtube.com/@oggyinformatics)
 
-- []()
-
-__
-
-- []()
-
-__
-
-
-- []()
-
-__
+_a new page uploading bioinformatics videos_
 
 - [Danny Arends](https://youtube.com/@DannyArends)
 
