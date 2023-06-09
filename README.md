@@ -69,14 +69,14 @@ _This channel aims to provide best possible information related to Bioinformatic
 - [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
 
 
-- []()
+- [Fenyo Lab](https://www.youtube.com/@fenyolab8658)
 
-__
+_Gene Expression Analysis_
 
 
-- []()
+- [Niema Moshiri](https://www.youtube.com/@niemasd)
 
-__
+_Mostly Genomics_
 
 
 - []()
