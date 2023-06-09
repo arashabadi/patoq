@@ -1,5 +1,5 @@
 # PATOGH (گردگاه)
-## a Collection of Resources around Bioinformatics, Statistics, Data Science, and etc. + Persian Resources / Powered by: ELMIUM community
+## a Collection of Resources around Bioinformatics, Statistics, Data Science, and etc. + Persian Resources / Powered by: ELMIUM COMMUNITY
 
 This repository contains a curated list of resources that cover a wide range of topics in bioinformatics, statistics, data science, and etc. I hope they provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
