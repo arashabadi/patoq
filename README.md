@@ -78,7 +78,7 @@ _a list of free courses about bioinformatics in persian. If you are at beginner 
 
 _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
 
-- [Bioskill with Milad Ghafoori](https://www.youtube.com/bioskill)
+- [Bioskill with Dr. Milad Ghafoori](https://www.youtube.com/bioskill)
 
 _Learn structural biology with dear Milad for free!_
 
