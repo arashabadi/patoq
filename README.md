@@ -79,6 +79,17 @@ _Gene Expression Analysis_
 _Mostly Genomics_
 
 
+- [Michael Gonzalez](https://www.youtube.com/@michaelgonzalez7296)
+
+_Genomics and Transcriptomics (Suggested)_
+
+
+- []()
+
+__
+
+
+
 - []()
 
 __
@@ -193,6 +204,8 @@ They are dedicated to providing you with the highest quality and most up-to-date
 - [the bumbling biochemist](https://www.youtube.com/@thebumblingbiochemist)
 
 _Just a postdoc trying to make biochemistry fun and accessible for all._
+
+- [GaBI Academy](https://www.youtube.com/@gabiacademy9576)
 
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
