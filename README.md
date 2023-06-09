@@ -29,6 +29,10 @@ _As it says in the title!_
 
 _a YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular._
 
+- [Lana Caldarevic](https://www.youtube.com/@LanaCaldarevic)
+
+_Learn biopython with her + extra bioinformatics stuff!
+
 ## GitHub Repositories
 
 - [Open Source Society University_Bioinformatics](https://github.com/ossu/bioinformatics)
