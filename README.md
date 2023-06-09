@@ -25,18 +25,17 @@ _Bioinformatics.ca is dedicated to creating and maintaining a skilled bioinforma
 
 _Bioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more._
 
+- [Stat Genetics](https://www.youtube.com/@statgenetics7923)
+
+_Genomics, Transcriptomics, Linuc, etc._
+
 - [Bioinformagician](https://www.youtube.com/@Bioinformagician)
 
 _a new page uploading bioinformatics videos(Suggested)_
 
 - [Farhan Haq](https://www.youtube.com/@FarhanHaqj)
 
-__
-
-- []()
-
-__
-
+_The channel is dedicated for developing skilled bioinformatics students and researchers. Our lectures and tutorials from interdisciplinary fields are recorded and uploaded here. The administrator and main instructor of this channel is a Professor of Bioinformatics in a renowned university of Pakistan._
 
 - [OGGY INFORMATICS](https://www.youtube.com/@oggyinformatics)
 
@@ -46,10 +45,6 @@ _a new page uploading bioinformatics videos_
 
 _World-class geneticist, Lecturencer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube. I create educational streams about my work on genetics and multi-omics analysis using amongst others DNA and RNA sequencing techniques. Occasionally, you can find me playing games on my Twitch.tv channel._
 
-- [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
-
-_As it says in the title!_
-
 - [Statistics & Theory](https://youtube.com/@VahidAryadoust)
 
 _a YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular._
@@ -57,6 +52,30 @@ _a YouTube channel dedicated to promoting and propagating anything scientific ab
 - [Lana Caldarevic](https://www.youtube.com/@LanaCaldarevic)
 
 _Learn biopython with her + extra bioinformatics stuff!_
+
+
+- [Nikolay's Genetics Lessons](https://www.youtube.com/@GeneticsLessons)
+
+_This Channel  is designed to provide students with a basic understanding of the concepts of human genetics and genomics, in preparation for later application in the context of human development and congenital and acquired disease._
+
+- []()
+
+__
+
+- []()
+
+__
+
+- [Yann Academy](https://www.youtube.com/@yannacademy)
+
+- [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
+
+_As it says in the title!_
+
+#### Selected playlists:
+- [Bioinformatics for precision medicine 2020](https://www.youtube.com/playlist?list=PLtfyFsgaWppZeCE-eNSqLmVrRkadUJMbL)
+
+- [Biochemistry bootcamp](https://youtube.com/playlist?list=PLffXXtqYi9Pd26tkd-hCsTs4YiDu0I5Ns)
 
 
 
