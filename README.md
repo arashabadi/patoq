@@ -17,6 +17,31 @@ This repository contains a curated list of resources that cover a wide range of 
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
+- [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
+
+_Bioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content.  Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io._
+
+
+- []()
+
+__
+
+- []()
+
+__
+
+- []()
+
+__
+
+- []()
+
+__
+
+
+- []()
+
+__
 
 - [Danny Arends](https://youtube.com/@DannyArends)
 
@@ -103,7 +128,7 @@ Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)_
 ## Vignettes
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
 
-_clusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters._
+_clusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters_
 
 
 ## Miscellaneous
@@ -114,12 +139,17 @@ _I think this is a very useful file to learn and deepen your understanding of th
 #### Become a graphic designer as a biologist:
 - [DrawBioMed](https://youtube.com/@DrawBioMed)
 
-_The scientific illustration channel for scientists._
+_The scientific illustration channel for scientists_
 
 - [Animated biology With arpan](https://youtube.com/@animatedbiologywitharpan)
 
-_Ideas for your design_
+_Ideas for your design + learn basic biology_
 
+- []()
+
+__
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
+
+
 
