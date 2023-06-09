@@ -8,10 +8,11 @@ This repository contains a curated list of resources that cover a wide range of 
 ## Table of Contents
 
 - [YouTube Channels](#YouTube-Channels)
+- [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
 - [GitHub Repositories](#GitHub-Repositories)
+- [Courses](#Courses)
 - [Books](#Books)
 - [Papers](#Papers)
-- [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
 - [Vignettes](#vignettes)
 - [Miscellaneous](#Miscellaneous)
 
@@ -32,6 +33,22 @@ _a YouTube channel dedicated to promoting and propagating anything scientific ab
 - [Lana Caldarevic](https://www.youtube.com/@LanaCaldarevic)
 
 _Learn biopython with her + extra bioinformatics stuff!_
+
+
+
+## Persian Resources (بنمایگان پارسی)
+- [Bioinformatics with Dr. Ali Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
+
+_a list of free courses about bioinformatics in persian. If you are at beginner level, consider learning first from: [this](https://maktabkhooneh.org/course/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%AA%D8%AD%D9%84%DB%8C%D9%84-%D8%AF%D8%A7%D8%AF%D9%87-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-mk374/) and then [this](https://maktabkhooneh.org/course/%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk375/)_
+
+- [Bioinformatics with Dr. Farshid Noorbakhsh](https://www.aparat.com/TUMS_Immunology/playlists)
+
+_This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
+
+- [Bioskill with Dr. Milad Ghafoori](https://www.youtube.com/bioskill)
+
+_Learn structural biology with dear Milad for free!_
+
 
 ## GitHub Repositories
 
@@ -58,6 +75,9 @@ _A knowledge collection of databases, software and papers related to computation
 _A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source._
 
 
+## Courses
+
+
 ## Books
 
 
@@ -69,18 +89,6 @@ _Joe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones
 Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)_
 
 
-## Persian Resources (بنمایگان پارسی)
-- [Bioinformatics with Dr. Ali Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
-
-_a list of free courses about bioinformatics in persian. If you are at beginner level, consider learning first from: [this](https://maktabkhooneh.org/course/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%AA%D8%AD%D9%84%DB%8C%D9%84-%D8%AF%D8%A7%D8%AF%D9%87-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-mk374/) and then [this](https://maktabkhooneh.org/course/%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk375/)_
-
-- [Bioinformatics with Dr. Farshid Noorbakhsh](https://www.aparat.com/TUMS_Immunology/playlists)
-
-_This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!_
-
-- [Bioskill with Dr. Milad Ghafoori](https://www.youtube.com/bioskill)
-
-_Learn structural biology with dear Milad for free!_
 
 ## Vignettes
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
