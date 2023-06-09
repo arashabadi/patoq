@@ -54,17 +54,35 @@ _a YouTube channel dedicated to promoting and propagating anything scientific ab
 _Learn biopython with her + extra bioinformatics stuff!_
 
 
-- [Nikolay's Genetics Lessons](https://www.youtube.com/@GeneticsLessons)
+- [Bioinformatica](https://www.youtube.com/@BioinformaticaYT)
 
-_This Channel  is designed to provide students with a basic understanding of the concepts of human genetics and genomics, in preparation for later application in the context of human development and congenital and acquired disease._
+_"BIOINFORMATICA" is an initiative to provide quality videos on bioinformatics related topics for a better understanding of the students who are studying bioinformatics or those who want to join bioinformatics._
+
+- [Bioinformatics Tools - Explanation](https://www.youtube.com/@bioinformaticstools-explan5733)
+
+
+- [Data Science Bioinformatics](https://www.youtube.com/channel/UC8HVUWFcUhEGmt_flxUa_9g)
+
+_This channel aims to provide best possible information related to Bioinformatics and data science._
+
+
+- [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
+
 
 - []()
 
 __
 
+
 - []()
 
 __
+
+
+- []()
+
+__
+
 
 - [Yann Academy](https://www.youtube.com/@yannacademy)
 
@@ -163,11 +181,27 @@ _The scientific illustration channel for scientists_
 
 _Ideas for your design + learn basic biology_
 
+- [Nikolay's Genetics Lessons](https://www.youtube.com/@GeneticsLessons)
+
+_This YouTube Channel is designed to provide students with a basic understanding of the concepts of human genetics and genomics, in preparation for later application in the context of human development and congenital and acquired disease._
+
+
+- [Biology Lectures](https://www.youtube.com/@BiologyLectures)
+
+They are dedicated to providing you with the highest quality and most up-to-date lectures in the fields of general biology, microbiology, immunology, pharmacology, bioinformatics, and other life sciences_
+
+- [the bumbling biochemist](https://www.youtube.com/@thebumblingbiochemist)
+
+_Just a postdoc trying to make biochemistry fun and accessible for all._
+
+
+### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
+
+
+
 - []()
 
 __
-
-### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
 
 
 
