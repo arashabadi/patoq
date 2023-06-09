@@ -84,15 +84,25 @@ _Mostly Genomics_
 _Genomics and Transcriptomics (Suggested)_
 
 
+- [X-omics](https://www.youtube.com/@x-omics2154)
+
+_The project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis)._
+
+
+
+- [Iowa Institute of Human Genetics](https://www.youtube.com/@iowainstituteofhumangeneti7584)
+
+_The IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa._
+
+- [profbiot](https://www.youtube.com/@profbiot)
+
+_Bioinformatics and R_
+
+
 - []()
 
 __
 
-
-
-- []()
-
-__
 
 
 - [Yann Academy](https://www.youtube.com/@yannacademy)
