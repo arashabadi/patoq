@@ -77,6 +77,13 @@ _A curated list of awesome Bioinformatics software, resources, and libraries. Mo
 
 ## Courses
 
+- [COURSERA_Python for Genomic Data Science](https://www.coursera.org/learn/python-genomics)
+
+__
+
+- [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
+
+__
 
 ## Books
 
@@ -97,8 +104,9 @@ _clusterProfiler is an R package that implements methods to analyze and visualiz
 
 
 ## Miscellaneous
-Nothing at the moment.
-
+- [Biopython Tutorail PDF](#http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
+- 
+_I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
 
