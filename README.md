@@ -3,7 +3,7 @@
 
 This repository contains a curated list of resources that cover a wide range of topics in bioinformatics, statistics, data science, and etc. I hope they provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
-#### [List will be UPDATED] (Last Update: 8 June,2023)
+#### [List will be UPDATED] (Last Update: 10 June,2023)
 
 ## Table of Contents
 
@@ -50,7 +50,8 @@ _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider view
 _Learn structural biology with dear Milad for free!_
 
 - [ELMIUM](https://www.youtube.com/@elmium)
-_Learn computational biology with me!_
+
+_Learn computational biology with me! (in progress)_
 
 ## GitHub Repositories
 
