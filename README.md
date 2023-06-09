@@ -49,7 +49,7 @@ _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider view
 
 _Learn structural biology with dear Milad for free!_
 
-- [ELMIUM](https://www.youtube.com/@elmium)
+- [ELMIUM with Arash](https://www.youtube.com/@elmium)
 
 _Learn computational biology with me! (in progress)_
 
@@ -110,6 +110,16 @@ _clusterProfiler is an R package that implements methods to analyze and visualiz
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
 
 _I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
+
+#### Become a graphic designer as a biologist:
+- [DrawBioMed](https://youtube.com/@DrawBioMed)
+
+_The scientific illustration channel for scientists._
+
+- [Animated biology With arpan](https://youtube.com/@animatedbiologywitharpan)
+
+_Ideas for your design_
+
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
 
