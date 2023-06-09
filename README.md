@@ -1,5 +1,5 @@
 # PATOGH (گردگاه)
-## a Collection of Resources around Bioinformatics, Statistics, Data Science, and etc. + Persian Resources  
+## a Collection of Resources around Bioinformatics, Statistics, Data Science, and etc. + Persian Resources / Powered by: ELMIUM community
 
 This repository contains a curated list of resources that cover a wide range of topics in bioinformatics, statistics, data science, and etc. I hope they provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
@@ -49,6 +49,8 @@ _This is the link for the playlists in TUMS Immuno Aparat Channel. Consider view
 
 _Learn structural biology with dear Milad for free!_
 
+- [ELMIUM](https://www.youtube.com/@elmium)
+_Learn computational biology with me!_
 
 ## GitHub Repositories
 
