@@ -20,6 +20,10 @@ This repository contains a curated list of resources that cover a wide range of 
 
 _Bioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content.  Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io._
 
+- [Pine Biotech](https://www.youtube.com/@omicslogic)
+
+_Really a good page!_
+
 - [Sanbomics](https://www.youtube.com/@sanbomics)
 
 _Bioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more._
