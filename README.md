@@ -192,7 +192,7 @@ _clusterProfiler is an R package that implements methods to analyze and visualiz
 
 - [MD Tutorials](http://www.mdtutorials.com/) 
 
-_On this site, you will find tutorials I have written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates._
+_On this site, you will find tutorials written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates._
 
 ## Miscellaneous
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
