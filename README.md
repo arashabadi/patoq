@@ -174,8 +174,34 @@ __
 __
 
 ## Books
+####Learn R programming for FREE:
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
+_This is the website for “Hands-On Programming with R”. This book will teach you how to program in R, with hands-on examples. He wrote it for non-programmers to provide a friendly introduction to the R language._
 
+- [R for Data Science (1e)](https://r4ds.had.co.nz/)
+
+_This is the website for the first edition of “R for Data Science”, published January 2017._
+
+- [R for Data Science (2e)](https://r4ds.hadley.nz/)
+
+_This is the website for the work-in-progress 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize._
+
+- [Advanced R (1e)](http://adv-r.had.co.nz/)
+
+_This is the companion website for “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language._
+
+- [Advanced R (2e)](https://adv-r.hadley.nz/)
+
+_This is the website for 2nd edition of “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language._
+
+- [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
+
+_This is the on-line version of work-in-progress 3rd edition of “ggplot2: elegant graphics for data analysis” published by Springer._
+
+- [R Cookbook, 2nd Edition](https://rc2e.com/)
+
+_This book is full of how-to recipes, each of which solves a specific problem. The recipe includes a quick introduction to the solution followed by a discussion that aims to unpack the solution and give you some insight into how it works. We know these recipes are useful and we know they work, because we use them ourselves._
 
 ## Papers
 - [A guide to machine learning for biologists](https://www.nature.com/articles/s41580-021-00407-0)
