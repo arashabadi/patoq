@@ -220,7 +220,7 @@ _clusterProfiler is an R package that implements methods to analyze and visualiz
 
 _On this site, you will find tutorials written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates._
 
--[Massive open online course (MOOC)](https://www.mooc.org/)
+- [Massive open online course (MOOC)](https://www.mooc.org/)
 
 _MOOC.org is an extension of edX.org, a leader in online courses. Whether you're interested in learning for yourself, leveraging online courses to educate your workforce, or creating a MOOC, edX can help._
 
