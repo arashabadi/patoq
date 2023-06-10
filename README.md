@@ -12,7 +12,7 @@ This repository contains a curated list of resources that cover a wide range of 
 - [Courses](#Courses)
 - [Books](#Books)
 - [Papers](#Papers)
-- [Vignettes](#vignettes)
+- [Vignettes & Websites](#vignettes-and-Websites)
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
