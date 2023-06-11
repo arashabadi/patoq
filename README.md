@@ -203,6 +203,11 @@ _This is the on-line version of work-in-progress 3rd edition of “ggplot2: eleg
 
 _This book is full of how-to recipes, each of which solves a specific problem. The recipe includes a quick introduction to the solution followed by a discussion that aims to unpack the solution and give you some insight into how it works. We know these recipes are useful and we know they work, because we use them ourselves._
 
+- [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/)
+
+_This book serves as an introduction of text mining using the tidytext package and other tidy tools in R. The functions provided by the tidytext package are relatively simple; what is important are the possible applications. Thus, this book provides compelling examples of real text mining problems._
+
+
 ## Papers
 - [A guide to machine learning for biologists](https://www.nature.com/articles/s41580-021-00407-0)
 
