@@ -165,6 +165,11 @@ _A curated list of awesome Bioinformatics software, resources, and libraries. Mo
 
 ## Courses
 
+- [Foundations Of Computational And Systems Biology](https://ocw.mit.edu/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/)
+
+
+_MIT OCW / This course is an introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis; it also includes an introduction to the analysis of complex biological systems. Topics covered in the course include principles and methods used for sequence alignment, motif finding, structural modeling, structure prediction and network modeling, as well as currently emerging research areas. 7.91J | Spring 2014 | Graduate_
+
 - [COURSERA_Python for Genomic Data Science](https://www.coursera.org/learn/python-genomics)
 
 __
@@ -172,6 +177,7 @@ __
 - [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
 
 __
+
 
 ## Books
 #### Learn R programming for FREE:
