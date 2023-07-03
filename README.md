@@ -120,7 +120,8 @@ _As it says in the title!_
 - [Biochemistry bootcamp](https://youtube.com/playlist?list=PLffXXtqYi9Pd26tkd-hCsTs4YiDu0I5Ns)
 
 - [Epigenetics explained](https://www.youtube.com/playlist?list=PLXwHgASiClJkl89UbCgm5Fc28DtEwGpS5)
-
+- 
+- [Popular Programming Courses by freecodecamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC)
 ## Persian Resources (بنمایگان پارسی)
 - [Bioinformatics with Dr. Ali Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
 
