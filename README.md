@@ -238,7 +238,7 @@ _MOOC.org is an extension of edX.org, a leader in online courses. Whether you're
 
 ## Miscellaneous
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
-
+- [bioinformatics.org](https://www.bioinformatics.org/)
 _I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
 
 #### Become a graphic designer as a biologist:
