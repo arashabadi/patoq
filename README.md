@@ -163,7 +163,11 @@ _A knowledge collection of databases, software and papers related to computation
 
 _A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source._
 
+- [awesome-r-dataviz](https://github.com/krzjoa/awesome-r-dataviz)
 
+_a Curated resources for Data Visualization, Drawing & Publishing in R_
+
+  
 ## Courses
 
 - [Foundations Of Computational And Systems Biology](https://ocw.mit.edu/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/)
