@@ -165,7 +165,7 @@ _A curated list of awesome Bioinformatics software, resources, and libraries. Mo
 
 - [awesome-r-dataviz](https://github.com/krzjoa/awesome-r-dataviz)
 
-_a Curated resources for Data Visualization, Drawing & Publishing in R_
+_A Curated resources for Data Visualization, Drawing & Publishing in R_
 
   
 ## Courses
