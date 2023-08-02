@@ -88,11 +88,9 @@ _dedicated to all things Programming, Bioinformatics, Machine Learning and Open-
 
 _Mostly Genomics_
 
-
 - [Michael Gonzalez](https://www.youtube.com/@michaelgonzalez7296)
 
 _Genomics and Transcriptomics (Suggested)_
-
 
 - [X-omics](https://www.youtube.com/@x-omics2154)
 
@@ -107,12 +105,12 @@ _The IIHG is a statewide resource that promotes clinical care, research, and edu
 
 _Bioinformatics and R_
 
-
 - [Yann Academy](https://www.youtube.com/@yannacademy)
 
-- [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
+- [Learn-at-ease](https://www.youtube.com/@DweipayanG)
 
-_As it says in the title!_
+_Very useful videos about biochemistry and Bioinformatics (especcially MD and structural biology) [Thanks to Amir]._
+
 
 #### Selected playlists:
 - [Bioinformatics for precision medicine 2020](https://www.youtube.com/playlist?list=PLtfyFsgaWppZeCE-eNSqLmVrRkadUJMbL)
@@ -241,6 +239,12 @@ _MOOC.org is an extension of edX.org, a leader in online courses. Whether you're
 _I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
 
 - [bioinformatics.org](https://www.bioinformatics.org/)
+
+
+- [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
+
+_As it says in the title!_
+
 
 #### Become a graphic designer as a biologist:
 - [DrawBioMed](https://youtube.com/@DrawBioMed)
