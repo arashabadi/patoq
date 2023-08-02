@@ -102,6 +102,15 @@ _Bioinformatics and R_
 
 _Very useful videos about biochemistry and Bioinformatics (especcially MD and structural biology) [Thanks to Amir]._
 
+
+
+
+
+
+
+
+- [Bio-Informatics - IITM](https://www.youtube.com/@bio-informatics-iitm6423/)
+
 - [Bioinformatics Tools - Explanation](https://www.youtube.com/@bioinformaticstools-explan5733)
 
 - [Yann Academy](https://www.youtube.com/@yannacademy)
