@@ -80,6 +80,9 @@ _This Channels provides tutorials on bioinformatics and big data analysis. The c
 
 _Gene Expression Analysis_
 
+- [rebelScience](https://www.youtube.com/@rebelScience/)
+
+_dedicated to all things Programming, Bioinformatics, Machine Learning and Open-Source Software._
 
 - [Niema Moshiri](https://www.youtube.com/@niemasd)
 
@@ -96,7 +99,6 @@ _Genomics and Transcriptomics (Suggested)_
 _The project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis)._
 
 
-
 - [Iowa Institute of Human Genetics](https://www.youtube.com/@iowainstituteofhumangeneti7584)
 
 _The IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa._
@@ -104,12 +106,6 @@ _The IIHG is a statewide resource that promotes clinical care, research, and edu
 - [profbiot](https://www.youtube.com/@profbiot)
 
 _Bioinformatics and R_
-
-
-- []()
-
-__
-
 
 
 - [Yann Academy](https://www.youtube.com/@yannacademy)
@@ -181,11 +177,7 @@ _MIT OCW / This course is an introduction to computational biology emphasizing t
 
 - [COURSERA_Python for Genomic Data Science](https://www.coursera.org/learn/python-genomics)
 
-__
-
 - [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
-
-__
 
 
 ## Books
@@ -228,7 +220,6 @@ _This book serves as an introduction of text mining using the tidytext package a
 
 _Joe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones 
 Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)_
-
 
 
 ## Vignettes and Websites
@@ -277,7 +268,6 @@ _Just a postdoc trying to make biochemistry fun and accessible for all._
 
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
-
 
 
 - []()
