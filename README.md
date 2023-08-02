@@ -72,6 +72,10 @@ _This channel aims to provide best possible information related to Bioinformatic
 - [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
 
 
+- [Bioinformatics Coach](https://www.youtube.com/@bioinformaticscoach/)
+
+_This Channels provides tutorials on bioinformatics and big data analysis. The content is suitable for both beginners and advanced learners._
+
 - [Fenyo Lab](https://www.youtube.com/@fenyolab8658)
 
 _Gene Expression Analysis_
