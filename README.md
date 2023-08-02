@@ -61,16 +61,10 @@ _Learn biopython with her + extra bioinformatics stuff!_
 
 _"BIOINFORMATICA" is an initiative to provide quality videos on bioinformatics related topics for a better understanding of the students who are studying bioinformatics or those who want to join bioinformatics._
 
-- [Bioinformatics Tools - Explanation](https://www.youtube.com/@bioinformaticstools-explan5733)
-
 
 - [Data Science Bioinformatics](https://www.youtube.com/channel/UC8HVUWFcUhEGmt_flxUa_9g)
 
 _This channel aims to provide best possible information related to Bioinformatics and data science._
-
-
-- [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
-
 
 - [Bioinformatics Coach](https://www.youtube.com/@bioinformaticscoach/)
 
@@ -96,7 +90,6 @@ _Genomics and Transcriptomics (Suggested)_
 
 _The project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis)._
 
-
 - [Iowa Institute of Human Genetics](https://www.youtube.com/@iowainstituteofhumangeneti7584)
 
 _The IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa._
@@ -105,11 +98,23 @@ _The IIHG is a statewide resource that promotes clinical care, research, and edu
 
 _Bioinformatics and R_
 
-- [Yann Academy](https://www.youtube.com/@yannacademy)
-
 - [Learn-at-ease](https://www.youtube.com/@DweipayanG)
 
 _Very useful videos about biochemistry and Bioinformatics (especcially MD and structural biology) [Thanks to Amir]._
+
+- [Bioinformatics Tools - Explanation](https://www.youtube.com/@bioinformaticstools-explan5733)
+
+- [Yann Academy](https://www.youtube.com/@yannacademy)
+
+- [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
+
+
+
+
+
+
+
+
 
 
 #### Selected playlists:
