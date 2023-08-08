@@ -40,6 +40,10 @@ _a new page uploading bioinformatics videos(Suggested)_
 
 _The channel is dedicated for developing skilled bioinformatics students and researchers. Our lectures and tutorials from interdisciplinary fields are recorded and uploaded here. The administrator and main instructor of this channel is a Professor of Bioinformatics in a renowned university of Pakistan._
 
+- [OMGenomics](https://www.youtube.com/@OMGenomics)
+
+_Bioinformatics discussions and training videos.Hosted by Maria Nattestad._
+
 - [OGGY INFORMATICS](https://www.youtube.com/@oggyinformatics)
 
 _a new page uploading bioinformatics videos_
