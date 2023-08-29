@@ -290,13 +290,11 @@ _Just a postdoc trying to make biochemistry fun and accessible for all._
 
 - [GaBI Academy](https://www.youtube.com/@gabiacademy9576)
 
+- [TCGA Barcode](https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/#reading-barcodes)
+
+- [Differential gene expression](https://nbisweden.github.io/workshop-scRNAseq/labs/compiled/seurat/seurat_05_dge.html#Differential_gene_expression)
+
+_By NBIS - National Bioinformatics Infrastructure Sweden_
+
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
-
-
-- []()
-
-__
-
-
-
