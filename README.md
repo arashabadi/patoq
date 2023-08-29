@@ -319,4 +319,8 @@ _By NBIS - National Bioinformatics Infrastructure Sweden_
 
 _Omics Data Analysis by Laurent Gatto_
 
+- [Analysis of microarray data](https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/microarrays/analysis-of-microarray-data/)
+
+_EBI , Functional genomics II, Common technologies and data analysis methods_
+
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
