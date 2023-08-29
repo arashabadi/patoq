@@ -113,9 +113,6 @@ _The Immune Epitope Database and Analysis Resource (IEDB) serves the scientific 
 
 
 
-
-
-
 - [Bio-Informatics - IITM](https://www.youtube.com/@bio-informatics-iitm6423/)
 
 - [Bioinformatics Tools - Explanation](https://www.youtube.com/@bioinformaticstools-explan5733)
@@ -123,12 +120,6 @@ _The Immune Epitope Database and Analysis Resource (IEDB) serves the scientific 
 - [Yann Academy](https://www.youtube.com/@yannacademy)
 
 - [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
-
-
-
-
-
-
 
 
 
@@ -141,6 +132,8 @@ _The Immune Epitope Database and Analysis Resource (IEDB) serves the scientific 
 - [Epigenetics explained](https://www.youtube.com/playlist?list=PLXwHgASiClJkl89UbCgm5Fc28DtEwGpS5)
 
 - [Popular Programming Courses by freecodecamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC)
+
+
 ## Persian Resources (بنمایگان پارسی)
 - [Bioinformatics with Dr. Ali Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
 
@@ -157,6 +150,8 @@ _Learn structural biology with dear Milad for free!_
 - [ELMIUM with Arash](https://www.youtube.com/@elmium)
 
 _Learn computational biology with me! (in progress)_
+
+
 
 ## GitHub Repositories
 
@@ -188,7 +183,7 @@ _A Curated resources for Data Visualization, Drawing & Publishing in R_
 
 - [Introduction to R and differential gene expression (DGE) analysis](https://github.com/hbctraining/Intro-to-R-with-DGE)
 
-_By Bioinformatics Training at the Harvard Chan Bioinformatics Core [link](https://hbctraining.github.io/main/)_
+_By Bioinformatics Training at the Harvard Chan Bioinformatics Core: hbctraining.github.io/main
   
 ## Courses
 
