@@ -264,9 +264,11 @@ _MOOC.org is an extension of edX.org, a leader in online courses. Whether you're
 
 _Creates a volcano plot for DNA methylation or expression_
 
-- []()
 
 ## Miscellaneous
+
+- [Welcome to Galaxy Training!](https://training.galaxyproject.org/training-material/)
+
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
 
 _I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
@@ -313,6 +315,10 @@ _By NBIS - National Bioinformatics Infrastructure Sweden_
 
 - [Removing low count genes for RNA-seq downstream analysis](https://seqqc.wordpress.com/2020/02/17/removing-low-count-genes-for-rna-seq-downstream-analysis/)
 
-- []()
+- [RNA-seq analysis in R](https://sbc.shef.ac.uk/prostate-bioinformatics/rna-seq-preprocessing.nb.html)
+
+- [Chapter 4 Differential expression analysis](https://uclouvain-cbio.github.io/WSBIM2122/sec-rnaseq.html)
+
+_Omics Data Analysis by Laurent Gatto_
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
