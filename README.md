@@ -296,5 +296,10 @@ _Just a postdoc trying to make biochemistry fun and accessible for all._
 
 _By NBIS - National Bioinformatics Infrastructure Sweden_
 
+- [Seurat](https://satijalab.org/seurat/)
+
+- [Removing low count genes for RNA-seq downstream analysis](https://seqqc.wordpress.com/2020/02/17/removing-low-count-genes-for-rna-seq-downstream-analysis/)
+
+- []()
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
