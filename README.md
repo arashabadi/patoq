@@ -13,6 +13,7 @@ This repository contains a curated list of resources that cover a wide range of 
 - [Books](#Books)
 - [Papers](#Papers)
 - [Vignettes & Websites](#vignettes-and-Websites)
+- [R packages](#R-packages)
 - [Miscellaneous](#Miscellaneous)
 
 ## YouTube Channels
@@ -239,6 +240,11 @@ _This book serves as an introduction of text mining using the tidytext package a
 _Joe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones 
 Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)_
 
+- [Differential expression analysis for sequence count data](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2010-11-10-r106)
+
+_Anders, S., Huber, W. Genome Biol 11, R106 (2010)_
+
+
 
 ## Vignettes and Websites
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
@@ -252,6 +258,13 @@ _On this site, you will find tutorials written for various molecular dynamics pr
 - [Massive open online course (MOOC)](https://www.mooc.org/)
 
 _MOOC.org is an extension of edX.org, a leader in online courses. Whether you're interested in learning for yourself, leveraging online courses to educate your workforce, or creating a MOOC, edX can help._
+
+## R packages
+- [TCGAVisualize_volcano](https://rdrr.io/bioc/TCGAbiolinks/man/TCGAVisualize_volcano.html)
+
+_Creates a volcano plot for DNA methylation or expression_
+
+- []()
 
 ## Miscellaneous
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
