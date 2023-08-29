@@ -186,6 +186,7 @@ _A curated list of awesome Bioinformatics software, resources, and libraries. Mo
 
 _A Curated resources for Data Visualization, Drawing & Publishing in R_
 
+- [Introduction to R and differential gene expression (DGE) analysis](https://github.com/hbctraining/Intro-to-R-with-DGE)
   
 ## Courses
 
