@@ -195,7 +195,6 @@ _MIT OCW / This course is an introduction to computational biology emphasizing t
 
 - [COURSERA_Python for Genomic Data Science](https://www.coursera.org/learn/python-genomics)
 
-- [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
 
 
 ## Books
@@ -365,6 +364,10 @@ _A Good Playlist by Lana Dominkovic for biopython_
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
 
 _I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
+
+
+
+- [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
 
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
