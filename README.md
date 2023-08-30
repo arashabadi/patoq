@@ -329,9 +329,9 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 
 ### Molecular Dynamics Simulation
 
-- [a good play list l](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
+- [a good play list](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
 
-
+- [MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
