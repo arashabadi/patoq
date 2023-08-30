@@ -255,44 +255,27 @@ _Anders, S., Huber, W. Genome Biol 11, R106 (2010)_
 
 
 
-- []()
+- [Integrated Analysis of Microarray and RNA-Seq Data for the Identification of Hub Genes and Networks Involved in the Pancreatic Cancer](https://www.frontiersin.org/articles/10.3389/fgene.2021.663787/full)
 
 
 
 
-- []()
+- [ComBat-seq: batch effect adjustment for RNA-seq count data](https://academic.oup.com/nargab/article/2/3/lqaa078/5909519)
 
 
 
 
-- []()
+- [A benchmark of batch-effect correction methods for single-cell RNA sequencing data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
 
 
 
 
-- []()
+- [Batch effect in integrated RNA-seq analysis_Biostars](https://www.biostars.org/p/9556181/)
 
 
 
 
-- []()
-
-
-
-
-- []()
-
-
-
-
-- []()
-
-
-
-
-- []()
-
-
+- [Integrating bulk RNA-Seq data with different sequencing depths and from different sources_bioinformatics.stackexchange](https://bioinformatics.stackexchange.com/questions/20879/integrating-bulk-rna-seq-data-with-different-sequencing-depths-and-from-differen)
 
 
 
