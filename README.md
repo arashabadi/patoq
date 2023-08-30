@@ -331,7 +331,7 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 
 - [a Good Playlist on YouTube](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
 
-- [MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
+- [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
 - [MDTutorials](http://www.mdtutorials.com) 
 
