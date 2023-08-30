@@ -356,8 +356,10 @@ _Thanks to Mohammad_
 
 ### Biopython
 
-- [YouTube video]() 
+- [YouTube playlist](https://youtube.com/playlist?list=PLhYDP66xNTKRdtUM8ekEmq1fC0mosXrgn&si=JvC_4op2oEgNRCZv ) 
 
+
+_A Good Playlist by Lana Dominkovic for biopython_
 
 
 - [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
