@@ -268,9 +268,8 @@ _Creates a volcano plot for DNA methylation or expression_
 
 - [Welcome to Galaxy Training!](https://training.galaxyproject.org/training-material/)
 
-- [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
 
-_I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
+
 
 - [bioinformatics.org](https://www.bioinformatics.org/)
 
@@ -355,6 +354,15 @@ _Thanks to Mohammad_
 - [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
 
+### Biopython
+
+- [YouTube video]() 
+
+
+
+- [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
+
+_I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
 
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
