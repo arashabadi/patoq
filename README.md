@@ -15,6 +15,7 @@ This repository contains a curated list of resources that cover a wide range of 
 - [Vignettes & Websites](#vignettes-and-Websites)
 - [R packages](#R-packages)
 - [Miscellaneous](#Miscellaneous)
+- [Topic Based](#Topic-based)
 
 ## YouTube Channels
 - [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
@@ -322,5 +323,15 @@ _Omics Data Analysis by Laurent Gatto_
 - [Analysis of microarray data](https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/microarrays/analysis-of-microarray-data/)
 
 _EBI , Functional genomics II, Common technologies and data analysis methods_
+
+
+## Topic Based 
+
+### Molecular Dynamics Simulation
+
+- [a good play list l](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
+
+
+
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
