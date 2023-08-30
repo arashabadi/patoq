@@ -331,8 +331,21 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 
 - [a Good Playlist on YouTube](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
 
-- [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
 - [MDTutorials](http://www.mdtutorials.com) 
+
+
+- [Quora Ideas](https://www.quora.com/How-can-I-learn-how-to-perform-molecular-dynamics-simulations-What-are-some-good-sources-for-learning-about-this-field) 
+
+- [Matter Modeling Ideas](https://mattermodeling.stackexchange.com/questions/1697/references-for-molecular-dynamics) 
+
+
+- []() 
+
+
+- [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
+
+
+
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
