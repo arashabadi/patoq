@@ -342,7 +342,11 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 
 - [GROMACS Reference Manual](https://manual.gromacs.org/current/reference-manual/index.html) 
 
+- [LAMMPS Tutorials](https://www.lammps.org/tutorials.html) 
+
 - [Classical Allen-Tildesley book, Computer Simulation of Liquids](https://www.amazon.com/Computer-Simulation-Liquids-Science-Publications/dp/0198556454) 
+
+
 
 - [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
