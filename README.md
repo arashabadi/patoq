@@ -248,7 +248,53 @@ _Anders, S., Huber, W. Genome Biol 11, R106 (2010)_
 - [Recent developments and future directions in meta-analysis of differential gene expression in livestock RNA-Seq](https://www.frontiersin.org/articles/10.3389/fgene.2022.983043/full) 
 
 
-- []() 
+- [Batch effect detection and correction in RNA-seq data using machine-learning-based automated assessment of quality](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04775-y) 
+
+
+- [Integration of RNA-Seq data with heterogeneous microarray data for breast cancer profiling](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1925-0)
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
+- []()
+
+
+
+
 
 ## Vignettes and Websites
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
