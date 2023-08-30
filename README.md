@@ -340,8 +340,9 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 - [Matter Modeling Ideas](https://mattermodeling.stackexchange.com/questions/1697/references-for-molecular-dynamics) 
 
 
-- []() 
+- [GROMACS Reference Manual](https://manual.gromacs.org/current/reference-manual/index.html) 
 
+- [Classical Allen-Tildesley book, Computer Simulation of Liquids](https://www.amazon.com/Computer-Simulation-Liquids-Science-Publications/dp/0198556454) 
 
 - [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
