@@ -331,8 +331,12 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 
 - [a Good Playlist on YouTube](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
 
+_Thanks to Amir_
 
 - [MDTutorials](http://www.mdtutorials.com) 
+
+
+_Thanks to Mohammad_
 
 
 - [Quora Ideas](https://www.quora.com/How-can-I-learn-how-to-perform-molecular-dynamics-simulations-What-are-some-good-sources-for-learning-about-this-field) 
