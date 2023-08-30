@@ -243,6 +243,12 @@ Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)_
 _Anders, S., Huber, W. Genome Biol 11, R106 (2010)_
 
 
+### Meta analysis bioinformatics (integration datasets) 
+
+- [Recent developments and future directions in meta-analysis of differential gene expression in livestock RNA-Seq](https://www.frontiersin.org/articles/10.3389/fgene.2022.983043/full) 
+
+
+- []() 
 
 ## Vignettes and Websites
 - [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
@@ -349,7 +355,6 @@ _Thanks to Mohammad_
 - [Classical Allen-Tildesley book, Computer Simulation of Liquids](https://www.amazon.com/Computer-Simulation-Liquids-Science-Publications/dp/0198556454) 
 
 
-
 - [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
 
 
@@ -361,7 +366,7 @@ _Thanks to Mohammad_
 _A Good Playlist by Lana Dominkovic for biopython_
 
 
-- [Biopython Tutorail PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
+- [Biopython Tutorial PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
 
 _I think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: [biopython.org](https://biopython.org/)_
 
