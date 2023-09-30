@@ -112,7 +112,9 @@ _Very useful videos about biochemistry and Bioinformatics (especcially MD and st
 
 _The Immune Epitope Database and Analysis Resource (IEDB) serves the scientific community as an online, freely available, one-stop resource to advance immunology research._
 
+- [Sanket Bapat](https://www.youtube.com/@sanketbapat)
 
+_Hi, Dr. Sanket Bapat here, I make Bioinformatics video lectures and tutorials for students and everyone who is new to this field!_
 
 - [Bio-Informatics - IITM](https://www.youtube.com/@bio-informatics-iitm6423/)
 
