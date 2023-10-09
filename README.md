@@ -124,8 +124,9 @@ _Hi, Dr. Sanket Bapat here, I make Bioinformatics video lectures and tutorials f
 
 - [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
 
+- [OmicsLogic](https://www.youtube.com/@omicslogic)
 
-
+_Our core technology is a research platform design to simplify processing, integration and mining of big biomedical data - especially molecular data like NGS, Mass-Spec and structural biology._
 
 #### Selected playlists:
 - [Bioinformatics for precision medicine 2020](https://www.youtube.com/playlist?list=PLtfyFsgaWppZeCE-eNSqLmVrRkadUJMbL)
