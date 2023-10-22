@@ -406,5 +406,6 @@ _I think this is a very useful file to learn and deepen your understanding of th
 
 - [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
 
+- [Training Courses_ babraham bioinformatics](https://www.bioinformatics.babraham.ac.uk/training.html)
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
