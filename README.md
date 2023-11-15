@@ -128,6 +128,10 @@ _Hi, Dr. Sanket Bapat here, I make Bioinformatics video lectures and tutorials f
 
 _Our core technology is a research platform design to simplify processing, integration and mining of big biomedical data - especially molecular data like NGS, Mass-Spec and structural biology._
 
+- [Michael Edwards](https://www.youtube.com/@MichaelEdwardsbioinfo/)
+
+_I am founder and CEO of the data analytics company, Bioinfo Solutions LLC, where I specialize in extracting wisdom out of a sea of information._ 
+
 #### Selected playlists:
 - [Bioinformatics for precision medicine 2020](https://www.youtube.com/playlist?list=PLtfyFsgaWppZeCE-eNSqLmVrRkadUJMbL)
 
