@@ -373,11 +373,14 @@ _EBI , Functional genomics II, Common technologies and data analysis methods_
 
 _Thanks to Amir_
 
+
 - [MDTutorials](http://www.mdtutorials.com) 
 
 
 _Thanks to Mohammad_
 
+- [Computer Aided Drug Design](https://www.youtube.com/playlist?list=PLyqSpQzTE6M9FEUejpQGsxcaRmKB1SdcU)
+_NPTEL-NOC IITM_
 
 - [Quora Ideas](https://www.quora.com/How-can-I-learn-how-to-perform-molecular-dynamics-simulations-What-are-some-good-sources-for-learning-about-this-field) 
 
