@@ -6,6 +6,7 @@ Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 by [ArashBioinfo](https://github.com/arashbioinfo)
 
 #### [List is UPDATING...] 
+> :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. More information: [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Table of Contents
 
