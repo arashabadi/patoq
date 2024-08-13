@@ -1,4 +1,4 @@
-<img src="PATOG_logo.png" width="640px" hight="320px" align="right" /> 
+<img src="PATOG.png" width="640px" hight="320px" align="right" /> 
 
 ## PATOG (پاتوق) 
 Collection of Resources around Bioinformatics, Data Science, ML, etc. 
