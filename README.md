@@ -2,7 +2,7 @@
 Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 I hope this provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
-> The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". It refers to a place where people come together to socialize, meet, or spend time with each other. In a broader sense, it can be used to describe a casual or informal meeting spot, often used for socializing or leisure activities. PATOG a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
+> The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
 
 #### [List is UPDATING...] 
 
