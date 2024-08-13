@@ -1,6 +1,5 @@
 ## PATOG (پاتوق) <img src="PATOG.png" width="400px" hight="400px" align="right" /> 
 Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
-I hope this provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
 > The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
 
@@ -419,3 +418,5 @@ _I think this is a very useful file to learn and deepen your understanding of th
 - [Training Courses_ babraham bioinformatics](https://www.bioinformatics.babraham.ac.uk/training.html)
 
 ### Feel free to contribute to this list by submitting a pull request or opening an issue with your suggestions. Happy learning!
+I hope this provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
+
