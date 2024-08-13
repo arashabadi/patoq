@@ -1,5 +1,5 @@
 ## PATOG (پاتوق) <img src="PATOG.png" width="400px" hight="400px" align="right" /> 
-Collection of Resources around Bioinformatics, Data Science, ML, etc. 
+Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 This repository contains a curated list of resources that cover a wide range of topics in bioinformatics, statistics, data science, and etc. I hope they provide valuable resources for learning and staying up-to-date with the latest advancements in these fields.
 
 #### [List is UPDATING...] 
