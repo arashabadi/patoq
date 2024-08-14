@@ -1,6 +1,6 @@
 # Contributing to PATOG
 
-> :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process.
+> :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. :warning: 
 
 Thank you for considering contributing to the PATOG repository! I appreciate your efforts to make this a place for bioinformatics, data science, machine learning, and related fields.
 
@@ -8,7 +8,7 @@ Thank you for considering contributing to the PATOG repository! I appreciate you
 
 ### 1. Reporting Issues
 - **Found a bug or a broken link?** Please open an [issue](https://github.com/arashbioinfo/patog/issues) and describe the problem with 'bug' label.
-- **Have a suggestion?** I'm always looking for new resources or ideas. Use the same [issue tracker](https://github.com/arashbioinfo/patog/issues) to submit your suggestions under the 'enhancement' label.
+- **Have a suggestion?** I'm always looking for new ideas. Use the same [issue tracker](https://github.com/arashbioinfo/patog/issues) to submit your suggestions under the 'enhancement' label.
 
 ### 2. Adding New Resources
 
