@@ -1,10 +1,11 @@
 ## PATOG (پاتوق) <img src="PATOG.png" width="400px" hight="400px" align="right" /> 
+
 Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 
 > The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
 
 > :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. More information: [CONTRIBUTING.md](CONTRIBUTING.md)
-
+Also checkout the [PATOG wiki](https://github.com/cellravel/patog/wiki) for teh Bioinformatics and Computational Biology Roadmap!
 #### [List is UPDATING...] 
 
 ## Table of Contents
