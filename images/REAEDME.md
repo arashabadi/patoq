@@ -1,4 +1,4 @@
-# Generate images information:
+# Generated Images Information:
 
 Main PATOG Intro
 _DALL·E 2024-08-13 20.27.36 - A scene depicting an old Iranian teahouse (pātogh) from the past, but with people dressed in suits instead of traditional attire. The setting is a coz... + Also edited by Photoshop_
