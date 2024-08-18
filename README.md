@@ -9,28 +9,49 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
 
 ## Table of Contents
 - Prerequisites
-  - Biology Fundamentals
-  - Programming Fundamentals
-  - Mathematics and Statistics
-  - Project Management and Communication Skills
-  - Case Studies and Practical Applications
+  - [Biology Fundamentals]()
+  - [Programming Fundamentals]()
+  - [Mathematics and Statistics]()
+  - [Project Management and Communication Skills]()
+  - [Case Studies and Practical Applications]()
 
 - Main Sections
-  - Omics Data Analysis and Interpretation
-  - Modeling and Simulation
-  - Integrated Platforms, Tools, and Technologies
+  - [Omics Data Analysis and Interpretation]()
+    - [Genomics]()
+    - [Transcriptomics]()
+    - [Proteomics]()
+    - [Metabolomics]()
+    - [Epigenomics]()
+    - [Metagenomics]()
+  - [Modeling and Simulation]()
+  - [Integrated Platforms, Tools, and Technologies]()
+
+- Specialized Topics
+  - [AI in Bioinformatics Data Analysis & Structural Biology]()
+  - [Clinical Bioinformatics]()
+  - [Agricultural Bioinformatics]()
+  - [Environmental Bioinformatics & Epidemiology]()
+  - [Synthetic Biology]()
+  - [Personalized Medicine]()
+  - [Ethics in Bioinformatics]()
+  - [Functional Genomics]()
 
 - Additional Resources
   - [YouTube Channels](#YouTube-Channels)
   - [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
-  - [GitHub Repositories](#GitHub-Repositories)
+  - [Open-Source Projects and Repositories](#GitHub-Repositories)
   - [Courses](#Courses)
   - [Books](#Books)
-  - [Papers](#Papers)
+  - [Scientific Journals & Publications](#Papers)
   - [Vignettes & Websites](#vignettes-and-Websites)
   - [R packages](#R-packages)
   - [Miscellaneous](#Miscellaneous)
   - [Topic Based](#Topic-based)
+  - [Conferences, Workshops, and Webinars]()
+  - [Career Guidance and Job Opportunities]()
+  - [Networking and Collaboration]()
+  - [Regular Updates]()
+
 
 <!-- Hidden Structure for Developers: (v1.0)
 
