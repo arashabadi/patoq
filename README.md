@@ -44,11 +44,13 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [AI in Bioinformatics Data Analysis & Structural Biology]()
   - [Clinical Bioinformatics]()
   - [Agricultural Bioinformatics]()
-  - [Environmental Bioinformatics & Epidemiology]()
   - [Synthetic Biology]()
   - [Personalized Medicine]()
   - [Ethics in Bioinformatics]()
   - [Functional Genomics]()
+  - [Environmental Bioinformatics & Epidemiology]()
+  - [Biomolecular Engineering]()
+  - [Genetic Engineering]()
 
 - Additional Resources
   - [YouTube Channels](#YouTube-Channels)
