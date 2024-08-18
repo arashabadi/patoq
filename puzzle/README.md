@@ -1,4 +1,4 @@
-# Bioinformatics Puzzle
+# Bioinformatics and Computational Biology Learning Roadmap Puzzle
 
 ## Overview
 
