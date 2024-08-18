@@ -4,23 +4,135 @@ Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML,
 
 > The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
 
-> :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. More information: [CONTRIBUTING.md](CONTRIBUTING.md)
-
-### Also checkout the [PATOG wiki](https://github.com/cellravel/patog/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
-#### [List is UPDATING...] 
+### Don't know where to start?
+Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
 
 ## Table of Contents
+- Prerequisites
+  - Biology Fundamentals
+  - Programming Fundamentals
+  - Mathematics and Statistics
+  - Project Management and Communication Skills
+  - Case Studies and Practical Applications
 
-- [YouTube Channels](#YouTube-Channels)
-- [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
-- [GitHub Repositories](#GitHub-Repositories)
-- [Courses](#Courses)
-- [Books](#Books)
-- [Papers](#Papers)
-- [Vignettes & Websites](#vignettes-and-Websites)
-- [R packages](#R-packages)
-- [Miscellaneous](#Miscellaneous)
-- [Topic Based](#Topic-based)
+- Main Sections
+  - Omics Data Analysis and Interpretation
+  - Modeling and Simulation
+  - Integrated Platforms, Tools, and Technologies
+
+- Additional Resources
+  - [YouTube Channels](#YouTube-Channels)
+  - [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
+  - [GitHub Repositories](#GitHub-Repositories)
+  - [Courses](#Courses)
+  - [Books](#Books)
+  - [Papers](#Papers)
+  - [Vignettes & Websites](#vignettes-and-Websites)
+  - [R packages](#R-packages)
+  - [Miscellaneous](#Miscellaneous)
+  - [Topic Based](#Topic-based)
+
+<!-- Hidden Structure for Developers: (v1.0)
+
+Home
+├── Prerequisites
+│   ├── Biology Fundamentals
+│   │   ├── Molecular and Cellular Biology
+│   │   ├── Genetics and Genomics
+│   │   ├── Biochemistry
+│   │   ├── Biophysics
+│   │   ├── Immunology
+│   ├── Programming Fundamentals
+│   │   ├── Python for Bioinformatics
+│   │   ├── R for Statistical Computing
+│   │   ├── Unix/Linux Command Line
+│   │   ├── Version Control with Git
+│   │   ├── Best Practices in Coding
+│   ├── Mathematics and Statistics
+│   │   ├── Probability and Statistics
+│   │   ├── Linear Algebra and Calculus
+│   │   ├── Algorithms and Data Structures
+│   │   ├── Discrete Mathematics
+│   │   ├── Advanced Statistical Methods
+│   ├── Introduction to Bioinformatics
+│   │   ├── Bioinformatics Tools and Databases
+│   │   ├── Sequence Alignment and Analysis
+│   │   ├── Basics of Next-Generation Sequencing (NGS)
+│   │   ├── Introduction to Omics Technologies
+│   │   ├── Data Management in Bioinformatics
+│   │   ├── Ethical Considerations in Bioinformatics
+│   ├── Interdisciplinary Knowledge
+│   │   ├── Introduction to Systems Biology
+│   │   ├── Evolutionary Biology
+│   ├── Project Management and Communication Skills
+│   │   ├── Collaboration with Multidisciplinary Teams
+│   │   ├── Effective Communication of Scientific Research
+│   ├── Case Studies and Practical Applications
+│   │   ├── Real-World Applications of Bioinformatics
+│   │   ├── Case Studies in Genomics, Proteomics, etc.
+│   │   ├── Hands-On Projects with Public Datasets (NCBI, EMBL, TCGA)
+│   │   ├── Recommended Platforms and Software (Galaxy, Cytoscape)
+│   ├── Emerging Technologies
+│   │   ├── CRISPR and Gene Editing
+│   │   ├── Quantum Computing in Bioinformatics
+│   ├── Ethical and Societal Impact
+│   │   ├── Data Privacy in Bioinformatics
+│   │   ├── Impact on Healthcare Systems
+
+├── Main Sections
+│   ├── Omics Data Analysis and Interpretation
+│   │   ├── Genomics and Transcriptomics
+│   │   ├── Proteomics and Metabolomics
+│   │   ├── Epigenomics
+│   │   ├── Metagenomics
+│   │   ├── Single-Cell Omics
+│   │   ├── Functional Genomics
+│   │   ├── Network and Pathway Analysis
+│   ├── Modeling and Simulation
+│   │   ├── Molecular Modeling and Dynamics
+│   │   ├── Systems Biology
+│   │   ├── Computational Ecology and Evolution
+│   │   ├── Evolutionary Biology and Phylogenetics
+│   │   ├── Computational Pharmacology and Drug Design
+│   │   ├── Mathematical Modeling of Biological Systems
+│   ├── Integrated Platforms, Tools, and Technologies
+│   │   ├── SaaS Platforms for Bioinformatics
+│   │   ├── Cloud Computing and Data Management
+│   │   ├── High-Performance Computing (HPC) in Bioinformatics
+│   │   ├── Collaborative Research Tools
+│   │   ├── Data Visualization Techniques
+│   │   ├── Big Data in Bioinformatics
+
+├── Specialized Topics
+│   ├── AI in Bioinformatics Data Analysis & Structural Biology
+│   │   ├── Foundations
+│   │   ├── Data Structures and Algorithms
+│   │   ├── Basics of Machine Learning
+│   │   ├── Basics of Deep Learning 
+│   │   ├── Tools and Frameworks (TensorFlow, PyTorch, etc.)
+│   │   ├── Practice, Projects and Case Studies
+│   │   ├── AI for Drug Discovery
+│   │   ├── AI Single Cell Multi-omics
+│   │   ├── Ethical Considerations in AI
+│   ├── Clinical Bioinformatics
+│   ├── Agricultural Bioinformatics
+│   ├── Environmental Bioinformatics
+│   ├── Synthetic Biology
+│   ├── Personalized Medicine
+│   ├── Ethics in Bioinformatics: Data privacy, AI ethics, Blockchain and societal implications.
+│   ├── Bioinformatics in Public Health
+
+├── Additional Resources
+│   ├── Online Courses and Certifications
+│   ├── Books and Publications
+│   ├── Conferences, Workshops, and Webinars
+│   ├── Open-Source Projects and Repositories
+│   ├── Scientific Journals and Papers
+│   ├── Career Guidance and Job Opportunities
+│   ├── Networking and Collaboration: Links to bioinformatics communities and forums.
+│   ├── Regular Updates: Ongoing updates for staying current in the field.
+
+-->
 
 ## YouTube Channels
 - [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
