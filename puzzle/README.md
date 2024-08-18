@@ -39,4 +39,4 @@ git clone https://github.com/cellravel/patog.git
 cd patog/puzzle
 python puzzle.py
 ```
-### Colab notebook will be added.
+### Colab notebook will be added upon rquest.
