@@ -39,7 +39,7 @@ git clone https://github.com/cellravel/patog.git
 cd patog/puzzle
 python puzzle_v1.py
 ```
-### Colab notebook will be added upon rquest.
+### [Binder](https://mybinder.org/) Jupyter Notebook will be added upon rquest.
 
 ### Tutorials 
 - [Puzzle_pygame](https://www.pygame.org/tags/puzzle) 
