@@ -1,4 +1,4 @@
-## PATOG (پاتوق) <img src="PATOG.png" width="400px" hight="400px" align="right" /> 
+## PATOG (پاتوق) <img src="./images/PATOG.png" width="400px" hight="400px" align="right" /> 
 
 Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 
