@@ -37,6 +37,6 @@ Several enhancements could improve the experience and educational value:
 ```bash
 git clone https://github.com/cellravel/patog.git
 cd patog/puzzle
-python puzzle.py
+python puzzle_v1.py
 ```
 ### Colab notebook will be added upon rquest.
