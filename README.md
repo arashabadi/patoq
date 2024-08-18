@@ -12,7 +12,7 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [Biology Fundamentals]()
   - [Programming Fundamentals]()
   - [Mathematics Fundamentals]()
-  - [Statistics & Probability Fundamentals]()
+  - [Statistics and Probability Fundamentals]()
   - [Project Management and Communication Skills]()
   - [Case Studies and Practical Applications]()
 
