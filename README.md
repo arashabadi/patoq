@@ -17,7 +17,7 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [Case Studies and Practical Applications]()
 
 - Main Sections
-  - [Omics Data Analysis and Interpretation]()
+  - Omics Data Analysis and Interpretation
     - [Genomics]()
     - [Transcriptomics]()
     - [Proteomics]()
@@ -25,14 +25,13 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
     - [Epigenomics]()
     - [Metagenomics]()
     - [Network and Pathway Analysis]()
-  - [Modeling and Simulation]()
-    - [Molecular Modeling and Dynamics]()
-    - [Systems Biology]()
-    - [Computational Ecology and Evolution]()
-    - [Evolutionary Biology and Phylogenetics]()
-    - [Computational Pharmacology and Drug Design]()
-    - [Mathematical Modeling of Biological Systems]()
-  - [Integrated Platforms, Tools, and Technologies]()
+  - Modeling and Simulation
+    - [Molecular Modeling and Dynamics](#Molecular-Modeling-and-Dynamics)
+    - [Systems Biology](#Systems-Biology)
+    - [Computational Ecology, Evolution and Phylogenetics](#Computational-Ecology,-Evolution-and-Phylogenetics)
+    - [Computational Pharmacology and Drug Design](#Computational-Pharmacology,-Drug-and-Vaccine-Design)
+    - [Mathematical Modeling of Biological Systems](#Mathematical-Modeling-of-Biological-Systems)
+  - Integrated Platforms, Tools, and Technologies
     - [SaaS Platforms for Bioinformatics]()
     - [Cloud Computing and Data Management]()
     - [High-Performance Computing (HPC) in Bioinformatics]()
