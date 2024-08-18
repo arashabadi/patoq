@@ -9,22 +9,22 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
 
 ## Table of Contents
 - Prerequisites
-  - [Biology Fundamentals]()
-  - [Programming Fundamentals]()
-  - [Mathematics Fundamentals]()
-  - [Statistics and Probability Fundamentals]()
-  - [Project Management and Communication Skills]()
-  - [Case Studies and Practical Applications]()
+  - [Biology Fundamentals](#Biology-Fundamentals)
+  - [Programming Fundamentals](#Programming-Fundamentals)
+  - [Mathematics Fundamentals](#Mathematics-Fundamentals)
+  - [Statistics and Probability Fundamentals](#Statistics-and-Probability-Fundamentals)
+  - [Project Management and Communication Skills](#Project-Management-and-Communication-Skills)
+  - [Case Studies and Practical Applications](#Case-Studies-and-Practical-Applications)
 
 - Main Sections
   - Omics Data Analysis and Interpretation
-    - [Genomics]()
-    - [Transcriptomics]()
-    - [Proteomics]()
-    - [Metabolomics]()
-    - [Epigenomics]()
-    - [Metagenomics]()
-    - [Network and Pathway Analysis]()
+    - [Genomics](#Genomics)
+    - [Transcriptomics](#Transcriptomics)
+    - [Proteomics](#Proteomics)
+    - [Metabolomics](#Metabolomics)
+    - [Epigenomics](#Epigenomics)
+    - [Metagenomics](#Metagenomics)
+    - [Network and Pathway Analysis](#Network-and-Pathway-Analysis)
   - Modeling and Simulation
     - [Molecular Modeling and Dynamics](#Molecular-Modeling-and-Dynamics)
     - [Systems Biology](#Systems-Biology)
