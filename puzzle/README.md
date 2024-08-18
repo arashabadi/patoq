@@ -40,3 +40,8 @@ cd patog/puzzle
 python puzzle_v1.py
 ```
 ### Colab notebook will be added upon rquest.
+
+### Tutorials 
+- [Puzzle_pygame](https://www.pygame.org/tags/puzzle) 
+- [Sliding Puzzle YouTube Playlist](https://www.youtube.com/playlist?list=PLOcNsDskpOqpKhkN6tLId128o0vFWWauV)
+- [How to Create Puzzle Shapes in PowerPoint](https://prezentio.com/how-to-create-puzzle-powerpoint/)
