@@ -11,7 +11,8 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
 - Prerequisites
   - [Biology Fundamentals]()
   - [Programming Fundamentals]()
-  - [Mathematics and Statistics]()
+  - [Mathematics Fundamentals]()
+  - [Statistics & Probability Fundamentals]()
   - [Project Management and Communication Skills]()
   - [Case Studies and Practical Applications]()
 
