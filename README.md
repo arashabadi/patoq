@@ -3,6 +3,7 @@
 Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 
 > The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
+
 > :warning: PATOG is UNDER MAINTENANCE & UPDATES. Please prioritize creating issues over submitting pull requests during this process.
 
 ### Don't know where to start?
