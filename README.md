@@ -65,7 +65,8 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [Networking and Collaboration](#networking-and-collaboration)
   - [Regular Updates](#regular-updates)
 
---
+
+
 # Prerequisites
 ## Biology Fundamentals
 
@@ -79,10 +80,21 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
 ## Statistics andProbability Fundamentals
 
 
-## Project-Management-and-Communication-Skills
+## Project Management and Communication Skills
 
 
-## Case-Studies-and-Practical-Applications
+## Case Studies and Practical Applications
+
+
+
+# Main Sections
+## Omics Data Analysis and Interpretation
+### Genomics
+
+
+
+### Transcriptomics
+
 
 
 # Additional Resources
