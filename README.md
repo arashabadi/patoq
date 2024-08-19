@@ -40,16 +40,15 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
     - [Collaborative Research Tools](#Collaborative-Research-Tools)
     - [Data Visualization Techniques](#Data-Visualization-Techniques)
     - [Big Data Analysis](#Big-Data-Analysis)
-
-- Specialized Topics
-  - [Artificial Intelligence](#Artificial-Intelligence)
-  - [Clinical Bioinformatics](#Clinical-Bioinformatics)
-  - [Agricultural Bioinformatics](#Agricultural-Bioinformatics)
-  - [Synthetic Biology](#Synthetic-Biology)
-  - [Personalized Medicine](#Personalized-Medicine)
-  - [Environmental Bioinformatics & Epidemiology](#Environmental-Bioinformatics-&-Epidemiology)
-  - [Biomolecular Engineering](#Biomolecular-Engineering)
-  - [Genetic Engineering](#Genetic-Engineering)
+  - Specialized Topics
+    - [Artificial Intelligence](#Artificial-Intelligence)
+    - [Clinical Bioinformatics](#Clinical-Bioinformatics)
+    - [Agricultural Bioinformatics](#Agricultural-Bioinformatics)
+    - [Synthetic Biology](#Synthetic-Biology)
+    - [Personalized Medicine](#Personalized-Medicine)
+    - [Environmental Bioinformatics & Epidemiology](#Environmental-Bioinformatics-&-Epidemiology)
+    - [Biomolecular Engineering](#Biomolecular-Engineering)
+    - [Genetic Engineering](#Genetic-Engineering)
 
 - Additional Resources
   - [YouTube Channels](#YouTube-Channels)
