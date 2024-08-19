@@ -32,12 +32,12 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
     - [Computational Pharmacology and Drug Design](#Computational-Pharmacology,-Drug-and-Vaccine-Design)
     - [Mathematical Modeling of Biological Systems](#Mathematical-Modeling-of-Biological-Systems)
   - Integrated Platforms, Tools, and Technologies
-    - [SaaS Platforms for Bioinformatics]()
-    - [Cloud Computing and Data Management]()
-    - [High-Performance Computing (HPC) in Bioinformatics]()
-    - [Collaborative Research Tools]()
-    - [Data Visualization Techniques]()
-    - [Big Data in Bioinformatics]()
+    - [SaaS Platforms](#SaaS-Platforms)
+    - [Cloud Computing and Data Management](#Cloud-Computing-and-Data-Management)
+    - [High-Performance Computing (HPC)](#High-Performance-Computing-(HPC))
+    - [Collaborative Research Tools](#Collaborative-Research-Tools)
+    - [Data Visualization Techniques](#Data-Visualization-Techniques)
+    - [Big Data Analysis](#Big-Data-Analysis)
 
 - Specialized Topics
   - [AI in Bioinformatics Data Analysis & Structural Biology]()
