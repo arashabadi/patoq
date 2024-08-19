@@ -60,10 +60,10 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [R packages](#R-packages)
   - [Miscellaneous](#Miscellaneous)
   - [Topic Based](#Topic-based)
-  - [Conferences, Workshops, and Webinars]()
-  - [Career Guidance and Job Opportunities]()
-  - [Networking and Collaboration]()
-  - [Regular Updates]()
+  - [Conferences, Workshops, and Webinars](#conferences-workshops-and-webinars)
+  - [Career Guidance and Job Opportunities](#career-guidance-and-job-opportunities)
+  - [Networking and Collaboration](#networking-and-collaboration)
+  - [Regular Updates](#regular-updates)
 
 
 <!-- Hidden Structure for Developers: (v1.0)
