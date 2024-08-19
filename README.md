@@ -51,7 +51,7 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [Biomolecular Engineering](#Biomolecular-Engineering)
   - [Genetic Engineering](#Genetic-Engineering)
 
-- [Additional Resources](#Additional-Resources)
+- Additional Resources
   - [YouTube Channels](#YouTube-Channels)
   - [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
   - [Open-Source Projects and Repositories](#GitHub-Repositories)
