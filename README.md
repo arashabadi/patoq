@@ -7,6 +7,8 @@ Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML,
 ### Don't know where to start?
 Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
 
+> :warning: PATOG is UNDER MAINTENANCE & UPDATES. Please prioritize creating issues over submitting pull requests during this process. More information: [CONTRIBUTING.md](CONTRIBUTING.md)
+
 ## Table of Contents
 - Prerequisites
   - [Biology Fundamentals](#Biology-Fundamentals)
