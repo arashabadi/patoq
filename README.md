@@ -1,27 +1,121 @@
-## PATOG (پاتوق) <img src="./images/PATOG.png" width="400px" hight="400px" align="right" /> 
+# PATOG (پاتوق) <img src="./images/PATOG.png" width="400px" hight="400px" align="right" /> 
 
 Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 
 > The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
 
-> :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. More information: [CONTRIBUTING.md](CONTRIBUTING.md)
-
-### Also checkout the [PATOG wiki](https://github.com/cellravel/patog/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
-#### [List is UPDATING...] 
+### Don't know where to start?
+Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
 
 ## Table of Contents
+- Prerequisites
+  - [Biology Fundamentals](#Biology-Fundamentals)
+  - [Programming Fundamentals](#Programming-Fundamentals)
+  - [Mathematics Fundamentals](#Mathematics-Fundamentals)
+  - [Statistics and Probability Fundamentals](#Statistics-and-Probability-Fundamentals)
+  - [Project Management and Communication Skills](#Project-Management-and-Communication-Skills)
+  - [Case Studies and Practical Applications](#Case-Studies-and-Practical-Applications)
 
-- [YouTube Channels](#YouTube-Channels)
-- [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
-- [GitHub Repositories](#GitHub-Repositories)
-- [Courses](#Courses)
-- [Books](#Books)
-- [Papers](#Papers)
-- [Vignettes & Websites](#vignettes-and-Websites)
-- [R packages](#R-packages)
-- [Miscellaneous](#Miscellaneous)
-- [Topic Based](#Topic-based)
+- Main Sections
+  - Omics Data Analysis and Interpretation
+    - [Genomics](#Genomics)
+    - [Transcriptomics](#Transcriptomics)
+    - [Proteomics](#Proteomics)
+    - [Metabolomics](#Metabolomics)
+    - [Epigenomics](#Epigenomics)
+    - [Metagenomics](#Metagenomics)
+    - [Network and Pathway Analysis](#Network-and-Pathway-Analysis)
+  - Modeling and Simulation
+    - [Molecular Modeling and Dynamics](#Molecular-Modeling-and-Dynamics)
+    - [Systems Biology](#Systems-Biology)
+    - [Computational Ecology, Evolution and Phylogenetics](#Computational-Ecology,-Evolution-and-Phylogenetics)
+    - [Computational Pharmacology and Drug Design](#Computational-Pharmacology,-Drug-and-Vaccine-Design)
+    - [Mathematical Modeling of Biological Systems](#Mathematical-Modeling-of-Biological-Systems)
+  - Integrated Platforms, Tools, and Technologies
+    - [SaaS Platforms](#SaaS-Platforms)
+    - [Cloud Computing and Data Management](#Cloud-Computing-and-Data-Management)
+    - [High-Performance Computing (HPC)](#High-Performance-Computing-(HPC))
+    - [Collaborative Research Tools](#Collaborative-Research-Tools)
+    - [Data Visualization Techniques](#Data-Visualization-Techniques)
+    - [Big Data Analysis](#Big-Data-Analysis)
 
+- Specialized Topics
+  - [Artificial Intelligence](#Artificial-Intelligence)
+  - [Clinical Bioinformatics](#Clinical-Bioinformatics)
+  - [Agricultural Bioinformatics](#Agricultural-Bioinformatics)
+  - [Synthetic Biology](#Synthetic-Biology)
+  - [Personalized Medicine](#Personalized-Medicine)
+  - [Environmental Bioinformatics & Epidemiology](#Environmental-Bioinformatics-&-Epidemiology)
+  - [Biomolecular Engineering](#Biomolecular-Engineering)
+  - [Genetic Engineering](#Genetic-Engineering)
+
+- [Additional Resources](#Additional-Resources)
+  - [YouTube Channels](#YouTube-Channels)
+  - [Persian Resources (بنمایگان پارسی)](#persian-resources-بنمایگان-پارسی)
+  - [Open-Source Projects and Repositories](#GitHub-Repositories)
+  - [Courses](#Courses)
+  - [Books](#Books)
+  - [Scientific Journals & Publications](#Papers)
+  - [Vignettes & Websites](#vignettes-and-Websites)
+  - [R packages](#R-packages)
+  - [Miscellaneous](#Miscellaneous)
+  - [Topic Based](#Topic-based)
+  - [Conferences, Workshops, and Webinars](#conferences-workshops-and-webinars)
+  - [Career Guidance and Job Opportunities](#career-guidance-and-job-opportunities)
+  - [Networking and Collaboration](#networking-and-collaboration)
+  - [Regular Updates](#regular-updates)
+
+
+
+# Prerequisites
+## Biology Fundamentals
+
+
+## Programming Fundamentals
+
+
+## Mathematics Fundamentals
+
+
+## Statistics andProbability Fundamentals
+
+
+## Project Management and Communication Skills
+
+
+## Case Studies and Practical Applications
+
+
+
+# Main Sections
+## Omics Data Analysis and Interpretation
+### Genomics
+
+
+
+### Transcriptomics
+
+.... (needs to be completed)
+
+
+## Modeling and Simulation
+### Molecular Modeling and Dynamics
+
+
+
+## Integrated Platforms, Tools, and Technologies
+### SaaS Platforms
+
+
+
+# Specialized Topics
+## Artificial Intelligence
+
+
+
+
+
+# Additional Resources
 ## YouTube Channels
 - [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
 
