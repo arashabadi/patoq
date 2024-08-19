@@ -95,6 +95,24 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
 
 ### Transcriptomics
 
+.... (needs to be completed)
+
+
+## Modeling and Simulation
+### Molecular Modeling and Dynamics
+
+
+
+## Integrated Platforms, Tools, and Technologies
+### SaaS Platforms
+
+
+
+# Specialized Topics
+## Artificial Intelligence
+
+
+
 
 
 # Additional Resources
