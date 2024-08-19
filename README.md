@@ -65,111 +65,27 @@ Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinform
   - [Networking and Collaboration](#networking-and-collaboration)
   - [Regular Updates](#regular-updates)
 
+--
+# Prerequisites
+## Biology Fundamentals
 
-<!-- Hidden Structure for Developers: (v1.0)
 
-Home
-├── Prerequisites
-│   ├── Biology Fundamentals
-│   │   ├── Molecular and Cellular Biology
-│   │   ├── Genetics and Genomics
-│   │   ├── Biochemistry
-│   │   ├── Biophysics
-│   │   ├── Immunology
-│   ├── Programming Fundamentals
-│   │   ├── Python for Bioinformatics
-│   │   ├── R for Statistical Computing
-│   │   ├── Unix/Linux Command Line
-│   │   ├── Version Control with Git
-│   │   ├── Best Practices in Coding
-│   ├── Mathematics and Statistics
-│   │   ├── Probability and Statistics
-│   │   ├── Linear Algebra and Calculus
-│   │   ├── Algorithms and Data Structures
-│   │   ├── Discrete Mathematics
-│   │   ├── Advanced Statistical Methods
-│   ├── Introduction to Bioinformatics
-│   │   ├── Bioinformatics Tools and Databases
-│   │   ├── Sequence Alignment and Analysis
-│   │   ├── Basics of Next-Generation Sequencing (NGS)
-│   │   ├── Introduction to Omics Technologies
-│   │   ├── Data Management in Bioinformatics
-│   │   ├── Ethical Considerations in Bioinformatics
-│   ├── Interdisciplinary Knowledge
-│   │   ├── Introduction to Systems Biology
-│   │   ├── Evolutionary Biology
-│   ├── Project Management and Communication Skills
-│   │   ├── Collaboration with Multidisciplinary Teams
-│   │   ├── Effective Communication of Scientific Research
-│   ├── Case Studies and Practical Applications
-│   │   ├── Real-World Applications of Bioinformatics
-│   │   ├── Case Studies in Genomics, Proteomics, etc.
-│   │   ├── Hands-On Projects with Public Datasets (NCBI, EMBL, TCGA)
-│   │   ├── Recommended Platforms and Software (Galaxy, Cytoscape)
-│   ├── Emerging Technologies
-│   │   ├── CRISPR and Gene Editing
-│   │   ├── Quantum Computing in Bioinformatics
-│   ├── Ethical and Societal Impact
-│   │   ├── Data Privacy in Bioinformatics
-│   │   ├── Impact on Healthcare Systems
+## Programming Fundamentals
 
-├── Main Sections
-│   ├── Omics Data Analysis and Interpretation
-│   │   ├── Genomics and Transcriptomics
-│   │   ├── Proteomics and Metabolomics
-│   │   ├── Epigenomics
-│   │   ├── Metagenomics
-│   │   ├── Single-Cell Omics
-│   │   ├── Functional Genomics
-│   │   ├── Network and Pathway Analysis
-│   ├── Modeling and Simulation
-│   │   ├── Molecular Modeling and Dynamics
-│   │   ├── Systems Biology
-│   │   ├── Computational Ecology and Evolution
-│   │   ├── Evolutionary Biology and Phylogenetics
-│   │   ├── Computational Pharmacology and Drug Design
-│   │   ├── Mathematical Modeling of Biological Systems
-│   ├── Integrated Platforms, Tools, and Technologies
-│   │   ├── SaaS Platforms for Bioinformatics
-│   │   ├── Cloud Computing and Data Management
-│   │   ├── High-Performance Computing (HPC) in Bioinformatics
-│   │   ├── Collaborative Research Tools
-│   │   ├── Data Visualization Techniques
-│   │   ├── Big Data in Bioinformatics
 
-├── Specialized Topics
-│   ├── AI in Bioinformatics Data Analysis & Structural Biology
-│   │   ├── Foundations
-│   │   ├── Data Structures and Algorithms
-│   │   ├── Basics of Machine Learning
-│   │   ├── Basics of Deep Learning 
-│   │   ├── Tools and Frameworks (TensorFlow, PyTorch, etc.)
-│   │   ├── Practice, Projects and Case Studies
-│   │   ├── AI for Drug Discovery
-│   │   ├── AI Single Cell Multi-omics
-│   │   ├── Ethical Considerations in AI
-│   ├── Clinical Bioinformatics
-│   ├── Agricultural Bioinformatics
-│   ├── Environmental Bioinformatics
-│   ├── Synthetic Biology
-│   ├── Personalized Medicine
-│   ├── Ethics in Bioinformatics: Data privacy, AI ethics, Blockchain and societal implications.
-│   ├── Bioinformatics in Public Health
+## Mathematics Fundamentals
 
-├── Additional Resources
-│   ├── Online Courses and Certifications
-│   ├── Books and Publications
-│   ├── Conferences, Workshops, and Webinars
-│   ├── Open-Source Projects and Repositories
-│   ├── Scientific Journals and Papers
-│   ├── Career Guidance and Job Opportunities
-│   ├── Networking and Collaboration: Links to bioinformatics communities and forums.
-│   ├── Regular Updates: Ongoing updates for staying current in the field.
 
--->
-## Biology-Fundamentals
-this is test
+## Statistics andProbability Fundamentals
 
+
+## Project-Management-and-Communication-Skills
+
+
+## Case-Studies-and-Practical-Applications
+
+
+# Additional Resources
 ## YouTube Channels
 - [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
 
