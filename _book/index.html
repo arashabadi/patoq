@@ -105,6 +105,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -257,6 +258,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 
 </main> <!-- /main -->
+<button class="theme-toggle" onclick="toggleTheme()">Toggle Day/Night Mode</button>
+
+<script>
+
+function toggleTheme() {
+
+  document.body.classList.toggle('dark-mode');
+
+}
+
+</script> 
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

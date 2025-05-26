@@ -27,4 +27,6 @@ format:
     code-tools: true
     link-external-icon: true
     link-external-newwindow: true
-    repo-url: https://github.com/arashabadi/patog 
+    repo-url: https://github.com/arashabadi/patog
+    css: styles.css
+    include-after-body: toggle-theme.html 
