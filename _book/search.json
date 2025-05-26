@@ -1,0 +1,96 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PATOG Book",
+    "section": "",
+    "text": "1 Welcome to PATOG Book\nThis book is a Quarto-based online HTML book for the PATOG project.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "PATOG Book",
+    "section": "1.1 Overview",
+    "text": "1.1 Overview\nPATOG is a project that aims to…",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "PATOG Book",
+    "section": "1.2 Getting Started",
+    "text": "1.2 Getting Started\nTo get started, please refer to the Introduction chapter.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "2.1 What is PATOG?\nWelcome to the Introduction chapter of the PATOG Book.\nPATOG is a project that…",
+    "crumbs": [
+      "Introduction",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#why-quarto",
+    "href": "intro.html#why-quarto",
+    "title": "2  Introduction",
+    "section": "2.2 Why Quarto?",
+    "text": "2.2 Why Quarto?\nWe chose Quarto because…",
+    "crumbs": [
+      "Introduction",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "3  Content",
+    "section": "",
+    "text": "3.1 Section 1\nThis chapter contains the main content of the PATOG Book.\nDetails about section 1…",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#section-2",
+    "href": "content.html#section-2",
+    "title": "3  Content",
+    "section": "3.2 Section 2",
+    "text": "3.2 Section 2\nDetails about section 2…",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "4  References",
+    "section": "",
+    "text": "4.1 Bibliography",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#bibliography",
+    "href": "references.html#bibliography",
+    "title": "4  References",
+    "section": "",
+    "text": "Reference 1\nReference 2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]

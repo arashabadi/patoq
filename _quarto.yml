@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "PATOG Book"
+  author: "Arash Abadi"
+  date: last-modified
+  chapters:
+    - index.qmd
+    - part: "Introduction"
+      chapters:
+        - intro.qmd
+    - part: "Content"
+      chapters:
+        - content.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    code-fold: true
+    code-tools: true
+    link-external-icon: true
+    link-external-newwindow: true
+    repo-url: https://github.com/arashabadi/patog 

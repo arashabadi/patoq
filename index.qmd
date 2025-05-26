@@ -1,0 +1,11 @@
+# Welcome to PATOG Book
+
+This book is a Quarto-based online HTML book for the PATOG project.
+
+## Overview
+
+PATOG is a project that aims to...
+
+## Getting Started
+
+To get started, please refer to the [Introduction](intro.qmd) chapter. 

@@ -1,0 +1,11 @@
+# Introduction
+
+Welcome to the Introduction chapter of the PATOG Book.
+
+## What is PATOG?
+
+PATOG is a project that...
+
+## Why Quarto?
+
+We chose Quarto because... 
