@@ -1,0 +1,118 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PATOG Book",
+    "section": "",
+    "text": "1 Welcome to PATOG Book\nThis book is a Quarto-based online HTML book for the PATOG project.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "PATOG Book",
+    "section": "1.1 Overview",
+    "text": "1.1 Overview\nPATOG is a project that aims to…",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "PATOG Book",
+    "section": "1.2 Getting Started",
+    "text": "1.2 Getting Started\nTo get started, please refer to the Introduction chapter.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "2  Introduction",
+    "section": "",
+    "text": "2.1 What is PATOG?\nWelcome to the Introduction chapter of the PATOG Book.\nPATOG is a project that…",
+    "crumbs": [
+      "Introduction",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#why-quarto",
+    "href": "intro.html#why-quarto",
+    "title": "2  Introduction",
+    "section": "2.2 Why Quarto?",
+    "text": "2.2 Why Quarto?\nWe chose Quarto because…",
+    "crumbs": [
+      "Introduction",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "3  Content",
+    "section": "",
+    "text": "3.1 Overview\nThis chapter contains the main content of the PATOG Book.\nPATOG (پاتوق) is a curated collection of resources around Bioinformatics, Data Science, ML, etc. The term “Patog” (more precisely, “Patogh”) is a Persian word that means “gathering place” or “social hangout”. PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#table-of-contents",
+    "href": "content.html#table-of-contents",
+    "title": "3  Content",
+    "section": "3.2 Table of Contents",
+    "text": "3.2 Table of Contents\n\nPrerequisites\n\nBiology Fundamentals\nProgramming Fundamentals\nMathematics Fundamentals\nStatistics and Probability Fundamentals\nProject Management and Communication Skills\nCase Studies and Practical Applications\n\nMain Sections\n\nOmics Data Analysis and Interpretation\n\nGenomics\nTranscriptomics\nProteomics\nMetabolomics\nEpigenomics\nMetagenomics\nNetwork and Pathway Analysis\n\nModeling and Simulation\n\nMolecular Modeling and Dynamics\nSystems Biology\nComputational Ecology, Evolution and Phylogenetics\nComputational Pharmacology and Drug Design\nMathematical Modeling of Biological Systems\n\nIntegrated Platforms, Tools, and Technologies\n\nSaaS Platforms\nCloud Computing and Data Management\nHigh-Performance Computing (HPC)\nCollaborative Research Tools\nData Visualization Techniques\nBig Data Analysis\n\nSpecialized Topics\n\nArtificial Intelligence\nClinical Bioinformatics\nAgricultural Bioinformatics\nSynthetic Biology\nPersonalized Medicine\nEnvironmental Bioinformatics & Epidemiology\nBiomolecular Engineering\nGenetic Engineering\n\n\nAdditional Resources\n\nYouTube Channels\nPersian Resources (بنمایگان پارسی)\nOpen-Source Projects and Repositories\nCourses\nBooks\nScientific Journals & Publications\nVignettes & Websites\nR packages\nMiscellaneous\nTopic Based\nConferences, Workshops, and Webinars\nCareer Guidance and Job Opportunities\nNetworking and Collaboration\nRegular Updates",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#section-1",
+    "href": "content.html#section-1",
+    "title": "3  Content",
+    "section": "3.3 Section 1",
+    "text": "3.3 Section 1\nDetails about section 1…",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "content.html#section-2",
+    "href": "content.html#section-2",
+    "title": "3  Content",
+    "section": "3.4 Section 2",
+    "text": "3.4 Section 2\nDetails about section 2…",
+    "crumbs": [
+      "Content",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Content</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "4  References",
+    "section": "",
+    "text": "4.1 Bibliography",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>References</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#bibliography",
+    "href": "references.html#bibliography",
+    "title": "4  References",
+    "section": "",
+    "text": "Reference 1\nReference 2",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]
