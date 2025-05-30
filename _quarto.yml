@@ -6,51 +6,23 @@ book:
   title: "PATOG Book"
   author: "Arash Abadi"
   date: last-modified
+  cover-image: PATOG.png
   chapters:
     - index.qmd
-    - part: "Single-Cell Analysis"
-      chapters:
-        - single-cell.qmd
-    - part: "Version Control"
-      chapters:
-        - version-control.qmd
-        - git.qmd
-        - github.qmd
+    - single-cell.qmd
+    - version-control.qmd
+    - git.qmd
+    - github.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: 
-      light: cosmo
-      dark: darkly
-    toc: true
+    theme: cosmo
     number-sections: true
     code-fold: true
     code-tools: true
-    link-external-icon: true
-    link-external-newwindow: true
     repo-url: https://github.com/arashabadi/patog
-    css: styles.css
-    include-after-body: toggle-theme.html
-    toc-depth: 3
-    toc-title: "Contents"
-    sidebar:
-      style: docked
-      contents:
-        - section: "Contents"
-          contents:
-            - index.qmd
-            - part: "Single-Cell Analysis"
-              contents:
-                - single-cell.qmd
-            - part: "Version Control"
-              contents:
-                - version-control.qmd
-                - git.qmd
-                - github.qmd
-    page-layout: full
-    margin-left: "0"
-    margin-right: "0"
-    margin-top: "0"
-    margin-bottom: "0" 
+    toc: true
+    link-external-icon: true
+    link-external-newwindow: true 

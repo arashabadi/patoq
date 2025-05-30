@@ -36,7 +36,6 @@
     "section": "",
     "text": "2.1 What is Single-Cell Analysis?\nWelcome to the Single-Cell Analysis chapter of the PATOG Book.\nSingle-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.",
     "crumbs": [
-      "Single-Cell Analysis",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
     ]
   },
@@ -47,7 +46,6 @@
     "section": "2.2 Key Topics",
     "text": "2.2 Key Topics\n\nSingle-cell RNA sequencing (scRNA-seq)\nSingle-cell ATAC sequencing (scATAC-seq)\nSingle-cell proteomics\nSpatial transcriptomics\nCell type identification\nTrajectory analysis\nCell-cell communication\nIntegration of multi-omics data",
     "crumbs": [
-      "Single-Cell Analysis",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
     ]
   },
@@ -58,7 +56,6 @@
     "section": "2.3 Why Quarto?",
     "text": "2.3 Why Quarto?\nWe chose Quarto because…",
     "crumbs": [
-      "Single-Cell Analysis",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
     ]
   },
@@ -69,7 +66,6 @@
     "section": "",
     "text": "3.1 Git Basics",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Version Control</span>"
     ]
   },
@@ -80,7 +76,6 @@
     "section": "",
     "text": "Introduction to Version Control\nGit Workflow\nCommon Git Commands\nBranching and Merging\nCollaboration with Git",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Version Control</span>"
     ]
   },
@@ -91,7 +86,6 @@
     "section": "",
     "text": "4.1 Introduction to Git\nGit is a distributed version control system that helps track changes in source code during software development. It’s designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
     ]
   },
@@ -102,7 +96,6 @@
     "section": "4.2 Core Concepts",
     "text": "4.2 Core Concepts\n\nRepository\nCommit\nBranch\nMerge\nRemote",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
     ]
   },
@@ -113,7 +106,6 @@
     "section": "4.3 Basic Git Commands",
     "text": "4.3 Basic Git Commands\n# Initialize a new repository\ngit init\n\n# Clone a repository\ngit clone &lt;repository-url&gt;\n\n# Check status\ngit status\n\n# Add files to staging\ngit add &lt;file&gt;\ngit add .\n\n# Commit changes\ngit commit -m \"commit message\"\n\n# Create and switch to a new branch\ngit checkout -b &lt;branch-name&gt;\n\n# Switch branches\ngit checkout &lt;branch-name&gt;\n\n# Merge branches\ngit merge &lt;branch-name&gt;",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
     ]
   },
@@ -124,7 +116,6 @@
     "section": "4.4 Best Practices",
     "text": "4.4 Best Practices\n\nWrite clear commit messages\nCreate feature branches for new work\nKeep commits atomic and focused\nRegularly pull from remote\nReview changes before committing",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
     ]
   },
@@ -135,7 +126,6 @@
     "section": "",
     "text": "5.1 Introduction to GitHub\nGitHub is a web-based platform that provides hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
     ]
   },
@@ -146,7 +136,6 @@
     "section": "5.2 Key Features",
     "text": "5.2 Key Features\n\nRepository hosting\nIssue tracking\nPull requests\nCode review\nProject management\nGitHub Actions\nGitHub Pages\nGitHub Codespaces",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
     ]
   },
@@ -157,7 +146,6 @@
     "section": "5.3 Working with GitHub",
     "text": "5.3 Working with GitHub\n\n5.3.1 Repository Management\n\nCreating repositories\nForking repositories\nCloning repositories\nManaging repository settings\n\n\n\n5.3.2 Collaboration\n\nCreating issues\nSubmitting pull requests\nCode review process\nManaging branches\nHandling merge conflicts\n\n\n\n5.3.3 GitHub Actions\n\nSetting up workflows\nCreating CI/CD pipelines\nAutomating tasks\nManaging secrets",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
     ]
   },
@@ -168,7 +156,6 @@
     "section": "5.4 Best Practices",
     "text": "5.4 Best Practices\n\nUse meaningful repository names\nWrite clear README files\nFollow branching strategies\nUse templates for issues and PRs\nEnable branch protection rules\nRegular maintenance and updates",
     "crumbs": [
-      "Version Control",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
     ]
   }

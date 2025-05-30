@@ -1,3 +1,5 @@
+![](PATOG.png){fig-align="center" width="300px"}
+
 # Welcome to PATOG Book
 
 This book is a Quarto-based online HTML book for the PATOG project.
