@@ -21,7 +21,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: cosmo
+      dark: darkly
     toc: true
     number-sections: true
     code-fold: true
@@ -30,4 +32,19 @@ format:
     link-external-newwindow: true
     repo-url: https://github.com/arashabadi/patog
     css: styles.css
-    include-after-body: toggle-theme.html 
+    include-after-body: toggle-theme.html
+    page-layout: custom
+    sidebar:
+      style: docked
+      contents:
+        - section: "Contents"
+          contents:
+            - index.qmd
+            - part: "Single-Cell Analysis"
+              contents:
+                - single-cell.qmd
+            - part: "Version Control"
+              contents:
+                - version-control.qmd
+                - git.qmd
+                - github.qmd 
