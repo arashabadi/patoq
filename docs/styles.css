@@ -6,6 +6,9 @@
   --background-color: #ffffff;
   --code-bg: #f8f9fa;
   --border-color: #e9ecef;
+  --sidebar-bg: #f8f9fa;
+  --sidebar-active: #e9ecef;
+  --sidebar-hover: #e9ecef;
 }
 
 /* Dark Mode Variables */
@@ -16,6 +19,9 @@
   --background-color: #2c3e50;
   --code-bg: #34495e;
   --border-color: #4a5568;
+  --sidebar-bg: #2c3e50;
+  --sidebar-active: #34495e;
+  --sidebar-hover: #34495e;
 }
 
 /* General Styles */
@@ -84,7 +90,7 @@ code {
 
 /* Sidebar */
 .sidebar {
-  background-color: var(--background-color);
+  background-color: var(--sidebar-bg);
   border-right: 1px solid var(--border-color);
 }
 
@@ -94,7 +100,11 @@ code {
 }
 
 .sidebar-item:hover {
-  background-color: var(--code-bg);
+  background-color: var(--sidebar-hover);
+}
+
+.sidebar-item.active {
+  background-color: var(--sidebar-active);
 }
 
 /* Content Area */
@@ -102,6 +112,24 @@ code {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+/* Book Theme Specific */
+.quarto-title-banner {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  padding: 2rem 0;
+  margin-bottom: 2rem;
+}
+
+.quarto-title-banner h1 {
+  color: var(--background-color);
+  margin: 0;
+}
+
+.quarto-title-banner .description {
+  color: var(--background-color);
+  opacity: 0.9;
 }
 
 /* Responsive Design */
@@ -113,6 +141,10 @@ code {
   .theme-toggle {
     top: 0.5rem;
     right: 0.5rem;
+  }
+  
+  .quarto-title-banner {
+    padding: 1rem 0;
   }
 }
 

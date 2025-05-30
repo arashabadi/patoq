@@ -1,5 +1,15 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "PATOG Book",
+    "section": "",
+    "text": "1 Welcome to PATOG Book\nThis book is a Quarto-based online HTML book for the PATOG project.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
+    ]
+  },
+  {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
     "title": "PATOG Book",
@@ -14,17 +24,17 @@
     "href": "index.html#table-of-contents",
     "title": "PATOG Book",
     "section": "1.2 Table of Contents",
-    "text": "1.2 Table of Contents\n\nPrerequisites\n\nBiology Fundamentals\nProgramming Fundamentals\nMathematics Fundamentals\nStatistics and Probability Fundamentals\nProject Management and Communication Skills\nCase Studies and Practical Applications\n\nMain Sections\n\nOmics Data Analysis and Interpretation\n\nGenomics\nTranscriptomics\nProteomics\nMetabolomics\nEpigenomics\nMetagenomics\nNetwork and Pathway Analysis\n\nModeling and Simulation\n\nMolecular Modeling and Dynamics\nSystems Biology\nComputational Ecology, Evolution and Phylogenetics\nComputational Pharmacology and Drug Design\nMathematical Modeling of Biological Systems\n\nIntegrated Platforms, Tools, and Technologies\n\nSaaS Platforms\nCloud Computing and Data Management\nHigh-Performance Computing (HPC)\nCollaborative Research Tools\nData Visualization Techniques\nBig Data Analysis\n\nSpecialized Topics\n\nArtificial Intelligence\nClinical Bioinformatics\nAgricultural Bioinformatics\nSynthetic Biology\nPersonalized Medicine\nEnvironmental Bioinformatics & Epidemiology\nBiomolecular Engineering\nGenetic Engineering\n\n\nAdditional Resources\n\nYouTube Channels\nPersian Resources (بنمایگان پارسی)\nOpen-Source Projects and Repositories\nCourses\nBooks\nScientific Journals & Publications\nVignettes & Websites\nR packages\nMiscellaneous\nTopic Based\nConferences, Workshops, and Webinars\nCareer Guidance and Job Opportunities\nNetworking and Collaboration\nRegular Updates\n\n\n\n\n\nSource Code\n# Welcome to PATOG Book\n\nThis book is a Quarto-based online HTML book for the PATOG project.\n\n## Overview\n\nPATOG (پاتوق) is a curated collection of resources around Bioinformatics, Data Science, ML, etc. The term \"Patog\" (more precisely, \"Patogh\") is a Persian word that means \"gathering place\" or \"social hangout\". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.\n\n## Table of Contents\n\n- Prerequisites\n  - Biology Fundamentals\n  - Programming Fundamentals\n  - Mathematics Fundamentals\n  - Statistics and Probability Fundamentals\n  - Project Management and Communication Skills\n  - Case Studies and Practical Applications\n\n- Main Sections\n  - Omics Data Analysis and Interpretation\n    - Genomics\n    - Transcriptomics\n    - Proteomics\n    - Metabolomics\n    - Epigenomics\n    - Metagenomics\n    - Network and Pathway Analysis\n  - Modeling and Simulation\n    - Molecular Modeling and Dynamics\n    - Systems Biology\n    - Computational Ecology, Evolution and Phylogenetics\n    - Computational Pharmacology and Drug Design\n    - Mathematical Modeling of Biological Systems\n  - Integrated Platforms, Tools, and Technologies\n    - SaaS Platforms\n    - Cloud Computing and Data Management\n    - High-Performance Computing (HPC)\n    - Collaborative Research Tools\n    - Data Visualization Techniques\n    - Big Data Analysis\n  - Specialized Topics\n    - Artificial Intelligence\n    - Clinical Bioinformatics\n    - Agricultural Bioinformatics\n    - Synthetic Biology\n    - Personalized Medicine\n    - Environmental Bioinformatics & Epidemiology\n    - Biomolecular Engineering\n    - Genetic Engineering\n\n- Additional Resources\n  - YouTube Channels\n  - Persian Resources (بنمایگان پارسی)\n  - Open-Source Projects and Repositories\n  - Courses\n  - Books\n  - Scientific Journals & Publications\n  - Vignettes & Websites\n  - R packages\n  - Miscellaneous\n  - Topic Based\n  - Conferences, Workshops, and Webinars\n  - Career Guidance and Job Opportunities\n  - Networking and Collaboration\n  - Regular Updates",
+    "text": "1.2 Table of Contents\n\nPrerequisites\n\nBiology Fundamentals\nProgramming Fundamentals\nMathematics Fundamentals\nStatistics and Probability Fundamentals\nProject Management and Communication Skills\nCase Studies and Practical Applications\n\nMain Sections\n\nOmics Data Analysis and Interpretation\n\nGenomics\nTranscriptomics\nProteomics\nMetabolomics\nEpigenomics\nMetagenomics\nNetwork and Pathway Analysis\n\nModeling and Simulation\n\nMolecular Modeling and Dynamics\nSystems Biology\nComputational Ecology, Evolution and Phylogenetics\nComputational Pharmacology and Drug Design\nMathematical Modeling of Biological Systems\n\nIntegrated Platforms, Tools, and Technologies\n\nSaaS Platforms\nCloud Computing and Data Management\nHigh-Performance Computing (HPC)\nCollaborative Research Tools\nData Visualization Techniques\nBig Data Analysis\n\nSpecialized Topics\n\nArtificial Intelligence\nClinical Bioinformatics\nAgricultural Bioinformatics\nSynthetic Biology\nPersonalized Medicine\nEnvironmental Bioinformatics & Epidemiology\nBiomolecular Engineering\nGenetic Engineering\n\n\nAdditional Resources\n\nYouTube Channels\nPersian Resources (بنمایگان پارسی)\nOpen-Source Projects and Repositories\nCourses\nBooks\nScientific Journals & Publications\nVignettes & Websites\nR packages\nMiscellaneous\nTopic Based\nConferences, Workshops, and Webinars\nCareer Guidance and Job Opportunities\nNetworking and Collaboration\nRegular Updates",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome to PATOG Book</span>"
     ]
   },
   {
-    "objectID": "single-cell.html#what-is-single-cell-analysis",
-    "href": "single-cell.html#what-is-single-cell-analysis",
+    "objectID": "single-cell.html",
+    "href": "single-cell.html",
     "title": "2  Single-Cell Analysis",
-    "section": "2.1 What is Single-Cell Analysis?",
-    "text": "2.1 What is Single-Cell Analysis?\nSingle-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.",
+    "section": "",
+    "text": "2.1 What is Single-Cell Analysis?\nWelcome to the Single-Cell Analysis chapter of the PATOG Book.\nSingle-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.",
     "crumbs": [
       "Single-Cell Analysis",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
@@ -46,28 +56,39 @@
     "href": "single-cell.html#why-quarto",
     "title": "2  Single-Cell Analysis",
     "section": "2.3 Why Quarto?",
-    "text": "2.3 Why Quarto?\nWe chose Quarto because…\n\n\n\nSource Code\n# Single-Cell Analysis\n\nWelcome to the Single-Cell Analysis chapter of the PATOG Book.\n\n## What is Single-Cell Analysis?\n\nSingle-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.\n\n## Key Topics\n\n- Single-cell RNA sequencing (scRNA-seq)\n- Single-cell ATAC sequencing (scATAC-seq)\n- Single-cell proteomics\n- Spatial transcriptomics\n- Cell type identification\n- Trajectory analysis\n- Cell-cell communication\n- Integration of multi-omics data\n\n## Why Quarto?\n\nWe chose Quarto because...",
+    "text": "2.3 Why Quarto?\nWe chose Quarto because…",
     "crumbs": [
       "Single-Cell Analysis",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
     ]
   },
   {
-    "objectID": "version-control.html#git-basics",
-    "href": "version-control.html#git-basics",
+    "objectID": "version-control.html",
+    "href": "version-control.html",
     "title": "3  Version Control",
-    "section": "3.1 Git Basics",
-    "text": "3.1 Git Basics\n\nIntroduction to Version Control\nGit Workflow\nCommon Git Commands\nBranching and Merging\nCollaboration with Git\n\n\n\n\nSource Code\n# Version Control\n\n## Git Basics\n\n- Introduction to Version Control\n- Git Workflow\n- Common Git Commands\n- Branching and Merging\n- Collaboration with Git",
+    "section": "",
+    "text": "3.1 Git Basics",
     "crumbs": [
       "Version Control",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Version Control</span>"
     ]
   },
   {
-    "objectID": "git.html#introduction-to-git",
-    "href": "git.html#introduction-to-git",
+    "objectID": "version-control.html#git-basics",
+    "href": "version-control.html#git-basics",
+    "title": "3  Version Control",
+    "section": "",
+    "text": "Introduction to Version Control\nGit Workflow\nCommon Git Commands\nBranching and Merging\nCollaboration with Git",
+    "crumbs": [
+      "Version Control",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Version Control</span>"
+    ]
+  },
+  {
+    "objectID": "git.html",
+    "href": "git.html",
     "title": "4  Git Fundamentals",
-    "section": "4.1 Introduction to Git",
+    "section": "",
     "text": "4.1 Introduction to Git\nGit is a distributed version control system that helps track changes in source code during software development. It’s designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
     "crumbs": [
       "Version Control",
@@ -101,17 +122,17 @@
     "href": "git.html#best-practices",
     "title": "4  Git Fundamentals",
     "section": "4.4 Best Practices",
-    "text": "4.4 Best Practices\n\nWrite clear commit messages\nCreate feature branches for new work\nKeep commits atomic and focused\nRegularly pull from remote\nReview changes before committing\n\n\n\n\nSource Code\n# Git Fundamentals\n\n## Introduction to Git\n\nGit is a distributed version control system that helps track changes in source code during software development. It's designed for coordinating work among programmers, but it can be used to track changes in any set of files.\n\n## Core Concepts\n\n- Repository\n- Commit\n- Branch\n- Merge\n- Remote\n\n## Basic Git Commands\n\n```bash\n# Initialize a new repository\ngit init\n\n# Clone a repository\ngit clone &lt;repository-url&gt;\n\n# Check status\ngit status\n\n# Add files to staging\ngit add &lt;file&gt;\ngit add .\n\n# Commit changes\ngit commit -m \"commit message\"\n\n# Create and switch to a new branch\ngit checkout -b &lt;branch-name&gt;\n\n# Switch branches\ngit checkout &lt;branch-name&gt;\n\n# Merge branches\ngit merge &lt;branch-name&gt;\n```\n\n## Best Practices\n\n- Write clear commit messages\n- Create feature branches for new work\n- Keep commits atomic and focused\n- Regularly pull from remote\n- Review changes before committing",
+    "text": "4.4 Best Practices\n\nWrite clear commit messages\nCreate feature branches for new work\nKeep commits atomic and focused\nRegularly pull from remote\nReview changes before committing",
     "crumbs": [
       "Version Control",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
     ]
   },
   {
-    "objectID": "github.html#introduction-to-github",
-    "href": "github.html#introduction-to-github",
+    "objectID": "github.html",
+    "href": "github.html",
     "title": "5  GitHub Platform",
-    "section": "5.1 Introduction to GitHub",
+    "section": "",
     "text": "5.1 Introduction to GitHub\nGitHub is a web-based platform that provides hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
     "crumbs": [
       "Version Control",
@@ -145,7 +166,7 @@
     "href": "github.html#best-practices",
     "title": "5  GitHub Platform",
     "section": "5.4 Best Practices",
-    "text": "5.4 Best Practices\n\nUse meaningful repository names\nWrite clear README files\nFollow branching strategies\nUse templates for issues and PRs\nEnable branch protection rules\nRegular maintenance and updates\n\n\n\n\nSource Code\n# GitHub Platform\n\n## Introduction to GitHub\n\nGitHub is a web-based platform that provides hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.\n\n## Key Features\n\n- Repository hosting\n- Issue tracking\n- Pull requests\n- Code review\n- Project management\n- GitHub Actions\n- GitHub Pages\n- GitHub Codespaces\n\n## Working with GitHub\n\n### Repository Management\n\n- Creating repositories\n- Forking repositories\n- Cloning repositories\n- Managing repository settings\n\n### Collaboration\n\n- Creating issues\n- Submitting pull requests\n- Code review process\n- Managing branches\n- Handling merge conflicts\n\n### GitHub Actions\n\n- Setting up workflows\n- Creating CI/CD pipelines\n- Automating tasks\n- Managing secrets\n\n## Best Practices\n\n- Use meaningful repository names\n- Write clear README files\n- Follow branching strategies\n- Use templates for issues and PRs\n- Enable branch protection rules\n- Regular maintenance and updates",
+    "text": "5.4 Best Practices\n\nUse meaningful repository names\nWrite clear README files\nFollow branching strategies\nUse templates for issues and PRs\nEnable branch protection rules\nRegular maintenance and updates",
     "crumbs": [
       "Version Control",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"

@@ -33,7 +33,8 @@ format:
     repo-url: https://github.com/arashabadi/patog
     css: styles.css
     include-after-body: toggle-theme.html
-    page-layout: custom
+    toc-depth: 3
+    toc-title: "Contents"
     sidebar:
       style: docked
       contents:
@@ -47,4 +48,9 @@ format:
               contents:
                 - version-control.qmd
                 - git.qmd
-                - github.qmd 
+                - github.qmd
+    page-layout: full
+    margin-left: "0"
+    margin-right: "0"
+    margin-top: "0"
+    margin-bottom: "0" 
