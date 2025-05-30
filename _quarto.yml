@@ -8,13 +8,14 @@ book:
   date: last-modified
   chapters:
     - index.qmd
-    - part: "Introduction"
+    - part: "Single-Cell Analysis"
       chapters:
-        - intro.qmd
-    - part: "Content"
+        - single-cell.qmd
+    - part: "Version Control"
       chapters:
-        - content.qmd
-    - references.qmd
+        - version-control.qmd
+        - git.qmd
+        - github.qmd
 
 bibliography: references.bib
 
