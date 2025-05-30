@@ -4,8 +4,63 @@ This book is a Quarto-based online HTML book for the PATOG project.
 
 ## Overview
 
-PATOG is a project that aims to...
+PATOG (پاتوق) is a curated collection of resources around Bioinformatics, Data Science, ML, etc. The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.
 
-## Getting Started
+## Table of Contents
 
-To get started, please refer to the [Introduction](intro.qmd) chapter. 
+- Prerequisites
+  - Biology Fundamentals
+  - Programming Fundamentals
+  - Mathematics Fundamentals
+  - Statistics and Probability Fundamentals
+  - Project Management and Communication Skills
+  - Case Studies and Practical Applications
+
+- Main Sections
+  - Omics Data Analysis and Interpretation
+    - Genomics
+    - Transcriptomics
+    - Proteomics
+    - Metabolomics
+    - Epigenomics
+    - Metagenomics
+    - Network and Pathway Analysis
+  - Modeling and Simulation
+    - Molecular Modeling and Dynamics
+    - Systems Biology
+    - Computational Ecology, Evolution and Phylogenetics
+    - Computational Pharmacology and Drug Design
+    - Mathematical Modeling of Biological Systems
+  - Integrated Platforms, Tools, and Technologies
+    - SaaS Platforms
+    - Cloud Computing and Data Management
+    - High-Performance Computing (HPC)
+    - Collaborative Research Tools
+    - Data Visualization Techniques
+    - Big Data Analysis
+  - Specialized Topics
+    - Artificial Intelligence
+    - Clinical Bioinformatics
+    - Agricultural Bioinformatics
+    - Synthetic Biology
+    - Personalized Medicine
+    - Environmental Bioinformatics & Epidemiology
+    - Biomolecular Engineering
+    - Genetic Engineering
+
+- Additional Resources
+  - YouTube Channels
+  - Persian Resources (بنمایگان پارسی)
+  - Open-Source Projects and Repositories
+  - Courses
+  - Books
+  - Scientific Journals & Publications
+  - Vignettes & Websites
+  - R packages
+  - Miscellaneous
+  - Topic Based
+  - Conferences, Workshops, and Webinars
+  - Career Guidance and Job Opportunities
+  - Networking and Collaboration
+  - Regular Updates
+
