@@ -26,5 +26,6 @@ format:
     code-tools: true
     repo-url: https://github.com/arashabadi/patog
     toc: true
+    toc-expand: true
     link-external-icon: true
     link-external-newwindow: true
