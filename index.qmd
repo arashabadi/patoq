@@ -62,4 +62,4 @@ PATOG (پاتوق) is a curated collection of resources around Bioinformatics, D
   - Regular Updates
 
 
-This book is a Quarto-based online HTML book for the PATOG project. See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
+This book is a Quarto-based online HTML book for the PATOG project. See [CONTRIBUTING.md](https://github.com/arashabadi/patog/blob/main/CONTRIBUTING.md) for more information.
