@@ -6,7 +6,7 @@ book:
   title: "PATOG Book"
   author: "Arash Abadi"
   date: last-modified
-  cover-image: PATOG.png
+  cover-image: images/PATOG.png
   chapters:
     - index.qmd
     - single-cell.qmd
@@ -25,4 +25,4 @@ format:
     repo-url: https://github.com/arashabadi/patog
     toc: true
     link-external-icon: true
-    link-external-newwindow: true 
+    link-external-newwindow: true

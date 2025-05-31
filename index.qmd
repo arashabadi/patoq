@@ -1,10 +1,5 @@
-![](PATOG.png){fig-align="center" width="300px"}
 
-# Welcome to PATOG Book
-
-This book is a Quarto-based online HTML book for the PATOG project.
-
-## Overview
+## Welcome
 
 PATOG (پاتوق) is a curated collection of resources around Bioinformatics, Data Science, ML, etc. The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.
 
@@ -66,3 +61,5 @@ PATOG (پاتوق) is a curated collection of resources around Bioinformatics, D
   - Networking and Collaboration
   - Regular Updates
 
+
+This book is a Quarto-based online HTML book for the PATOG project. See [CONTRIBUTING.md](./CONTRIBUTING.md) for more information.
