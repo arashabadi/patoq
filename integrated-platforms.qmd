@@ -66,7 +66,7 @@ git push
 
 ### GitHub: Your Project's Home on the Internet
 
-![GitHub vs Bitbucket vs GitLab](./images/github_vs_gitlab.png)
+![GitHub vs Bitbucket vs GitLab](./images/github.png)
 
 GitHub is like a social network for your code. It's where you can:
 - Store your projects online
