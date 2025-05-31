@@ -2,23 +2,257 @@
 
 ## YouTube Channels
 
+- [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
+  - Bioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content. Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io.
+
+- [Pine Biotech](https://www.youtube.com/@omicslogic)
+  - Really a good page!
+
+- [Sanbomics](https://www.youtube.com/@sanbomics)
+  - Bioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more.
+
+- [Stat Genetics](https://www.youtube.com/@statgenetics7923)
+  - Genomics, Transcriptomics, Linux, etc.
+
+- [Bioinformagician](https://www.youtube.com/@Bioinformagician)
+  - A new page uploading bioinformatics videos (Suggested)
+
+- [Farhan Haq](https://www.youtube.com/@FarhanHaqj)
+  - The channel is dedicated for developing skilled bioinformatics students and researchers. Our lectures and tutorials from interdisciplinary fields are recorded and uploaded here. The administrator and main instructor of this channel is a Professor of Bioinformatics in a renowned university of Pakistan.
+
+- [OMGenomics](https://www.youtube.com/@OMGenomics)
+  - Bioinformatics discussions and training videos. Hosted by Maria Nattestad.
+
+- [OGGY INFORMATICS](https://www.youtube.com/@oggyinformatics)
+  - A new page uploading bioinformatics videos
+
+- [Danny Arends](https://youtube.com/@DannyArends)
+  - World-class geneticist, Lecturer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube.
+
+- [Statistics & Theory](https://youtube.com/@VahidAryadoust)
+  - A YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular.
+
+- [Lana Caldarevic](https://www.youtube.com/@LanaCaldarevic)
+  - Learn biopython with her + extra bioinformatics stuff!
+
+- [Bioinformatica](https://www.youtube.com/@BioinformaticaYT)
+  - "BIOINFORMATICA" is an initiative to provide quality videos on bioinformatics related topics for a better understanding of the students who are studying bioinformatics or those who want to join bioinformatics.
+
+- [Data Science Bioinformatics](https://www.youtube.com/channel/UC8HVUWFcUhEGmt_flxUa_9g)
+  - This channel aims to provide best possible information related to Bioinformatics and data science.
+
+- [Bioinformatics Coach](https://www.youtube.com/@bioinformaticscoach/)
+  - This Channels provides tutorials on bioinformatics and big data analysis. The content is suitable for both beginners and advanced learners.
+
+- [Fenyo Lab](https://www.youtube.com/@fenyolab8658)
+  - Gene Expression Analysis
+
+- [rebelScience](https://www.youtube.com/@rebelScience/)
+  - Dedicated to all things Programming, Bioinformatics, Machine Learning and Open-Source Software.
+
+- [Niema Moshiri](https://www.youtube.com/@niemasd)
+  - Mostly Genomics
+
+- [Michael Gonzalez](https://www.youtube.com/@michaelgonzalez7296)
+  - Genomics and Transcriptomics (Suggested)
+
+- [X-omics](https://www.youtube.com/@x-omics2154)
+  - The project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise's related to molecular biology research.
+
+- [Iowa Institute of Human Genetics](https://www.youtube.com/@iowainstituteofhumangeneti7584)
+  - The IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa.
+
+- [profbiot](https://www.youtube.com/@profbiot)
+  - Bioinformatics and R
+
+- [Learn-at-ease](https://www.youtube.com/@DweipayanG)
+  - Very useful videos about biochemistry and Bioinformatics (especially MD and structural biology)
+
+- [Immune Epitope Database](https://www.youtube.com/@immuneepitopedatabase4682)
+  - The Immune Epitope Database and Analysis Resource (IEDB) serves the scientific community as an online, freely available, one-stop resource to advance immunology research.
+
+- [Sanket Bapat](https://www.youtube.com/@sanketbapat)
+  - Dr. Sanket Bapat makes Bioinformatics video lectures and tutorials for students and everyone who is new to this field!
+
+- [Bio-Informatics - IITM](https://www.youtube.com/@bio-informatics-iitm6423/)
+
+- [Bioinformatics Tools - Explanation](https://www.youtube.com/@bioinformaticstools-explan5733)
+
+- [Yann Academy](https://www.youtube.com/@yannacademy)
+
+- [Scribbles in Bioinformatics](https://www.youtube.com/@scribblesinbioinformatics6246)
+
+- [OmicsLogic](https://www.youtube.com/@omicslogic)
+  - Our core technology is a research platform design to simplify processing, integration and mining of big biomedical data - especially molecular data like NGS, Mass-Spec and structural biology.
+
+- [Michael Edwards](https://www.youtube.com/@MichaelEdwardsbioinfo/)
+  - Founder and CEO of the data analytics company, Bioinfo Solutions LLC, specializing in extracting wisdom out of a sea of information.
+
+#### Selected playlists:
+- [Bioinformatics for precision medicine 2020](https://www.youtube.com/playlist?list=PLtfyFsgaWppZeCE-eNSqLmVrRkadUJMbL)
+- [Biochemistry bootcamp](https://youtube.com/playlist?list=PLffXXtqYi9Pd26tkd-hCsTs4YiDu0I5Ns)
+- [Epigenetics explained](https://www.youtube.com/playlist?list=PLXwHgASiClJkl89UbCgm5Fc28DtEwGpS5)
+- [Popular Programming Courses by freecodecamp](https://www.youtube.com/playlist?list=PLWKjhJtqVAblfum5WiQblKPwIbqYXkDoC)
+
 ## Persian Resources (بنمایگان پارسی)
+
+- [Bioinformatics with Dr. Ali Sharifi-Zarchi](https://maktabkhooneh.org/learn/?q=%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9)
+  - A list of free courses about bioinformatics in Persian. If you are at beginner level, consider learning first from: [Introduction to Bioinformatics](https://maktabkhooneh.org/course/%D9%85%D9%82%D8%AF%D9%85%D9%87-%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D8%AA%D8%AD%D9%84%DB%8C%D9%84-%D8%AF%D8%A7%D8%AF%D9%87-%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C-mk374/) and then [Advanced Bioinformatics](https://maktabkhooneh.org/course/%D8%A8%DB%8C%D9%88%D8%A7%D9%86%D9%81%D9%88%D8%B1%D9%85%D8%A7%D8%AA%DB%8C%DA%A9-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87-mk375/)
+
+- [Bioinformatics with Dr. Farshid Noorbakhsh](https://www.aparat.com/TUMS_Immunology/playlists)
+  - This is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!
+
+- [Bioskill with Dr. Milad Ghafoori](https://www.youtube.com/bioskill)
+  - Learn structural biology with dear Milad for free!
+
+- [ELMIUM with Arash](https://www.youtube.com/@elmium)
+  - Learn computational biology with me! (in progress)
 
 ## Open-Source Projects and Repositories
 
+- [Open Source Society University_Bioinformatics](https://github.com/ossu/bioinformatics)
+  - This is a solid path for those of you who want to complete a Bioinformatics course on your own time, for free, with courses from the best universities in the World.
+
+- [Awesome Series](https://github.com/sindresorhus/awesome) 
+  - A great curated collection series for many things...
+
+Selected awesome repositories for Computational Biology and Bioinformatics:
+- [openbiox-awosome-bioinformatics](https://github.com/openbiox/awosome-bioinformatics)
+  - A curated list of resources for learning bioinformatics.
+
+- [inoue0426-awesome-computational-biology](https://github.com/inoue0426/awesome-computational-biology)
+  - A knowledge collection of databases, software and papers related to computational biology.
+
+- [danielecook-awosome-bioinformatics](https://github.com/danielecook/Awesome-Bioinformatics)
+  - A curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source.
+
+- [awesome-r-dataviz](https://github.com/krzjoa/awesome-r-dataviz)
+  - A Curated resources for Data Visualization, Drawing & Publishing in R
+
+- [Introduction to R and differential gene expression (DGE) analysis](https://github.com/hbctraining/Intro-to-R-with-DGE)
+  - By Bioinformatics Training at the Harvard Chan Bioinformatics Core: hbctraining.github.io/main
+
 ## Courses
+
+- [Foundations Of Computational And Systems Biology](https://ocw.mit.edu/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/)
+  - MIT OCW / This course is an introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis; it also includes an introduction to the analysis of complex biological systems.
+
+- [COURSERA_Python for Genomic Data Science](https://www.coursera.org/learn/python-genomics)
 
 ## Books
 
+#### Learn R programming for FREE:
+- [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
+  - This book will teach you how to program in R, with hands-on examples. Written for non-programmers to provide a friendly introduction to the R language.
+
+- [R for Data Science (1e)](https://r4ds.had.co.nz/)
+  - First edition of "R for Data Science", published January 2017.
+
+- [R for Data Science (2e)](https://r4ds.hadley.nz/)
+  - Work-in-progress 2nd edition of "R for Data Science". This book will teach you how to do data science with R.
+
+- [Advanced R (1e)](http://adv-r.had.co.nz/)
+  - Companion website for "Advanced R", a book in Chapman & Hall's R Series. Designed primarily for R users who want to improve their programming skills and understanding of the language.
+
+- [Advanced R (2e)](https://adv-r.hadley.nz/)
+  - Website for 2nd edition of "Advanced R", a book in Chapman & Hall's R Series.
+
+- [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
+  - On-line version of work-in-progress 3rd edition of "ggplot2: elegant graphics for data analysis" published by Springer.
+
+- [R Cookbook, 2nd Edition](https://rc2e.com/)
+  - Full of how-to recipes, each of which solves a specific problem. The recipe includes a quick introduction to the solution followed by a discussion that aims to unpack the solution and give you some insight into how it works.
+
+- [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/)
+  - Introduction to text mining using the tidytext package and other tidy tools in R.
+
 ## Scientific Journals & Publications
+
+- [A guide to machine learning for biologists](https://www.nature.com/articles/s41580-021-00407-0)
+  - Joe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones 
+  - Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)
+
+- [Differential expression analysis for sequence count data](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2010-11-10-r106)
+  - Anders, S., Huber, W. Genome Biol 11, R106 (2010)
+
+### Meta analysis bioinformatics (integration datasets) 
+- [Recent developments and future directions in meta-analysis of differential gene expression in livestock RNA-Seq](https://www.frontiersin.org/articles/10.3389/fgene.2022.983043/full) 
+- [Batch effect detection and correction in RNA-seq data using machine-learning-based automated assessment of quality](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-022-04775-y) 
+- [Integration of RNA-Seq data with heterogeneous microarray data for breast cancer profiling](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1925-0)
+- [Integrated Analysis of Microarray and RNA-Seq Data for the Identification of Hub Genes and Networks Involved in the Pancreatic Cancer](https://www.frontiersin.org/articles/10.3389/fgene.2021.663787/full)
+- [ComBat-seq: batch effect adjustment for RNA-seq count data](https://academic.oup.com/nargab/article/2/3/lqaa078/5909519)
+- [A benchmark of batch-effect correction methods for single-cell RNA sequencing data](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-019-1850-9)
+- [Batch effect in integrated RNA-seq analysis_Biostars](https://www.biostars.org/p/9556181/)
+- [Integrating bulk RNA-Seq data with different sequencing depths and from different sources_bioinformatics.stackexchange](https://bioinformatics.stackexchange.com/questions/20879/integrating-bulk-rna-seq-data-with-different-sequencing-depths-and-from-differen)
 
 ## Vignettes & Websites
 
+- [clusterProfiler](http://yulab-smu.top/clusterProfiler-book/)
+  - clusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters
+
+- [MD Tutorials](http://www.mdtutorials.com/) 
+  - On this site, you will find tutorials written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates.
+
+- [Massive open online course (MOOC)](https://www.mooc.org/)
+  - MOOC.org is an extension of edX.org, a leader in online courses. Whether you're interested in learning for yourself, leveraging online courses to educate your workforce, or creating a MOOC, edX can help.
+
 ## R packages
+
+- [TCGAVisualize_volcano](https://rdrr.io/bioc/TCGAbiolinks/man/TCGAVisualize_volcano.html)
+  - Creates a volcano plot for DNA methylation or expression
 
 ## Miscellaneous
 
+- [Welcome to Galaxy Training!](https://training.galaxyproject.org/training-material/)
+- [bioinformatics.org](https://www.bioinformatics.org/)
+- [15 Best Bioinformatics Youtube Channels For Training](https://interestedvideos.com/bioinformatics-youtube-channels/)
+
+#### Become a graphic designer as a biologist:
+- [DrawBioMed](https://youtube.com/@DrawBioMed)
+  - The scientific illustration channel for scientists
+- [Animated biology With arpan](https://youtube.com/@animatedbiologywitharpan)
+  - Ideas for your design + learn basic biology
+- [Nikolay's Genetics Lessons](https://www.youtube.com/@GeneticsLessons)
+  - This YouTube Channel is designed to provide students with a basic understanding of the concepts of human genetics and genomics
+- [Biology Lectures](https://www.youtube.com/@BiologyLectures)
+  - Dedicated to providing high quality and up-to-date lectures in the fields of general biology, microbiology, immunology, pharmacology, bioinformatics, and other life sciences
+- [the bumbling biochemist](https://www.youtube.com/@thebumblingbiochemist)
+  - Just a postdoc trying to make biochemistry fun and accessible for all
+- [GaBI Academy](https://www.youtube.com/@gabiacademy9576)
+
+#### Useful Resources:
+- [TCGA Barcode](https://docs.gdc.cancer.gov/Encyclopedia/pages/TCGA_Barcode/#reading-barcodes)
+- [Differential gene expression](https://nbisweden.github.io/workshop-scRNAseq/labs/compiled/seurat/seurat_05_dge.html#Differential_gene_expression)
+  - By NBIS - National Bioinformatics Infrastructure Sweden
+- [Seurat](https://satijalab.org/seurat/)
+- [Removing low count genes for RNA-seq downstream analysis](https://seqqc.wordpress.com/2020/02/17/removing-low-count-genes-for-rna-seq-downstream-analysis/)
+- [RNA-seq analysis in R](https://sbc.shef.ac.uk/prostate-bioinformatics/rna-seq-preprocessing.nb.html)
+- [Chapter 4 Differential expression analysis](https://uclouvain-cbio.github.io/WSBIM2122/sec-rnaseq.html)
+  - Omics Data Analysis by Laurent Gatto
+- [Analysis of microarray data](https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/microarrays/analysis-of-microarray-data/)
+  - EBI, Functional genomics II, Common technologies and data analysis methods
+
 ## Topic Based
+
+### Molecular Dynamics Simulation
+- [A Good Playlist on YouTube (Learn-at-ease)](https://youtube.com/playlist?list=PLNSfch27bUn1Q_dZEJGCAnfRw6qfX0Rsg&si=J4FMbCqA7LwFUrXX) 
+- [MDTutorials](http://www.mdtutorials.com) 
+- [Computer Aided Drug Design](https://www.youtube.com/playlist?list=PLyqSpQzTE6M9FEUejpQGsxcaRmKB1SdcU)
+  - NPTEL-NOC IITM
+- [Quora Ideas](https://www.quora.com/How-can-I-learn-how-to-perform-molecular-dynamics-simulations-What-are-some-good-sources-for-learning-about-this-field) 
+- [Matter Modeling Ideas](https://mattermodeling.stackexchange.com/questions/1697/references-for-molecular-dynamics) 
+- [GROMACS Reference Manual](https://manual.gromacs.org/current/reference-manual/index.html) 
+- [LAMMPS Tutorials](https://www.lammps.org/tutorials.html) 
+- [Classical Allen-Tildesley book, Computer Simulation of Liquids](https://www.amazon.com/Computer-Simulation-Liquids-Science-Publications/dp/0198556454) 
+- [Statistical foundation video by MIT OCW](https://youtu.be/XrdcGZppwI4?si=tqDyCbIHHdkczHzk) 
+
+### Biopython
+- [YouTube playlist](https://youtube.com/playlist?list=PLhYDP66xNTKRdtUM8ekEmq1fC0mosXrgn&si=JvC_4op2oEgNRCZv) 
+  - A Good Playlist by Lana Dominkovic for biopython
+- [Biopython Tutorial PDF](http://biopython.org/DIST/docs/tutorial/Tutorial.pdf)
+  - A very useful file to learn and deepen your understanding of the subject
+- [UDEMY_Biopython](https://www.udemy.com/course/learn-biopython/)
+- [Training Courses_ babraham bioinformatics](https://www.bioinformatics.babraham.ac.uk/training.html)
 
 ## Conferences, Workshops, and Webinars
 
