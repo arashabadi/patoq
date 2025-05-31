@@ -20,133 +20,463 @@
     ]
   },
   {
-    "objectID": "single-cell.html",
-    "href": "single-cell.html",
-    "title": "2  Single-Cell Analysis",
+    "objectID": "prerequisites.html",
+    "href": "prerequisites.html",
+    "title": "2  Prerequisites",
     "section": "",
-    "text": "2.1 What is Single-Cell Analysis?\nWelcome to the Single-Cell Analysis chapter of the PATOG Book.\nSingle-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.",
+    "text": "2.1 Biology Fundamentals",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
   {
-    "objectID": "single-cell.html#key-topics",
-    "href": "single-cell.html#key-topics",
-    "title": "2  Single-Cell Analysis",
-    "section": "2.2 Key Topics",
-    "text": "2.2 Key Topics\n\nSingle-cell RNA sequencing (scRNA-seq)\nSingle-cell ATAC sequencing (scATAC-seq)\nSingle-cell proteomics\nSpatial transcriptomics\nCell type identification\nTrajectory analysis\nCell-cell communication\nIntegration of multi-omics data",
+    "objectID": "prerequisites.html#programming-fundamentals",
+    "href": "prerequisites.html#programming-fundamentals",
+    "title": "2  Prerequisites",
+    "section": "2.2 Programming Fundamentals",
+    "text": "2.2 Programming Fundamentals",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
   {
-    "objectID": "single-cell.html#why-quarto",
-    "href": "single-cell.html#why-quarto",
-    "title": "2  Single-Cell Analysis",
-    "section": "2.3 Why Quarto?",
-    "text": "2.3 Why Quarto?\nWe chose Quarto because…",
+    "objectID": "prerequisites.html#mathematics-fundamentals",
+    "href": "prerequisites.html#mathematics-fundamentals",
+    "title": "2  Prerequisites",
+    "section": "2.3 Mathematics Fundamentals",
+    "text": "2.3 Mathematics Fundamentals",
     "crumbs": [
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Single-Cell Analysis</span>"
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
   {
-    "objectID": "version-control.html",
-    "href": "version-control.html",
-    "title": "3  Version Control",
+    "objectID": "prerequisites.html#statistics-and-probability-fundamentals",
+    "href": "prerequisites.html#statistics-and-probability-fundamentals",
+    "title": "2  Prerequisites",
+    "section": "2.4 Statistics and Probability Fundamentals",
+    "text": "2.4 Statistics and Probability Fundamentals",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
+    ]
+  },
+  {
+    "objectID": "prerequisites.html#project-management-and-communication-skills",
+    "href": "prerequisites.html#project-management-and-communication-skills",
+    "title": "2  Prerequisites",
+    "section": "2.5 Project Management and Communication Skills",
+    "text": "2.5 Project Management and Communication Skills",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
+    ]
+  },
+  {
+    "objectID": "prerequisites.html#case-studies-and-practical-applications",
+    "href": "prerequisites.html#case-studies-and-practical-applications",
+    "title": "2  Prerequisites",
+    "section": "2.6 Case Studies and Practical Applications",
+    "text": "2.6 Case Studies and Practical Applications",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
+    ]
+  },
+  {
+    "objectID": "omics-data.html",
+    "href": "omics-data.html",
+    "title": "3  Omics Data Analysis and Interpretation",
     "section": "",
-    "text": "3.1 Git Basics",
+    "text": "3.1 Genomics",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Version Control</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
-    "objectID": "version-control.html#git-basics",
-    "href": "version-control.html#git-basics",
-    "title": "3  Version Control",
+    "objectID": "omics-data.html#transcriptomics",
+    "href": "omics-data.html#transcriptomics",
+    "title": "3  Omics Data Analysis and Interpretation",
+    "section": "3.2 Transcriptomics",
+    "text": "3.2 Transcriptomics",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+    ]
+  },
+  {
+    "objectID": "omics-data.html#proteomics",
+    "href": "omics-data.html#proteomics",
+    "title": "3  Omics Data Analysis and Interpretation",
+    "section": "3.3 Proteomics",
+    "text": "3.3 Proteomics",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+    ]
+  },
+  {
+    "objectID": "omics-data.html#metabolomics",
+    "href": "omics-data.html#metabolomics",
+    "title": "3  Omics Data Analysis and Interpretation",
+    "section": "3.4 Metabolomics",
+    "text": "3.4 Metabolomics",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+    ]
+  },
+  {
+    "objectID": "omics-data.html#epigenomics",
+    "href": "omics-data.html#epigenomics",
+    "title": "3  Omics Data Analysis and Interpretation",
+    "section": "3.5 Epigenomics",
+    "text": "3.5 Epigenomics",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+    ]
+  },
+  {
+    "objectID": "omics-data.html#metagenomics",
+    "href": "omics-data.html#metagenomics",
+    "title": "3  Omics Data Analysis and Interpretation",
+    "section": "3.6 Metagenomics",
+    "text": "3.6 Metagenomics",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+    ]
+  },
+  {
+    "objectID": "omics-data.html#network-and-pathway-analysis",
+    "href": "omics-data.html#network-and-pathway-analysis",
+    "title": "3  Omics Data Analysis and Interpretation",
+    "section": "3.7 Network and Pathway Analysis",
+    "text": "3.7 Network and Pathway Analysis",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+    ]
+  },
+  {
+    "objectID": "modeling-simulation.html",
+    "href": "modeling-simulation.html",
+    "title": "4  Modeling and Simulation",
     "section": "",
-    "text": "Introduction to Version Control\nGit Workflow\nCommon Git Commands\nBranching and Merging\nCollaboration with Git",
+    "text": "4.1 Molecular Modeling and Dynamics",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Version Control</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
-    "objectID": "git.html",
-    "href": "git.html",
-    "title": "4  Git Fundamentals",
+    "objectID": "modeling-simulation.html#systems-biology",
+    "href": "modeling-simulation.html#systems-biology",
+    "title": "4  Modeling and Simulation",
+    "section": "4.2 Systems Biology",
+    "text": "4.2 Systems Biology",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+    ]
+  },
+  {
+    "objectID": "modeling-simulation.html#computational-ecology-evolution-and-phylogenetics",
+    "href": "modeling-simulation.html#computational-ecology-evolution-and-phylogenetics",
+    "title": "4  Modeling and Simulation",
+    "section": "4.3 Computational Ecology, Evolution and Phylogenetics",
+    "text": "4.3 Computational Ecology, Evolution and Phylogenetics",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+    ]
+  },
+  {
+    "objectID": "modeling-simulation.html#computational-pharmacology-and-drug-design",
+    "href": "modeling-simulation.html#computational-pharmacology-and-drug-design",
+    "title": "4  Modeling and Simulation",
+    "section": "4.4 Computational Pharmacology and Drug Design",
+    "text": "4.4 Computational Pharmacology and Drug Design",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+    ]
+  },
+  {
+    "objectID": "modeling-simulation.html#mathematical-modeling-of-biological-systems",
+    "href": "modeling-simulation.html#mathematical-modeling-of-biological-systems",
+    "title": "4  Modeling and Simulation",
+    "section": "4.5 Mathematical Modeling of Biological Systems",
+    "text": "4.5 Mathematical Modeling of Biological Systems",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html",
+    "href": "integrated-platforms.html",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
     "section": "",
-    "text": "4.1 Introduction to Git\nGit is a distributed version control system that helps track changes in source code during software development. It’s designed for coordinating work among programmers, but it can be used to track changes in any set of files.",
+    "text": "5.1 SaaS Platforms",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
-    "objectID": "git.html#core-concepts",
-    "href": "git.html#core-concepts",
-    "title": "4  Git Fundamentals",
-    "section": "4.2 Core Concepts",
-    "text": "4.2 Core Concepts\n\nRepository\nCommit\nBranch\nMerge\nRemote",
+    "objectID": "integrated-platforms.html#cloud-computing-and-data-management",
+    "href": "integrated-platforms.html#cloud-computing-and-data-management",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.2 Cloud Computing and Data Management",
+    "text": "5.2 Cloud Computing and Data Management",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
-    "objectID": "git.html#basic-git-commands",
-    "href": "git.html#basic-git-commands",
-    "title": "4  Git Fundamentals",
-    "section": "4.3 Basic Git Commands",
-    "text": "4.3 Basic Git Commands\n# Initialize a new repository\ngit init\n\n# Clone a repository\ngit clone &lt;repository-url&gt;\n\n# Check status\ngit status\n\n# Add files to staging\ngit add &lt;file&gt;\ngit add .\n\n# Commit changes\ngit commit -m \"commit message\"\n\n# Create and switch to a new branch\ngit checkout -b &lt;branch-name&gt;\n\n# Switch branches\ngit checkout &lt;branch-name&gt;\n\n# Merge branches\ngit merge &lt;branch-name&gt;",
+    "objectID": "integrated-platforms.html#high-performance-computing-hpc",
+    "href": "integrated-platforms.html#high-performance-computing-hpc",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.3 High-Performance Computing (HPC)",
+    "text": "5.3 High-Performance Computing (HPC)",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
-    "objectID": "git.html#best-practices",
-    "href": "git.html#best-practices",
-    "title": "4  Git Fundamentals",
-    "section": "4.4 Best Practices",
-    "text": "4.4 Best Practices\n\nWrite clear commit messages\nCreate feature branches for new work\nKeep commits atomic and focused\nRegularly pull from remote\nReview changes before committing",
+    "objectID": "integrated-platforms.html#collaborative-research-tools",
+    "href": "integrated-platforms.html#collaborative-research-tools",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.4 Collaborative Research Tools",
+    "text": "5.4 Collaborative Research Tools",
     "crumbs": [
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Git Fundamentals</span>"
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
-    "objectID": "github.html",
-    "href": "github.html",
-    "title": "5  GitHub Platform",
+    "objectID": "integrated-platforms.html#data-visualization-techniques",
+    "href": "integrated-platforms.html#data-visualization-techniques",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.5 Data Visualization Techniques",
+    "text": "5.5 Data Visualization Techniques",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#big-data-analysis",
+    "href": "integrated-platforms.html#big-data-analysis",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.6 Big Data Analysis",
+    "text": "5.6 Big Data Analysis",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "specialized-topics.html",
+    "href": "specialized-topics.html",
+    "title": "6  Specialized Topics",
     "section": "",
-    "text": "5.1 Introduction to GitHub\nGitHub is a web-based platform that provides hosting for software development and version control using Git. It offers the distributed version control and source code management functionality of Git, plus its own features.",
+    "text": "6.1 Artificial Intelligence",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
-    "objectID": "github.html#key-features",
-    "href": "github.html#key-features",
-    "title": "5  GitHub Platform",
-    "section": "5.2 Key Features",
-    "text": "5.2 Key Features\n\nRepository hosting\nIssue tracking\nPull requests\nCode review\nProject management\nGitHub Actions\nGitHub Pages\nGitHub Codespaces",
+    "objectID": "specialized-topics.html#clinical-bioinformatics",
+    "href": "specialized-topics.html#clinical-bioinformatics",
+    "title": "6  Specialized Topics",
+    "section": "6.2 Clinical Bioinformatics",
+    "text": "6.2 Clinical Bioinformatics",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
-    "objectID": "github.html#working-with-github",
-    "href": "github.html#working-with-github",
-    "title": "5  GitHub Platform",
-    "section": "5.3 Working with GitHub",
-    "text": "5.3 Working with GitHub\n\n5.3.1 Repository Management\n\nCreating repositories\nForking repositories\nCloning repositories\nManaging repository settings\n\n\n\n5.3.2 Collaboration\n\nCreating issues\nSubmitting pull requests\nCode review process\nManaging branches\nHandling merge conflicts\n\n\n\n5.3.3 GitHub Actions\n\nSetting up workflows\nCreating CI/CD pipelines\nAutomating tasks\nManaging secrets",
+    "objectID": "specialized-topics.html#agricultural-bioinformatics",
+    "href": "specialized-topics.html#agricultural-bioinformatics",
+    "title": "6  Specialized Topics",
+    "section": "6.3 Agricultural Bioinformatics",
+    "text": "6.3 Agricultural Bioinformatics",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
-    "objectID": "github.html#best-practices",
-    "href": "github.html#best-practices",
-    "title": "5  GitHub Platform",
-    "section": "5.4 Best Practices",
-    "text": "5.4 Best Practices\n\nUse meaningful repository names\nWrite clear README files\nFollow branching strategies\nUse templates for issues and PRs\nEnable branch protection rules\nRegular maintenance and updates",
+    "objectID": "specialized-topics.html#synthetic-biology",
+    "href": "specialized-topics.html#synthetic-biology",
+    "title": "6  Specialized Topics",
+    "section": "6.4 Synthetic Biology",
+    "text": "6.4 Synthetic Biology",
     "crumbs": [
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>GitHub Platform</span>"
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
+    ]
+  },
+  {
+    "objectID": "specialized-topics.html#personalized-medicine",
+    "href": "specialized-topics.html#personalized-medicine",
+    "title": "6  Specialized Topics",
+    "section": "6.5 Personalized Medicine",
+    "text": "6.5 Personalized Medicine",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
+    ]
+  },
+  {
+    "objectID": "specialized-topics.html#environmental-bioinformatics-epidemiology",
+    "href": "specialized-topics.html#environmental-bioinformatics-epidemiology",
+    "title": "6  Specialized Topics",
+    "section": "6.6 Environmental Bioinformatics & Epidemiology",
+    "text": "6.6 Environmental Bioinformatics & Epidemiology",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
+    ]
+  },
+  {
+    "objectID": "specialized-topics.html#biomolecular-engineering",
+    "href": "specialized-topics.html#biomolecular-engineering",
+    "title": "6  Specialized Topics",
+    "section": "6.7 Biomolecular Engineering",
+    "text": "6.7 Biomolecular Engineering",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
+    ]
+  },
+  {
+    "objectID": "specialized-topics.html#genetic-engineering",
+    "href": "specialized-topics.html#genetic-engineering",
+    "title": "6  Specialized Topics",
+    "section": "6.8 Genetic Engineering",
+    "text": "6.8 Genetic Engineering",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html",
+    "href": "additional-resources.html",
+    "title": "7  Additional Resources",
+    "section": "",
+    "text": "7.1 YouTube Channels",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#persian-resources-بنمایگان-پارسی",
+    "href": "additional-resources.html#persian-resources-بنمایگان-پارسی",
+    "title": "7  Additional Resources",
+    "section": "7.2 Persian Resources (بنمایگان پارسی)",
+    "text": "7.2 Persian Resources (بنمایگان پارسی)",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#open-source-projects-and-repositories",
+    "href": "additional-resources.html#open-source-projects-and-repositories",
+    "title": "7  Additional Resources",
+    "section": "7.3 Open-Source Projects and Repositories",
+    "text": "7.3 Open-Source Projects and Repositories",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#courses",
+    "href": "additional-resources.html#courses",
+    "title": "7  Additional Resources",
+    "section": "7.4 Courses",
+    "text": "7.4 Courses",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#books",
+    "href": "additional-resources.html#books",
+    "title": "7  Additional Resources",
+    "section": "7.5 Books",
+    "text": "7.5 Books",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#scientific-journals-publications",
+    "href": "additional-resources.html#scientific-journals-publications",
+    "title": "7  Additional Resources",
+    "section": "7.6 Scientific Journals & Publications",
+    "text": "7.6 Scientific Journals & Publications",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#vignettes-websites",
+    "href": "additional-resources.html#vignettes-websites",
+    "title": "7  Additional Resources",
+    "section": "7.7 Vignettes & Websites",
+    "text": "7.7 Vignettes & Websites",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#r-packages",
+    "href": "additional-resources.html#r-packages",
+    "title": "7  Additional Resources",
+    "section": "7.8 R packages",
+    "text": "7.8 R packages",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#miscellaneous",
+    "href": "additional-resources.html#miscellaneous",
+    "title": "7  Additional Resources",
+    "section": "7.9 Miscellaneous",
+    "text": "7.9 Miscellaneous",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#topic-based",
+    "href": "additional-resources.html#topic-based",
+    "title": "7  Additional Resources",
+    "section": "7.10 Topic Based",
+    "text": "7.10 Topic Based",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#conferences-workshops-and-webinars",
+    "href": "additional-resources.html#conferences-workshops-and-webinars",
+    "title": "7  Additional Resources",
+    "section": "7.11 Conferences, Workshops, and Webinars",
+    "text": "7.11 Conferences, Workshops, and Webinars",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#career-guidance-and-job-opportunities",
+    "href": "additional-resources.html#career-guidance-and-job-opportunities",
+    "title": "7  Additional Resources",
+    "section": "7.12 Career Guidance and Job Opportunities",
+    "text": "7.12 Career Guidance and Job Opportunities",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#networking-and-collaboration",
+    "href": "additional-resources.html#networking-and-collaboration",
+    "title": "7  Additional Resources",
+    "section": "7.13 Networking and Collaboration",
+    "text": "7.13 Networking and Collaboration",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
+    ]
+  },
+  {
+    "objectID": "additional-resources.html#regular-updates",
+    "href": "additional-resources.html#regular-updates",
+    "title": "7  Additional Resources",
+    "section": "7.14 Regular Updates",
+    "text": "7.14 Regular Updates",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   }
 ]

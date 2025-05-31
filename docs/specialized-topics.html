@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2&nbsp; Single-Cell Analysis – PATOG Book</title>
+<title>6&nbsp; Specialized Topics – PATOG Book</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./version-control.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./additional-resources.html" rel="next">
+<link href="./integrated-platforms.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -115,7 +115,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./single-cell.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Single-Cell Analysis</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./specialized-topics.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Specialized Topics</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -148,26 +148,38 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./single-cell.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Single-Cell Analysis</span></span></a>
+  <a href="./prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Prerequisites</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./version-control.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Version Control</span></span></a>
+  <a href="./omics-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./git.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Git Fundamentals</span></span></a>
+  <a href="./modeling-simulation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./github.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">GitHub Platform</span></span></a>
+  <a href="./integrated-platforms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./specialized-topics.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Specialized Topics</span></span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./additional-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Additional Resources</span></span></a>
   </div>
 </li>
     </ul>
@@ -180,9 +192,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#what-is-single-cell-analysis" id="toc-what-is-single-cell-analysis" class="nav-link active" data-scroll-target="#what-is-single-cell-analysis"><span class="header-section-number">2.1</span> What is Single-Cell Analysis?</a></li>
-  <li><a href="#key-topics" id="toc-key-topics" class="nav-link" data-scroll-target="#key-topics"><span class="header-section-number">2.2</span> Key Topics</a></li>
-  <li><a href="#why-quarto" id="toc-why-quarto" class="nav-link" data-scroll-target="#why-quarto"><span class="header-section-number">2.3</span> Why Quarto?</a></li>
+  <li><a href="#artificial-intelligence" id="toc-artificial-intelligence" class="nav-link active" data-scroll-target="#artificial-intelligence"><span class="header-section-number">6.1</span> Artificial Intelligence</a></li>
+  <li><a href="#clinical-bioinformatics" id="toc-clinical-bioinformatics" class="nav-link" data-scroll-target="#clinical-bioinformatics"><span class="header-section-number">6.2</span> Clinical Bioinformatics</a></li>
+  <li><a href="#agricultural-bioinformatics" id="toc-agricultural-bioinformatics" class="nav-link" data-scroll-target="#agricultural-bioinformatics"><span class="header-section-number">6.3</span> Agricultural Bioinformatics</a></li>
+  <li><a href="#synthetic-biology" id="toc-synthetic-biology" class="nav-link" data-scroll-target="#synthetic-biology"><span class="header-section-number">6.4</span> Synthetic Biology</a></li>
+  <li><a href="#personalized-medicine" id="toc-personalized-medicine" class="nav-link" data-scroll-target="#personalized-medicine"><span class="header-section-number">6.5</span> Personalized Medicine</a></li>
+  <li><a href="#environmental-bioinformatics-epidemiology" id="toc-environmental-bioinformatics-epidemiology" class="nav-link" data-scroll-target="#environmental-bioinformatics-epidemiology"><span class="header-section-number">6.6</span> Environmental Bioinformatics &amp; Epidemiology</a></li>
+  <li><a href="#biomolecular-engineering" id="toc-biomolecular-engineering" class="nav-link" data-scroll-target="#biomolecular-engineering"><span class="header-section-number">6.7</span> Biomolecular Engineering</a></li>
+  <li><a href="#genetic-engineering" id="toc-genetic-engineering" class="nav-link" data-scroll-target="#genetic-engineering"><span class="header-section-number">6.8</span> Genetic Engineering</a></li>
   </ul>
 </nav>
     </div>
@@ -191,7 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Single-Cell Analysis</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Specialized Topics</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -208,27 +225,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>Welcome to the Single-Cell Analysis chapter of the PATOG Book.</p>
-<section id="what-is-single-cell-analysis" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="what-is-single-cell-analysis"><span class="header-section-number">2.1</span> What is Single-Cell Analysis?</h2>
-<p>Single-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.</p>
+<section id="artificial-intelligence" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="artificial-intelligence"><span class="header-section-number">6.1</span> Artificial Intelligence</h2>
 </section>
-<section id="key-topics" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="key-topics"><span class="header-section-number">2.2</span> Key Topics</h2>
-<ul>
-<li>Single-cell RNA sequencing (scRNA-seq)</li>
-<li>Single-cell ATAC sequencing (scATAC-seq)</li>
-<li>Single-cell proteomics</li>
-<li>Spatial transcriptomics</li>
-<li>Cell type identification</li>
-<li>Trajectory analysis</li>
-<li>Cell-cell communication</li>
-<li>Integration of multi-omics data</li>
-</ul>
+<section id="clinical-bioinformatics" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="clinical-bioinformatics"><span class="header-section-number">6.2</span> Clinical Bioinformatics</h2>
 </section>
-<section id="why-quarto" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="why-quarto"><span class="header-section-number">2.3</span> Why Quarto?</h2>
-<p>We chose Quarto because…</p>
+<section id="agricultural-bioinformatics" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="agricultural-bioinformatics"><span class="header-section-number">6.3</span> Agricultural Bioinformatics</h2>
+</section>
+<section id="synthetic-biology" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="synthetic-biology"><span class="header-section-number">6.4</span> Synthetic Biology</h2>
+</section>
+<section id="personalized-medicine" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="personalized-medicine"><span class="header-section-number">6.5</span> Personalized Medicine</h2>
+</section>
+<section id="environmental-bioinformatics-epidemiology" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="environmental-bioinformatics-epidemiology"><span class="header-section-number">6.6</span> Environmental Bioinformatics &amp; Epidemiology</h2>
+</section>
+<section id="biomolecular-engineering" class="level2" data-number="6.7">
+<h2 data-number="6.7" class="anchored" data-anchor-id="biomolecular-engineering"><span class="header-section-number">6.7</span> Biomolecular Engineering</h2>
+</section>
+<section id="genetic-engineering" class="level2" data-number="6.8">
+<h2 data-number="6.8" class="anchored" data-anchor-id="genetic-engineering"><span class="header-section-number">6.8</span> Genetic Engineering</h2>
 
 
 <!-- -->
@@ -713,38 +732,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Welcome">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Welcome</span></span>
+      <a href="./integrated-platforms.html" class="pagination-link" aria-label="Integrated Platforms, Tools, and Technologies">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./version-control.html" class="pagination-link" aria-label="Version Control">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Version Control</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./additional-resources.html" class="pagination-link" aria-label="Additional Resources">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Additional Resources</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Single-Cell Analysis</span></span>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Specialized Topics</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Welcome to the Single-Cell Analysis chapter of the PATOG Book.</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Artificial Intelligence</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## What is Single-Cell Analysis?</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Clinical Bioinformatics</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Single-cell analysis is a powerful approach in genomics that allows researchers to study individual cells, revealing cellular heterogeneity and providing insights into cell types, states, and interactions that would be masked in bulk analysis.</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Agricultural Bioinformatics</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Key Topics</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">## Synthetic Biology</span></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Single-cell RNA sequencing (scRNA-seq)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Single-cell ATAC sequencing (scATAC-seq)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Single-cell proteomics</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Spatial transcriptomics</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Cell type identification</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Trajectory analysis</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Cell-cell communication</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Integration of multi-omics data</span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why Quarto?</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>We chose Quarto because... </span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## Personalized Medicine</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">## Environmental Bioinformatics &amp; Epidemiology</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">## Biomolecular Engineering</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">## Genetic Engineering </span></span></code><button title="Copy to Clipboard" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

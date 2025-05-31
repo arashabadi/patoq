@@ -4,15 +4,17 @@ project:
 
 book:
   title: "PATOG Book"
-  author: "Arash Abadi"
+  author: "Arash B. Abadi"
   date: last-modified
   cover-image: images/PATOG.png
   chapters:
     - index.qmd
-    - single-cell.qmd
-    - version-control.qmd
-    - git.qmd
-    - github.qmd
+    - prerequisites.qmd
+    - omics-data.qmd
+    - modeling-simulation.qmd
+    - integrated-platforms.qmd
+    - specialized-topics.qmd
+    - additional-resources.qmd
 
 bibliography: references.bib
 

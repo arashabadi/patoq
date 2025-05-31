@@ -1,9 +1,0 @@
-# Version Control
-
-## Git Basics
-
-- Introduction to Version Control
-- Git Workflow
-- Common Git Commands
-- Branching and Merging
-- Collaboration with Git 

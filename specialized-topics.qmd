@@ -1,0 +1,17 @@
+# Specialized Topics
+
+## Artificial Intelligence
+
+## Clinical Bioinformatics
+
+## Agricultural Bioinformatics
+
+## Synthetic Biology
+
+## Personalized Medicine
+
+## Environmental Bioinformatics & Epidemiology
+
+## Biomolecular Engineering
+
+## Genetic Engineering 
