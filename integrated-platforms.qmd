@@ -1,8 +1,7 @@
 # Integrated Platforms, Tools, and Technologies
 
 ## Version Control: Git & GitHub
-
-![Git and B-cell analogy](./images/git-bcell.png)
+![Final Final Final](./images/git_finalfinal.jpg)
 
 ### What is Version Control?
 
@@ -33,6 +32,7 @@ Git is like a super-powered save system. Instead of saving files with names like
    - Like combining notes from different team members into one document
 
 ### Essential Git Commands
+![Git and B-cell analogy](./images/git-bcell.png)
 
 ```bash
 # Start a new project (create a new repository)
@@ -65,6 +65,8 @@ git push
 ```
 
 ### GitHub: Your Project's Home on the Internet
+
+![GitHub vs Bitbucket vs GitLab](./images/github_vs_gitlab.png)
 
 GitHub is like a social network for your code. It's where you can:
 - Store your projects online
