@@ -6,7 +6,7 @@ book:
   title: "PATOG Book"
   author: "Arash B. Abadi"
   date: last-modified
-  cover-image: images/PATOG.png
+  cover-image: images/patog_cover.png
   chapters:
     - index.qmd
     - prerequisites.qmd
