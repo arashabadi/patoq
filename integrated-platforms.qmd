@@ -2,6 +2,8 @@
 
 ## Version Control: Git & GitHub
 
+![Git and B-cell analogy](./images/git-bcell.png)
+
 ### What is Version Control?
 
 Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.
