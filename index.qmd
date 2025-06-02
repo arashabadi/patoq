@@ -3,7 +3,7 @@
 PATOQ (پاتوق) is a curated collection of resources & quick tutorials around Bioinformatics, Data Science, ML, etc. The term "Patoq" is a Persian (Farsi) word that means "gathering place" or "social hangout". PATOQ is a gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.
 
 ## Table of Contents
-![Learning Journey](./images/puzzle.png)
+
 - Prerequisites
   - Biology Fundamentals
   - Programming Fundamentals
@@ -11,8 +11,6 @@ PATOQ (پاتوق) is a curated collection of resources & quick tutorials around
   - Statistics and Probability Fundamentals
   - Project Management and Communication Skills
   - Case Studies and Practical Applications
-
-<!-- End of Table of Contents -->
 
 - Main Sections
   - Omics Data Analysis and Interpretation
@@ -62,6 +60,10 @@ PATOQ (پاتوق) is a curated collection of resources & quick tutorials around
   - Career Guidance and Job Opportunities
   - Networking and Collaboration
   - Regular Updates
+
+<!-- End of Table of Contents -->
+
+![Learning Journey](./images/puzzle.png){.image width="300px"}
 
 This book is a Quarto-based online HTML book for the PATOQ project. See [CONTRIBUTING.md](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md) for more information.
 
