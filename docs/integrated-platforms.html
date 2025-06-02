@@ -316,20 +316,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like <code>paper_FINAL_final_UPDATED_NEW.docx</code>, <code>proj_NEW_LASTEST.R</code>, Git keeps track of all changes automatically.</p>
 <section id="basic-git-concepts-commands" class="level4" data-number="5.1.1.1">
 <h4 data-number="5.1.1.1" class="anchored" data-anchor-id="basic-git-concepts-commands"><span class="header-section-number">5.1.1.1</span> Basic Git Concepts &amp; Commands</h4>
-<ul>
-<li><p><strong>Repository (Repo)</strong>: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions.</p></li>
-<li><p><strong>Commit</strong>: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</p></li>
-<li><p><strong>Branch</strong>: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can <strong>Merge</strong> your changes back to the main branch after you are done.</p></li>
-</ul>
-<div style="text-align: center">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" class="image img-fluid figure-img" width="500"></p>
-<figcaption>Git Branches</figcaption>
-</figure>
-</div>
-<p><em>Source: <a href="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png">Noble Desktop</a></em></p>
-</div>
 <div style="text-align: center">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -339,6 +325,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p><em>Source: <a href="https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940">Medium</a></em></p>
 </div>
+<ul>
+<li><p><strong>Repository (Repo)</strong>: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions. <strong>Local repo</strong> is a copy of the remote repo on your computer. <strong>Remote repo</strong> can be the version stored on GitHub or GitLab.</p></li>
+<li><p><strong>Commit</strong>: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</p></li>
+</ul>
+<div style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" class="image img-fluid figure-img" width="500"></p>
+<figcaption>Git Branches</figcaption>
+</figure>
+</div>
+<p><em>Source: <a href="https://www.nobledesktop.com/learn/git/git-branches">Noble Desktop</a></em></p>
+</div>
+<ul>
+<li><strong>Branch</strong>: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can <strong>Merge</strong> your changes back to the main branch after you are done. Master branch is the main branch of the repo (recently renamed to main).</li>
+</ul>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -1431,23 +1433,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Basic Git Concepts &amp; Commands</span></span>
 <span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions.</span>
-<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</span>
-<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done.</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a><span class="al">![Git in a nutshell](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png)</span>{.image width="700px"}</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>*Source: [Medium](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)*</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
 <span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
-<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a><span class="al">![Git Branches](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)</span>{.image width="500px"}</span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>*Source: [Noble Desktop](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)*</span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
-<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="al">![Git in a nutshell](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png)</span>{.image width="700px"}</span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>*Source: [Medium](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)*</span>
-<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions. **Local repo** is a copy of the remote repo on your computer. **Remote repo** can be the version stored on GitHub or GitLab.</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a><span class="al">![Git Branches](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)</span>{.image width="500px"}</span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a>*Source: [Noble Desktop](https://www.nobledesktop.com/learn/git/git-branches)*</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master branch is the main branch of the repo (recently renamed to main).</span>
 <span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
 <span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
