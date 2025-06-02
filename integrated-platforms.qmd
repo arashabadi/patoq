@@ -2,7 +2,7 @@
 
 ## Version Control: Git & GitHub
 <div style="text-align: center">
-![Source: Google Images](./images/git_finalfinal.jpg){.image width="700px"}
+![Source: Google Images](./images/git/git_finalfinal.jpg){.image width="700px"}
 </div>
 
 ### What is Version Control?
@@ -18,13 +18,13 @@ Git was made by Linus Torvalds, the same person who made Linux! It is like a sup
 - **Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.
 
 <div style="text-align: center">
-![Git in a nutshell - [Source](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png){.image width="600px"}
+![Git in a nutshell - [Source](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](./images/git/git-medium.png){.image width="600px"}
 </div>
 
-- **Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master branch is the main branch of the repo (recently renamed to main).
+- **Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.
 
 <div style="text-align: center">
-![Git Branches - [Source](https://www.nobledesktop.com/learn/git/git-branches)](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png){.image width="500px"}
+![Git Branches - [Source](https://www.nobledesktop.com/learn/git/git-branches)](./images/git/git-branches-merge.png){.image width="500px"}
 </div>
 
 ```bash
@@ -62,44 +62,20 @@ git reset --hard
 
 ### GitHub: Your Project's Home on the Internet
 
-![GitHub vs Bitbucket vs GitLab](./images/github.jpg)
+![GitHub vs Bitbucket vs GitLab](./images/git/github.jpg)
 
-GitHub is like a social network for your code. It's where you can store your projects online, collaborate with others and share your work with the world.
+GitHub is like a social network for your code. It's where you can store your projects online, collaborate with others and share your work with the world. GitHub has **Repository Hosting** - a cloud storage specifically for code, **Issue Tracking** - a to-do list for your project and bug reporting, **Pull Requests** - suggesting changes to someone else's work or requesting changes to your own work, **Code Review** - peer review process for your code, and **CI/CD** features. 
+Common workflows in GitHub: **Fork a Repository**: Like making a copy of someone else's project. You can modify it without affecting the original. **Clone a Repository**: Like downloading a project to your computer.
 
-1. **Repository Hosting**
-   - Like a cloud storage specifically for code
-   - Access your projects from anywhere
+```bash
+git clone https://github.com/username/repository.git
+```
 
-2. **Issue Tracking**
-   - Like a to-do list for your project
-   - Track bugs and feature requests
+**Push Changes**: Like uploading your changes to GitHub.
 
-3. **Pull Requests**
-   - Like suggesting changes to someone else's work
-   - Request to merge your changes into their project
-
-4. **Code Review**
-   - Like peer review for your code
-   - Get feedback before changes are merged
-
-Common GitHub Workflow
-
-1. **Fork a Repository**
-   - Like making a copy of someone else's project
-   - You can modify it without affecting the original
-
-2. **Clone a Repository**
-   ```bash
-   git clone https://github.com/username/repository.git
-   ```
-   - Like downloading a project to your computer
-
-3. **Push Changes**
-   ```bash
-   git push origin main
-   ```
-   - Like uploading your changes to GitHub
-
+```bash
+git push origin main
+```
 
 ### Common Scenarios and Best Practices
 
@@ -127,7 +103,7 @@ Common GitHub Workflow
    git commit -m "Resolved conflicts"
    git push
    ```
-![Git and B-cell analogy](./images/git-bcell.png){.image width="500px"}
+![Git and B-cell analogy](./images/git/git-bcell.png){.image width="500px"}
 
 1. **Write Clear Commit Messages**
    - Like writing good notes
@@ -172,7 +148,9 @@ Remember: Git and GitHub are tools that get easier with practice. Don't worry if
 - The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)
 - [GitHub documentation](https://docs.github.com/)
 
-
+<div style="text-align: center">
+![Git Cheat Sheet! [PDF](https://wizardzines.com/git-cheat-sheet.pdf)](./images/git/git-cheat-sheet.png){.image width="500px"}
+</div>
 
 ## DevOps for Bioinformatics
 > DevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.
