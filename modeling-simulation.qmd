@@ -2,10 +2,100 @@
 
 ## Molecular Modeling and Dynamics
 
+### Key Concepts
+- Protein Structure Prediction
+- Molecular Docking
+- Molecular Dynamics Simulations
+- Free Energy Calculations
+- Protein-Ligand Interactions
+
+### Recommended Resources
+- **Tools and Software**:
+  - [GROMACS](https://www.gromacs.org/) - Molecular Dynamics
+  - [AutoDock](http://autodock.scripps.edu/) - Molecular Docking
+  - [PyMOL](https://pymol.org/) - Molecular Visualization
+  - [AMBER](https://ambermd.org/) - Molecular Dynamics
+
+- **Learning Resources**:
+  - [GROMACS Tutorials](https://www.gromacs.org/Documentation/Tutorials)
+  - [Molecular Dynamics Course](https://www.ebi.ac.uk/training/online/courses/molecular-dynamics/)
+
 ## Systems Biology
+
+### Key Concepts
+- Mathematical Modeling of Biological Systems
+- Network Analysis
+- Dynamic Systems
+- Metabolic Network Modeling
+- Cell Signaling Networks
+
+### Recommended Resources
+- **Tools and Software**:
+  - [COPASI](https://copasi.org/) - Biochemical Network Simulator
+  - [CellDesigner](https://www.celldesigner.org/) - Network Modeling
+  - [SBML](http://sbml.org/) - Systems Biology Markup Language
+  - [BioNetGen](https://bionetgen.org/) - Rule-based Modeling
+
+- **Learning Resources**:
+  - [Systems Biology Course](https://www.ebi.ac.uk/training/online/courses/systems-biology/)
+  - [COPASI Tutorials](https://copasi.org/Support/Tutorials/)
 
 ## Computational Ecology, Evolution and Phylogenetics
 
+### Key Concepts
+- Phylogenetic Tree Construction
+- Population Genetics
+- Evolutionary Analysis
+- Ecological Modeling
+- Species Distribution Modeling
+
+### Recommended Resources
+- **Tools and Software**:
+  - [BEAST2](https://www.beast2.org/) - Bayesian Evolutionary Analysis
+  - [RAxML](https://cme.h-its.org/exelixis/web/software/raxml/) - Phylogenetic Analysis
+  - [BEAST](https://beast.community/) - Bayesian Evolutionary Analysis
+  - [PhyloBayes](http://www.phylobayes.org/) - Bayesian Phylogenetic Inference
+
+- **Learning Resources**:
+  - [Phylogenetics Course](https://www.ebi.ac.uk/training/online/courses/phylogenetics/)
+  - [BEAST2 Tutorials](https://www.beast2.org/tutorials/)
+
 ## Computational Pharmacology and Drug Design
 
-## Mathematical Modeling of Biological Systems 
+### Key Concepts
+- Structure-Based Drug Design
+- Virtual Screening
+- ADME/Tox Prediction
+- Pharmacophore Modeling
+- Drug-Target Interactions
+
+### Recommended Resources
+- **Tools and Software**:
+  - [OpenEye](https://www.eyesopen.com/) - Drug Design Software
+  - [Schrödinger](https://www.schrodinger.com/) - Drug Discovery Platform
+  - [MOE](https://www.chemcomp.com/) - Molecular Operating Environment
+  - [RDKit](https://www.rdkit.org/) - Cheminformatics Toolkit
+
+- **Learning Resources**:
+  - [Drug Design Course](https://www.ebi.ac.uk/training/online/courses/drug-design/)
+  - [RDKit Tutorials](https://www.rdkit.org/docs/GettingStartedInPython.html)
+
+## Mathematical Modeling of Biological Systems
+
+### Key Concepts
+- Differential Equations
+- Stochastic Modeling
+- Agent-Based Modeling
+- Spatial Modeling
+- Multi-Scale Modeling
+
+### Recommended Resources
+- **Tools and Software**:
+  - [MATLAB](https://www.mathworks.com/products/matlab.html) - Numerical Computing
+  - [Python SciPy](https://scipy.org/) - Scientific Computing
+  - [R](https://www.r-project.org/) - Statistical Computing
+  - [NetLogo](https://ccl.northwestern.edu/netlogo/) - Agent-Based Modeling
+
+- **Learning Resources**:
+  - [Mathematical Biology Course](https://www.ebi.ac.uk/training/online/courses/mathematical-biology/)
+  - [Python for Scientific Computing](https://scipy-lectures.org/) 

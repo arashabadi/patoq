@@ -2,12 +2,115 @@
 
 ## Biology Fundamentals
 
+### Key Concepts
+- Molecular Biology: DNA, RNA, proteins, gene expression
+- Cell Biology: Cell structure, organelles, and functions
+- Genetics: Inheritance, genetic variation, genomics
+- Biochemistry: Metabolic pathways, enzyme kinetics
+- Biophysics: Physical principles in biological systems
+
+### Recommended Resources
+- **Books**:
+  - *Molecular Biology of the Cell* by Bruce Alberts
+  - *Lewin's Genes* by Jocelyn E. Krebs et al.
+  - *Lehninger Principles of Biochemistry* by Nelson and Cox
+  - *Physical Biology of the Cell* by Rob Phillips
+
+- **Online Courses**:
+  - [Introduction to Biology: The Secret of Life](https://www.edx.org/course/introduction-to-biology-the-secret-of-life) on edX
+  - [MIT OpenCourseWare: Introduction to Biology](https://ocw.mit.edu/courses/7-01sc-fundamentals-of-biology-fall-2011/)
+
 ## Programming Fundamentals
+
+### Key Concepts
+- Python Programming: Syntax, data structures, scripting
+- R Programming: Statistical computing and data analysis
+- Bash Scripting: Command-line basics in Unix/Linux
+- Version Control: Git and GitHub
+- Best Practices in Coding
+
+### Recommended Resources
+- **Books**:
+  - *Python for Biologists* by Martin Jones
+  - *R for Data Science* by Hadley Wickham
+  - *Bioinformatics Data Skills* by Vince Buffalo
+
+- **Online Courses**:
+  - [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai) on Coursera
+  - [R Programming](https://www.coursera.org/learn/r-programming) on Coursera
+  - [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) on Coursera
 
 ## Mathematics Fundamentals
 
+### Key Concepts
+- Linear Algebra: Vectors, matrices, and their applications
+- Calculus: Differential and integral calculus
+- Discrete Mathematics: Combinatorics, graph theory
+- Algorithms and Data Structures
+- Numerical Methods
+
+### Recommended Resources
+- **Books**:
+  - *Introduction to Linear Algebra* by Gilbert Strang
+  - *Discrete Mathematics and Its Applications* by Kenneth H. Rosen
+  - *Numerical Recipes* by William H. Press et al.
+
+- **Online Courses**:
+  - [Linear Algebra](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) on edX
+  - [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) on edX
+
 ## Statistics and Probability Fundamentals
+
+### Key Concepts
+- Probability Theory: Distributions, random variables
+- Statistical Inference: Hypothesis testing, confidence intervals
+- Regression Analysis: Linear and non-linear models
+- Multivariate Statistics
+- Machine Learning Basics
+
+### Recommended Resources
+- **Books**:
+  - *The Elements of Statistical Learning* by Trevor Hastie et al.
+  - *Applied Multivariate Statistical Analysis* by Richard A. Johnson
+  - *Statistical Inference* by George Casella and Roger L. Berger
+
+- **Online Courses**:
+  - [Statistics and Data Science](https://www.edx.org/professional-certificate/mitx-statistics-and-data-science) on edX
+  - [Probability and Statistics](https://www.coursera.org/learn/probability-intro) on Coursera
 
 ## Project Management and Communication Skills
 
-## Case Studies and Practical Applications 
+### Key Concepts
+- Scientific Writing and Communication
+- Project Planning and Management
+- Collaboration with Multidisciplinary Teams
+- Data Management and Documentation
+- Research Ethics and Reproducibility
+
+### Recommended Resources
+- **Books**:
+  - *The Craft of Scientific Writing* by Michael Alley
+  - *Project Management for Scientists* by Christopher L. Cummings
+
+- **Online Courses**:
+  - [Scientific Writing and Communication](https://www.coursera.org/learn/sciwrite) on Coursera
+  - [Project Management Principles and Practices](https://www.coursera.org/learn/project-management) on Coursera
+
+## Case Studies and Practical Applications
+
+### Key Concepts
+- Real-World Bioinformatics Projects
+- Data Analysis Workflows
+- Best Practices in Computational Biology
+- Reproducible Research
+- Open Science Principles
+
+### Recommended Resources
+- **Hands-on Projects**:
+  - [Galaxy Project](https://galaxyproject.org/) - Web-based platform for data analysis
+  - [Rosalind](http://rosalind.info/) - Platform for learning bioinformatics through problem solving
+  - [NCBI Datasets](https://www.ncbi.nlm.nih.gov/datasets/) - Public datasets for practice
+
+- **Case Studies**:
+  - [Bioinformatics.ca](https://bioinformatics.ca/) - Workshops and case studies
+  - [Harvard Chan Bioinformatics Core](https://hbctraining.github.io/main/) - Training materials and case studies 
