@@ -12,7 +12,7 @@ This project is an interactive puzzle game inspired by the vast and intricate ro
 
 ## Inspiration
 
-This puzzle draws inspiration from the PATOG Wiki Roadmap, which provides a structured path from foundational concepts to advanced topics in the field. The roadmap is analogous to a giant puzzle—comprehensive and multi-faceted, where learners can start anywhere and gradually piece together their understanding of the discipline. This puzzle game mirrors that concept, offering a hands-on way to explore and organize bioinformatics knowledge.
+This puzzle draws inspiration from the PATOQ Wiki Roadmap, which provides a structured path from foundational concepts to advanced topics in the field. The roadmap is analogous to a giant puzzle—comprehensive and multi-faceted, where learners can start anywhere and gradually piece together their understanding of the discipline. This puzzle game mirrors that concept, offering a hands-on way to explore and organize bioinformatics knowledge.
 
 ## Potential Future Enhancements
 
@@ -35,8 +35,8 @@ Several enhancements could improve the experience and educational value:
 1. Clone the repository and run the script.
 
 ```bash
-git clone https://github.com/cellravel/patog.git
-cd patog/puzzle
+git clone https://github.com/cellravel/patoq.git
+cd patoq/puzzle
 python puzzle_v1.py
 ```
 ### [Binder](https://mybinder.org/) Jupyter Notebook will be added upon rquest.

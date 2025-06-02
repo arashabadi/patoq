@@ -1,13 +1,13 @@
-# PATOG (پاتوق) <img src="./images/PATOG.png" width="400px" hight="400px" align="right" /> 
+# PATOQ (پاتوق) <img src="./images/PATOG.png" width="400px" hight="400px" align="right" /> 
 
 Awesome Curated Collection of Resources around Bioinformatics, Data Science, ML, etc.
 
-> The term "Patog" (more precisely, "Patogh") is a Persian word that means "gathering place" or "social hangout". PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
+> The term "Patoq" is a Persian word that means "gathering place" or "social hangout". PATOQ is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and staying current with the latest advancements.
 
-> :warning: PATOG is UNDER MAINTENANCE & UPDATES. Please prioritize creating issues over submitting pull requests during this process.
+> :warning: PATOQ is UNDER MAINTENANCE & UPDATES. Please prioritize creating issues over submitting pull requests during this process.
 
 ### Don't know where to start?
-Checkout [PATOG Wiki](https://github.com/cellravel/patog/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
+Checkout [PATOQ Wiki](https://github.com/cellravel/patoq/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
 
 ## Table of Contents
 - Prerequisites
@@ -194,7 +194,7 @@ _Genomics and Transcriptomics (Suggested)_
 
 - [X-omics](https://www.youtube.com/@x-omics2154)
 
-_The project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis)._
+_The project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise's related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis)._
 
 - [Iowa Institute of Human Genetics](https://www.youtube.com/@iowainstituteofhumangeneti7584)
 
@@ -308,27 +308,27 @@ _MIT OCW / This course is an introduction to computational biology emphasizing t
 #### Learn R programming for FREE:
 - [Hands-On Programming with R](https://rstudio-education.github.io/hopr/)
 
-_This is the website for “Hands-On Programming with R”. This book will teach you how to program in R, with hands-on examples. He wrote it for non-programmers to provide a friendly introduction to the R language._
+_This is the website for "Hands-On Programming with R". This book will teach you how to program in R, with hands-on examples. He wrote it for non-programmers to provide a friendly introduction to the R language._
 
 - [R for Data Science (1e)](https://r4ds.had.co.nz/)
 
-_This is the website for the first edition of “R for Data Science”, published January 2017._
+_This is the website for the first edition of "R for Data Science", published January 2017._
 
 - [R for Data Science (2e)](https://r4ds.hadley.nz/)
 
-_This is the website for the work-in-progress 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize._
+_This is the website for the work-in-progress 2nd edition of "R for Data Science". This book will teach you how to do data science with R: You'll learn how to get your data into R, get it into the most useful structure, transform it and visualize._
 
 - [Advanced R (1e)](http://adv-r.had.co.nz/)
 
-_This is the companion website for “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language._
+_This is the companion website for "Advanced R", a book in Chapman & Hall's R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language._
 
 - [Advanced R (2e)](https://adv-r.hadley.nz/)
 
-_This is the website for 2nd edition of “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language._
+_This is the website for 2nd edition of "Advanced R", a book in Chapman & Hall's R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language._
 
 - [ggplot2: Elegant Graphics for Data Analysis (3e)](https://ggplot2-book.org/)
 
-_This is the on-line version of work-in-progress 3rd edition of “ggplot2: elegant graphics for data analysis” published by Springer._
+_This is the on-line version of work-in-progress 3rd edition of "ggplot2: elegant graphics for data analysis" published by Springer._
 
 - [R Cookbook, 2nd Edition](https://rc2e.com/)
 

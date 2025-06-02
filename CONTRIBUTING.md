@@ -1,14 +1,14 @@
-# Contributing to PATOG
+# Contributing to PATOQ
 
 > :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. :warning: 
 
-Thank you for considering contributing to the PATOG repository! I appreciate your efforts to make this a place for bioinformatics, data science, machine learning, and related fields.
+Thank you for considering contributing to the PATOQ repository! I appreciate your efforts to make this a place for bioinformatics, data science, machine learning, and related fields.
 
 ## How to Contribute
 
 ### 1. Reporting Issues
-- **Found a bug or a broken link?** Please open an [issue](https://github.com/arashbioinfo/patog/issues) and describe the problem with 'bug' label.
-- **Have a suggestion?** I'm always looking for new ideas. Use the same [issue tracker](https://github.com/arashbioinfo/patog/issues) to submit your suggestions under the 'enhancement' label.
+- **Found a bug or a broken link?** Please open an [issue](https://github.com/arashbioinfo/patoq/issues) and describe the problem with 'bug' label.
+- **Have a suggestion?** I'm always looking for new ideas. Use the same [issue tracker](https://github.com/arashbioinfo/patoq/issues) to submit your suggestions under the 'enhancement' label.
 
 ### 2. Adding New Resources
 
@@ -20,15 +20,15 @@ You can add new resources to the repository using one of the following methods:
 - **Step 3:** Add your resource to the relevant section. Ensure it fits the format and organization of the existing content.
 - **Step 4:** Commit your changes (`git commit -m 'Add new resource XYZ'`).
 - **Step 5:** Push to your fork (`git push origin your-branch-name`).
-- **Step 6:** Open a pull request, and I’ll review your changes as soon as possible.
+- **Step 6:** Open a pull request, and I'll review your changes as soon as possible.
 
 #### Method 2: Opening an Issue
 If you're not comfortable with Git or prefer a simpler way:
 
-- **Step 1:** Open an [issue](https://github.com/arashbioinfo/patog/issues) in the repository.
+- **Step 1:** Open an [issue](https://github.com/arashbioinfo/patoq/issues) in the repository.
 - **Step 2:** Describe the resource you would like to add, including: <!-- Remember to make issue templates -->
   - The title and link to the resource.
-  - A brief description of what the resource is and why it’s valuable. 
+  - A brief description of what the resource is and why it's valuable. 
   - The section where you think the resource should be placed.
 - **Step 3:** Label the issue with 'new resource'.
 - **Step 4:** I will review your suggestion and, if appropriate, add it to the repository.
@@ -39,7 +39,7 @@ If you're not comfortable with Git or prefer a simpler way:
 - Check for duplicates before adding a new resource.
 
 ### 4. Code of Conduct
-I am committed to fostering a welcoming and inclusive environment. Please be respectful to other contributors, and remember that we’re all here to learn and share.
+I am committed to fostering a welcoming and inclusive environment. Please be respectful to other contributors, and remember that we're all here to learn and share.
 
 ### 5. Updates & Maintenance
 - I periodically review the content for accuracy and relevance. If you notice outdated information, please let me know or submit a pull request to update it.

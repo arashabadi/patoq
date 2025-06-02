@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 book:
-  title: "PATOG Book"
+  title: "PATOQ Book"
   author: "Arash B. Abadi"
   date: last-modified
-  cover-image: images/patog_cover.png
+  cover-image: images/patoq_cover.png
   chapters:
     - index.qmd
     - part: "Prerequisites"
@@ -30,8 +30,8 @@ format:
     number-sections: true
     code-fold: true
     code-tools: true
-    repo-url: https://github.com/arashabadi/patog
-    edit-url: https://github.com/arashabadi/patog/edit/main/
+    repo-url: https://github.com/arashabadi/patoq
+    edit-url: https://github.com/arashabadi/patoq/edit/main/
     toc: true
     toc-expand: true
     link-external-icon: true
@@ -39,6 +39,6 @@ format:
     navbar:
       right:
         - icon: github
-          href: https://github.com/arashabadi/patog
+          href: https://github.com/arashabadi/patoq
         - icon: edit
-          href: https://github.com/arashabadi/patog/edit/main/
+          href: https://github.com/arashabadi/patoq/edit/main/

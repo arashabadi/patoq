@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "PATOG Book",
+    "title": "PATOQ Book",
     "section": "",
-    "text": "0.1 Welcome\nPATOG (پاتوق) is a curated collection of resources around Bioinformatics, Data Science, ML, etc. The term “Patog” (more precisely, “Patogh”) is a Persian word that means “gathering place” or “social hangout”. PATOG is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.",
+    "text": "0.1 Welcome\nPATOQ (پاتوق) is a curated collection of resources around Bioinformatics, Data Science, ML, etc. The term “Patoq” is a Persian word that means “gathering place” or “social hangout”. PATOQ is a central gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]
@@ -12,9 +12,9 @@
   {
     "objectID": "index.html#table-of-contents",
     "href": "index.html#table-of-contents",
-    "title": "PATOG Book",
+    "title": "PATOQ Book",
     "section": "0.2 Table of Contents",
-    "text": "0.2 Table of Contents\n\nPrerequisites\n\nBiology Fundamentals\nProgramming Fundamentals\nMathematics Fundamentals\nStatistics and Probability Fundamentals\nProject Management and Communication Skills\nCase Studies and Practical Applications\n\n\n\n\nMain Sections\n\nOmics Data Analysis and Interpretation\n\nGenomics\nTranscriptomics\nProteomics\nMetabolomics\nEpigenomics\nMetagenomics\nNetwork and Pathway Analysis\n\nModeling and Simulation\n\nMolecular Modeling and Dynamics\nSystems Biology\nComputational Ecology, Evolution and Phylogenetics\nComputational Pharmacology and Drug Design\nMathematical Modeling of Biological Systems\n\nIntegrated Platforms, Tools, and Technologies\n\nVersion Control: Git & GitHub\nSaaS Platforms\nCloud Computing and Data Management\nHigh-Performance Computing (HPC)\nCollaborative Research Tools\nData Visualization Techniques\nBig Data Analysis\n\nSpecialized Topics\n\nArtificial Intelligence\nClinical Bioinformatics\nAgricultural Bioinformatics\nSynthetic Biology\nPersonalized Medicine\nEnvironmental Bioinformatics & Epidemiology\nBiomolecular Engineering\nGenetic Engineering\n\n\nAdditional Resources\n\nYouTube Channels\nPersian Resources (بنمایگان پارسی)\nOpen-Source Projects and Repositories\nCourses\nBooks\nScientific Journals & Publications\nVignettes & Websites\nR packages\nMiscellaneous\nTopic Based\nConferences, Workshops, and Webinars\nCareer Guidance and Job Opportunities\nNetworking and Collaboration\nRegular Updates\n\n\nThis book is a Quarto-based online HTML book for the PATOG project. See CONTRIBUTING.md for more information.\n\n    Edit this page",
+    "text": "0.2 Table of Contents\n\nPrerequisites\n\nBiology Fundamentals\nProgramming Fundamentals\nMathematics Fundamentals\nStatistics and Probability Fundamentals\nProject Management and Communication Skills\nCase Studies and Practical Applications\n\n\n\n\nMain Sections\n\nOmics Data Analysis and Interpretation\n\nGenomics\nTranscriptomics\nProteomics\nMetabolomics\nEpigenomics\nMetagenomics\nNetwork and Pathway Analysis\n\nModeling and Simulation\n\nMolecular Modeling and Dynamics\nSystems Biology\nComputational Ecology, Evolution and Phylogenetics\nComputational Pharmacology and Drug Design\nMathematical Modeling of Biological Systems\n\nIntegrated Platforms, Tools, and Technologies\n\nVersion Control: Git & GitHub\nSaaS Platforms\nCloud Computing and Data Management\nHigh-Performance Computing (HPC)\nCollaborative Research Tools\nData Visualization Techniques\nBig Data Analysis\n\nSpecialized Topics\n\nArtificial Intelligence\nClinical Bioinformatics\nAgricultural Bioinformatics\nSynthetic Biology\nPersonalized Medicine\nEnvironmental Bioinformatics & Epidemiology\nBiomolecular Engineering\nGenetic Engineering\n\n\nAdditional Resources\n\nYouTube Channels\nPersian Resources (بنمایگان پارسی)\nOpen-Source Projects and Repositories\nCourses\nBooks\nScientific Journals & Publications\nVignettes & Websites\nR packages\nMiscellaneous\nTopic Based\nConferences, Workshops, and Webinars\nCareer Guidance and Job Opportunities\nNetworking and Collaboration\nRegular Updates\n\n\nThis book is a Quarto-based online HTML book for the PATOQ project. See CONTRIBUTING.md for more information.\n\n    Edit this page",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
     ]
