@@ -30,6 +30,7 @@ PATOG (پاتوق) is a curated collection of resources around Bioinformatics, D
     - Computational Pharmacology and Drug Design
     - Mathematical Modeling of Biological Systems
   - Integrated Platforms, Tools, and Technologies
+    - Version Control: Git & GitHub
     - SaaS Platforms
     - Cloud Computing and Data Management
     - High-Performance Computing (HPC)
