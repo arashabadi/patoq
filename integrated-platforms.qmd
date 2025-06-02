@@ -69,16 +69,9 @@ git push
 
 ### Common Scenarios and Best Practices
 
-When working with Git, follow these key practices: write clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, start with basic commands and simple projects, utilize visual tools like GitHub Desktop or VS Code's Git integration, learn from mistakes (Git maintains history so you can always revert), and don't hesitate to consult GitHub's documentation or online communities for help.
+When working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, **start with basic commands and simple projects**, you can utilize visual tools like GitHub Desktop or VS Code's Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!
 
-- What usually happens daily:
-
-1. **Starting a New Project**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
+What usually happens daily:
 
 1. **Starting a New Project**
    ```bash
