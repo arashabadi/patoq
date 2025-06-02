@@ -4,7 +4,7 @@ project:
 
 book:
   title: "PATOQ Book"
-  author: "Arash B. Abadi"
+  author: "<a href='https://arashabadi.github.io/'>Arash B. Abadi</a>"
   date: last-modified
   cover-image: images/patoq_cover.png
   chapters:
