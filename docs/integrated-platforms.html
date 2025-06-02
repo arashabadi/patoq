@@ -228,13 +228,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#version-control-git-github" id="toc-version-control-git-github" class="nav-link active" data-scroll-target="#version-control-git-github"><span class="header-section-number">5.1</span> Version Control: Git &amp; GitHub</a>
   <ul class="collapse">
   <li><a href="#what-is-version-control" id="toc-what-is-version-control" class="nav-link" data-scroll-target="#what-is-version-control"><span class="header-section-number">5.1.1</span> What is Version Control?</a></li>
-  <li><a href="#learning-resources" id="toc-learning-resources" class="nav-link" data-scroll-target="#learning-resources"><span class="header-section-number">5.1.2</span> Learning resources</a></li>
-  <li><a href="#essential-git-commands" id="toc-essential-git-commands" class="nav-link" data-scroll-target="#essential-git-commands"><span class="header-section-number">5.1.3</span> Essential Git Commands</a></li>
-  <li><a href="#github-your-projects-home-on-the-internet" id="toc-github-your-projects-home-on-the-internet" class="nav-link" data-scroll-target="#github-your-projects-home-on-the-internet"><span class="header-section-number">5.1.4</span> GitHub: Your Project’s Home on the Internet</a></li>
-  <li><a href="#common-github-workflow" id="toc-common-github-workflow" class="nav-link" data-scroll-target="#common-github-workflow"><span class="header-section-number">5.1.5</span> Common GitHub Workflow</a></li>
-  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices"><span class="header-section-number">5.1.6</span> Best Practices</a></li>
-  <li><a href="#common-scenarios" id="toc-common-scenarios" class="nav-link" data-scroll-target="#common-scenarios"><span class="header-section-number">5.1.7</span> Common Scenarios</a></li>
-  <li><a href="#tips-for-beginners" id="toc-tips-for-beginners" class="nav-link" data-scroll-target="#tips-for-beginners"><span class="header-section-number">5.1.8</span> Tips for Beginners</a></li>
+  <li><a href="#github-your-projects-home-on-the-internet" id="toc-github-your-projects-home-on-the-internet" class="nav-link" data-scroll-target="#github-your-projects-home-on-the-internet"><span class="header-section-number">5.1.2</span> GitHub: Your Project’s Home on the Internet</a></li>
+  <li><a href="#common-github-workflow" id="toc-common-github-workflow" class="nav-link" data-scroll-target="#common-github-workflow"><span class="header-section-number">5.1.3</span> Common GitHub Workflow</a></li>
+  <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices"><span class="header-section-number">5.1.4</span> Best Practices</a></li>
+  <li><a href="#common-scenarios" id="toc-common-scenarios" class="nav-link" data-scroll-target="#common-scenarios"><span class="header-section-number">5.1.5</span> Common Scenarios</a></li>
+  <li><a href="#tips-for-beginners" id="toc-tips-for-beginners" class="nav-link" data-scroll-target="#tips-for-beginners"><span class="header-section-number">5.1.6</span> Tips for Beginners</a></li>
+  <li><a href="#learning-resources" id="toc-learning-resources" class="nav-link" data-scroll-target="#learning-resources"><span class="header-section-number">5.1.7</span> Learning resources</a></li>
   </ul></li>
   <li><a href="#devops-for-bioinformatics" id="toc-devops-for-bioinformatics" class="nav-link" data-scroll-target="#devops-for-bioinformatics"><span class="header-section-number">5.2</span> DevOps for Bioinformatics</a>
   <ul class="collapse">
@@ -303,60 +302,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="version-control-git-github" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="version-control-git-github"><span class="header-section-number">5.1</span> Version Control: Git &amp; GitHub</h2>
+<div style="text-align: center">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="./images/git_finalfinal.jpg" class="img-fluid figure-img"></p>
-<figcaption>Final Final Final</figcaption>
+<p><img src="./images/git_finalfinal.jpg" class="image img-fluid figure-img" width="700"></p>
+<figcaption>Source: Google Images</figcaption>
 </figure>
+</div>
 </div>
 <section id="what-is-version-control" class="level3" data-number="5.1.1">
 <h3 data-number="5.1.1" class="anchored" data-anchor-id="what-is-version-control"><span class="header-section-number">5.1.1</span> What is Version Control?</h3>
 <p>Imagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.</p>
-<p>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like “paper_v1.docx”, “paper_v2.docx”, Git keeps track of all changes automatically.</p>
-<section id="basic-git-concepts" class="level4" data-number="5.1.1.1">
-<h4 data-number="5.1.1.1" class="anchored" data-anchor-id="basic-git-concepts"><span class="header-section-number">5.1.1.1</span> Basic Git Concepts</h4>
-<ol type="1">
-<li><strong>Repository (Repo)</strong>
+<p>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like <code>paper_FINAL_final_UPDATED_NEW.docx</code>, <code>proj_NEW_LASTEST.R</code>, Git keeps track of all changes automatically.</p>
+<section id="basic-git-concepts-commands" class="level4" data-number="5.1.1.1">
+<h4 data-number="5.1.1.1" class="anchored" data-anchor-id="basic-git-concepts-commands"><span class="header-section-number">5.1.1.1</span> Basic Git Concepts &amp; Commands</h4>
 <ul>
-<li>Think of it as a project folder that Git watches</li>
-<li>Like a photo album that keeps track of all your project’s versions</li>
-</ul></li>
-<li><strong>Commit</strong>
-<ul>
-<li>Like taking a snapshot of your work</li>
-<li>Each commit is a saved point you can return to</li>
-<li>Like saving a checkpoint in a video game</li>
-</ul></li>
-<li><strong>Branch</strong>
-<ul>
-<li>Like creating a parallel universe for your work</li>
-<li>You can experiment without affecting the main project</li>
-<li>Like writing a draft of your paper without changing the original</li>
-</ul></li>
-<li><strong>Merge</strong>
-<ul>
-<li>Combining changes from different branches</li>
-<li>Like combining notes from different team members into one document</li>
-</ul></li>
-</ol>
-</section>
-</section>
-<section id="learning-resources" class="level3" data-number="5.1.2">
-<h3 data-number="5.1.2" class="anchored" data-anchor-id="learning-resources"><span class="header-section-number">5.1.2</span> Learning resources</h3>
-<ul>
-<li><a href="https://rogerdudler.github.io/git-guide/">git - the simple guide - no deep shit!</a></li>
-<li><a href="https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940">Git Tutorial - Medium</a></li>
-<li>The best and most reliable: <a href="https://git-scm.com/book/en/v2">Free book of Pro Git</a></li>
-<li><a href="https://docs.github.com/">GitHub documentation</a></li>
+<li><p><strong>Repository (Repo)</strong>: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions.</p></li>
+<li><p><strong>Commit</strong>: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</p></li>
+<li><p><strong>Branch</strong>: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can <strong>Merge</strong> your changes back to the main branch after you are done.</p></li>
 </ul>
-</section>
-<section id="essential-git-commands" class="level3" data-number="5.1.3">
-<h3 data-number="5.1.3" class="anchored" data-anchor-id="essential-git-commands"><span class="header-section-number">5.1.3</span> Essential Git Commands</h3>
+<div style="text-align: center">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png" class="img-fluid figure-img"></p>
-<figcaption>Git in a nutshell (source: https://medium.com/<span class="citation" data-cites="jaaeehoonkim/git-tutorial-1-31d0b1db1940">(<a href="#ref-jaaeehoonkim/git-tutorial-1-31d0b1db1940" role="doc-biblioref"><strong>jaaeehoonkim/git-tutorial-1-31d0b1db1940?</strong></a>)</span>)</figcaption>
+<p><img src="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png" class="image img-fluid figure-img" width="500"></p>
+<figcaption>Git Branches</figcaption>
 </figure>
+</div>
+<p><em>Source: <a href="https://www.nobledesktop.com/image/gitresources/git-branches-merge.png">Noble Desktop</a></em></p>
+</div>
+<div style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png" class="image img-fluid figure-img" width="700"></p>
+<figcaption>Git in a nutshell</figcaption>
+</figure>
+</div>
+<p><em>Source: <a href="https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940">Medium</a></em></p>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
@@ -389,8 +370,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset your branch to the latest commit</span></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="github-your-projects-home-on-the-internet" class="level3" data-number="5.1.4">
-<h3 data-number="5.1.4" class="anchored" data-anchor-id="github-your-projects-home-on-the-internet"><span class="header-section-number">5.1.4</span> GitHub: Your Project’s Home on the Internet</h3>
+</section>
+<section id="github-your-projects-home-on-the-internet" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="github-your-projects-home-on-the-internet"><span class="header-section-number">5.1.2</span> GitHub: Your Project’s Home on the Internet</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="./images/github.jpg" class="img-fluid figure-img"></p>
@@ -398,8 +380,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </figure>
 </div>
 <p>GitHub is like a social network for your code. It’s where you can: - Store your projects online - Collaborate with others - Share your work with the world</p>
-<section id="key-github-features" class="level4" data-number="5.1.4.1">
-<h4 data-number="5.1.4.1" class="anchored" data-anchor-id="key-github-features"><span class="header-section-number">5.1.4.1</span> Key GitHub Features</h4>
+<section id="key-github-features" class="level4" data-number="5.1.2.1">
+<h4 data-number="5.1.2.1" class="anchored" data-anchor-id="key-github-features"><span class="header-section-number">5.1.2.1</span> Key GitHub Features</h4>
 <ol type="1">
 <li><strong>Repository Hosting</strong>
 <ul>
@@ -424,8 +406,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ol>
 </section>
 </section>
-<section id="common-github-workflow" class="level3" data-number="5.1.5">
-<h3 data-number="5.1.5" class="anchored" data-anchor-id="common-github-workflow"><span class="header-section-number">5.1.5</span> Common GitHub Workflow</h3>
+<section id="common-github-workflow" class="level3" data-number="5.1.3">
+<h3 data-number="5.1.3" class="anchored" data-anchor-id="common-github-workflow"><span class="header-section-number">5.1.3</span> Common GitHub Workflow</h3>
 <ol type="1">
 <li><p><strong>Fork a Repository</strong></p>
 <ul>
@@ -444,8 +426,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 </ol>
 </section>
-<section id="best-practices" class="level3" data-number="5.1.6">
-<h3 data-number="5.1.6" class="anchored" data-anchor-id="best-practices"><span class="header-section-number">5.1.6</span> Best Practices</h3>
+<section id="best-practices" class="level3" data-number="5.1.4">
+<h3 data-number="5.1.4" class="anchored" data-anchor-id="best-practices"><span class="header-section-number">5.1.4</span> Best Practices</h3>
 <ol type="1">
 <li><strong>Write Clear Commit Messages</strong>
 <ul>
@@ -469,8 +451,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 </ol>
 </section>
-<section id="common-scenarios" class="level3" data-number="5.1.7">
-<h3 data-number="5.1.7" class="anchored" data-anchor-id="common-scenarios"><span class="header-section-number">5.1.7</span> Common Scenarios</h3>
+<section id="common-scenarios" class="level3" data-number="5.1.5">
+<h3 data-number="5.1.5" class="anchored" data-anchor-id="common-scenarios"><span class="header-section-number">5.1.5</span> Common Scenarios</h3>
 <ol type="1">
 <li><p><strong>Starting a New Project</strong></p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
@@ -496,8 +478,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div></li>
 </ol>
 </section>
-<section id="tips-for-beginners" class="level3" data-number="5.1.8">
-<h3 data-number="5.1.8" class="anchored" data-anchor-id="tips-for-beginners"><span class="header-section-number">5.1.8</span> Tips for Beginners</h3>
+<section id="tips-for-beginners" class="level3" data-number="5.1.6">
+<h3 data-number="5.1.6" class="anchored" data-anchor-id="tips-for-beginners"><span class="header-section-number">5.1.6</span> Tips for Beginners</h3>
 <ol type="1">
 <li><strong>Start Small</strong>
 <ul>
@@ -522,6 +504,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 </ol>
 <p>Remember: Git and GitHub are tools that get easier with practice. Don’t worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.</p>
+</section>
+<section id="learning-resources" class="level3" data-number="5.1.7">
+<h3 data-number="5.1.7" class="anchored" data-anchor-id="learning-resources"><span class="header-section-number">5.1.7</span> Learning resources</h3>
+<ul>
+<li><a href="https://rogerdudler.github.io/git-guide/">git - the simple guide - no deep shit!</a></li>
+<li><a href="https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940">Git Tutorial - Medium by Jaaeehoonkim</a></li>
+<li>The best and most reliable: <a href="https://git-scm.com/book/en/v2">Free book of Pro Git</a></li>
+<li><a href="https://docs.github.com/">GitHub documentation</a></li>
+</ul>
 </section>
 </section>
 <section id="devops-for-bioinformatics" class="level2" data-number="5.2">
@@ -1428,188 +1419,188 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <div class="sourceCode" id="cb12" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Integrated Platforms, Tools, and Technologies</span></span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Version Control: Git &amp; GitHub</span></span>
-<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="al">![Final Final Final](./images/git_finalfinal.jpg)</span></span>
-<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="fu">### What is Version Control?</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="al">![Source: Google Images](./images/git_finalfinal.jpg)</span>{.image width="700px"}</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
 <span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="fu">### What is Version Control?</span></span>
 <span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like "paper_v1.docx", "paper_v2.docx", Git keeps track of all changes automatically.</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.</span>
 <span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Basic Git Concepts</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like <span class="in">`paper_FINAL_final_UPDATED_NEW.docx`</span>, <span class="in">`proj_NEW_LASTEST.R`</span>, Git keeps track of all changes automatically.</span>
 <span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Repository (Repo)**</span>
-<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Think of it as a project folder that Git watches</span>
-<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like a photo album that keeps track of all your project's versions</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Basic Git Concepts &amp; Commands</span></span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions.</span>
 <span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Commit**</span>
-<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like taking a snapshot of your work</span>
-<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Each commit is a saved point you can return to</span>
-<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like saving a checkpoint in a video game</span>
-<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Branch**</span>
-<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like creating a parallel universe for your work</span>
-<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>You can experiment without affecting the main project</span>
-<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like writing a draft of your paper without changing the original</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done.</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a><span class="al">![Git Branches](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)</span>{.image width="500px"}</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-25"><a href="#cb12-25" aria-hidden="true" tabindex="-1"></a>*Source: [Noble Desktop](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png)*</span>
+<span id="cb12-26"><a href="#cb12-26" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
 <span id="cb12-27"><a href="#cb12-27" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Merge**</span>
-<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Combining changes from different branches</span>
-<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like combining notes from different team members into one document</span>
-<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a><span class="fu">### Learning resources</span></span>
-<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">git - the simple guide - no deep shit!</span><span class="co">](https://rogerdudler.github.io/git-guide/)</span></span>
-<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Git Tutorial - Medium</span><span class="co">](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)</span></span>
-<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The best and most reliable: <span class="co">[</span><span class="ot">Free book of Pro Git</span><span class="co">](https://git-scm.com/book/en/v2)</span></span>
-<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GitHub documentation</span><span class="co">](https://docs.github.com/)</span></span>
+<span id="cb12-28"><a href="#cb12-28" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb12-29"><a href="#cb12-29" aria-hidden="true" tabindex="-1"></a><span class="al">![Git in a nutshell](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png)</span>{.image width="700px"}</span>
+<span id="cb12-30"><a href="#cb12-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-31"><a href="#cb12-31" aria-hidden="true" tabindex="-1"></a>*Source: [Medium](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)*</span>
+<span id="cb12-32"><a href="#cb12-32" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb12-33"><a href="#cb12-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-34"><a href="#cb12-34" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb12-35"><a href="#cb12-35" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
+<span id="cb12-36"><a href="#cb12-36" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
 <span id="cb12-37"><a href="#cb12-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a><span class="fu">### Essential Git Commands</span></span>
-<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a><span class="al">![Git in a nutshell (source: https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png)</span></span>
-<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
-<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
-<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
-<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the status of your files</span></span>
-<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
-<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a><span class="co"># Add files to be saved (staging)</span></span>
-<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add filename.txt    <span class="co"># Add specific file</span></span>
-<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .              <span class="co"># Add all files</span></span>
-<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a><span class="co"># Save your changes (commit)</span></span>
-<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
-<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a><span class="co"># See your project history</span></span>
-<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log</span>
-<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and switch to a new branch</span></span>
-<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> new-branch-name</span>
-<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a><span class="co"># Switch between branches</span></span>
-<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout branch-name</span>
-<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a><span class="co"># Get updates from remote repository</span></span>
-<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span>
-<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a><span class="co"># Send your changes to remote repository</span></span>
-<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
+<span id="cb12-38"><a href="#cb12-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the status of your files</span></span>
+<span id="cb12-39"><a href="#cb12-39" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
+<span id="cb12-40"><a href="#cb12-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-41"><a href="#cb12-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Add files to be saved (staging)</span></span>
+<span id="cb12-42"><a href="#cb12-42" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add filename.txt    <span class="co"># Add specific file</span></span>
+<span id="cb12-43"><a href="#cb12-43" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .              <span class="co"># Add all files</span></span>
+<span id="cb12-44"><a href="#cb12-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-45"><a href="#cb12-45" aria-hidden="true" tabindex="-1"></a><span class="co"># Save your changes (commit)</span></span>
+<span id="cb12-46"><a href="#cb12-46" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb12-47"><a href="#cb12-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-48"><a href="#cb12-48" aria-hidden="true" tabindex="-1"></a><span class="co"># See your project history</span></span>
+<span id="cb12-49"><a href="#cb12-49" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log</span>
+<span id="cb12-50"><a href="#cb12-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-51"><a href="#cb12-51" aria-hidden="true" tabindex="-1"></a><span class="co"># Create and switch to a new branch</span></span>
+<span id="cb12-52"><a href="#cb12-52" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> new-branch-name</span>
+<span id="cb12-53"><a href="#cb12-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-54"><a href="#cb12-54" aria-hidden="true" tabindex="-1"></a><span class="co"># Switch between branches</span></span>
+<span id="cb12-55"><a href="#cb12-55" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout branch-name</span>
+<span id="cb12-56"><a href="#cb12-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-57"><a href="#cb12-57" aria-hidden="true" tabindex="-1"></a><span class="co"># Get updates from remote repository</span></span>
+<span id="cb12-58"><a href="#cb12-58" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span>
+<span id="cb12-59"><a href="#cb12-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-60"><a href="#cb12-60" aria-hidden="true" tabindex="-1"></a><span class="co"># Send your changes to remote repository</span></span>
+<span id="cb12-61"><a href="#cb12-61" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
+<span id="cb12-62"><a href="#cb12-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-63"><a href="#cb12-63" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset your branch to the latest commit</span></span>
+<span id="cb12-64"><a href="#cb12-64" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span></span>
+<span id="cb12-65"><a href="#cb12-65" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb12-66"><a href="#cb12-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-67"><a href="#cb12-67" aria-hidden="true" tabindex="-1"></a><span class="fu">### GitHub: Your Project's Home on the Internet</span></span>
+<span id="cb12-68"><a href="#cb12-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-69"><a href="#cb12-69" aria-hidden="true" tabindex="-1"></a><span class="al">![GitHub vs Bitbucket vs GitLab](./images/github.jpg)</span></span>
 <span id="cb12-70"><a href="#cb12-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset your branch to the latest commit</span></span>
-<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span></span>
-<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb12-74"><a href="#cb12-74" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-75"><a href="#cb12-75" aria-hidden="true" tabindex="-1"></a><span class="fu">### GitHub: Your Project's Home on the Internet</span></span>
-<span id="cb12-76"><a href="#cb12-76" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-77"><a href="#cb12-77" aria-hidden="true" tabindex="-1"></a><span class="al">![GitHub vs Bitbucket vs GitLab](./images/github.jpg)</span></span>
-<span id="cb12-78"><a href="#cb12-78" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-79"><a href="#cb12-79" aria-hidden="true" tabindex="-1"></a>GitHub is like a social network for your code. It's where you can:</span>
-<span id="cb12-80"><a href="#cb12-80" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Store your projects online</span>
-<span id="cb12-81"><a href="#cb12-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Collaborate with others</span>
-<span id="cb12-82"><a href="#cb12-82" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Share your work with the world</span>
-<span id="cb12-83"><a href="#cb12-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-84"><a href="#cb12-84" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Key GitHub Features</span></span>
+<span id="cb12-71"><a href="#cb12-71" aria-hidden="true" tabindex="-1"></a>GitHub is like a social network for your code. It's where you can:</span>
+<span id="cb12-72"><a href="#cb12-72" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Store your projects online</span>
+<span id="cb12-73"><a href="#cb12-73" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Collaborate with others</span>
+<span id="cb12-74"><a href="#cb12-74" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Share your work with the world</span>
+<span id="cb12-75"><a href="#cb12-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-76"><a href="#cb12-76" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Key GitHub Features</span></span>
+<span id="cb12-77"><a href="#cb12-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-78"><a href="#cb12-78" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Repository Hosting**</span>
+<span id="cb12-79"><a href="#cb12-79" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like a cloud storage specifically for code</span>
+<span id="cb12-80"><a href="#cb12-80" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Access your projects from anywhere</span>
+<span id="cb12-81"><a href="#cb12-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-82"><a href="#cb12-82" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Issue Tracking**</span>
+<span id="cb12-83"><a href="#cb12-83" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like a to-do list for your project</span>
+<span id="cb12-84"><a href="#cb12-84" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Track bugs and feature requests</span>
 <span id="cb12-85"><a href="#cb12-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-86"><a href="#cb12-86" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Repository Hosting**</span>
-<span id="cb12-87"><a href="#cb12-87" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like a cloud storage specifically for code</span>
-<span id="cb12-88"><a href="#cb12-88" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Access your projects from anywhere</span>
+<span id="cb12-86"><a href="#cb12-86" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Pull Requests**</span>
+<span id="cb12-87"><a href="#cb12-87" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like suggesting changes to someone else's work</span>
+<span id="cb12-88"><a href="#cb12-88" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Request to merge your changes into their project</span>
 <span id="cb12-89"><a href="#cb12-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-90"><a href="#cb12-90" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Issue Tracking**</span>
-<span id="cb12-91"><a href="#cb12-91" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like a to-do list for your project</span>
-<span id="cb12-92"><a href="#cb12-92" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Track bugs and feature requests</span>
+<span id="cb12-90"><a href="#cb12-90" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Code Review**</span>
+<span id="cb12-91"><a href="#cb12-91" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like peer review for your code</span>
+<span id="cb12-92"><a href="#cb12-92" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Get feedback before changes are merged</span>
 <span id="cb12-93"><a href="#cb12-93" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-94"><a href="#cb12-94" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Pull Requests**</span>
-<span id="cb12-95"><a href="#cb12-95" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like suggesting changes to someone else's work</span>
-<span id="cb12-96"><a href="#cb12-96" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Request to merge your changes into their project</span>
-<span id="cb12-97"><a href="#cb12-97" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-98"><a href="#cb12-98" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Code Review**</span>
-<span id="cb12-99"><a href="#cb12-99" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like peer review for your code</span>
-<span id="cb12-100"><a href="#cb12-100" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Get feedback before changes are merged</span>
-<span id="cb12-101"><a href="#cb12-101" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-102"><a href="#cb12-102" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common GitHub Workflow</span></span>
-<span id="cb12-103"><a href="#cb12-103" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-104"><a href="#cb12-104" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Fork a Repository**</span>
-<span id="cb12-105"><a href="#cb12-105" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like making a copy of someone else's project</span>
-<span id="cb12-106"><a href="#cb12-106" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>You can modify it without affecting the original</span>
-<span id="cb12-107"><a href="#cb12-107" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-108"><a href="#cb12-108" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Clone a Repository**</span>
-<span id="cb12-109"><a href="#cb12-109" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
-<span id="cb12-110"><a href="#cb12-110" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> clone https://github.com/username/repository.git</span>
-<span id="cb12-111"><a href="#cb12-111" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
-<span id="cb12-112"><a href="#cb12-112" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like downloading a project to your computer</span>
+<span id="cb12-94"><a href="#cb12-94" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common GitHub Workflow</span></span>
+<span id="cb12-95"><a href="#cb12-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-96"><a href="#cb12-96" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Fork a Repository**</span>
+<span id="cb12-97"><a href="#cb12-97" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like making a copy of someone else's project</span>
+<span id="cb12-98"><a href="#cb12-98" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>You can modify it without affecting the original</span>
+<span id="cb12-99"><a href="#cb12-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-100"><a href="#cb12-100" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Clone a Repository**</span>
+<span id="cb12-101"><a href="#cb12-101" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb12-102"><a href="#cb12-102" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> clone https://github.com/username/repository.git</span>
+<span id="cb12-103"><a href="#cb12-103" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb12-104"><a href="#cb12-104" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like downloading a project to your computer</span>
+<span id="cb12-105"><a href="#cb12-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-106"><a href="#cb12-106" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Push Changes**</span>
+<span id="cb12-107"><a href="#cb12-107" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb12-108"><a href="#cb12-108" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push origin main</span>
+<span id="cb12-109"><a href="#cb12-109" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb12-110"><a href="#cb12-110" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like uploading your changes to GitHub</span>
+<span id="cb12-111"><a href="#cb12-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-112"><a href="#cb12-112" aria-hidden="true" tabindex="-1"></a><span class="fu">### Best Practices</span></span>
 <span id="cb12-113"><a href="#cb12-113" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-114"><a href="#cb12-114" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Push Changes**</span>
-<span id="cb12-115"><a href="#cb12-115" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
-<span id="cb12-116"><a href="#cb12-116" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push origin main</span>
-<span id="cb12-117"><a href="#cb12-117" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
-<span id="cb12-118"><a href="#cb12-118" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like uploading your changes to GitHub</span>
-<span id="cb12-119"><a href="#cb12-119" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-120"><a href="#cb12-120" aria-hidden="true" tabindex="-1"></a><span class="fu">### Best Practices</span></span>
+<span id="cb12-114"><a href="#cb12-114" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Write Clear Commit Messages**</span>
+<span id="cb12-115"><a href="#cb12-115" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like writing good notes</span>
+<span id="cb12-116"><a href="#cb12-116" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Helps others (and yourself) understand changes</span>
+<span id="cb12-117"><a href="#cb12-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-118"><a href="#cb12-118" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Create Feature Branches**</span>
+<span id="cb12-119"><a href="#cb12-119" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like working on a separate draft</span>
+<span id="cb12-120"><a href="#cb12-120" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Keeps your main work clean</span>
 <span id="cb12-121"><a href="#cb12-121" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-122"><a href="#cb12-122" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Write Clear Commit Messages**</span>
-<span id="cb12-123"><a href="#cb12-123" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like writing good notes</span>
-<span id="cb12-124"><a href="#cb12-124" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Helps others (and yourself) understand changes</span>
+<span id="cb12-122"><a href="#cb12-122" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Regular Updates**</span>
+<span id="cb12-123"><a href="#cb12-123" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like syncing your phone</span>
+<span id="cb12-124"><a href="#cb12-124" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Keep your local copy up to date</span>
 <span id="cb12-125"><a href="#cb12-125" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-126"><a href="#cb12-126" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Create Feature Branches**</span>
-<span id="cb12-127"><a href="#cb12-127" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like working on a separate draft</span>
-<span id="cb12-128"><a href="#cb12-128" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Keeps your main work clean</span>
+<span id="cb12-126"><a href="#cb12-126" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Review Before Committing**</span>
+<span id="cb12-127"><a href="#cb12-127" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like proofreading before submitting</span>
+<span id="cb12-128"><a href="#cb12-128" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Check your changes before saving</span>
 <span id="cb12-129"><a href="#cb12-129" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-130"><a href="#cb12-130" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Regular Updates**</span>
-<span id="cb12-131"><a href="#cb12-131" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like syncing your phone</span>
-<span id="cb12-132"><a href="#cb12-132" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Keep your local copy up to date</span>
-<span id="cb12-133"><a href="#cb12-133" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-134"><a href="#cb12-134" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Review Before Committing**</span>
-<span id="cb12-135"><a href="#cb12-135" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Like proofreading before submitting</span>
-<span id="cb12-136"><a href="#cb12-136" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Check your changes before saving</span>
-<span id="cb12-137"><a href="#cb12-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-138"><a href="#cb12-138" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common Scenarios</span></span>
-<span id="cb12-139"><a href="#cb12-139" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-140"><a href="#cb12-140" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Starting a New Project**</span>
-<span id="cb12-141"><a href="#cb12-141" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
-<span id="cb12-142"><a href="#cb12-142" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> init</span>
+<span id="cb12-130"><a href="#cb12-130" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common Scenarios</span></span>
+<span id="cb12-131"><a href="#cb12-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-132"><a href="#cb12-132" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Starting a New Project**</span>
+<span id="cb12-133"><a href="#cb12-133" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb12-134"><a href="#cb12-134" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> init</span>
+<span id="cb12-135"><a href="#cb12-135" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
+<span id="cb12-136"><a href="#cb12-136" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span>
+<span id="cb12-137"><a href="#cb12-137" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb12-138"><a href="#cb12-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-139"><a href="#cb12-139" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Updating Your Work**</span>
+<span id="cb12-140"><a href="#cb12-140" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb12-141"><a href="#cb12-141" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> pull</span>
+<span id="cb12-142"><a href="#cb12-142" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Make changes</span></span>
 <span id="cb12-143"><a href="#cb12-143" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
-<span id="cb12-144"><a href="#cb12-144" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span>
-<span id="cb12-145"><a href="#cb12-145" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
-<span id="cb12-146"><a href="#cb12-146" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-147"><a href="#cb12-147" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Updating Your Work**</span>
-<span id="cb12-148"><a href="#cb12-148" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
-<span id="cb12-149"><a href="#cb12-149" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> pull</span>
-<span id="cb12-150"><a href="#cb12-150" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Make changes</span></span>
-<span id="cb12-151"><a href="#cb12-151" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
-<span id="cb12-152"><a href="#cb12-152" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
-<span id="cb12-153"><a href="#cb12-153" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span>
-<span id="cb12-154"><a href="#cb12-154" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
-<span id="cb12-155"><a href="#cb12-155" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-156"><a href="#cb12-156" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Collaborating with Others**</span>
-<span id="cb12-157"><a href="#cb12-157" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
-<span id="cb12-158"><a href="#cb12-158" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> pull</span>
-<span id="cb12-159"><a href="#cb12-159" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Resolve any conflicts</span></span>
-<span id="cb12-160"><a href="#cb12-160" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
-<span id="cb12-161"><a href="#cb12-161" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Resolved conflicts"</span></span>
-<span id="cb12-162"><a href="#cb12-162" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span>
-<span id="cb12-163"><a href="#cb12-163" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
-<span id="cb12-164"><a href="#cb12-164" aria-hidden="true" tabindex="-1"></a><span class="al">![Git and B-cell analogy](./images/git-bcell.png)</span></span>
-<span id="cb12-165"><a href="#cb12-165" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-166"><a href="#cb12-166" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tips for Beginners</span></span>
-<span id="cb12-167"><a href="#cb12-167" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-168"><a href="#cb12-168" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Start Small**</span>
-<span id="cb12-169"><a href="#cb12-169" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Begin with basic commands</span>
-<span id="cb12-170"><a href="#cb12-170" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Practice with simple projects</span>
-<span id="cb12-171"><a href="#cb12-171" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-172"><a href="#cb12-172" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Use Visual Tools**</span>
-<span id="cb12-173"><a href="#cb12-173" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>GitHub Desktop</span>
-<span id="cb12-174"><a href="#cb12-174" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>GitKraken</span>
-<span id="cb12-175"><a href="#cb12-175" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>VS Code's Git integration</span>
+<span id="cb12-144"><a href="#cb12-144" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb12-145"><a href="#cb12-145" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span>
+<span id="cb12-146"><a href="#cb12-146" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb12-147"><a href="#cb12-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-148"><a href="#cb12-148" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Collaborating with Others**</span>
+<span id="cb12-149"><a href="#cb12-149" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb12-150"><a href="#cb12-150" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> pull</span>
+<span id="cb12-151"><a href="#cb12-151" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Resolve any conflicts</span></span>
+<span id="cb12-152"><a href="#cb12-152" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
+<span id="cb12-153"><a href="#cb12-153" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Resolved conflicts"</span></span>
+<span id="cb12-154"><a href="#cb12-154" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span>
+<span id="cb12-155"><a href="#cb12-155" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb12-156"><a href="#cb12-156" aria-hidden="true" tabindex="-1"></a><span class="al">![Git and B-cell analogy](./images/git-bcell.png)</span></span>
+<span id="cb12-157"><a href="#cb12-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-158"><a href="#cb12-158" aria-hidden="true" tabindex="-1"></a><span class="fu">### Tips for Beginners</span></span>
+<span id="cb12-159"><a href="#cb12-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-160"><a href="#cb12-160" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Start Small**</span>
+<span id="cb12-161"><a href="#cb12-161" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Begin with basic commands</span>
+<span id="cb12-162"><a href="#cb12-162" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Practice with simple projects</span>
+<span id="cb12-163"><a href="#cb12-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-164"><a href="#cb12-164" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Use Visual Tools**</span>
+<span id="cb12-165"><a href="#cb12-165" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>GitHub Desktop</span>
+<span id="cb12-166"><a href="#cb12-166" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>GitKraken</span>
+<span id="cb12-167"><a href="#cb12-167" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>VS Code's Git integration</span>
+<span id="cb12-168"><a href="#cb12-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-169"><a href="#cb12-169" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Learn from Mistakes**</span>
+<span id="cb12-170"><a href="#cb12-170" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Git keeps history</span>
+<span id="cb12-171"><a href="#cb12-171" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>You can always go back</span>
+<span id="cb12-172"><a href="#cb12-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-173"><a href="#cb12-173" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Ask for Help**</span>
+<span id="cb12-174"><a href="#cb12-174" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>GitHub has great documentation</span>
+<span id="cb12-175"><a href="#cb12-175" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Many online communities can help</span>
 <span id="cb12-176"><a href="#cb12-176" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-177"><a href="#cb12-177" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Learn from Mistakes**</span>
-<span id="cb12-178"><a href="#cb12-178" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Git keeps history</span>
-<span id="cb12-179"><a href="#cb12-179" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>You can always go back</span>
-<span id="cb12-180"><a href="#cb12-180" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-181"><a href="#cb12-181" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>**Ask for Help**</span>
-<span id="cb12-182"><a href="#cb12-182" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>GitHub has great documentation</span>
-<span id="cb12-183"><a href="#cb12-183" aria-hidden="true" tabindex="-1"></a><span class="ss">   - </span>Many online communities can help</span>
-<span id="cb12-184"><a href="#cb12-184" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb12-185"><a href="#cb12-185" aria-hidden="true" tabindex="-1"></a>Remember: Git and GitHub are tools that get easier with practice. Don't worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.</span>
+<span id="cb12-177"><a href="#cb12-177" aria-hidden="true" tabindex="-1"></a>Remember: Git and GitHub are tools that get easier with practice. Don't worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.</span>
+<span id="cb12-178"><a href="#cb12-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-179"><a href="#cb12-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-180"><a href="#cb12-180" aria-hidden="true" tabindex="-1"></a><span class="fu">### Learning resources</span></span>
+<span id="cb12-181"><a href="#cb12-181" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">git - the simple guide - no deep shit!</span><span class="co">](https://rogerdudler.github.io/git-guide/)</span></span>
+<span id="cb12-182"><a href="#cb12-182" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Git Tutorial - Medium by Jaaeehoonkim</span><span class="co">](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)</span></span>
+<span id="cb12-183"><a href="#cb12-183" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The best and most reliable: <span class="co">[</span><span class="ot">Free book of Pro Git</span><span class="co">](https://git-scm.com/book/en/v2)</span></span>
+<span id="cb12-184"><a href="#cb12-184" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">GitHub documentation</span><span class="co">](https://docs.github.com/)</span></span>
+<span id="cb12-185"><a href="#cb12-185" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-186"><a href="#cb12-186" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-187"><a href="#cb12-187" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb12-188"><a href="#cb12-188" aria-hidden="true" tabindex="-1"></a><span class="fu">## DevOps for Bioinformatics</span></span>

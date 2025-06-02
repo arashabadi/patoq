@@ -1,43 +1,35 @@
 # Integrated Platforms, Tools, and Technologies
 
 ## Version Control: Git & GitHub
-![Final Final Final](./images/git_finalfinal.jpg)
+<div style="text-align: center">
+![Source: Google Images](./images/git_finalfinal.jpg){.image width="700px"}
+</div>
 
 ### What is Version Control?
 
 Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.
 
-Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like "paper_v1.docx", "paper_v2.docx", Git keeps track of all changes automatically.
+Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like `paper_FINAL_final_UPDATED_NEW.docx`, `proj_NEW_LASTEST.R`, Git keeps track of all changes automatically.
 
-#### Basic Git Concepts
+#### Basic Git Concepts & Commands
 
-1. **Repository (Repo)**
-   - Think of it as a project folder that Git watches
-   - Like a photo album that keeps track of all your project's versions
+<div style="text-align: center">
+![Git in a nutshell](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png){.image width="700px"}
 
-2. **Commit**
-   - Like taking a snapshot of your work
-   - Each commit is a saved point you can return to
-   - Like saving a checkpoint in a video game
+*Source: [Medium](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)*
+</div>
 
-3. **Branch**
-   - Like creating a parallel universe for your work
-   - You can experiment without affecting the main project
-   - Like writing a draft of your paper without changing the original
+- **Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions. **Local repo** is a copy of the remote repo on your computer. **Remote repo** can be the version stored on GitHub or GitLab.
 
-4. **Merge**
-   - Combining changes from different branches
-   - Like combining notes from different team members into one document
+- **Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.
 
-### Learning resources
-- [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
-- [Git Tutorial - Medium](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)
-- The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)
-- [GitHub documentation](https://docs.github.com/)
+<div style="text-align: center">
+![Git Branches](https://www.nobledesktop.com/image/gitresources/git-branches-merge.png){.image width="500px"}
 
+*Source: [Noble Desktop](https://www.nobledesktop.com/learn/git/git-branches)*
+</div>
 
-### Essential Git Commands
-![Git in a nutshell (source: https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png)
+- **Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master branch is the main branch of the repo (recently renamed to main).
 
 ```bash
 # Start a new project (create a new repository)
@@ -183,6 +175,14 @@ GitHub is like a social network for your code. It's where you can:
    - Many online communities can help
 
 Remember: Git and GitHub are tools that get easier with practice. Don't worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.
+
+
+### Learning resources
+- [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
+- [Git Tutorial - Medium by Jaaeehoonkim](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)
+- The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)
+- [GitHub documentation](https://docs.github.com/)
+
 
 
 ## DevOps for Bioinformatics
