@@ -79,6 +79,7 @@ What usually happens daily:
    git add .
    git commit -m "Initial commit"
    ```
+* **Note**: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.
 
 2. **Updating Your Work**
    ```bash
