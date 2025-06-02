@@ -26,6 +26,7 @@
     "section": "",
     "text": "2.1 Biology Fundamentals",
     "crumbs": [
+      "Prerequisites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
@@ -36,6 +37,7 @@
     "section": "2.2 Programming Fundamentals",
     "text": "2.2 Programming Fundamentals",
     "crumbs": [
+      "Prerequisites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
@@ -46,6 +48,7 @@
     "section": "2.3 Mathematics Fundamentals",
     "text": "2.3 Mathematics Fundamentals",
     "crumbs": [
+      "Prerequisites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
@@ -56,6 +59,7 @@
     "section": "2.4 Statistics and Probability Fundamentals",
     "text": "2.4 Statistics and Probability Fundamentals",
     "crumbs": [
+      "Prerequisites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
@@ -66,6 +70,7 @@
     "section": "2.5 Project Management and Communication Skills",
     "text": "2.5 Project Management and Communication Skills",
     "crumbs": [
+      "Prerequisites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
@@ -76,6 +81,7 @@
     "section": "2.6 Case Studies and Practical Applications",
     "text": "2.6 Case Studies and Practical Applications",
     "crumbs": [
+      "Prerequisites",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Prerequisites</span>"
     ]
   },
@@ -86,6 +92,7 @@
     "section": "",
     "text": "3.1 Genomics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -96,6 +103,7 @@
     "section": "3.2 Transcriptomics",
     "text": "3.2 Transcriptomics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -106,6 +114,7 @@
     "section": "3.3 Proteomics",
     "text": "3.3 Proteomics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -116,6 +125,7 @@
     "section": "3.4 Metabolomics",
     "text": "3.4 Metabolomics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -126,6 +136,7 @@
     "section": "3.5 Epigenomics",
     "text": "3.5 Epigenomics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -136,6 +147,7 @@
     "section": "3.6 Metagenomics",
     "text": "3.6 Metagenomics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -146,6 +158,7 @@
     "section": "3.7 Network and Pathway Analysis",
     "text": "3.7 Network and Pathway Analysis",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
@@ -156,6 +169,7 @@
     "section": "",
     "text": "4.1 Molecular Modeling and Dynamics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
@@ -166,6 +180,7 @@
     "section": "4.2 Systems Biology",
     "text": "4.2 Systems Biology",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
@@ -176,6 +191,7 @@
     "section": "4.3 Computational Ecology, Evolution and Phylogenetics",
     "text": "4.3 Computational Ecology, Evolution and Phylogenetics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
@@ -186,6 +202,7 @@
     "section": "4.4 Computational Pharmacology and Drug Design",
     "text": "4.4 Computational Pharmacology and Drug Design",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
@@ -196,6 +213,7 @@
     "section": "4.5 Mathematical Modeling of Biological Systems",
     "text": "4.5 Mathematical Modeling of Biological Systems",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
@@ -206,6 +224,7 @@
     "section": "",
     "text": "5.1 Version Control: Git & GitHub",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -216,6 +235,7 @@
     "section": "",
     "text": "Final Final Final\n\n\n\n5.1.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\n\n\n5.1.2 Git: Your Personal Time Machine\nGit is like a super-powered save system. Instead of saving files with names like “paper_v1.docx”, “paper_v2.docx”, Git keeps track of all changes automatically.\n\n5.1.2.1 Basic Git Concepts (with Analogies)\n\nRepository (Repo)\n\nThink of it as a project folder that Git watches\nLike a photo album that keeps track of all your project’s versions\n\nCommit\n\nLike taking a snapshot of your work\nEach commit is a saved point you can return to\nLike saving a checkpoint in a video game\n\nBranch\n\nLike creating a parallel universe for your work\nYou can experiment without affecting the main project\nLike writing a draft of your paper without changing the original\n\nMerge\n\nCombining changes from different branches\nLike combining notes from different team members into one document\n\n\n\n\n\n5.1.3 Essential Git Commands\n\n\n\nGit and B-cell analogy\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Create and switch to a new branch\ngit checkout -b new-branch-name\n\n# Switch between branches\ngit checkout branch-name\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n\n5.1.4 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can: - Store your projects online - Collaborate with others - Share your work with the world\n\n5.1.4.1 Key GitHub Features\n\nRepository Hosting\n\nLike a cloud storage specifically for code\nAccess your projects from anywhere\n\nIssue Tracking\n\nLike a to-do list for your project\nTrack bugs and feature requests\n\nPull Requests\n\nLike suggesting changes to someone else’s work\nRequest to merge your changes into their project\n\nCode Review\n\nLike peer review for your code\nGet feedback before changes are merged\n\n\n\n\n\n5.1.5 Common GitHub Workflow\n\nFork a Repository\n\nLike making a copy of someone else’s project\nYou can modify it without affecting the original\n\nClone a Repository\ngit clone https://github.com/username/repository.git\n\nLike downloading a project to your computer\n\nPush Changes\ngit push origin main\n\nLike uploading your changes to GitHub\n\n\n\n\n5.1.6 Best Practices\n\nWrite Clear Commit Messages\n\nLike writing good notes\nHelps others (and yourself) understand changes\n\nCreate Feature Branches\n\nLike working on a separate draft\nKeeps your main work clean\n\nRegular Updates\n\nLike syncing your phone\nKeep your local copy up to date\n\nReview Before Committing\n\nLike proofreading before submitting\nCheck your changes before saving\n\n\n\n\n5.1.7 Common Scenarios\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nCollaborating with Others\ngit pull\n# Resolve any conflicts\ngit add .\ngit commit -m \"Resolved conflicts\"\ngit push\n\n\n\n5.1.8 Tips for Beginners\n\nStart Small\n\nBegin with basic commands\nPractice with simple projects\n\nUse Visual Tools\n\nGitHub Desktop\nGitKraken\nVS Code’s Git integration\n\nLearn from Mistakes\n\nGit keeps history\nYou can always go back\n\nAsk for Help\n\nGitHub has great documentation\nMany online communities can help\n\n\nRemember: Git and GitHub are tools that get easier with practice. Don’t worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -226,6 +246,7 @@
     "section": "5.2 SaaS Platforms",
     "text": "5.2 SaaS Platforms",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -236,6 +257,7 @@
     "section": "5.3 Cloud Computing and Data Management",
     "text": "5.3 Cloud Computing and Data Management",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -246,6 +268,7 @@
     "section": "5.4 High-Performance Computing (HPC)",
     "text": "5.4 High-Performance Computing (HPC)",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -256,6 +279,7 @@
     "section": "5.5 Collaborative Research Tools",
     "text": "5.5 Collaborative Research Tools",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -266,6 +290,7 @@
     "section": "5.6 Data Visualization Techniques",
     "text": "5.6 Data Visualization Techniques",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -276,6 +301,7 @@
     "section": "5.7 Big Data Analysis",
     "text": "5.7 Big Data Analysis",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
@@ -286,6 +312,7 @@
     "section": "",
     "text": "6.1 Artificial Intelligence",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -296,6 +323,7 @@
     "section": "6.2 Clinical Bioinformatics",
     "text": "6.2 Clinical Bioinformatics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -306,6 +334,7 @@
     "section": "6.3 Agricultural Bioinformatics",
     "text": "6.3 Agricultural Bioinformatics",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -316,6 +345,7 @@
     "section": "6.4 Synthetic Biology",
     "text": "6.4 Synthetic Biology",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -326,6 +356,7 @@
     "section": "6.5 Personalized Medicine",
     "text": "6.5 Personalized Medicine",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -336,6 +367,7 @@
     "section": "6.6 Environmental Bioinformatics & Epidemiology",
     "text": "6.6 Environmental Bioinformatics & Epidemiology",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -346,6 +378,7 @@
     "section": "6.7 Biomolecular Engineering",
     "text": "6.7 Biomolecular Engineering",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -356,6 +389,7 @@
     "section": "6.8 Genetic Engineering",
     "text": "6.8 Genetic Engineering",
     "crumbs": [
+      "Main Sections",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
@@ -366,6 +400,7 @@
     "section": "",
     "text": "7.1 YouTube Channels",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -376,6 +411,7 @@
     "section": "",
     "text": "Bioinformatics DotCa\n\nBioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content. Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io.\n\nPine Biotech\n\nReally a good page!\n\nSanbomics\n\nBioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more.\n\nStat Genetics\n\nGenomics, Transcriptomics, Linux, etc.\n\nBioinformagician\n\nA new page uploading bioinformatics videos (Suggested)\n\nFarhan Haq\n\nThe channel is dedicated for developing skilled bioinformatics students and researchers. Our lectures and tutorials from interdisciplinary fields are recorded and uploaded here. The administrator and main instructor of this channel is a Professor of Bioinformatics in a renowned university of Pakistan.\n\nOMGenomics\n\nBioinformatics discussions and training videos. Hosted by Maria Nattestad.\n\nOGGY INFORMATICS\n\nA new page uploading bioinformatics videos\n\nDanny Arends\n\nWorld-class geneticist, Lecturer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube.\n\nStatistics & Theory\n\nA YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular.\n\nLana Caldarevic\n\nLearn biopython with her + extra bioinformatics stuff!\n\nBioinformatica\n\n“BIOINFORMATICA” is an initiative to provide quality videos on bioinformatics related topics for a better understanding of the students who are studying bioinformatics or those who want to join bioinformatics.\n\nData Science Bioinformatics\n\nThis channel aims to provide best possible information related to Bioinformatics and data science.\n\nBioinformatics Coach\n\nThis Channels provides tutorials on bioinformatics and big data analysis. The content is suitable for both beginners and advanced learners.\n\nFenyo Lab\n\nGene Expression Analysis\n\nrebelScience\n\nDedicated to all things Programming, Bioinformatics, Machine Learning and Open-Source Software.\n\nNiema Moshiri\n\nMostly Genomics\n\nMichael Gonzalez\n\nGenomics and Transcriptomics (Suggested)\n\nX-omics\n\nThe project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research.\n\nIowa Institute of Human Genetics\n\nThe IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa.\n\nprofbiot\n\nBioinformatics and R\n\nLearn-at-ease\n\nVery useful videos about biochemistry and Bioinformatics (especially MD and structural biology)\n\nImmune Epitope Database\n\nThe Immune Epitope Database and Analysis Resource (IEDB) serves the scientific community as an online, freely available, one-stop resource to advance immunology research.\n\nSanket Bapat\n\nDr. Sanket Bapat makes Bioinformatics video lectures and tutorials for students and everyone who is new to this field!\n\nBio-Informatics - IITM\nBioinformatics Tools - Explanation\nYann Academy\nScribbles in Bioinformatics\nOmicsLogic\n\nOur core technology is a research platform design to simplify processing, integration and mining of big biomedical data - especially molecular data like NGS, Mass-Spec and structural biology.\n\nMichael Edwards\n\nFounder and CEO of the data analytics company, Bioinfo Solutions LLC, specializing in extracting wisdom out of a sea of information.\n\n\n\n7.1.0.1 Selected playlists:\n\nBioinformatics for precision medicine 2020\nBiochemistry bootcamp\nEpigenetics explained\nPopular Programming Courses by freecodecamp",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -386,6 +422,7 @@
     "section": "7.2 Persian Resources (بنمایگان پارسی)",
     "text": "7.2 Persian Resources (بنمایگان پارسی)\n\nBioinformatics with Dr. Ali Sharifi-Zarchi\n\nA list of free courses about bioinformatics in Persian. If you are at beginner level, consider learning first from: Introduction to Bioinformatics and then Advanced Bioinformatics\n\nBioinformatics with Dr. Farshid Noorbakhsh\n\nThis is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!\n\nBioskill with Dr. Milad Ghafoori\n\nLearn structural biology with dear Milad for free!\n\nELMIUM with Arash\n\nLearn computational biology with me! (in progress)",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -396,6 +433,7 @@
     "section": "7.3 Open-Source Projects and Repositories",
     "text": "7.3 Open-Source Projects and Repositories\n\nOpen Source Society University_Bioinformatics\n\nThis is a solid path for those of you who want to complete a Bioinformatics course on your own time, for free, with courses from the best universities in the World.\n\nAwesome Series\n\nA great curated collection series for many things…\n\n\nSelected awesome repositories for Computational Biology and Bioinformatics: - openbiox-awosome-bioinformatics - A curated list of resources for learning bioinformatics.\n\ninoue0426-awesome-computational-biology\n\nA knowledge collection of databases, software and papers related to computational biology.\n\ndanielecook-awosome-bioinformatics\n\nA curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source.\n\nawesome-r-dataviz\n\nA Curated resources for Data Visualization, Drawing & Publishing in R\n\nIntroduction to R and differential gene expression (DGE) analysis\n\nBy Bioinformatics Training at the Harvard Chan Bioinformatics Core: hbctraining.github.io/main",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -406,6 +444,7 @@
     "section": "7.4 Courses",
     "text": "7.4 Courses\n\nFoundations Of Computational And Systems Biology\n\nMIT OCW / This course is an introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis; it also includes an introduction to the analysis of complex biological systems.\n\nCOURSERA_Python for Genomic Data Science",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -416,6 +455,7 @@
     "section": "7.5 Books",
     "text": "7.5 Books\n\n7.5.0.1 Learn R programming for FREE:\n\nHands-On Programming with R\n\nThis book will teach you how to program in R, with hands-on examples. Written for non-programmers to provide a friendly introduction to the R language.\n\nR for Data Science (1e)\n\nFirst edition of “R for Data Science”, published January 2017.\n\nR for Data Science (2e)\n\nWork-in-progress 2nd edition of “R for Data Science”. This book will teach you how to do data science with R.\n\nAdvanced R (1e)\n\nCompanion website for “Advanced R”, a book in Chapman & Hall’s R Series. Designed primarily for R users who want to improve their programming skills and understanding of the language.\n\nAdvanced R (2e)\n\nWebsite for 2nd edition of “Advanced R”, a book in Chapman & Hall’s R Series.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nOn-line version of work-in-progress 3rd edition of “ggplot2: elegant graphics for data analysis” published by Springer.\n\nR Cookbook, 2nd Edition\n\nFull of how-to recipes, each of which solves a specific problem. The recipe includes a quick introduction to the solution followed by a discussion that aims to unpack the solution and give you some insight into how it works.\n\nText Mining with R: A Tidy Approach\n\nIntroduction to text mining using the tidytext package and other tidy tools in R.",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -426,6 +466,7 @@
     "section": "7.6 Scientific Journals & Publications",
     "text": "7.6 Scientific Journals & Publications\n\nA guide to machine learning for biologists\n\nJoe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones\nNature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)\n\nDifferential expression analysis for sequence count data\n\nAnders, S., Huber, W. Genome Biol 11, R106 (2010)\n\n\n\n7.6.1 Meta analysis bioinformatics (integration datasets)\n\nRecent developments and future directions in meta-analysis of differential gene expression in livestock RNA-Seq\nBatch effect detection and correction in RNA-seq data using machine-learning-based automated assessment of quality\nIntegration of RNA-Seq data with heterogeneous microarray data for breast cancer profiling\nIntegrated Analysis of Microarray and RNA-Seq Data for the Identification of Hub Genes and Networks Involved in the Pancreatic Cancer\nComBat-seq: batch effect adjustment for RNA-seq count data\nA benchmark of batch-effect correction methods for single-cell RNA sequencing data\nBatch effect in integrated RNA-seq analysis_Biostars\nIntegrating bulk RNA-Seq data with different sequencing depths and from different sources_bioinformatics.stackexchange",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -436,6 +477,7 @@
     "section": "7.7 Vignettes & Websites",
     "text": "7.7 Vignettes & Websites\n\nclusterProfiler\n\nclusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters\n\nMD Tutorials\n\nOn this site, you will find tutorials written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates.\n\nMassive open online course (MOOC)\n\nMOOC.org is an extension of edX.org, a leader in online courses. Whether you’re interested in learning for yourself, leveraging online courses to educate your workforce, or creating a MOOC, edX can help.",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -446,6 +488,7 @@
     "section": "7.8 R packages",
     "text": "7.8 R packages\n\nTCGAVisualize_volcano\n\nCreates a volcano plot for DNA methylation or expression",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -456,6 +499,7 @@
     "section": "7.9 Miscellaneous",
     "text": "7.9 Miscellaneous\n\nWelcome to Galaxy Training!\nbioinformatics.org\n15 Best Bioinformatics Youtube Channels For Training\n\n\n7.9.0.1 Become a graphic designer as a biologist:\n\nDrawBioMed\n\nThe scientific illustration channel for scientists\n\nAnimated biology With arpan\n\nIdeas for your design + learn basic biology\n\nNikolay’s Genetics Lessons\n\nThis YouTube Channel is designed to provide students with a basic understanding of the concepts of human genetics and genomics\n\nBiology Lectures\n\nDedicated to providing high quality and up-to-date lectures in the fields of general biology, microbiology, immunology, pharmacology, bioinformatics, and other life sciences\n\nthe bumbling biochemist\n\nJust a postdoc trying to make biochemistry fun and accessible for all\n\nGaBI Academy\n\n\n\n7.9.0.2 Useful Resources:\n\nTCGA Barcode\nDifferential gene expression\n\nBy NBIS - National Bioinformatics Infrastructure Sweden\n\nSeurat\nRemoving low count genes for RNA-seq downstream analysis\nRNA-seq analysis in R\nChapter 4 Differential expression analysis\n\nOmics Data Analysis by Laurent Gatto\n\nAnalysis of microarray data\n\nEBI, Functional genomics II, Common technologies and data analysis methods",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -466,6 +510,7 @@
     "section": "7.10 Topic Based",
     "text": "7.10 Topic Based\n\n7.10.1 Molecular Dynamics Simulation\n\nA Good Playlist on YouTube (Learn-at-ease)\nMDTutorials\nComputer Aided Drug Design\n\nNPTEL-NOC IITM\n\nQuora Ideas\nMatter Modeling Ideas\nGROMACS Reference Manual\nLAMMPS Tutorials\nClassical Allen-Tildesley book, Computer Simulation of Liquids\nStatistical foundation video by MIT OCW\n\n\n\n7.10.2 Biopython\n\nYouTube playlist\n\nA Good Playlist by Lana Dominkovic for biopython\n\nBiopython Tutorial PDF\n\nA very useful file to learn and deepen your understanding of the subject\n\nUDEMY_Biopython\nTraining Courses_ babraham bioinformatics",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -476,6 +521,7 @@
     "section": "7.11 Conferences, Workshops, and Webinars",
     "text": "7.11 Conferences, Workshops, and Webinars",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -486,6 +532,7 @@
     "section": "7.12 Career Guidance and Job Opportunities",
     "text": "7.12 Career Guidance and Job Opportunities",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -496,6 +543,7 @@
     "section": "7.13 Networking and Collaboration",
     "text": "7.13 Networking and Collaboration",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
@@ -506,6 +554,7 @@
     "section": "7.14 Regular Updates",
     "text": "7.14 Regular Updates",
     "crumbs": [
+      "Additional Resources",
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   }
