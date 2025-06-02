@@ -266,73 +266,7 @@
     "href": "integrated-platforms.html#version-control-git-github",
     "title": "5  Integrated Platforms, Tools, and Technologies",
     "section": "",
-    "text": "Final Final Final\n\n\n\n5.1.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\n\n\n5.1.2 Git: Your Personal Time Machine\nGit is like a super-powered save system. Instead of saving files with names like “paper_v1.docx”, “paper_v2.docx”, Git keeps track of all changes automatically.\n\n5.1.2.1 Basic Git Concepts (with Analogies)\n\nRepository (Repo)\n\nThink of it as a project folder that Git watches\nLike a photo album that keeps track of all your project’s versions\n\nCommit\n\nLike taking a snapshot of your work\nEach commit is a saved point you can return to\nLike saving a checkpoint in a video game\n\nBranch\n\nLike creating a parallel universe for your work\nYou can experiment without affecting the main project\nLike writing a draft of your paper without changing the original\n\nMerge\n\nCombining changes from different branches\nLike combining notes from different team members into one document\n\n\n\n\n\n5.1.3 Learning resources\n\ngit - the simple guide - no deep shit!\nGit Tutorial - Medium\nThe best and most reliable: Free book of Pro Git\nGitHub documentation\n\n\n\n5.1.4 Essential Git Commands\n\n\n\nGit in a nutshell (source: https://medium.com/(jaaeehoonkim/git-tutorial-1-31d0b1db1940?))\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Create and switch to a new branch\ngit checkout -b new-branch-name\n\n# Switch between branches\ngit checkout branch-name\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n# Reset your branch to the latest commit\ngit reset --hard\n\n\n5.1.5 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can: - Store your projects online - Collaborate with others - Share your work with the world\n\n5.1.5.1 Key GitHub Features\n\nRepository Hosting\n\nLike a cloud storage specifically for code\nAccess your projects from anywhere\n\nIssue Tracking\n\nLike a to-do list for your project\nTrack bugs and feature requests\n\nPull Requests\n\nLike suggesting changes to someone else’s work\nRequest to merge your changes into their project\n\nCode Review\n\nLike peer review for your code\nGet feedback before changes are merged\n\n\n\n\n\n5.1.6 Common GitHub Workflow\n\nFork a Repository\n\nLike making a copy of someone else’s project\nYou can modify it without affecting the original\n\nClone a Repository\ngit clone https://github.com/username/repository.git\n\nLike downloading a project to your computer\n\nPush Changes\ngit push origin main\n\nLike uploading your changes to GitHub\n\n\n\n\n5.1.7 Best Practices\n\nWrite Clear Commit Messages\n\nLike writing good notes\nHelps others (and yourself) understand changes\n\nCreate Feature Branches\n\nLike working on a separate draft\nKeeps your main work clean\n\nRegular Updates\n\nLike syncing your phone\nKeep your local copy up to date\n\nReview Before Committing\n\nLike proofreading before submitting\nCheck your changes before saving\n\n\n\n\n5.1.8 Common Scenarios\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nCollaborating with Others\ngit pull\n# Resolve any conflicts\ngit add .\ngit commit -m \"Resolved conflicts\"\ngit push\n\n\n\nGit and B-cell analogy\n\n\n\n\n\n5.1.9 Tips for Beginners\n\nStart Small\n\nBegin with basic commands\nPractice with simple projects\n\nUse Visual Tools\n\nGitHub Desktop\nGitKraken\nVS Code’s Git integration\n\nLearn from Mistakes\n\nGit keeps history\nYou can always go back\n\nAsk for Help\n\nGitHub has great documentation\nMany online communities can help\n\n\nRemember: Git and GitHub are tools that get easier with practice. Don’t worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.",
-    "crumbs": [
-      "Main Sections",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
-    ]
-  },
-  {
-    "objectID": "integrated-platforms.html#saas-platforms",
-    "href": "integrated-platforms.html#saas-platforms",
-    "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.2 SaaS Platforms",
-    "text": "5.2 SaaS Platforms\n\n5.2.1 Key Concepts\n\nCloud-Based Bioinformatics Tools\nWeb-Based Analysis Platforms\nCollaborative Research Environments\nData Sharing and Management\nWorkflow Automation\n\n\n\n5.2.2 Recommended Resources\n\nPlatforms:\n\nGalaxy - Web-based platform for data analysis\nBaseSpace - Illumina’s cloud platform\nDNAnexus - Cloud-based genomics platform\nSeven Bridges - Biomedical data analysis platform\n\nLearning Resources:\n\nGalaxy Training Network\nBaseSpace Learning Center",
-    "crumbs": [
-      "Main Sections",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
-    ]
-  },
-  {
-    "objectID": "integrated-platforms.html#cloud-computing-and-data-management",
-    "href": "integrated-platforms.html#cloud-computing-and-data-management",
-    "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.3 Cloud Computing and Data Management",
-    "text": "5.3 Cloud Computing and Data Management\n\n5.3.1 Key Concepts\n\nCloud Infrastructure (AWS, GCP, Azure)\nContainerization (Docker, Singularity)\nWorkflow Management\nData Storage and Transfer\nCost Optimization\n\n\n\n5.3.2 Recommended Resources\n\nTools and Software:\n\nAWS Genomics CLI - Genomics on AWS\nTerraform - Infrastructure as Code\nNextflow - Workflow Management\nS3FS - S3 File System\n\nLearning Resources:\n\nAWS Genomics Workshop\nNextflow Training",
-    "crumbs": [
-      "Main Sections",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
-    ]
-  },
-  {
-    "objectID": "integrated-platforms.html#high-performance-computing-hpc",
-    "href": "integrated-platforms.html#high-performance-computing-hpc",
-    "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.4 High-Performance Computing (HPC)",
-    "text": "5.4 High-Performance Computing (HPC)\n\n5.4.1 Key Concepts\n\nCluster Computing\nParallel Processing\nJob Scheduling\nResource Management\nPerformance Optimization\n\n\n\n5.4.2 Recommended Resources\n\nTools and Software:\n\nSLURM - Job Scheduler\nOpenMPI - Message Passing Interface\nHTCondor - Distributed Computing\nLmod - Environment Modules\n\nLearning Resources:\n\nHPC Carpentry\nSLURM Documentation",
-    "crumbs": [
-      "Main Sections",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
-    ]
-  },
-  {
-    "objectID": "integrated-platforms.html#collaborative-research-tools",
-    "href": "integrated-platforms.html#collaborative-research-tools",
-    "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.5 Collaborative Research Tools",
-    "text": "5.5 Collaborative Research Tools\n\n5.5.1 Key Concepts\n\nVersion Control\nProject Management\nDocumentation\nCode Review\nTeam Collaboration\n\n\n\n5.5.2 Recommended Resources\n\nTools and Software:\n\nGitHub - Code Hosting\nGitLab - DevOps Platform\nJupyterHub - Multi-user Jupyter\nOverleaf - LaTeX Collaboration\n\nLearning Resources:\n\nGitHub Learning Lab\nJupyter Documentation",
-    "crumbs": [
-      "Main Sections",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
-    ]
-  },
-  {
-    "objectID": "integrated-platforms.html#data-visualization-techniques",
-    "href": "integrated-platforms.html#data-visualization-techniques",
-    "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.6 Data Visualization Techniques",
-    "text": "5.6 Data Visualization Techniques\n\n5.6.1 Key Concepts\n\nScientific Visualization\nInteractive Dashboards\nStatistical Graphics\nNetwork Visualization\n3D Visualization\n\n\n\n5.6.2 Recommended Resources\n\nTools and Software:\n\nPlotly - Interactive Visualization\nTableau - Data Visualization\nD3.js - Web-based Visualization\nBioRender - Scientific Illustration\n\nLearning Resources:\n\nData Visualization Course\nPlotly Python Documentation",
-    "crumbs": [
-      "Main Sections",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
-    ]
-  },
-  {
-    "objectID": "integrated-platforms.html#big-data-analysis",
-    "href": "integrated-platforms.html#big-data-analysis",
-    "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.7 Big Data Analysis",
-    "text": "5.7 Big Data Analysis\n\n5.7.1 Key Concepts\n\nDistributed Computing\nData Processing Frameworks\nMachine Learning at Scale\nReal-time Analytics\nData Warehousing\n\n\n\n5.7.2 Recommended Resources\n\nTools and Software:\n\nApache Spark - Distributed Computing\nHadoop - Distributed Storage\nDask - Parallel Computing\nApache Kafka - Stream Processing\n\nLearning Resources:\n\nSpark Documentation\nDask Tutorial",
+    "text": "Final Final Final\n\n\n\n5.1.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\nGit was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like “paper_v1.docx”, “paper_v2.docx”, Git keeps track of all changes automatically.\n\n5.1.1.1 Basic Git Concepts\n\nRepository (Repo)\n\nThink of it as a project folder that Git watches\nLike a photo album that keeps track of all your project’s versions\n\nCommit\n\nLike taking a snapshot of your work\nEach commit is a saved point you can return to\nLike saving a checkpoint in a video game\n\nBranch\n\nLike creating a parallel universe for your work\nYou can experiment without affecting the main project\nLike writing a draft of your paper without changing the original\n\nMerge\n\nCombining changes from different branches\nLike combining notes from different team members into one document\n\n\n\n\n\n5.1.2 Learning resources\n\ngit - the simple guide - no deep shit!\nGit Tutorial - Medium\nThe best and most reliable: Free book of Pro Git\nGitHub documentation\n\n\n\n5.1.3 Essential Git Commands\n\n\n\nGit in a nutshell (source: https://medium.com/(jaaeehoonkim/git-tutorial-1-31d0b1db1940?))\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Create and switch to a new branch\ngit checkout -b new-branch-name\n\n# Switch between branches\ngit checkout branch-name\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n# Reset your branch to the latest commit\ngit reset --hard\n\n\n5.1.4 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can: - Store your projects online - Collaborate with others - Share your work with the world\n\n5.1.4.1 Key GitHub Features\n\nRepository Hosting\n\nLike a cloud storage specifically for code\nAccess your projects from anywhere\n\nIssue Tracking\n\nLike a to-do list for your project\nTrack bugs and feature requests\n\nPull Requests\n\nLike suggesting changes to someone else’s work\nRequest to merge your changes into their project\n\nCode Review\n\nLike peer review for your code\nGet feedback before changes are merged\n\n\n\n\n\n5.1.5 Common GitHub Workflow\n\nFork a Repository\n\nLike making a copy of someone else’s project\nYou can modify it without affecting the original\n\nClone a Repository\ngit clone https://github.com/username/repository.git\n\nLike downloading a project to your computer\n\nPush Changes\ngit push origin main\n\nLike uploading your changes to GitHub\n\n\n\n\n5.1.6 Best Practices\n\nWrite Clear Commit Messages\n\nLike writing good notes\nHelps others (and yourself) understand changes\n\nCreate Feature Branches\n\nLike working on a separate draft\nKeeps your main work clean\n\nRegular Updates\n\nLike syncing your phone\nKeep your local copy up to date\n\nReview Before Committing\n\nLike proofreading before submitting\nCheck your changes before saving\n\n\n\n\n5.1.7 Common Scenarios\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nCollaborating with Others\ngit pull\n# Resolve any conflicts\ngit add .\ngit commit -m \"Resolved conflicts\"\ngit push\n\n\n\nGit and B-cell analogy\n\n\n\n\n\n5.1.8 Tips for Beginners\n\nStart Small\n\nBegin with basic commands\nPractice with simple projects\n\nUse Visual Tools\n\nGitHub Desktop\nGitKraken\nVS Code’s Git integration\n\nLearn from Mistakes\n\nGit keeps history\nYou can always go back\n\nAsk for Help\n\nGitHub has great documentation\nMany online communities can help\n\n\nRemember: Git and GitHub are tools that get easier with practice. Don’t worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.",
     "crumbs": [
       "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
@@ -342,8 +276,74 @@
     "objectID": "integrated-platforms.html#devops-for-bioinformatics",
     "href": "integrated-platforms.html#devops-for-bioinformatics",
     "title": "5  Integrated Platforms, Tools, and Technologies",
-    "section": "5.8 DevOps for Bioinformatics",
-    "text": "5.8 DevOps for Bioinformatics\n\nDevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.\n\n\n5.8.1 Key Concepts\n\nContinuous Integration/Continuous Deployment (CI/CD)\nInfrastructure as Code (IaC)\nContainer Orchestration\nAutomated Testing\nMonitoring and Logging\nReproducible Environments\n\n\n\n5.8.2 Recommended Resources\n\nTools and Software:\n\nDocker - Containerization\nSingularity - Container Platform for HPC\nKubernetes - Container Orchestration\nGitHub Actions - CI/CD\nTerraform - Infrastructure as Code\nPrometheus - Monitoring\nGrafana - Visualization and Monitoring\n\nLearning Resources:\n\nDocker for Bioinformatics\nBioconda - Package Management\nBioconductor Docker - R/Bioconductor Containers\nBioContainers - Container Registry for Bioinformatics\n\n\n\n\n5.8.3 Essential DevOps Skills for Bioinformaticians\n\nContainerization\n\nCreating reproducible environments\nManaging dependencies\nBuilding and sharing containers\nExample: Creating a Dockerfile for a bioinformatics pipeline\n\nWorkflow Management\n\nNextflow/Snakemake for pipeline automation\nVersion control for workflows\nExample: Setting up a CI/CD pipeline for genomic analysis\n\nInfrastructure Management\n\nCloud resource provisioning\nCost optimization\nExample: Setting up a cloud-based analysis environment\n\nMonitoring and Logging\n\nTracking pipeline performance\nError handling and debugging\nExample: Setting up monitoring for a production pipeline\n\nSecurity Best Practices\n\nData protection\nAccess control\nExample: Implementing secure data transfer protocols\n\n\n\n\n5.8.4 Common DevOps Workflows in Bioinformatics\n\nPipeline Development\n# Example GitHub Actions workflow for testing a bioinformatics pipeline\nname: Pipeline Tests\non: [push, pull_request]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v2\n      - name: Run Tests\n        run: |\n          docker build -t mypipeline .\n          docker run mypipeline test\nEnvironment Management\n# Example Dockerfile for a bioinformatics environment\nFROM continuumio/miniconda3\nRUN conda install -c bioconda -c conda-forge \\\n    bwa \\\n    samtools \\\n    bedtools\nInfrastructure as Code\n# Example Terraform configuration for cloud resources\nresource \"aws_instance\" \"bioinfo_server\" {\n  ami           = \"ami-0c55b159cbfafe1f0\"\n  instance_type = \"t2.large\"\n  tags = {\n    Name = \"bioinfo-analysis-server\"\n  }\n}\n\n\n\n5.8.5 Best Practices\n\nVersion Control\n\nUse Git for all code and configuration\nImplement branching strategies\nDocument changes thoroughly\n\nTesting\n\nWrite unit tests for scripts\nImplement integration tests\nUse test data sets\n\nDocumentation\n\nMaintain README files\nDocument dependencies\nKeep changelogs\n\nSecurity\n\nFollow data protection guidelines\nImplement access controls\nRegular security audits\n\nPerformance\n\nMonitor resource usage\nOptimize workflows\nImplement caching strategies",
+    "section": "5.2 DevOps for Bioinformatics",
+    "text": "5.2 DevOps for Bioinformatics\n\nDevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.\n\n\n5.2.1 Key Concepts\n\nContinuous Integration/Continuous Deployment (CI/CD)\nInfrastructure as Code (IaC)\nContainer Orchestration\nAutomated Testing\nMonitoring and Logging\nReproducible Environments\n\n\n\n5.2.2 Recommended Resources\n\nTools and Software:\n\nDocker - Containerization\nSingularity - Container Platform for HPC\nKubernetes - Container Orchestration\nGitHub Actions - CI/CD\nTerraform - Infrastructure as Code\nPrometheus - Monitoring\nGrafana - Visualization and Monitoring\n\nLearning Resources:\n\nDocker for Bioinformatics\nBioconda - Package Management\nBioconductor Docker - R/Bioconductor Containers\nBioContainers - Container Registry for Bioinformatics\n\n\n\n\n5.2.3 Essential DevOps Skills for Bioinformaticians\n\nContainerization\n\nCreating reproducible environments\nManaging dependencies\nBuilding and sharing containers\nExample: Creating a Dockerfile for a bioinformatics pipeline\n\nWorkflow Management\n\nNextflow/Snakemake for pipeline automation\nVersion control for workflows\nExample: Setting up a CI/CD pipeline for genomic analysis\n\nInfrastructure Management\n\nCloud resource provisioning\nCost optimization\nExample: Setting up a cloud-based analysis environment\n\nMonitoring and Logging\n\nTracking pipeline performance\nError handling and debugging\nExample: Setting up monitoring for a production pipeline\n\nSecurity Best Practices\n\nData protection\nAccess control\nExample: Implementing secure data transfer protocols\n\n\n\n\n5.2.4 Common DevOps Workflows in Bioinformatics\n\nPipeline Development\n# Example GitHub Actions workflow for testing a bioinformatics pipeline\nname: Pipeline Tests\non: [push, pull_request]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v2\n      - name: Run Tests\n        run: |\n          docker build -t mypipeline .\n          docker run mypipeline test\nEnvironment Management\n# Example Dockerfile for a bioinformatics environment\nFROM continuumio/miniconda3\nRUN conda install -c bioconda -c conda-forge \\\n    bwa \\\n    samtools \\\n    bedtools\nInfrastructure as Code\n# Example Terraform configuration for cloud resources\nresource \"aws_instance\" \"bioinfo_server\" {\n  ami           = \"ami-0c55b159cbfafe1f0\"\n  instance_type = \"t2.large\"\n  tags = {\n    Name = \"bioinfo-analysis-server\"\n  }\n}\n\n\n\n5.2.5 Best Practices\n\nVersion Control\n\nUse Git for all code and configuration\nImplement branching strategies\nDocument changes thoroughly\n\nTesting\n\nWrite unit tests for scripts\nImplement integration tests\nUse test data sets\n\nDocumentation\n\nMaintain README files\nDocument dependencies\nKeep changelogs\n\nSecurity\n\nFollow data protection guidelines\nImplement access controls\nRegular security audits\n\nPerformance\n\nMonitor resource usage\nOptimize workflows\nImplement caching strategies",
+    "crumbs": [
+      "Main Sections",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#workflow-management-systems",
+    "href": "integrated-platforms.html#workflow-management-systems",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.3 Workflow Management Systems",
+    "text": "5.3 Workflow Management Systems\n\n5.3.1 Key Concepts\n\nPipeline Automation\nReproducible Analysis\nResource Management\nParallel Processing\nError Handling\n\n\n\n5.3.2 Recommended Resources\n\nTools and Software:\n\nNextflow - Workflow Management System\nSnakemake - Workflow Management System\nCWL - Common Workflow Language\nWDL - Workflow Description Language\n\nLearning Resources:\n\nNextflow Training\nSnakemake Tutorial\nCWL User Guide\n\n\n\n\n5.3.3 Essential Workflow Management Skills\n\nPipeline Design\n\nModular workflow components\nParameter management\nError handling\nExample: Creating a Nextflow script for RNA-seq analysis\n\nResource Optimization\n\nParallel processing\nMemory management\nCPU utilization\nExample: Configuring resource allocation in workflows\n\nIntegration with DevOps\n\nContainerization\nVersion control\nCI/CD integration\nExample: Setting up automated testing for workflows\n\nMonitoring and Debugging\n\nWorkflow execution tracking\nError reporting\nPerformance monitoring\nExample: Implementing logging and monitoring in workflows\n\n\n\n\n5.3.4 Common Workflow Patterns\n\nData Processing Pipeline\n# Example Nextflow script for data processing\n#!/usr/bin/env nextflow\n\nparams.input = \"data/raw/*.fastq.gz\"\nparams.outdir = \"results\"\n\nprocess PROCESS_DATA {\n  input:\n  path reads\n\n  output:\n  path \"*.processed\", emit: processed\n\n  script:\n  \"\"\"\n  process_data.sh $reads &gt; processed.txt\n  \"\"\"\n}\n\nworkflow {\n  reads = Channel.fromPath(params.input)\n  PROCESS_DATA(reads)\n}\nParallel Analysis\n# Example Nextflow script for parallel analysis\n#!/usr/bin/env nextflow\n\nprocess PARALLEL_ANALYSIS {\n  input:\n  path data\n\n  output:\n  path \"*.results\", emit: results\n\n  script:\n  \"\"\"\n  analyze.sh $data &gt; results.txt\n  \"\"\"\n}\n\nworkflow {\n  data = Channel.fromPath(\"data/*.txt\")\n  PARALLEL_ANALYSIS(data)\n}",
+    "crumbs": [
+      "Main Sections",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#saas-platforms",
+    "href": "integrated-platforms.html#saas-platforms",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.4 SaaS Platforms",
+    "text": "5.4 SaaS Platforms\n\n5.4.1 Key Concepts\n\nCloud-Based Bioinformatics Tools\nWeb-Based Analysis Platforms\nCollaborative Research Environments\nData Sharing and Management\nWorkflow Automation\n\n\n\n5.4.2 Recommended Resources\n\nPlatforms:\n\nGalaxy - Web-based platform for data analysis\nBaseSpace - Illumina’s cloud platform\nDNAnexus - Cloud-based genomics platform\nSeven Bridges - Biomedical data analysis platform\n\nLearning Resources:\n\nGalaxy Training Network\nBaseSpace Learning Center",
+    "crumbs": [
+      "Main Sections",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#cloud-computing-and-data-management",
+    "href": "integrated-platforms.html#cloud-computing-and-data-management",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.5 Cloud Computing and Data Management",
+    "text": "5.5 Cloud Computing and Data Management\n\n5.5.1 Key Concepts\n\nCloud Infrastructure (AWS, GCP, Azure)\nContainerization (Docker, Singularity)\nWorkflow Management\nData Storage and Transfer\nCost Optimization\n\n\n\n5.5.2 Recommended Resources\n\nTools and Software:\n\nAWS Genomics CLI - Genomics on AWS\nTerraform - Infrastructure as Code\nNextflow - Workflow Management\nS3FS - S3 File System\n\nLearning Resources:\n\nAWS Genomics Workshop\nNextflow Training",
+    "crumbs": [
+      "Main Sections",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#high-performance-computing-hpc",
+    "href": "integrated-platforms.html#high-performance-computing-hpc",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.6 High-Performance Computing (HPC)",
+    "text": "5.6 High-Performance Computing (HPC)\n\n5.6.1 Key Concepts\n\nCluster Computing\nParallel Processing\nJob Scheduling\nResource Management\nPerformance Optimization\n\n\n\n5.6.2 Recommended Resources\n\nTools and Software:\n\nSLURM - Job Scheduler\nOpenMPI - Message Passing Interface\nHTCondor - Distributed Computing\nLmod - Environment Modules\n\nLearning Resources:\n\nHPC Carpentry\nSLURM Documentation",
+    "crumbs": [
+      "Main Sections",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#data-visualization-techniques",
+    "href": "integrated-platforms.html#data-visualization-techniques",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.7 Data Visualization Techniques",
+    "text": "5.7 Data Visualization Techniques\n\n5.7.1 Key Concepts\n\nScientific Visualization\nInteractive Dashboards\nStatistical Graphics\nNetwork Visualization\n3D Visualization\n\n\n\n5.7.2 Recommended Resources\n\nTools and Software:\n\nPlotly - Interactive Visualization\nTableau - Data Visualization\nD3.js - Web-based Visualization\nBioRender - Scientific Illustration\n\nLearning Resources:\n\nData Visualization Course\nPlotly Python Documentation",
+    "crumbs": [
+      "Main Sections",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+    ]
+  },
+  {
+    "objectID": "integrated-platforms.html#big-data-analysis",
+    "href": "integrated-platforms.html#big-data-analysis",
+    "title": "5  Integrated Platforms, Tools, and Technologies",
+    "section": "5.8 Big Data Analysis",
+    "text": "5.8 Big Data Analysis\n\n5.8.1 Key Concepts\n\nDistributed Computing\nData Processing Frameworks\nMachine Learning at Scale\nReal-time Analytics\nData Warehousing\n\n\n\n5.8.2 Recommended Resources\n\nTools and Software:\n\nApache Spark - Distributed Computing\nHadoop - Distributed Storage\nDask - Parallel Computing\nApache Kafka - Stream Processing\n\nLearning Resources:\n\nSpark Documentation\nDask Tutorial",
     "crumbs": [
       "Main Sections",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"

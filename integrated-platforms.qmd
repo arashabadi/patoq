@@ -7,11 +7,9 @@
 
 Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.
 
-### Git: Your Personal Time Machine
+Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like "paper_v1.docx", "paper_v2.docx", Git keeps track of all changes automatically.
 
-Git is like a super-powered save system. Instead of saving files with names like "paper_v1.docx", "paper_v2.docx", Git keeps track of all changes automatically.
-
-#### Basic Git Concepts (with Analogies)
+#### Basic Git Concepts
 
 1. **Repository (Repo)**
    - Think of it as a project folder that Git watches
@@ -186,125 +184,6 @@ GitHub is like a social network for your code. It's where you can:
 
 Remember: Git and GitHub are tools that get easier with practice. Don't worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.
 
-## SaaS Platforms
-
-### Key Concepts
-- Cloud-Based Bioinformatics Tools
-- Web-Based Analysis Platforms
-- Collaborative Research Environments
-- Data Sharing and Management
-- Workflow Automation
-
-### Recommended Resources
-- **Platforms**:
-  - [Galaxy](https://galaxyproject.org/) - Web-based platform for data analysis
-  - [BaseSpace](https://basespace.illumina.com/) - Illumina's cloud platform
-  - [DNAnexus](https://www.dnanexus.com/) - Cloud-based genomics platform
-  - [Seven Bridges](https://www.sevenbridges.com/) - Biomedical data analysis platform
-
-- **Learning Resources**:
-  - [Galaxy Training Network](https://training.galaxyproject.org/)
-  - [BaseSpace Learning Center](https://basespace.illumina.com/learn)
-
-## Cloud Computing and Data Management
-
-### Key Concepts
-- Cloud Infrastructure (AWS, GCP, Azure)
-- Containerization (Docker, Singularity)
-- Workflow Management
-- Data Storage and Transfer
-- Cost Optimization
-
-### Recommended Resources
-- **Tools and Software**:
-  - [AWS Genomics CLI](https://aws.amazon.com/genomics-cli/) - Genomics on AWS
-  - [Terraform](https://www.terraform.io/) - Infrastructure as Code
-  - [Nextflow](https://www.nextflow.io/) - Workflow Management
-  - [S3FS](https://github.com/s3fs-fuse/s3fs-fuse) - S3 File System
-
-- **Learning Resources**:
-  - [AWS Genomics Workshop](https://aws.amazon.com/genomics/)
-  - [Nextflow Training](https://www.nextflow.io/docs/latest/getstarted.html)
-
-## High-Performance Computing (HPC)
-
-### Key Concepts
-- Cluster Computing
-- Parallel Processing
-- Job Scheduling
-- Resource Management
-- Performance Optimization
-
-### Recommended Resources
-- **Tools and Software**:
-  - [SLURM](https://slurm.schedmd.com/) - Job Scheduler
-  - [OpenMPI](https://www.open-mpi.org/) - Message Passing Interface
-  - [HTCondor](https://htcondor.org/) - Distributed Computing
-  - [Lmod](https://lmod.readthedocs.io/) - Environment Modules
-
-- **Learning Resources**:
-  - [HPC Carpentry](https://hpc-carpentry.org/)
-  - [SLURM Documentation](https://slurm.schedmd.com/documentation.html)
-
-## Collaborative Research Tools
-
-### Key Concepts
-- Version Control
-- Project Management
-- Documentation
-- Code Review
-- Team Collaboration
-
-### Recommended Resources
-- **Tools and Software**:
-  - [GitHub](https://github.com/) - Code Hosting
-  - [GitLab](https://about.gitlab.com/) - DevOps Platform
-  - [JupyterHub](https://jupyter.org/hub) - Multi-user Jupyter
-  - [Overleaf](https://www.overleaf.com/) - LaTeX Collaboration
-
-- **Learning Resources**:
-  - [GitHub Learning Lab](https://lab.github.com/)
-  - [Jupyter Documentation](https://jupyter.org/documentation)
-
-## Data Visualization Techniques
-
-### Key Concepts
-- Scientific Visualization
-- Interactive Dashboards
-- Statistical Graphics
-- Network Visualization
-- 3D Visualization
-
-### Recommended Resources
-- **Tools and Software**:
-  - [Plotly](https://plotly.com/) - Interactive Visualization
-  - [Tableau](https://www.tableau.com/) - Data Visualization
-  - [D3.js](https://d3js.org/) - Web-based Visualization
-  - [BioRender](https://biorender.com/) - Scientific Illustration
-
-- **Learning Resources**:
-  - [Data Visualization Course](https://www.ebi.ac.uk/training/online/courses/data-visualisation/)
-  - [Plotly Python Documentation](https://plotly.com/python/)
-
-## Big Data Analysis
-
-### Key Concepts
-- Distributed Computing
-- Data Processing Frameworks
-- Machine Learning at Scale
-- Real-time Analytics
-- Data Warehousing
-
-### Recommended Resources
-- **Tools and Software**:
-  - [Apache Spark](https://spark.apache.org/) - Distributed Computing
-  - [Hadoop](https://hadoop.apache.org/) - Distributed Storage
-  - [Dask](https://dask.org/) - Parallel Computing
-  - [Apache Kafka](https://kafka.apache.org/) - Stream Processing
-
-- **Learning Resources**:
-  - [Spark Documentation](https://spark.apache.org/docs/latest/)
-  - [Dask Tutorial](https://tutorial.dask.org/)
 
 ## DevOps for Bioinformatics
 > DevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.
@@ -427,3 +306,204 @@ Remember: Git and GitHub are tools that get easier with practice. Don't worry if
    - Monitor resource usage
    - Optimize workflows
    - Implement caching strategies 
+
+
+## Workflow Management Systems
+
+### Key Concepts
+- Pipeline Automation
+- Reproducible Analysis
+- Resource Management
+- Parallel Processing
+- Error Handling
+
+### Recommended Resources
+- **Tools and Software**:
+  - [Nextflow](https://www.nextflow.io/) - Workflow Management System
+  - [Snakemake](https://snakemake.readthedocs.io/) - Workflow Management System
+  - [CWL](https://www.commonwl.org/) - Common Workflow Language
+  - [WDL](https://openwdl.org/) - Workflow Description Language
+
+- **Learning Resources**:
+  - [Nextflow Training](https://www.nextflow.io/docs/latest/getstarted.html)
+  - [Snakemake Tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
+  - [CWL User Guide](https://www.commonwl.org/user_guide/)
+
+### Essential Workflow Management Skills
+
+1. **Pipeline Design**
+   - Modular workflow components
+   - Parameter management
+   - Error handling
+   - Example: Creating a Nextflow script for RNA-seq analysis
+
+2. **Resource Optimization**
+   - Parallel processing
+   - Memory management
+   - CPU utilization
+   - Example: Configuring resource allocation in workflows
+
+3. **Integration with DevOps**
+   - Containerization
+   - Version control
+   - CI/CD integration
+   - Example: Setting up automated testing for workflows
+
+4. **Monitoring and Debugging**
+   - Workflow execution tracking
+   - Error reporting
+   - Performance monitoring
+   - Example: Implementing logging and monitoring in workflows
+
+### Common Workflow Patterns
+
+1. **Data Processing Pipeline**
+   ```groovy
+   # Example Nextflow script for data processing
+   #!/usr/bin/env nextflow
+   
+   params.input = "data/raw/*.fastq.gz"
+   params.outdir = "results"
+   
+   process PROCESS_DATA {
+     input:
+     path reads
+     
+     output:
+     path "*.processed", emit: processed
+     
+     script:
+     """
+     process_data.sh $reads > processed.txt
+     """
+   }
+   
+   workflow {
+     reads = Channel.fromPath(params.input)
+     PROCESS_DATA(reads)
+   }
+   ```
+
+2. **Parallel Analysis**
+   ```groovy
+   # Example Nextflow script for parallel analysis
+   #!/usr/bin/env nextflow
+   
+   process PARALLEL_ANALYSIS {
+     input:
+     path data
+     
+     output:
+     path "*.results", emit: results
+     
+     script:
+     """
+     analyze.sh $data > results.txt
+     """
+   }
+   
+   workflow {
+     data = Channel.fromPath("data/*.txt")
+     PARALLEL_ANALYSIS(data)
+   }
+   ```
+
+## SaaS Platforms
+
+### Key Concepts
+- Cloud-Based Bioinformatics Tools
+- Web-Based Analysis Platforms
+- Collaborative Research Environments
+- Data Sharing and Management
+- Workflow Automation
+
+### Recommended Resources
+- **Platforms**:
+  - [Galaxy](https://galaxyproject.org/) - Web-based platform for data analysis
+  - [BaseSpace](https://basespace.illumina.com/) - Illumina's cloud platform
+  - [DNAnexus](https://www.dnanexus.com/) - Cloud-based genomics platform
+  - [Seven Bridges](https://www.sevenbridges.com/) - Biomedical data analysis platform
+
+- **Learning Resources**:
+  - [Galaxy Training Network](https://training.galaxyproject.org/)
+  - [BaseSpace Learning Center](https://basespace.illumina.com/learn)
+
+## Cloud Computing and Data Management
+
+### Key Concepts
+- Cloud Infrastructure (AWS, GCP, Azure)
+- Containerization (Docker, Singularity)
+- Workflow Management
+- Data Storage and Transfer
+- Cost Optimization
+
+### Recommended Resources
+- **Tools and Software**:
+  - [AWS Genomics CLI](https://aws.amazon.com/genomics-cli/) - Genomics on AWS
+  - [Terraform](https://www.terraform.io/) - Infrastructure as Code
+  - [Nextflow](https://www.nextflow.io/) - Workflow Management
+  - [S3FS](https://github.com/s3fs-fuse/s3fs-fuse) - S3 File System
+
+- **Learning Resources**:
+  - [AWS Genomics Workshop](https://aws.amazon.com/genomics/)
+  - [Nextflow Training](https://www.nextflow.io/docs/latest/getstarted.html)
+
+## High-Performance Computing (HPC)
+
+### Key Concepts
+- Cluster Computing
+- Parallel Processing
+- Job Scheduling
+- Resource Management
+- Performance Optimization
+
+### Recommended Resources
+- **Tools and Software**:
+  - [SLURM](https://slurm.schedmd.com/) - Job Scheduler
+  - [OpenMPI](https://www.open-mpi.org/) - Message Passing Interface
+  - [HTCondor](https://htcondor.org/) - Distributed Computing
+  - [Lmod](https://lmod.readthedocs.io/) - Environment Modules
+
+- **Learning Resources**:
+  - [HPC Carpentry](https://hpc-carpentry.org/)
+  - [SLURM Documentation](https://slurm.schedmd.com/documentation.html)
+
+## Data Visualization Techniques
+
+### Key Concepts
+- Scientific Visualization
+- Interactive Dashboards
+- Statistical Graphics
+- Network Visualization
+- 3D Visualization
+
+### Recommended Resources
+- **Tools and Software**:
+  - [Plotly](https://plotly.com/) - Interactive Visualization
+  - [Tableau](https://www.tableau.com/) - Data Visualization
+  - [D3.js](https://d3js.org/) - Web-based Visualization
+  - [BioRender](https://biorender.com/) - Scientific Illustration
+
+- **Learning Resources**:
+  - [Data Visualization Course](https://www.ebi.ac.uk/training/online/courses/data-visualisation/)
+  - [Plotly Python Documentation](https://plotly.com/python/)
+
+## Big Data Analysis
+
+### Key Concepts
+- Distributed Computing
+- Data Processing Frameworks
+- Machine Learning at Scale
+- Real-time Analytics
+- Data Warehousing
+
+### Recommended Resources
+- **Tools and Software**:
+  - [Apache Spark](https://spark.apache.org/) - Distributed Computing
+  - [Hadoop](https://hadoop.apache.org/) - Distributed Storage
+  - [Dask](https://dask.org/) - Parallel Computing
+  - [Apache Kafka](https://kafka.apache.org/) - Stream Processing
+
+- **Learning Resources**:
+  - [Spark Documentation](https://spark.apache.org/docs/latest/)
+  - [Dask Tutorial](https://tutorial.dask.org/)
