@@ -44,18 +44,6 @@ git commit -m "Description of changes"
 # See your project history
 git log
 
-# Create and switch to a new branch
-git checkout -b new-branch-name
-
-# Switch between branches
-git checkout branch-name
-
-# Get updates from remote repository
-git pull
-
-# Send your changes to remote repository
-git push
-
 # Reset your branch to the latest commit
 git reset --hard
 ```
@@ -65,19 +53,32 @@ git reset --hard
 ![GitHub vs Bitbucket vs GitLab](./images/git/github.jpg)
 
 GitHub is like a social network for your code. It's where you can store your projects online, collaborate with others and share your work with the world. GitHub has **Repository Hosting** - a cloud storage specifically for code, **Issue Tracking** - a to-do list for your project and bug reporting, **Pull Requests** - suggesting changes to someone else's work or requesting changes to your own work, **Code Review** - peer review process for your code, and **CI/CD** features. 
-Common workflows in GitHub: **Fork a Repository**: Like making a copy of someone else's project. You can modify it without affecting the original. **Clone a Repository**: Like downloading a project to your computer.
+Common workflows in GitHub: **Fork a Repository**: Like making a copy of someone else's project. You can modify it without affecting the original. **Push Changes**: Like uploading your changes to GitHub. **Clone a Repository**: Like downloading a project to your computer.
 
 ```bash
+# Clone a repository
 git clone https://github.com/username/repository.git
-```
 
-**Push Changes**: Like uploading your changes to GitHub.
+# Get updates from remote repository
+git pull
 
-```bash
-git push origin main
+# Send your changes to remote repository
+git push
+
 ```
 
 ### Common Scenarios and Best Practices
+
+When working with Git, follow these key practices: write clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, start with basic commands and simple projects, utilize visual tools like GitHub Desktop or VS Code's Git integration, learn from mistakes (Git maintains history so you can always revert), and don't hesitate to consult GitHub's documentation or online communities for help.
+
+- What usually happens daily:
+
+1. **Starting a New Project**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
 
 1. **Starting a New Project**
    ```bash
@@ -95,58 +96,27 @@ git push origin main
    git push
    ```
 
-3. **Collaborating with Others**
+3. **Working with Branches**
    ```bash
-   git pull
-   # Resolve any conflicts
+   git checkout -b new-branch-name
+   # Make changes
    git add .
-   git commit -m "Resolved conflicts"
+   git commit -m "Description of changes"
    git push
+   git checkout main
+   git merge new-branch-name
    ```
+
+<div style="text-align: center">
 ![Git and B-cell analogy](./images/git/git-bcell.png){.image width="500px"}
+</div>
 
-1. **Write Clear Commit Messages**
-   - Like writing good notes
-   - Helps others (and yourself) understand changes
-
-2. **Create Feature Branches**
-   - Like working on a separate draft
-   - Keeps your main work clean
-
-3. **Regular Updates**
-   - Like syncing your phone
-   - Keep your local copy up to date
-
-4. **Review Before Committing**
-   - Like proofreading before submitting
-   - Check your changes before saving
-
-
-1. **Start Small**
-   - Begin with basic commands
-   - Practice with simple projects
-
-2. **Use Visual Tools**
-   - GitHub Desktop
-   - GitKraken
-   - VS Code's Git integration
-
-3. **Learn from Mistakes**
-   - Git keeps history
-   - You can always go back
-
-4. **Ask for Help**
-   - GitHub has great documentation
-   - Many online communities can help
-
-Remember: Git and GitHub are tools that get easier with practice. Don't worry if it seems complex at first - even experienced developers use only a small subset of commands regularly.
-
-
-### Learning resources
+### Learning resources 
 - [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
 - [Git Tutorial - Medium by Jaaeehoonkim](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)
 - The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)
 - [GitHub documentation](https://docs.github.com/)
+- YouTube and ChatGPT are your best friends!
 
 <div style="text-align: center">
 ![Git Cheat Sheet! [PDF](https://wizardzines.com/git-cheat-sheet.pdf)](./images/git/git-cheat-sheet.png){.image width="500px"}
