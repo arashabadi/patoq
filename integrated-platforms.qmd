@@ -31,8 +31,15 @@ Git is like a super-powered save system. Instead of saving files with names like
    - Combining changes from different branches
    - Like combining notes from different team members into one document
 
+### Learning resources
+- [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
+- [Git Tutorial - Medium](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)
+- The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)
+- [GitHub documentation](https://docs.github.com/)
+
+
 ### Essential Git Commands
-![Git and B-cell analogy](./images/git-bcell.png)
+![Git in a nutshell (source: https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*fQqHRi7EhD_8CzyVIy81lg.png)
 
 ```bash
 # Start a new project (create a new repository)
@@ -62,11 +69,14 @@ git pull
 
 # Send your changes to remote repository
 git push
+
+# Reset your branch to the latest commit
+git reset --hard
 ```
 
 ### GitHub: Your Project's Home on the Internet
 
-![GitHub vs Bitbucket vs GitLab](./images/github.png)
+![GitHub vs Bitbucket vs GitLab](./images/github.jpg)
 
 GitHub is like a social network for your code. It's where you can:
 - Store your projects online
@@ -153,6 +163,7 @@ GitHub is like a social network for your code. It's where you can:
    git commit -m "Resolved conflicts"
    git push
    ```
+![Git and B-cell analogy](./images/git-bcell.png)
 
 ### Tips for Beginners
 
