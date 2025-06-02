@@ -25,7 +25,14 @@ format:
     code-fold: true
     code-tools: true
     repo-url: https://github.com/arashabadi/patog
+    edit-url: https://github.com/arashabadi/patog/edit/main/
     toc: true
     toc-expand: true
     link-external-icon: true
     link-external-newwindow: true
+    navbar:
+      right:
+        - icon: github
+          href: https://github.com/arashabadi/patog
+        - icon: edit
+          href: https://github.com/arashabadi/patog/edit/main/
