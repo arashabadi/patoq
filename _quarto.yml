@@ -6,7 +6,7 @@ book:
   title: "PATOQ"
   author: "<a href='https://arashabadi.github.io/'>Arash B. Abadi</a>"
   date: last-modified
-  cover-image: images/patoq_cover_n.png
+  cover-image: images/patoq_cover_t.png
   chapters:
     - index.qmd
     - part: "Prerequisites"
