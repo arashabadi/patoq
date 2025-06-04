@@ -102,7 +102,7 @@ What usually happens daily:
    ```
 
 <div style="text-align: center">
-![Git and B Cell Analogy!](https://drive.google.com/file/d/1FcwCJBdsdEIX1B3TztUeUxUCCPz8p_NT/view?usp=sharing){.image width="500px"}
+![Git and B Cell Analogy!](./images/git/git-bcell-r.png){.image width="500px"}
 </div>
 
 ### Learning resources 
