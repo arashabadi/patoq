@@ -18,10 +18,25 @@ jobs:
         with:
           version: latest
           
+      - name: Debug Information
+        run: |
+          echo "Current directory: $(pwd)"
+          echo "Directory contents:"
+          ls -la
+          echo "Quarto version:"
+          quarto --version
+          echo "Checking _quarto.yml:"
+          cat _quarto.yml
+          
       - name: Render
         uses: quarto-dev/quarto-actions/render@v2
         with:
-          args: --to html
+          args: --to html --debug
+          
+      - name: Check Output
+        run: |
+          echo "Checking docs directory:"
+          ls -la docs/
           
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
