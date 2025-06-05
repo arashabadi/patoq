@@ -16,7 +16,8 @@ jobs:
       - name: Setup Quarto
         uses: quarto-dev/quarto-actions/setup@v2
         with:
-          version: v2
+          version: '1.4.549'
+          tinytex: false
           
       - name: Debug Information
         run: |
