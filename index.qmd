@@ -63,8 +63,6 @@ PATOQ (پاتوق) is a curated collection of resources & quick tutorials around
 
 <!-- End of Table of Contents -->
 
-![Learning Journey](./images/puzzle.png){.image width="300px"}
-
 This book is a Quarto-based online HTML book for the PATOQ project. See [CONTRIBUTING.md](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md) for more information.
 
 <div style="text-align:center; margin: 2em 0 1em 0;">
