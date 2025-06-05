@@ -1,5 +1,8 @@
 # Prerequisites
 
+### Don't know where to start?
+Checkout [PATOQ Wiki](https://github.com/cellravel/patoq/wiki) for the Bioinformatics and Computational Biology Learning Roadmap!
+
 ## Biology Fundamentals
 
 ### Key Concepts
