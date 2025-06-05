@@ -18,9 +18,11 @@ jobs:
         with:
           version: latest
           
-      - name: Render book
-        run: quarto render
-        
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
+        with:
+          args: --to html
+          
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
