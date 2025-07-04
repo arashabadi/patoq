@@ -1,5 +1,9 @@
 # Additional Resources
 
+## Working With HPC
+https://epcced.github.io/hpc-intro/12-cluster/index.html
+
+
 ## YouTube Channels
 - [Bioinformatics DotCa](https://www.youtube.com/@bioinformaticsdotca)
 
