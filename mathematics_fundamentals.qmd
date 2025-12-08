@@ -1,0 +1,37 @@
+# Mathematics fundamentals and resources
+
+## Key Concepts
+- Linear Algebra: Vectors, matrices, and their applications
+- Calculus: Differential and integral calculus
+- Discrete Mathematics: Combinatorics, graph theory
+- Algorithms and Data Structures
+- Numerical Methods
+
+## Recommended Resources
+- **Books**:
+  - *Introduction to Linear Algebra* by Gilbert Strang
+  - *Discrete Mathematics and Its Applications* by Kenneth H. Rosen
+  - *Numerical Recipes* by William H. Press et al.
+
+- **Online Courses**:
+  - [Linear Algebra](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) on edX
+  - [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) on edX
+
+# Statistics fundamentals and resources
+
+## Key Concepts
+- Probability Theory: Distributions, random variables
+- Statistical Inference: Hypothesis testing, confidence intervals
+- Regression Analysis: Linear and non-linear models
+- Multivariate Statistics
+- Machine Learning Basics
+
+## Recommended Resources
+- **Books**:
+  - *The Elements of Statistical Learning* by Trevor Hastie et al.
+  - *Applied Multivariate Statistical Analysis* by Richard A. Johnson
+  - *Statistical Inference* by George Casella and Roger L. Berger
+
+- **Online Courses**:
+  - [Statistics and Data Science](https://www.edx.org/professional-certificate/mitx-statistics-and-data-science) on edX
+  - [Probability and Statistics](https://www.coursera.org/learn/probability-intro) on Coursera
