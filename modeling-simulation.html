@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PATOQ - 5&nbsp; Modeling and Simulation</title>
+<title>PATOQ - 7&nbsp; Modeling and Simulation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,8 +102,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
+(() => {
+  try {
+    const key = "patoq-color-mode";
+    const value = localStorage.getItem(key);
+    const mode = value === "light" || value === "dark" ? value : "dark";
+    if (!value) localStorage.setItem(key, "dark");
+    document.documentElement.setAttribute("data-bs-theme", mode);
+  } catch {
+    document.documentElement.setAttribute("data-bs-theme", "dark");
+  }
+})();
+</script>
+<script src="theme-switcher.js"></script>
 
 
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -115,7 +130,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./omics-data.html">Special topics</a></li><li class="breadcrumb-item"><a href="./modeling-simulation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./omics-data.html">Main Sections</a></li><li class="breadcrumb-item"><a href="./modeling-simulation.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -149,10 +164,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Welcome</span></a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prerequisites</span></a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./prerequisites.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Prerequisites</span></a>
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Foundations</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -172,8 +193,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./statistics_fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Statistics fundamentals and resources</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./computer_science_fundamentals.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></span></a>
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -181,7 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Special topics</span></a>
+ <span class="menu-text">Core Practice</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -189,26 +216,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./omics-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./modeling-simulation.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./integrated-platforms.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./specialized-topics.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specialized Topics</span></span></a>
+  <a href="./core-bioinformatics-workflow.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Core Bioinformatics Workflow</span></span></a>
   </div>
 </li>
       </ul>
@@ -216,7 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Additional Resources</span></a>
+ <span class="menu-text">Main Sections</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -224,8 +233,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./omics-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modeling-simulation.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./integrated-platforms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./specialized-topics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Specialized Topics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Additional Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./additional-resources.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Additional Resources</span></span></a>
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Additional Resources</span></span></a>
   </div>
 </li>
       </ul>
@@ -240,30 +284,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#molecular-modeling-and-dynamics" id="toc-molecular-modeling-and-dynamics" class="nav-link active" data-scroll-target="#molecular-modeling-and-dynamics"><span class="header-section-number">5.1</span> Molecular Modeling and Dynamics</a>
+  <li><a href="#molecular-modeling-and-dynamics" id="toc-molecular-modeling-and-dynamics" class="nav-link active" data-scroll-target="#molecular-modeling-and-dynamics"><span class="header-section-number">7.1</span> Molecular Modeling and Dynamics</a>
   <ul class="collapse">
-  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts"><span class="header-section-number">5.1.1</span> Key Concepts</a></li>
-  <li><a href="#recommended-resources" id="toc-recommended-resources" class="nav-link" data-scroll-target="#recommended-resources"><span class="header-section-number">5.1.2</span> Recommended Resources</a></li>
+  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts"><span class="header-section-number">7.1.1</span> Key Concepts</a></li>
+  <li><a href="#recommended-resources" id="toc-recommended-resources" class="nav-link" data-scroll-target="#recommended-resources"><span class="header-section-number">7.1.2</span> Recommended Resources</a></li>
   </ul></li>
-  <li><a href="#systems-biology" id="toc-systems-biology" class="nav-link" data-scroll-target="#systems-biology"><span class="header-section-number">5.2</span> Systems Biology</a>
+  <li><a href="#systems-biology" id="toc-systems-biology" class="nav-link" data-scroll-target="#systems-biology"><span class="header-section-number">7.2</span> Systems Biology</a>
   <ul class="collapse">
-  <li><a href="#key-concepts-1" id="toc-key-concepts-1" class="nav-link" data-scroll-target="#key-concepts-1"><span class="header-section-number">5.2.1</span> Key Concepts</a></li>
-  <li><a href="#recommended-resources-1" id="toc-recommended-resources-1" class="nav-link" data-scroll-target="#recommended-resources-1"><span class="header-section-number">5.2.2</span> Recommended Resources</a></li>
+  <li><a href="#key-concepts-1" id="toc-key-concepts-1" class="nav-link" data-scroll-target="#key-concepts-1"><span class="header-section-number">7.2.1</span> Key Concepts</a></li>
+  <li><a href="#recommended-resources-1" id="toc-recommended-resources-1" class="nav-link" data-scroll-target="#recommended-resources-1"><span class="header-section-number">7.2.2</span> Recommended Resources</a></li>
   </ul></li>
-  <li><a href="#computational-ecology-evolution-and-phylogenetics" id="toc-computational-ecology-evolution-and-phylogenetics" class="nav-link" data-scroll-target="#computational-ecology-evolution-and-phylogenetics"><span class="header-section-number">5.3</span> Computational Ecology, Evolution and Phylogenetics</a>
+  <li><a href="#computational-ecology-evolution-and-phylogenetics" id="toc-computational-ecology-evolution-and-phylogenetics" class="nav-link" data-scroll-target="#computational-ecology-evolution-and-phylogenetics"><span class="header-section-number">7.3</span> Computational Ecology, Evolution and Phylogenetics</a>
   <ul class="collapse">
-  <li><a href="#key-concepts-2" id="toc-key-concepts-2" class="nav-link" data-scroll-target="#key-concepts-2"><span class="header-section-number">5.3.1</span> Key Concepts</a></li>
-  <li><a href="#recommended-resources-2" id="toc-recommended-resources-2" class="nav-link" data-scroll-target="#recommended-resources-2"><span class="header-section-number">5.3.2</span> Recommended Resources</a></li>
+  <li><a href="#key-concepts-2" id="toc-key-concepts-2" class="nav-link" data-scroll-target="#key-concepts-2"><span class="header-section-number">7.3.1</span> Key Concepts</a></li>
+  <li><a href="#recommended-resources-2" id="toc-recommended-resources-2" class="nav-link" data-scroll-target="#recommended-resources-2"><span class="header-section-number">7.3.2</span> Recommended Resources</a></li>
   </ul></li>
-  <li><a href="#computational-pharmacology-and-drug-design" id="toc-computational-pharmacology-and-drug-design" class="nav-link" data-scroll-target="#computational-pharmacology-and-drug-design"><span class="header-section-number">5.4</span> Computational Pharmacology and Drug Design</a>
+  <li><a href="#computational-pharmacology-and-drug-design" id="toc-computational-pharmacology-and-drug-design" class="nav-link" data-scroll-target="#computational-pharmacology-and-drug-design"><span class="header-section-number">7.4</span> Computational Pharmacology and Drug Design</a>
   <ul class="collapse">
-  <li><a href="#key-concepts-3" id="toc-key-concepts-3" class="nav-link" data-scroll-target="#key-concepts-3"><span class="header-section-number">5.4.1</span> Key Concepts</a></li>
-  <li><a href="#recommended-resources-3" id="toc-recommended-resources-3" class="nav-link" data-scroll-target="#recommended-resources-3"><span class="header-section-number">5.4.2</span> Recommended Resources</a></li>
+  <li><a href="#key-concepts-3" id="toc-key-concepts-3" class="nav-link" data-scroll-target="#key-concepts-3"><span class="header-section-number">7.4.1</span> Key Concepts</a></li>
+  <li><a href="#recommended-resources-3" id="toc-recommended-resources-3" class="nav-link" data-scroll-target="#recommended-resources-3"><span class="header-section-number">7.4.2</span> Recommended Resources</a></li>
   </ul></li>
-  <li><a href="#mathematical-modeling-of-biological-systems" id="toc-mathematical-modeling-of-biological-systems" class="nav-link" data-scroll-target="#mathematical-modeling-of-biological-systems"><span class="header-section-number">5.5</span> Mathematical Modeling of Biological Systems</a>
+  <li><a href="#mathematical-modeling-of-biological-systems" id="toc-mathematical-modeling-of-biological-systems" class="nav-link" data-scroll-target="#mathematical-modeling-of-biological-systems"><span class="header-section-number">7.5</span> Mathematical Modeling of Biological Systems</a>
   <ul class="collapse">
-  <li><a href="#key-concepts-4" id="toc-key-concepts-4" class="nav-link" data-scroll-target="#key-concepts-4"><span class="header-section-number">5.5.1</span> Key Concepts</a></li>
-  <li><a href="#recommended-resources-4" id="toc-recommended-resources-4" class="nav-link" data-scroll-target="#recommended-resources-4"><span class="header-section-number">5.5.2</span> Recommended Resources</a></li>
+  <li><a href="#key-concepts-4" id="toc-key-concepts-4" class="nav-link" data-scroll-target="#key-concepts-4"><span class="header-section-number">7.5.1</span> Key Concepts</a></li>
+  <li><a href="#recommended-resources-4" id="toc-recommended-resources-4" class="nav-link" data-scroll-target="#recommended-resources-4"><span class="header-section-number">7.5.2</span> Recommended Resources</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/modeling-simulation.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -271,9 +315,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./omics-data.html">Special topics</a></li><li class="breadcrumb-item"><a href="./modeling-simulation.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./omics-data.html">Main Sections</a></li><li class="breadcrumb-item"><a href="./modeling-simulation.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></a></li></ol></nav>
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -290,10 +334,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="molecular-modeling-and-dynamics" class="level2" data-number="5.1">
-<h2 data-number="5.1" class="anchored" data-anchor-id="molecular-modeling-and-dynamics"><span class="header-section-number">5.1</span> Molecular Modeling and Dynamics</h2>
-<section id="key-concepts" class="level3" data-number="5.1.1">
-<h3 data-number="5.1.1" class="anchored" data-anchor-id="key-concepts"><span class="header-section-number">5.1.1</span> Key Concepts</h3>
+<section id="molecular-modeling-and-dynamics" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="molecular-modeling-and-dynamics"><span class="header-section-number">7.1</span> Molecular Modeling and Dynamics</h2>
+<section id="key-concepts" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="key-concepts"><span class="header-section-number">7.1.1</span> Key Concepts</h3>
 <ul>
 <li>Protein Structure Prediction</li>
 <li>Molecular Docking</li>
@@ -302,8 +346,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Protein-Ligand Interactions</li>
 </ul>
 </section>
-<section id="recommended-resources" class="level3" data-number="5.1.2">
-<h3 data-number="5.1.2" class="anchored" data-anchor-id="recommended-resources"><span class="header-section-number">5.1.2</span> Recommended Resources</h3>
+<section id="recommended-resources" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="recommended-resources"><span class="header-section-number">7.1.2</span> Recommended Resources</h3>
 <ul>
 <li><strong>Tools and Software</strong>:
 <ul>
@@ -320,10 +364,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 </section>
-<section id="systems-biology" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="systems-biology"><span class="header-section-number">5.2</span> Systems Biology</h2>
-<section id="key-concepts-1" class="level3" data-number="5.2.1">
-<h3 data-number="5.2.1" class="anchored" data-anchor-id="key-concepts-1"><span class="header-section-number">5.2.1</span> Key Concepts</h3>
+<section id="systems-biology" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="systems-biology"><span class="header-section-number">7.2</span> Systems Biology</h2>
+<section id="key-concepts-1" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="key-concepts-1"><span class="header-section-number">7.2.1</span> Key Concepts</h3>
 <ul>
 <li>Mathematical Modeling of Biological Systems</li>
 <li>Network Analysis</li>
@@ -332,8 +376,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Cell Signaling Networks</li>
 </ul>
 </section>
-<section id="recommended-resources-1" class="level3" data-number="5.2.2">
-<h3 data-number="5.2.2" class="anchored" data-anchor-id="recommended-resources-1"><span class="header-section-number">5.2.2</span> Recommended Resources</h3>
+<section id="recommended-resources-1" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="recommended-resources-1"><span class="header-section-number">7.2.2</span> Recommended Resources</h3>
 <ul>
 <li><strong>Tools and Software</strong>:
 <ul>
@@ -350,10 +394,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 </section>
-<section id="computational-ecology-evolution-and-phylogenetics" class="level2" data-number="5.3">
-<h2 data-number="5.3" class="anchored" data-anchor-id="computational-ecology-evolution-and-phylogenetics"><span class="header-section-number">5.3</span> Computational Ecology, Evolution and Phylogenetics</h2>
-<section id="key-concepts-2" class="level3" data-number="5.3.1">
-<h3 data-number="5.3.1" class="anchored" data-anchor-id="key-concepts-2"><span class="header-section-number">5.3.1</span> Key Concepts</h3>
+<section id="computational-ecology-evolution-and-phylogenetics" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="computational-ecology-evolution-and-phylogenetics"><span class="header-section-number">7.3</span> Computational Ecology, Evolution and Phylogenetics</h2>
+<section id="key-concepts-2" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="key-concepts-2"><span class="header-section-number">7.3.1</span> Key Concepts</h3>
 <ul>
 <li>Phylogenetic Tree Construction</li>
 <li>Population Genetics</li>
@@ -362,8 +406,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Species Distribution Modeling</li>
 </ul>
 </section>
-<section id="recommended-resources-2" class="level3" data-number="5.3.2">
-<h3 data-number="5.3.2" class="anchored" data-anchor-id="recommended-resources-2"><span class="header-section-number">5.3.2</span> Recommended Resources</h3>
+<section id="recommended-resources-2" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="recommended-resources-2"><span class="header-section-number">7.3.2</span> Recommended Resources</h3>
 <ul>
 <li><strong>Tools and Software</strong>:
 <ul>
@@ -380,10 +424,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 </section>
-<section id="computational-pharmacology-and-drug-design" class="level2" data-number="5.4">
-<h2 data-number="5.4" class="anchored" data-anchor-id="computational-pharmacology-and-drug-design"><span class="header-section-number">5.4</span> Computational Pharmacology and Drug Design</h2>
-<section id="key-concepts-3" class="level3" data-number="5.4.1">
-<h3 data-number="5.4.1" class="anchored" data-anchor-id="key-concepts-3"><span class="header-section-number">5.4.1</span> Key Concepts</h3>
+<section id="computational-pharmacology-and-drug-design" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="computational-pharmacology-and-drug-design"><span class="header-section-number">7.4</span> Computational Pharmacology and Drug Design</h2>
+<section id="key-concepts-3" class="level3" data-number="7.4.1">
+<h3 data-number="7.4.1" class="anchored" data-anchor-id="key-concepts-3"><span class="header-section-number">7.4.1</span> Key Concepts</h3>
 <ul>
 <li>Structure-Based Drug Design</li>
 <li>Virtual Screening</li>
@@ -392,8 +436,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Drug-Target Interactions</li>
 </ul>
 </section>
-<section id="recommended-resources-3" class="level3" data-number="5.4.2">
-<h3 data-number="5.4.2" class="anchored" data-anchor-id="recommended-resources-3"><span class="header-section-number">5.4.2</span> Recommended Resources</h3>
+<section id="recommended-resources-3" class="level3" data-number="7.4.2">
+<h3 data-number="7.4.2" class="anchored" data-anchor-id="recommended-resources-3"><span class="header-section-number">7.4.2</span> Recommended Resources</h3>
 <ul>
 <li><strong>Tools and Software</strong>:
 <ul>
@@ -410,10 +454,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 </section>
 </section>
-<section id="mathematical-modeling-of-biological-systems" class="level2" data-number="5.5">
-<h2 data-number="5.5" class="anchored" data-anchor-id="mathematical-modeling-of-biological-systems"><span class="header-section-number">5.5</span> Mathematical Modeling of Biological Systems</h2>
-<section id="key-concepts-4" class="level3" data-number="5.5.1">
-<h3 data-number="5.5.1" class="anchored" data-anchor-id="key-concepts-4"><span class="header-section-number">5.5.1</span> Key Concepts</h3>
+<section id="mathematical-modeling-of-biological-systems" class="level2" data-number="7.5">
+<h2 data-number="7.5" class="anchored" data-anchor-id="mathematical-modeling-of-biological-systems"><span class="header-section-number">7.5</span> Mathematical Modeling of Biological Systems</h2>
+<section id="key-concepts-4" class="level3" data-number="7.5.1">
+<h3 data-number="7.5.1" class="anchored" data-anchor-id="key-concepts-4"><span class="header-section-number">7.5.1</span> Key Concepts</h3>
 <ul>
 <li>Differential Equations</li>
 <li>Stochastic Modeling</li>
@@ -422,8 +466,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Multi-Scale Modeling</li>
 </ul>
 </section>
-<section id="recommended-resources-4" class="level3" data-number="5.5.2">
-<h3 data-number="5.5.2" class="anchored" data-anchor-id="recommended-resources-4"><span class="header-section-number">5.5.2</span> Recommended Resources</h3>
+<section id="recommended-resources-4" class="level3" data-number="7.5.2">
+<h3 data-number="7.5.2" class="anchored" data-anchor-id="recommended-resources-4"><span class="header-section-number">7.5.2</span> Recommended Resources</h3>
 <ul>
 <li><strong>Tools and Software</strong>:
 <ul>
@@ -907,12 +951,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./omics-data.html" class="pagination-link  aria-label=" &lt;span="" data="" analysis="" and="" interpretation&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./integrated-platforms.html" class="pagination-link" aria-label="<span class='chapter-number'>6</span>&nbsp; <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>">
-        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./integrated-platforms.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">

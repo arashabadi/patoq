@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PATOQ - 2&nbsp; Mathematics fundamentals and resources</title>
+<title>PATOQ - 5&nbsp; Core Bioinformatics Workflow</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./statistics_fundamentals.html" rel="next">
-<link href="./biology_fundamentals.html" rel="prev">
+<link href="./omics-data.html" rel="next">
+<link href="./computer_science_fundamentals.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -130,7 +130,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./biology_fundamentals.html">Foundations</a></li><li class="breadcrumb-item"><a href="./mathematics_fundamentals.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mathematics fundamentals and resources</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./core-bioinformatics-workflow.html">Core Practice</a></li><li class="breadcrumb-item"><a href="./core-bioinformatics-workflow.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Core Bioinformatics Workflow</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -187,7 +187,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./mathematics_fundamentals.html" class="sidebar-item-text sidebar-link active">
+  <a href="./mathematics_fundamentals.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mathematics fundamentals and resources</span></span></a>
   </div>
 </li>
@@ -216,7 +216,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./core-bioinformatics-workflow.html" class="sidebar-item-text sidebar-link">
+  <a href="./core-bioinformatics-workflow.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Core Bioinformatics Workflow</span></span></a>
   </div>
 </li>
@@ -284,20 +284,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#why-this-matters" id="toc-why-this-matters" class="nav-link active" data-scroll-target="#why-this-matters"><span class="header-section-number">2.1</span> Why This Matters</a></li>
-  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link" data-scroll-target="#learning-outcomes"><span class="header-section-number">2.2</span> Learning Outcomes</a></li>
-  <li><a href="#suggested-time" id="toc-suggested-time" class="nav-link" data-scroll-target="#suggested-time"><span class="header-section-number">2.3</span> Suggested Time</a></li>
-  <li><a href="#key-concepts" id="toc-key-concepts" class="nav-link" data-scroll-target="#key-concepts"><span class="header-section-number">2.4</span> Key Concepts</a></li>
-  <li><a href="#recommended-resources" id="toc-recommended-resources" class="nav-link" data-scroll-target="#recommended-resources"><span class="header-section-number">2.5</span> Recommended Resources</a></li>
+  <li><a href="#learning-outcomes" id="toc-learning-outcomes" class="nav-link active" data-scroll-target="#learning-outcomes"><span class="header-section-number">5.1</span> Learning Outcomes</a></li>
+  <li><a href="#the-workflow" id="toc-the-workflow" class="nav-link" data-scroll-target="#the-workflow"><span class="header-section-number">5.2</span> The Workflow</a></li>
+  <li><a href="#minimal-reproducibility-checklist" id="toc-minimal-reproducibility-checklist" class="nav-link" data-scroll-target="#minimal-reproducibility-checklist"><span class="header-section-number">5.3</span> Minimal Reproducibility Checklist</a></li>
+  <li><a href="#suggested-project-skeleton" id="toc-suggested-project-skeleton" class="nav-link" data-scroll-target="#suggested-project-skeleton"><span class="header-section-number">5.4</span> Suggested Project Skeleton</a></li>
+  <li><a href="#starter-mini-project" id="toc-starter-mini-project" class="nav-link" data-scroll-target="#starter-mini-project"><span class="header-section-number">5.5</span> Starter Mini Project</a></li>
+  <li><a href="#what-to-read-next" id="toc-what-to-read-next" class="nav-link" data-scroll-target="#what-to-read-next"><span class="header-section-number">5.6</span> What To Read Next</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/mathematics_fundamentals.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/core-bioinformatics-workflow.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./biology_fundamentals.html">Foundations</a></li><li class="breadcrumb-item"><a href="./mathematics_fundamentals.html"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mathematics fundamentals and resources</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./core-bioinformatics-workflow.html">Core Practice</a></li><li class="breadcrumb-item"><a href="./core-bioinformatics-workflow.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Core Bioinformatics Workflow</span></a></li></ol></nav>
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mathematics fundamentals and resources</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Core Bioinformatics Workflow</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -314,50 +315,71 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="why-this-matters" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="why-this-matters"><span class="header-section-number">2.1</span> Why This Matters</h2>
-<p>Mathematics is the language behind models, optimization, and algorithmic thinking in bioinformatics.</p>
-</section>
-<section id="learning-outcomes" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">2.2</span> Learning Outcomes</h2>
+<p>This chapter gives a practical, reusable workflow for beginners before diving into specialized domains.</p>
+<section id="learning-outcomes" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="learning-outcomes"><span class="header-section-number">5.1</span> Learning Outcomes</h2>
 <ul>
-<li>Use vectors and matrices to reason about high-dimensional data.</li>
-<li>Understand derivatives/integrals for optimization and rates of change.</li>
-<li>Apply discrete math and algorithms in sequence and graph problems.</li>
-<li>Recognize when numerical methods are needed for approximations.</li>
+<li>Move from raw data to interpretable biological results.</li>
+<li>Keep analyses reproducible and version-controlled.</li>
+<li>Report methods and decisions clearly.</li>
 </ul>
 </section>
-<section id="suggested-time" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="suggested-time"><span class="header-section-number">2.3</span> Suggested Time</h2>
+<section id="the-workflow" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="the-workflow"><span class="header-section-number">5.2</span> The Workflow</h2>
+<ol type="1">
+<li>Define the biological question and study design.</li>
+<li>Collect data and metadata (with clear sample labels).</li>
+<li>Perform quality control and basic exploratory analysis.</li>
+<li>Run the core analysis (alignment/quantification/modeling).</li>
+<li>Validate findings with controls or external evidence.</li>
+<li>Visualize, interpret, and report results reproducibly.</li>
+</ol>
+</section>
+<section id="minimal-reproducibility-checklist" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="minimal-reproducibility-checklist"><span class="header-section-number">5.3</span> Minimal Reproducibility Checklist</h2>
 <ul>
-<li><strong>Minimum</strong>: 2 weeks (focused review)</li>
-<li><strong>Recommended</strong>: 3-4 weeks (with exercises)</li>
+<li>Keep all scripts/notebooks in Git.</li>
+<li>Pin software versions when possible.</li>
+<li>Separate raw data, intermediate files, and final results.</li>
+<li>Track parameters and random seeds.</li>
+<li>Document assumptions and limitations.</li>
 </ul>
 </section>
-<section id="key-concepts" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="key-concepts"><span class="header-section-number">2.4</span> Key Concepts</h2>
-<ul>
-<li>Linear Algebra: Vectors, matrices, and their applications</li>
-<li>Calculus: Differential and integral calculus</li>
-<li>Discrete Mathematics: Combinatorics, graph theory</li>
-<li>Algorithms and Data Structures</li>
-<li>Numerical Methods</li>
-</ul>
+<section id="suggested-project-skeleton" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="suggested-project-skeleton"><span class="header-section-number">5.4</span> Suggested Project Skeleton</h2>
+<pre class="text"><code>project/
+  data/
+    raw/
+    processed/
+  notebooks/
+  scripts/
+  results/
+  figures/
+  README.md</code></pre>
 </section>
-<section id="recommended-resources" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="recommended-resources"><span class="header-section-number">2.5</span> Recommended Resources</h2>
+<section id="starter-mini-project" class="level2" data-number="5.5">
+<h2 data-number="5.5" class="anchored" data-anchor-id="starter-mini-project"><span class="header-section-number">5.5</span> Starter Mini Project</h2>
+<details>
+<summary>
+Example: Differential expression quick practice
+</summary>
 <ul>
-<li><strong>Books</strong>:
+<li>Pick a public dataset (e.g., GEO or SRA-derived matrix).<br>
+</li>
+<li>Define two biological groups and one contrast.<br>
+</li>
+<li>Run QC + normalization + differential testing.<br>
+</li>
+<li>Report top genes/pathways with one figure and one table.</li>
+</ul>
+</details>
+</section>
+<section id="what-to-read-next" class="level2" data-number="5.6">
+<h2 data-number="5.6" class="anchored" data-anchor-id="what-to-read-next"><span class="header-section-number">5.6</span> What To Read Next</h2>
 <ul>
-<li><em>Introduction to Linear Algebra</em> by Gilbert Strang</li>
-<li><em>Discrete Mathematics and Its Applications</em> by Kenneth H. Rosen</li>
-<li><em>Numerical Recipes</em> by William H. Press et al.</li>
-</ul></li>
-<li><strong>Online Courses</strong>:
-<ul>
-<li><a href="https://www.edx.org/course/linear-algebra-foundations-to-frontiers">Linear Algebra</a> on edX</li>
-<li><a href="https://www.edx.org/course/calculus-1a-differentiation">Calculus 1A: Differentiation</a> on edX</li>
-</ul></li>
+<li><code>omics-data.qmd</code> for domain-specific analysis workflows.</li>
+<li><code>integrated-platforms.qmd</code> for reproducibility and scaling.</li>
+<li><code>additional-resources.qmd</code> for papers and extended learning.</li>
 </ul>
 
 
@@ -826,54 +848,78 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./biology_fundamentals.html" class="pagination-link  aria-label=" &lt;span="" fundamentals="" and="" resources&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Biology fundamentals and resources</span></span>
+      <a href="./computer_science_fundamentals.html" class="pagination-link  aria-label=" &lt;span="" science="" fundamentals="" and="" resources&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./statistics_fundamentals.html" class="pagination-link" aria-label="<span class='chapter-number'>3</span>&nbsp; <span class='chapter-title'>Statistics fundamentals and resources</span>">
-        <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Statistics fundamentals and resources</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./omics-data.html" class="pagination-link" aria-label="<span class='chapter-number'>6</span>&nbsp; <span class='chapter-title'>Omics Data Analysis and Interpretation</span>">
+        <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Mathematics fundamentals and resources</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Why This Matters</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Mathematics is the language behind models, optimization, and algorithmic thinking in bioinformatics.</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## Learning Outcomes</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Use vectors and matrices to reason about high-dimensional data.</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Understand derivatives/integrals for optimization and rates of change.</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Apply discrete math and algorithms in sequence and graph problems.</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Recognize when numerical methods are needed for approximations.</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="fu">## Suggested Time</span></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Minimum**: 2 weeks (focused review)</span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Recommended**: 3-4 weeks (with exercises)</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Key Concepts</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Linear Algebra: Vectors, matrices, and their applications</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Calculus: Differential and integral calculus</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Discrete Mathematics: Combinatorics, graph theory</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Algorithms and Data Structures</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Numerical Methods</span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## Recommended Resources</span></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Books**:</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>*Introduction to Linear Algebra* by Gilbert Strang</span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>*Discrete Mathematics and Its Applications* by Kenneth H. Rosen</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>*Numerical Recipes* by William H. Press et al.</span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Online Courses**:</span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span><span class="co">[</span><span class="ot">Linear Algebra</span><span class="co">](https://www.edx.org/course/linear-algebra-foundations-to-frontiers)</span> on edX</span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span><span class="co">[</span><span class="ot">Calculus 1A: Differentiation</span><span class="co">](https://www.edx.org/course/calculus-1a-differentiation)</span> on edX</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Core Bioinformatics Workflow</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>This chapter gives a practical, reusable workflow for beginners before diving into specialized domains.</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">## Learning Outcomes</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Move from raw data to interpretable biological results.</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Keep analyses reproducible and version-controlled.</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Report methods and decisions clearly.</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## The Workflow</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Define the biological question and study design.</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Collect data and metadata (with clear sample labels).</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Perform quality control and basic exploratory analysis.</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="ss">4. </span>Run the core analysis (alignment/quantification/modeling).</span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="ss">5. </span>Validate findings with controls or external evidence.</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="ss">6. </span>Visualize, interpret, and report results reproducibly.</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## Minimal Reproducibility Checklist</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Keep all scripts/notebooks in Git.</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pin software versions when possible.</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Separate raw data, intermediate files, and final results.</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Track parameters and random seeds.</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Document assumptions and limitations.</span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## Suggested Project Skeleton</span></span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="in">```text</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="in">project/</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="in">  data/</span></span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a><span class="in">    raw/</span></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="in">    processed/</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="in">  notebooks/</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="in">  scripts/</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a><span class="in">  results/</span></span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="in">  figures/</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a><span class="in">  README.md</span></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## Starter Mini Project</span></span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>&lt;details&gt;</span>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>&lt;summary&gt;Example: Differential expression quick practice&lt;/summary&gt;</span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pick a public dataset (e.g., GEO or SRA-derived matrix).  </span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Define two biological groups and one contrast.  </span>
+<span id="cb2-49"><a href="#cb2-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Run QC + normalization + differential testing.  </span>
+<span id="cb2-50"><a href="#cb2-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Report top genes/pathways with one figure and one table.</span>
+<span id="cb2-51"><a href="#cb2-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-52"><a href="#cb2-52" aria-hidden="true" tabindex="-1"></a>&lt;/details&gt;</span>
+<span id="cb2-53"><a href="#cb2-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-54"><a href="#cb2-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## What To Read Next</span></span>
+<span id="cb2-55"><a href="#cb2-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-56"><a href="#cb2-56" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`omics-data.qmd`</span> for domain-specific analysis workflows.</span>
+<span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`integrated-platforms.qmd`</span> for reproducibility and scaling.</span>
+<span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="in">`additional-resources.qmd`</span> for papers and extended learning.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/mathematics_fundamentals.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/core-bioinformatics-workflow.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
