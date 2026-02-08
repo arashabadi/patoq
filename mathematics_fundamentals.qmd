@@ -1,21 +1,5 @@
 # Mathematics fundamentals and resources
 
-## Why This Matters
-
-Mathematics is the language behind models, optimization, and algorithmic thinking in bioinformatics.
-
-## Learning Outcomes
-
-- Use vectors and matrices to reason about high-dimensional data.
-- Understand derivatives/integrals for optimization and rates of change.
-- Apply discrete math and algorithms in sequence and graph problems.
-- Recognize when numerical methods are needed for approximations.
-
-## Suggested Time
-
-- **Minimum**: 2 weeks (focused review)
-- **Recommended**: 3-4 weeks (with exercises)
-
 ## Key Concepts
 - Linear Algebra: Vectors, matrices, and their applications
 - Calculus: Differential and integral calculus
@@ -32,3 +16,22 @@ Mathematics is the language behind models, optimization, and algorithmic thinkin
 - **Online Courses**:
   - [Linear Algebra](https://www.edx.org/course/linear-algebra-foundations-to-frontiers) on edX
   - [Calculus 1A: Differentiation](https://www.edx.org/course/calculus-1a-differentiation) on edX
+
+# Statistics fundamentals and resources
+
+## Key Concepts
+- Probability Theory: Distributions, random variables
+- Statistical Inference: Hypothesis testing, confidence intervals
+- Regression Analysis: Linear and non-linear models
+- Multivariate Statistics
+- Machine Learning Basics
+
+## Recommended Resources
+- **Books**:
+  - *The Elements of Statistical Learning* by Trevor Hastie et al.
+  - *Applied Multivariate Statistical Analysis* by Richard A. Johnson
+  - *Statistical Inference* by George Casella and Roger L. Berger
+
+- **Online Courses**:
+  - [Statistics and Data Science](https://www.edx.org/professional-certificate/mitx-statistics-and-data-science) on edX
+  - [Probability and Statistics](https://www.coursera.org/learn/probability-intro) on Coursera
