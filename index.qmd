@@ -7,6 +7,8 @@ The term "Patoq" is a Persian (Farsi) word that means "gathering place" or "soci
 PATOQ is a gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.
 
 
+**Contributors:** [Hossein Asadkhanipour](https://github.com/h-asadkhanipour)
+
 This book is a Quarto-based online HTML book for the PATOQ project. See [CONTRIBUTING.md](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md) for more information.
 
 <div style="text-align:center; margin: 2em 0 1em 0;">
