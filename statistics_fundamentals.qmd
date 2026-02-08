@@ -1,0 +1,43 @@
+# Statistics fundamentals and resources
+
+## Why This Matters
+
+Statistics helps you distinguish biological signal from noise and make defensible conclusions.
+
+## Learning Outcomes
+
+- Explain probability distributions and sampling variability.
+- Perform and interpret hypothesis tests and confidence intervals.
+- Understand linear models and regression assumptions.
+- Select a suitable statistical method for common omics analyses.
+
+## Suggested Time
+
+- **Minimum**: 2 weeks (core concepts)
+- **Recommended**: 3-4 weeks (with practice datasets)
+
+## Key Concepts
+
+- Probability Theory: Distributions, random variables
+- Statistical Inference: Hypothesis testing, confidence intervals
+- Regression Analysis: Linear and non-linear models
+- Multivariate Statistics
+- Multiple Testing and False Discovery Rate
+
+## Recommended Resources
+
+- **Books**:
+  - *The Elements of Statistical Learning* by Trevor Hastie et al.
+  - *Applied Multivariate Statistical Analysis* by Richard A. Johnson
+  - *Statistical Inference* by George Casella and Roger L. Berger
+
+- **Online Courses**:
+  - [Statistics and Data Science](https://www.edx.org/professional-certificate/mitx-statistics-and-data-science) on edX
+  - [Probability and Statistics](https://www.coursera.org/learn/probability-intro) on Coursera
+
+## Mini Project
+
+- Download a small gene-expression dataset.
+- Run basic quality checks and summary plots.
+- Compare two groups with an appropriate test.
+- Write 5-8 lines explaining assumptions and limitations.

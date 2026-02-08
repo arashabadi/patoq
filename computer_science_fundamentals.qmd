@@ -1,191 +1,128 @@
 # Computer science fundamentals and resources
 
-  - *Bioinformatics Data Skills* by Vince Buffalo
+## Why This Matters
 
+Computing skills are the practical engine of bioinformatics. These fundamentals let you run analyses, collaborate, and reproduce your results.
 
+## Learning Outcomes
 
-# Operating system Linux
-## Linux basic resources
-### Books
-### Online courses
+- Work comfortably in Linux command line environments.
+- Use Git/GitHub for collaboration and version control.
+- Write and run small scripts in Python and R.
+- Organize project files so work is reproducible.
 
-## Linux advanced resources
-### Books
-### Online courses
+## Suggested Time
 
-## Linux persian reources
+- **Minimum**: 3 weeks (core usage)
+- **Recommended**: 4-6 weeks (with mini projects)
 
-## Linux fast tutorial
+## Linux Fundamentals
 
+### Key Concepts
 
-# Git and Github
+- File system navigation and permissions
+- Shell commands and pipes
+- Simple shell scripting for automation
+- Package and environment management
 
-## Git basic resources
+### Recommended Resources
 
-### Books
-- [head first git](https://i-love-git.com/)
+- **Books**:
+  - *The Linux Command Line* by William Shotts
 
-### Online courses
-- [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
-- [Git Tutorial - Medium by Jaaeehoonkim](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)
+- **Online Courses and Tutorials**:
+  - [HPC Carpentry: Introduction to Linux](https://carpentries-incubator.github.io/hpc-intro/)
+  - [MIT Missing Semester (Shell)](https://missing.csail.mit.edu/)
 
-## Git advanced resources
-### Books
-- The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)  
-- [Happy Git and GitHub for the useR](https://happygitwithr.com/)
+## Version Control: Git and GitHub
 
-### Online courses
-- [Introduction to Git and GitHub](https://www.coursera.org/learn/introduction-git-github) on Coursera
+### Why It Matters
 
-## Git persian reources
-- [ دوره رایگان، جذاب و خیلییی کوتاه گیت جادی تو فرادرس](https://faradars.org/courses/fvgit9609-git-github-gitlab)  
-- [Milad Bahrami youtube playlist](https://www.youtube.com/playlist?list=PLhpS3tgUDZcpamFNTdjXyRKzFGaBAkcLq)  
-- [Ashkan Rahmani youtube playlist](https://www.youtube.com/playlist?list=PLG-hncsy5aQ4keIG-pNoGj-zzU7TpFNPR)  
-- [Git mag youtube playlist](https://www.youtube.com/playlist?list=PL1xdRbCBrpofX93iVIkyujskR4cCy261S)  
-- [Salar Hagh youtube playlist](https://www.youtube.com/playlist?list=PLprvbQiR3cN9M3g22ui3MiEFkqLpVubAU)  
-- [neolearn youtube video](https://www.youtube.com/watch?v=TEx_mRpIDkA)  
-- [Sarvin Style Coding youtube video](https://www.youtube.com/watch?v=xDdal3QSypE)  
+Git helps you track changes, collaborate safely, and recover from mistakes without losing your work history.
 
+### Core Concepts
 
-## Git fast tutorial
-<div style="text-align: center">
-![Source: Google Images](./images/git/git_finalfinal.jpg){.image width="700px"}
-</div>
+- **Repository**: your tracked project folder
+- **Commit**: a saved checkpoint
+- **Branch**: an isolated line of work
+- **Pull Request**: proposed changes for review
 
-### What is Version Control?
-
-Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.
-
-Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like `paper_FINAL_final_UPDATED_NEW.docx` or `proj_NEW_LASTEST.R`, Git keeps track of all changes automatically.
-
-### Basic Git Concepts & Commands
-
-- **Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions. **Local repo** is a copy of the remote repo on your computer. **Remote repo** can be the version stored on GitHub or GitLab.
-
-- **Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.
-
-<div style="text-align: center">
-![Git in a nutshell - [Source](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](./images/git/git-medium.png){.image width="600px"}
-</div>
-
-- **Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.
-
-<div style="text-align: center">
-![Git Branches - [Source](https://www.nobledesktop.com/learn/git/git-branches)](./images/git/git-branches-merge.png){.image width="500px"}
-</div>
+### Quick Command Workflow
 
 ```bash
-# Start a new project (create a new repository)
-git init
-
-# Check the status of your files
-git status
-
-# Add files to be saved (staging)
-git add filename.txt    # Add specific file
-git add .              # Add all files
-
-# Save your changes (commit)
-git commit -m "Description of changes"
-
-# See your project history
-git log
-
-# Reset your branch to the latest commit
-git reset --hard
-```
-
-### GitHub: Your Project's Home on the Internet
-
-![GitHub vs Bitbucket vs GitLab](./images/git/github.jpg)
-
-GitHub is like a social network for your code. It's where you can store your projects online, collaborate with others and share your work with the world. GitHub has **Repository Hosting** - a cloud storage specifically for code, **Issue Tracking** - a to-do list for your project and bug reporting, **Pull Requests** - suggesting changes to someone else's work or requesting changes to your own work, **Code Review** - peer review process for your code, and **CI/CD** features. 
-Common workflows in GitHub: **Fork a Repository**: Like making a copy of someone else's project. You can modify it without affecting the original. **Push Changes**: Like uploading your changes to GitHub. **Clone a Repository**: Like downloading a project to your computer.
-
-```bash
-# Clone a repository
+# Clone project and create a feature branch
 git clone https://github.com/username/repository.git
+cd repository
+git checkout -b feature/your-topic
 
-# Get updates from remote repository
-git pull
-
-# Send your changes to remote repository
-git push
-
+# Work, commit, and push
+git status
+git add .
+git commit -m "Add your update"
+git pull --rebase
+git push -u origin feature/your-topic
 ```
 
-### Common Scenarios and Best Practices
+### Beginner-Safe Recovery Patterns
 
-When working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, **start with basic commands and simple projects**, you can utilize visual tools like GitHub Desktop or VS Code's Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!
+```bash
+# Unstage a file (keep edits)
+git restore --staged path/to/file
 
-What usually happens daily:
+# Discard local edits in one file
+git restore path/to/file
 
-1. **Starting a New Project**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   ```
-* **Note**: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.
+# Revert a bad commit with a new safe commit
+git revert <commit_hash>
 
-2. **Updating Your Work**
-   ```bash
-   git pull
-   # Make changes
-   git add .
-   git commit -m "Description of changes"
-   git push
-   ```
+# Temporarily save unfinished work
+git stash push -m "wip: notes"
+git stash pop
+```
 
-3. **Working with Branches**
-   ```bash
-   git checkout -b new-branch-name
-   # Make changes
-   git add .
-   git commit -m "Description of changes"
-   git push
-   git checkout main
-   git merge new-branch-name
-   ```
+Avoid destructive commands (for example `git reset --hard`) unless you fully understand the impact.
 
-<div style="text-align: center">
-![Git and B Cell Analogy!](./images/git/git-bcell-r.png){.image width="500px"}
-</div>
+### Learning Resources
 
+- **Books**:
+  - [Head First Git](https://i-love-git.com/)
+  - [Pro Git (free)](https://git-scm.com/book/en/v2)
+  - [Happy Git and GitHub for the useR](https://happygitwithr.com/)
 
-# R
-## Link to fast tutorial
+- **Online Courses and Guides**:
+  - [Git - The Simple Guide](https://rogerdudler.github.io/git-guide/)
+  - [Introduction to Git and GitHub (Coursera)](https://www.coursera.org/learn/introduction-git-github)
+  - [GitHub Docs](https://docs.github.com/)
 
-## R basic resources
+- **Persian Resources**:
+  - [Jadi Git course (Faradars)](https://faradars.org/courses/fvgit9609-git-github-gitlab)
+  - [Milad Bahrami playlist](https://www.youtube.com/playlist?list=PLhpS3tgUDZcpamFNTdjXyRKzFGaBAkcLq)
+  - [Ashkan Rahmani playlist](https://www.youtube.com/playlist?list=PLG-hncsy5aQ4keIG-pNoGj-zzU7TpFNPR)
 
-### Books
+## Programming Foundations: Python and R
 
-### Online courses
+### Python
 
-## R advanced resources
-
-### Books
-
-### Online courses
-
-## R persian reources  
-  - *R for Data Science* by Hadley Wickham
-  - [R Programming](https://www.coursera.org/learn/r-programming) on Coursera  
-
-## R fast tutorial
-
-# Python
-
-## Python basic resources
-### Books
+- **Use cases**: data wrangling, automation, analysis pipelines, ML
+- **Start with**:
   - *Python for Biologists* by Martin Jones
-### Online courses
+  - [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai)
 
-## Python advanced resources
-### Books
-### Online courses
-  - [Python for Data Science and AI](https://www.coursera.org/learn/python-for-applied-data-science-ai) on Coursera
+### R
 
-## Python persian reources
+- **Use cases**: statistics, visualization, transcriptomics workflows
+- **Start with**:
+  - *R for Data Science* by Hadley Wickham
+  - [R Programming](https://www.coursera.org/learn/r-programming)
 
-## Python fast tutorial
+## Mini Project
+
+<details>
+<summary>Build one reproducible starter project</summary>
+
+- Create a GitHub repo with `README.md`.
+- Add one Python or R script that loads and summarizes a public dataset.
+- Save output table/plot in `results/`.
+- Share the repo link with a short method summary.
+
+</details>

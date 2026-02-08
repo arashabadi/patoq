@@ -1,0 +1,76 @@
+:root {
+  --patoq-radius: 14px;
+  --patoq-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+}
+
+body {
+  line-height: 1.65;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: 0.01em;
+}
+
+.hero-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--patoq-radius);
+  padding: 1.1rem 1.2rem;
+  margin: 0.75rem 0 1.4rem 0;
+  background: var(--bs-tertiary-bg);
+  box-shadow: var(--patoq-shadow);
+}
+
+.path-grid {
+  display: grid;
+  gap: 0.9rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 0.75rem 0 1.25rem 0;
+}
+
+.path-card {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 12px;
+  padding: 0.9rem 1rem;
+  background: var(--bs-tertiary-bg);
+}
+
+.path-card h3 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+details {
+  border: 1px solid var(--bs-border-color);
+  border-radius: 10px;
+  background: var(--bs-tertiary-bg);
+  padding: 0.65rem 0.8rem;
+  margin: 0.75rem 0;
+}
+
+details > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+#patoq-theme-toggle {
+  margin-left: 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--bs-border-color);
+}
+
+.sidebar-item-container .sidebar-link.active {
+  font-weight: 600;
+}
+
+.quarto-title-block .quarto-title-banner,
+.quarto-title-block .quarto-title-meta {
+  border-radius: var(--patoq-radius);
+}
+
+@media (max-width: 768px) {
+  .hero-card {
+    padding: 1rem;
+  }
+}
