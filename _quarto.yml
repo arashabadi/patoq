@@ -16,17 +16,12 @@ book:
   
   chapters:
     - index.qmd
-    - prerequisites.qmd
-    - part: "Foundations"
-      chapters:
+    - part: prerequisites.qmd
+      chapters: 
         - biology_fundamentals.qmd
         - mathematics_fundamentals.qmd
-        - statistics_fundamentals.qmd
         - computer_science_fundamentals.qmd
-    - part: "Core Practice"
-      chapters:
-        - core-bioinformatics-workflow.qmd
-    - part: "Main Sections"
+    - part: "Special topics"
       chapters:
         - omics-data.qmd
         - modeling-simulation.qmd
@@ -41,23 +36,6 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
-    css: styles.css
-    include-in-header:
-      text: |
-        <script>
-        (() => {
-          try {
-            const key = "patoq-color-mode";
-            const value = localStorage.getItem(key);
-            const mode = value === "light" || value === "dark" ? value : "dark";
-            if (!value) localStorage.setItem(key, "dark");
-            document.documentElement.setAttribute("data-bs-theme", mode);
-          } catch {
-            document.documentElement.setAttribute("data-bs-theme", "dark");
-          }
-        })();
-        </script>
-        <script src="theme-switcher.js"></script>
     number-sections: true
     code-fold: true
     code-tools: true

@@ -1,135 +1,440 @@
 # Integrated Platforms, Tools, and Technologies
 
-This chapter focuses on platforms and infrastructure used to scale, share, and reproduce bioinformatics work.
+## Version Control: Git & GitHub
+<div style="text-align: center">
+![Source: Google Images](./images/git/git_finalfinal.jpg){.image width="700px"}
+</div>
 
-> Git/GitHub fundamentals are covered in `computer_science_fundamentals.qmd`.
+### What is Version Control?
+
+Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.
+
+Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like `paper_FINAL_final_UPDATED_NEW.docx` or `proj_NEW_LASTEST.R`, Git keeps track of all changes automatically.
+
+### Basic Git Concepts & Commands
+
+- **Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions. **Local repo** is a copy of the remote repo on your computer. **Remote repo** can be the version stored on GitHub or GitLab.
+
+- **Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.
+
+<div style="text-align: center">
+![Git in a nutshell - [Source](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)](./images/git/git-medium.png){.image width="600px"}
+</div>
+
+- **Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.
+
+<div style="text-align: center">
+![Git Branches - [Source](https://www.nobledesktop.com/learn/git/git-branches)](./images/git/git-branches-merge.png){.image width="500px"}
+</div>
+
+```bash
+# Start a new project (create a new repository)
+git init
+
+# Check the status of your files
+git status
+
+# Add files to be saved (staging)
+git add filename.txt    # Add specific file
+git add .              # Add all files
+
+# Save your changes (commit)
+git commit -m "Description of changes"
+
+# See your project history
+git log
+
+# Reset your branch to the latest commit
+git reset --hard
+```
+
+### GitHub: Your Project's Home on the Internet
+
+![GitHub vs Bitbucket vs GitLab](./images/git/github.jpg)
+
+GitHub is like a social network for your code. It's where you can store your projects online, collaborate with others and share your work with the world. GitHub has **Repository Hosting** - a cloud storage specifically for code, **Issue Tracking** - a to-do list for your project and bug reporting, **Pull Requests** - suggesting changes to someone else's work or requesting changes to your own work, **Code Review** - peer review process for your code, and **CI/CD** features. 
+Common workflows in GitHub: **Fork a Repository**: Like making a copy of someone else's project. You can modify it without affecting the original. **Push Changes**: Like uploading your changes to GitHub. **Clone a Repository**: Like downloading a project to your computer.
+
+```bash
+# Clone a repository
+git clone https://github.com/username/repository.git
+
+# Get updates from remote repository
+git pull
+
+# Send your changes to remote repository
+git push
+
+```
+
+### Common Scenarios and Best Practices
+
+When working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, **start with basic commands and simple projects**, you can utilize visual tools like GitHub Desktop or VS Code's Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!
+
+What usually happens daily:
+
+1. **Starting a New Project**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   ```
+* **Note**: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.
+
+2. **Updating Your Work**
+   ```bash
+   git pull
+   # Make changes
+   git add .
+   git commit -m "Description of changes"
+   git push
+   ```
+
+3. **Working with Branches**
+   ```bash
+   git checkout -b new-branch-name
+   # Make changes
+   git add .
+   git commit -m "Description of changes"
+   git push
+   git checkout main
+   git merge new-branch-name
+   ```
+
+<div style="text-align: center">
+![Git and B Cell Analogy!](./images/git/git-bcell-r.png){.image width="500px"}
+</div>
+
+### Learning resources 
+- [git - the simple guide - no deep shit!](https://rogerdudler.github.io/git-guide/)
+- [Git Tutorial - Medium by Jaaeehoonkim](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)
+- The best and most reliable: [Free book of Pro Git](https://git-scm.com/book/en/v2)
+- [GitHub documentation](https://docs.github.com/)
+- YouTube and ChatGPT are your best friends!
+
+<div style="text-align: center">
+![Git Cheat Sheet! [PDF](https://wizardzines.com/git-cheat-sheet.pdf)](./images/git/git-cheat-sheet.png){.image width="500px"}
+</div>
 
 ## DevOps for Bioinformatics
+> DevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.
 
 ### Key Concepts
-
-- Reproducible environments
-- Automated testing and CI/CD
-- Monitoring and troubleshooting
-- Secure and documented deployments
+- Continuous Integration/Continuous Deployment (CI/CD)
+- Infrastructure as Code (IaC)
+- Container Orchestration
+- Automated Testing
+- Monitoring and Logging
+- Reproducible Environments
 
 ### Recommended Resources
+- **Tools and Software**:
+  - [Docker](https://www.docker.com/) - Containerization
+  - [Singularity](https://sylabs.io/singularity/) - Container Platform for HPC
+  - [Kubernetes](https://kubernetes.io/) - Container Orchestration
+  - [GitHub Actions](https://github.com/features/actions) - CI/CD
+  - [Terraform](https://www.terraform.io/) - Infrastructure as Code
+  - [Prometheus](https://prometheus.io/) - Monitoring
+  - [Grafana](https://grafana.com/) - Visualization and Monitoring
 
-- **Tools**:
-  - [Docker](https://www.docker.com/)
-  - [Singularity/Apptainer](https://apptainer.org/)
-  - [GitHub Actions](https://github.com/features/actions)
-  - [Terraform](https://www.terraform.io/)
-
-- **Learning**:
+- **Learning Resources**:
   - [Docker for Bioinformatics](https://www.ebi.ac.uk/training/online/courses/docker-bioinformatics/)
-  - [BioContainers](https://biocontainers.pro/)
+  - [Bioconda](https://bioconda.github.io/) - Package Management
+  - [Bioconductor Docker](https://www.bioconductor.org/help/docker/) - R/Bioconductor Containers
+  - [BioContainers](https://biocontainers.pro/) - Container Registry for Bioinformatics
+
+### Essential DevOps Skills for Bioinformaticians
+
+1. **Containerization**
+   - Creating reproducible environments
+   - Managing dependencies
+   - Building and sharing containers
+   - Example: Creating a Dockerfile for a bioinformatics pipeline
+
+2. **Workflow Management**
+   - Nextflow/Snakemake for pipeline automation
+   - Version control for workflows
+   - Example: Setting up a CI/CD pipeline for genomic analysis
+
+3. **Infrastructure Management**
+   - Cloud resource provisioning
+   - Cost optimization
+   - Example: Setting up a cloud-based analysis environment
+
+4. **Monitoring and Logging**
+   - Tracking pipeline performance
+   - Error handling and debugging
+   - Example: Setting up monitoring for a production pipeline
+
+5. **Security Best Practices**
+   - Data protection
+   - Access control
+   - Example: Implementing secure data transfer protocols
+
+### Common DevOps Workflows in Bioinformatics
+
+1. **Pipeline Development**
+   ```yaml
+   # Example GitHub Actions workflow for testing a bioinformatics pipeline
+   name: Pipeline Tests
+   on: [push, pull_request]
+   jobs:
+     test:
+       runs-on: ubuntu-latest
+       steps:
+         - uses: actions/checkout@v2
+         - name: Run Tests
+           run: |
+             docker build -t mypipeline .
+             docker run mypipeline test
+   ```
+
+2. **Environment Management**
+   ```dockerfile
+   # Example Dockerfile for a bioinformatics environment
+   FROM continuumio/miniconda3
+   RUN conda install -c bioconda -c conda-forge \
+       bwa \
+       samtools \
+       bedtools
+   ```
+
+3. **Infrastructure as Code**
+   ```hcl
+   # Example Terraform configuration for cloud resources
+   resource "aws_instance" "bioinfo_server" {
+     ami           = "ami-0c55b159cbfafe1f0"
+     instance_type = "t2.large"
+     tags = {
+       Name = "bioinfo-analysis-server"
+     }
+   }
+   ```
+
+### Best Practices
+
+1. **Version Control**
+   - Use Git for all code and configuration
+   - Implement branching strategies
+   - Document changes thoroughly
+
+2. **Testing**
+   - Write unit tests for scripts
+   - Implement integration tests
+   - Use test data sets
+
+3. **Documentation**
+   - Maintain README files
+   - Document dependencies
+   - Keep changelogs
+
+4. **Security**
+   - Follow data protection guidelines
+   - Implement access controls
+   - Regular security audits
+
+5. **Performance**
+   - Monitor resource usage
+   - Optimize workflows
+   - Implement caching strategies 
+
 
 ## Workflow Management Systems
 
 ### Key Concepts
-
-- Pipeline modularity
-- Reproducible execution
-- Resource management on HPC/cloud
-- Parameterized runs and provenance
+- Pipeline Automation
+- Reproducible Analysis
+- Resource Management
+- Parallel Processing
+- Error Handling
 
 ### Recommended Resources
+- **Tools and Software**:
+  - [Nextflow](https://www.nextflow.io/) - Workflow Management System
+  - [Snakemake](https://snakemake.readthedocs.io/) - Workflow Management System
+  - [CWL](https://www.commonwl.org/) - Common Workflow Language
+  - [WDL](https://openwdl.org/) - Workflow Description Language
 
-- **Tools**:
-  - [Nextflow](https://www.nextflow.io/)
-  - [Snakemake](https://snakemake.readthedocs.io/)
-  - [CWL](https://www.commonwl.org/)
-  - [WDL](https://openwdl.org/)
+- **Learning Resources**:
+  - [Nextflow Training](https://www.nextflow.io/docs/latest/getstarted.html)
+  - [Snakemake Tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
+  - [CWL User Guide](https://www.commonwl.org/user_guide/)
 
-- **Learning**:
-  - [Nextflow getting started](https://www.nextflow.io/docs/latest/getstarted.html)
-  - [Snakemake tutorial](https://snakemake.readthedocs.io/en/stable/tutorial/tutorial.html)
+### Essential Workflow Management Skills
+
+1. **Pipeline Design**
+   - Modular workflow components
+   - Parameter management
+   - Error handling
+   - Example: Creating a Nextflow script for RNA-seq analysis
+
+2. **Resource Optimization**
+   - Parallel processing
+   - Memory management
+   - CPU utilization
+   - Example: Configuring resource allocation in workflows
+
+3. **Integration with DevOps**
+   - Containerization
+   - Version control
+   - CI/CD integration
+   - Example: Setting up automated testing for workflows
+
+4. **Monitoring and Debugging**
+   - Workflow execution tracking
+   - Error reporting
+   - Performance monitoring
+   - Example: Implementing logging and monitoring in workflows
+
+### Common Workflow Patterns
+
+1. **Data Processing Pipeline**
+   ```groovy
+   # Example Nextflow script for data processing
+   #!/usr/bin/env nextflow
+   
+   params.input = "data/raw/*.fastq.gz"
+   params.outdir = "results"
+   
+   process PROCESS_DATA {
+     input:
+     path reads
+     
+     output:
+     path "*.processed", emit: processed
+     
+     script:
+     """
+     process_data.sh $reads > processed.txt
+     """
+   }
+   
+   workflow {
+     reads = Channel.fromPath(params.input)
+     PROCESS_DATA(reads)
+   }
+   ```
+
+2. **Parallel Analysis**
+   ```groovy
+   # Example Nextflow script for parallel analysis
+   #!/usr/bin/env nextflow
+   
+   process PARALLEL_ANALYSIS {
+     input:
+     path data
+     
+     output:
+     path "*.results", emit: results
+     
+     script:
+     """
+     analyze.sh $data > results.txt
+     """
+   }
+   
+   workflow {
+     data = Channel.fromPath("data/*.txt")
+     PARALLEL_ANALYSIS(data)
+   }
+   ```
 
 ## SaaS Platforms
 
 ### Key Concepts
-
-- Managed analysis environments
-- Collaboration and sharing
-- Security and permissions
-- Built-in workflow execution
+- Cloud-Based Bioinformatics Tools
+- Web-Based Analysis Platforms
+- Collaborative Research Environments
+- Data Sharing and Management
+- Workflow Automation
 
 ### Recommended Resources
+- **Platforms**:
+  - [Galaxy](https://galaxyproject.org/) - Web-based platform for data analysis
+  - [BaseSpace](https://basespace.illumina.com/) - Illumina's cloud platform
+  - [DNAnexus](https://www.dnanexus.com/) - Cloud-based genomics platform
+  - [Seven Bridges](https://www.sevenbridges.com/) - Biomedical data analysis platform
 
-- [Galaxy](https://galaxyproject.org/)
-- [DNAnexus](https://www.dnanexus.com/)
-- [Seven Bridges](https://www.sevenbridges.com/)
-- [Illumina BaseSpace](https://basespace.illumina.com/)
+- **Learning Resources**:
+  - [Galaxy Training Network](https://training.galaxyproject.org/)
+  - [BaseSpace Learning Center](https://basespace.illumina.com/learn)
 
 ## Cloud Computing and Data Management
 
 ### Key Concepts
-
-- Elastic compute and storage
-- Data transfer strategies
-- Cost tracking and optimization
-- Access control and governance
+- Cloud Infrastructure (AWS, GCP, Azure)
+- Containerization (Docker, Singularity)
+- Workflow Management
+- Data Storage and Transfer
+- Cost Optimization
 
 ### Recommended Resources
+- **Tools and Software**:
+  - [AWS Genomics CLI](https://aws.amazon.com/genomics-cli/) - Genomics on AWS
+  - [Terraform](https://www.terraform.io/) - Infrastructure as Code
+  - [Nextflow](https://www.nextflow.io/) - Workflow Management
+  - [S3FS](https://github.com/s3fs-fuse/s3fs-fuse) - S3 File System
 
-- **Platforms and tools**:
-  - [AWS Genomics](https://aws.amazon.com/health/genomics/)
-  - [Google Cloud Life Sciences](https://cloud.google.com/life-sciences)
-  - [Azure for Genomics](https://azure.microsoft.com/)
-  - [S3FS](https://github.com/s3fs-fuse/s3fs-fuse)
+- **Learning Resources**:
+  - [AWS Genomics Workshop](https://aws.amazon.com/genomics/)
+  - [Nextflow Training](https://www.nextflow.io/docs/latest/getstarted.html)
 
 ## High-Performance Computing (HPC)
 
 ### Key Concepts
-
-- Job scheduling
-- Shared filesystems
-- Parallel execution
-- Environment modules
+- Cluster Computing
+- Parallel Processing
+- Job Scheduling
+- Resource Management
+- Performance Optimization
 
 ### Recommended Resources
+- **Tools and Software**:
+  - [SLURM](https://slurm.schedmd.com/) - Job Scheduler
+  - [OpenMPI](https://www.open-mpi.org/) - Message Passing Interface
+  - [HTCondor](https://htcondor.org/) - Distributed Computing
+  - [Lmod](https://lmod.readthedocs.io/) - Environment Modules
 
-- [SLURM](https://slurm.schedmd.com/)
-- [OpenMPI](https://www.open-mpi.org/)
-- [Lmod](https://lmod.readthedocs.io/)
-- [HPC Carpentry](https://hpc-carpentry.org/)
+- **Learning Resources**:
+  - [HPC Carpentry](https://hpc-carpentry.org/)
+  - [SLURM Documentation](https://slurm.schedmd.com/documentation.html)
 
 ## Data Visualization Techniques
 
 ### Key Concepts
-
-- Exploratory plots
-- Publication-ready figures
-- Dashboards for results sharing
-- Network and pathway visualization
+- Scientific Visualization
+- Interactive Dashboards
+- Statistical Graphics
+- Network Visualization
+- 3D Visualization
 
 ### Recommended Resources
+- **Tools and Software**:
+  - [Plotly](https://plotly.com/) - Interactive Visualization
+  - [Tableau](https://www.tableau.com/) - Data Visualization
+  - [D3.js](https://d3js.org/) - Web-based Visualization
+  - [BioRender](https://biorender.com/) - Scientific Illustration
 
-- [Plotly](https://plotly.com/)
-- [ggplot2](https://ggplot2.tidyverse.org/)
-- [Cytoscape](https://cytoscape.org/)
-- [BioRender](https://biorender.com/)
+- **Learning Resources**:
+  - [Data Visualization Course](https://www.ebi.ac.uk/training/online/courses/data-visualisation/)
+  - [Plotly Python Documentation](https://plotly.com/python/)
 
 ## Big Data Analysis
 
 ### Key Concepts
-
-- Distributed processing
-- Storage architecture
-- Data integration across omics
-- Streaming and scalable analytics
+- Distributed Computing
+- Data Processing Frameworks
+- Machine Learning at Scale
+- Real-time Analytics
+- Data Warehousing
 
 ### Recommended Resources
+- **Tools and Software**:
+  - [Apache Spark](https://spark.apache.org/) - Distributed Computing
+  - [Hadoop](https://hadoop.apache.org/) - Distributed Storage
+  - [Dask](https://dask.org/) - Parallel Computing
+  - [Apache Kafka](https://kafka.apache.org/) - Stream Processing
 
-- [Apache Spark](https://spark.apache.org/)
-- [Dask](https://dask.org/)
-- [Hadoop](https://hadoop.apache.org/)
-- [Apache Kafka](https://kafka.apache.org/)
-
-## Practical Checklist
-
-- Define reproducibility requirements before starting analysis.
-- Choose one workflow engine and standardize templates.
-- Containerize key tools used in production pipelines.
-- Document all environment and parameter settings.
+- **Learning Resources**:
+  - [Spark Documentation](https://spark.apache.org/docs/latest/)
+  - [Dask Tutorial](https://tutorial.dask.org/)

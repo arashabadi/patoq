@@ -1,49 +1,10 @@
 # Welcome {.unnumbered}
 
-<div class="hero-card">
+PATOQ (پاتوق) is a curated collection of resources & quick tutorials around Bioinformatics, Data Science, ML, etc.  
 
-PATOQ (پاتوق) is a curated, practical roadmap for learners entering bioinformatics and computational biology.
+The term "Patoq" is a Persian (Farsi) word that means "gathering place" or "social hangout".  
 
-The term "Patoq" means "gathering place" in Persian (Farsi). This book is designed as a gathering place for undergrads, lab members, and early researchers who want a clear path from fundamentals to real projects.
-
-</div>
-
-## Start Here
-
-::: {.path-grid}
-::: {.path-card}
-### 1. Build foundations
-
-Study biology, math, statistics, and computing fundamentals.
-
-[Open prerequisites](prerequisites.qmd)
-:::
-
-::: {.path-card}
-### 2. Learn the workflow
-
-Follow one reproducible analysis pipeline from question to report.
-
-[Open core workflow](core-bioinformatics-workflow.qmd)
-:::
-
-::: {.path-card}
-### 3. Go deep by topic
-
-Choose omics, modeling, platforms, or specialized topics.
-
-[Open main sections](omics-data.qmd)
-:::
-:::
-
-<details>
-<summary>How to use this book effectively</summary>
-
-- Pick a weekly study plan and stick to one mini project at a time.  
-- Keep your notes and scripts in GitHub from day one.  
-- Use the Additional Resources chapter to deepen areas based on your goals.
-
-</details>
+PATOQ is a gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.
 
 
 **Contributors:** [Hossein Asadkhanipour](https://github.com/h-asadkhanipour)

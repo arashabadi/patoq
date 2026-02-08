@@ -1,119 +1,48 @@
 # Contributing to PATOQ
 
-Thanks for contributing to PATOQ. This project is a practical learning book for undergraduates, lab members, and early researchers entering bioinformatics.
+> :warning: I will be re-styling the entire repository and implementing new categorizations. Please prioritize creating issues over submitting pull requests during this process. :warning: 
 
-## Project Goals
+Thank you for considering contributing to the PATOQ repository! I appreciate your efforts to make this a place for bioinformatics, data science, machine learning, and related fields.
 
-- Keep content beginner-friendly but technically accurate.
-- Prioritize reproducible practice, not just tool lists.
-- Keep chapter structure consistent so contributors can extend it easily.
+## How to Contribute
 
-## Ways to Contribute
+### 1. Reporting Issues
+- **Found a bug or a broken link?** Please open an [issue](https://github.com/arashbioinfo/patoq/issues) and describe the problem with 'bug' label.
+- **Have a suggestion?** I'm always looking for new ideas. Use the same [issue tracker](https://github.com/arashbioinfo/patoq/issues) to submit your suggestions under the 'enhancement' label.
 
-1. Report issues (broken links, outdated tools, unclear explanations).
-2. Improve existing chapters (clarity, examples, references).
-3. Add high-quality resources with short rationale.
-4. Add mini projects or practical exercises for learners.
+### 2. Adding New Resources
 
-## Before You Start
+You can add new resources to the repository using one of the following methods:
 
-### 1. Open or check an issue
+#### Method 1: Fork and Pull Request
+- **Step 1:** Fork the repository.
+- **Step 2:** Create a new branch (`git checkout -b your-branch-name`).
+- **Step 3:** Add your resource to the relevant section. Ensure it fits the format and organization of the existing content.
+- **Step 4:** Commit your changes (`git commit -m 'Add new resource XYZ'`).
+- **Step 5:** Push to your fork (`git push origin your-branch-name`).
+- **Step 6:** Open a pull request, and I'll review your changes as soon as possible.
 
-- Search existing issues first: [Issues](https://github.com/arashabadi/patoq/issues)
-- If needed, open a new issue and describe:
-  - Current behavior/content
-  - Proposed improvement
-  - Affected file(s)
+#### Method 2: Opening an Issue
+If you're not comfortable with Git or prefer a simpler way:
 
-### 2. Fork and branch
+- **Step 1:** Open an [issue](https://github.com/arashbioinfo/patoq/issues) in the repository.
+- **Step 2:** Describe the resource you would like to add, including: <!-- Remember to make issue templates -->
+  - The title and link to the resource.
+  - A brief description of what the resource is and why it's valuable. 
+  - The section where you think the resource should be placed.
+- **Step 3:** Label the issue with 'new resource'.
+- **Step 4:** I will review your suggestion and, if appropriate, add it to the repository.
 
-```bash
-git clone https://github.com/<your-username>/patoq.git
-cd patoq
-git checkout -b feat/short-descriptive-name
-```
+### 3. Formatting Guidelines
+- Use consistent naming conventions for titles and links.
+- Ensure that descriptions are concise and informative.
+- Check for duplicates before adding a new resource.
 
-## Local Development
+### 4. Code of Conduct
+I am committed to fostering a welcoming and inclusive environment. Please be respectful to other contributors, and remember that we're all here to learn and share.
 
-Render the book locally before submitting:
+### 5. Updates & Maintenance
+- I periodically review the content for accuracy and relevance. If you notice outdated information, please let me know or submit a pull request to update it.
 
-```bash
-quarto render
-quarto preview
-```
+Thank you for contributing!
 
-If Quarto is not installed, see [Quarto docs](https://quarto.org/docs/get-started/).
-
-## Content Standards
-
-### Chapter Template (preferred)
-
-Use this order when possible:
-
-1. Why this matters
-2. Learning outcomes
-3. Suggested time
-4. Key concepts
-5. Recommended resources
-6. Mini project or practice checklist
-
-### Writing Guidelines
-
-- Prefer short, direct explanations.
-- Define jargon on first use.
-- Avoid unverified claims and hype language.
-- Keep tone practical and instructional.
-
-### Resource Quality
-
-- Prefer primary/official documentation.
-- Prefer stable educational resources over social posts.
-- For each new resource, include one line on why it is useful.
-- Remove duplicates rather than adding near-identical links.
-
-## Style and Formatting
-
-- Keep edits in `.qmd` files unless config/style changes are needed.
-- Keep heading hierarchy valid (one `#` title per file).
-- Use meaningful section headers and consistent capitalization.
-- Keep code snippets minimal and safe for beginners.
-
-## Git Safety for Beginner-Facing Content
-
-When editing Git tutorials:
-
-- Prefer safe recovery commands like:
-  - `git restore --staged`
-  - `git restore`
-  - `git revert`
-  - `git stash`
-- Avoid destructive commands in beginner sections unless strongly justified.
-
-## Pull Request Checklist
-
-Before opening a PR:
-
-- [ ] Book renders successfully with `quarto render`
-- [ ] Links you added are valid
-- [ ] Content follows chapter template and tone
-- [ ] No duplicate sections/resources introduced
-- [ ] Commit message is clear and specific
-
-When opening the PR, include:
-
-- Summary of what changed
-- Why it improves learner outcomes
-- Files changed
-- Any screenshots if UI/style changed
-
-## Review Expectations
-
-- Reviews focus on clarity, correctness, structure, and maintainability.
-- Large PRs may be asked to split into smaller focused PRs.
-- Maintainers may curate wording/placement for consistency.
-
-## Contributor Recognition
-
-Contributors are recognized in GitHub and may be listed in book metadata based on merged contributions.
-
-Thank you for helping make PATOQ more useful and more accessible.
