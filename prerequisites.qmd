@@ -1,15 +1,49 @@
 # Prerequisites {.unnumbered}
 
-> "You can't build a great building on a weak foundation. You must have a solid foundation if you're going to have a strong superstructure." --- Gordon B. Hinckley    
+Bioinformatics is multidisciplinary, but you do not need to learn everything at once. Build a stable base first, then go deeper based on your interests and projects.
 
-> "Success is neither magical nor mysterious. Success is the natural consequence of consistently applying the basic fundamentals." --- Jim Rohn  
+## Recommended Sequence
 
-> "Get the fundamentals down and the level of everything you do will rise." --- Michael Jordan  
+1. Biology fundamentals  
+2. Math fundamentals  
+3. Statistics fundamentals  
+4. Computer science fundamentals  
+5. Core bioinformatics workflow  
+6. Specialized topics
 
-> "If you have built castles in the air, your work need not be lost; that is where they should be. Now put the foundations under them." --- Henry David Thoreau  
+## Minimum Outcomes Before Advanced Topics
 
+| Track | Minimum outcome | Suggested time |
+|---|---|---|
+| Biology | Explain DNA-RNA-protein flow, central dogma, and basic experimental design | 2-3 weeks |
+| Mathematics | Use matrices/vectors and basic calculus ideas in modeling/data contexts | 2-3 weeks |
+| Statistics | Interpret p-values, confidence intervals, and apply simple regression/testing | 2-4 weeks |
+| Computer science | Use Linux shell, Git/GitHub workflow, and basic Python/R scripting | 3-4 weeks |
 
+## How To Use This Book
 
-Bioinformatics is a multidisciplinary field of study. Based on your goals and backgrounds, you will choose different paths. You can go through each chapter and explore resources for yourself. We recommend you to learn the basic level of each fundamental, and then start to delve into advanced resources and special topics. 
+<details>
+<summary>Fast path (for lab members who need results quickly)</summary>
+
+- Study `computer_science_fundamentals.qmd` and `core-bioinformatics-workflow.qmd` first.  
+- Start one small project with public data.  
+- Return to biology/math/statistics chapters to strengthen weak areas.
+
+</details>
+
+<details>
+<summary>Deep path (for undergrads building long-term foundations)</summary>
+
+- Complete the four foundations chapters in order.  
+- After each chapter, do one mini project or reproducible notebook.  
+- Move to `omics-data.qmd`, then modeling/integrated platforms.
+
+</details>
+
+## Learning Philosophy
+
+- Learn broad fundamentals first, then build depth in one subfield.  
+- Prefer reproducible work (version control, notebooks, clear notes).  
+- Keep a personal glossary and question list while studying.
 
 ![Fundamental of bioinformatics](images/bioinformatics_ven_diagram.jpg)
