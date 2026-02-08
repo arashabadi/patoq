@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PATOQ - 3&nbsp; Computer science fundamentals and resources</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./omics-data.html" rel="next">
+<link href="./mathematics_fundamentals.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prerequisites.html">Prerequisites</a></li><li class="breadcrumb-item"><a href="./computer_science_fundamentals.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">PATOQ</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/arashabadi/patoq" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Welcome</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./prerequisites.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prerequisites</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./biology_fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Biology fundamentals and resources</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./mathematics_fundamentals.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mathematics fundamentals and resources</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./computer_science_fundamentals.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Special topics</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./omics-data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./modeling-simulation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Modeling and Simulation</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./integrated-platforms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Integrated Platforms, Tools, and Technologies</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./specialized-topics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Specialized Topics</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Additional Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./additional-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Additional Resources</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#operating-system-linux" id="toc-operating-system-linux" class="nav-link active" data-scroll-target="#operating-system-linux"><span class="header-section-number">4</span> Operating system Linux</a>
+  <ul class="collapse">
+  <li><a href="#linux-basic-resources" id="toc-linux-basic-resources" class="nav-link" data-scroll-target="#linux-basic-resources"><span class="header-section-number">4.1</span> Linux basic resources</a>
+  <ul class="collapse">
+  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books"><span class="header-section-number">4.1.1</span> Books</a></li>
+  <li><a href="#online-courses" id="toc-online-courses" class="nav-link" data-scroll-target="#online-courses"><span class="header-section-number">4.1.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#linux-advanced-resources" id="toc-linux-advanced-resources" class="nav-link" data-scroll-target="#linux-advanced-resources"><span class="header-section-number">4.2</span> Linux advanced resources</a>
+  <ul class="collapse">
+  <li><a href="#books-1" id="toc-books-1" class="nav-link" data-scroll-target="#books-1"><span class="header-section-number">4.2.1</span> Books</a></li>
+  <li><a href="#online-courses-1" id="toc-online-courses-1" class="nav-link" data-scroll-target="#online-courses-1"><span class="header-section-number">4.2.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#linux-persian-reources" id="toc-linux-persian-reources" class="nav-link" data-scroll-target="#linux-persian-reources"><span class="header-section-number">4.3</span> Linux persian reources</a></li>
+  <li><a href="#linux-fast-tutorial" id="toc-linux-fast-tutorial" class="nav-link" data-scroll-target="#linux-fast-tutorial"><span class="header-section-number">4.4</span> Linux fast tutorial</a></li>
+  </ul></li>
+  <li><a href="#git-and-github" id="toc-git-and-github" class="nav-link" data-scroll-target="#git-and-github"><span class="header-section-number">5</span> Git and Github</a>
+  <ul class="collapse">
+  <li><a href="#git-basic-resources" id="toc-git-basic-resources" class="nav-link" data-scroll-target="#git-basic-resources"><span class="header-section-number">5.1</span> Git basic resources</a>
+  <ul class="collapse">
+  <li><a href="#books-2" id="toc-books-2" class="nav-link" data-scroll-target="#books-2"><span class="header-section-number">5.1.1</span> Books</a></li>
+  <li><a href="#online-courses-2" id="toc-online-courses-2" class="nav-link" data-scroll-target="#online-courses-2"><span class="header-section-number">5.1.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#git-advanced-resources" id="toc-git-advanced-resources" class="nav-link" data-scroll-target="#git-advanced-resources"><span class="header-section-number">5.2</span> Git advanced resources</a>
+  <ul class="collapse">
+  <li><a href="#books-3" id="toc-books-3" class="nav-link" data-scroll-target="#books-3"><span class="header-section-number">5.2.1</span> Books</a></li>
+  <li><a href="#online-courses-3" id="toc-online-courses-3" class="nav-link" data-scroll-target="#online-courses-3"><span class="header-section-number">5.2.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#git-persian-reources" id="toc-git-persian-reources" class="nav-link" data-scroll-target="#git-persian-reources"><span class="header-section-number">5.3</span> Git persian reources</a></li>
+  <li><a href="#git-fast-tutorial" id="toc-git-fast-tutorial" class="nav-link" data-scroll-target="#git-fast-tutorial"><span class="header-section-number">5.4</span> Git fast tutorial</a>
+  <ul class="collapse">
+  <li><a href="#what-is-version-control" id="toc-what-is-version-control" class="nav-link" data-scroll-target="#what-is-version-control"><span class="header-section-number">5.4.1</span> What is Version Control?</a></li>
+  <li><a href="#basic-git-concepts-commands" id="toc-basic-git-concepts-commands" class="nav-link" data-scroll-target="#basic-git-concepts-commands"><span class="header-section-number">5.4.2</span> Basic Git Concepts &amp; Commands</a></li>
+  <li><a href="#github-your-projects-home-on-the-internet" id="toc-github-your-projects-home-on-the-internet" class="nav-link" data-scroll-target="#github-your-projects-home-on-the-internet"><span class="header-section-number">5.4.3</span> GitHub: Your Project’s Home on the Internet</a></li>
+  <li><a href="#common-scenarios-and-best-practices" id="toc-common-scenarios-and-best-practices" class="nav-link" data-scroll-target="#common-scenarios-and-best-practices"><span class="header-section-number">5.4.4</span> Common Scenarios and Best Practices</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r"><span class="header-section-number">6</span> R</a>
+  <ul class="collapse">
+  <li><a href="#link-to-fast-tutorial" id="toc-link-to-fast-tutorial" class="nav-link" data-scroll-target="#link-to-fast-tutorial"><span class="header-section-number">6.1</span> Link to fast tutorial</a></li>
+  <li><a href="#r-basic-resources" id="toc-r-basic-resources" class="nav-link" data-scroll-target="#r-basic-resources"><span class="header-section-number">6.2</span> R basic resources</a>
+  <ul class="collapse">
+  <li><a href="#books-4" id="toc-books-4" class="nav-link" data-scroll-target="#books-4"><span class="header-section-number">6.2.1</span> Books</a></li>
+  <li><a href="#online-courses-4" id="toc-online-courses-4" class="nav-link" data-scroll-target="#online-courses-4"><span class="header-section-number">6.2.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#r-advanced-resources" id="toc-r-advanced-resources" class="nav-link" data-scroll-target="#r-advanced-resources"><span class="header-section-number">6.3</span> R advanced resources</a>
+  <ul class="collapse">
+  <li><a href="#books-5" id="toc-books-5" class="nav-link" data-scroll-target="#books-5"><span class="header-section-number">6.3.1</span> Books</a></li>
+  <li><a href="#online-courses-5" id="toc-online-courses-5" class="nav-link" data-scroll-target="#online-courses-5"><span class="header-section-number">6.3.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#r-persian-reources" id="toc-r-persian-reources" class="nav-link" data-scroll-target="#r-persian-reources"><span class="header-section-number">6.4</span> R persian reources</a></li>
+  <li><a href="#r-fast-tutorial" id="toc-r-fast-tutorial" class="nav-link" data-scroll-target="#r-fast-tutorial"><span class="header-section-number">6.5</span> R fast tutorial</a></li>
+  </ul></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python"><span class="header-section-number">7</span> Python</a>
+  <ul class="collapse">
+  <li><a href="#python-basic-resources" id="toc-python-basic-resources" class="nav-link" data-scroll-target="#python-basic-resources"><span class="header-section-number">7.1</span> Python basic resources</a>
+  <ul class="collapse">
+  <li><a href="#books-6" id="toc-books-6" class="nav-link" data-scroll-target="#books-6"><span class="header-section-number">7.1.1</span> Books</a></li>
+  </ul></li>
+  <li><a href="#python-advanced-resources" id="toc-python-advanced-resources" class="nav-link" data-scroll-target="#python-advanced-resources"><span class="header-section-number">7.2</span> Python advanced resources</a>
+  <ul class="collapse">
+  <li><a href="#books-7" id="toc-books-7" class="nav-link" data-scroll-target="#books-7"><span class="header-section-number">7.2.1</span> Books</a></li>
+  <li><a href="#online-courses-6" id="toc-online-courses-6" class="nav-link" data-scroll-target="#online-courses-6"><span class="header-section-number">7.2.2</span> Online courses</a></li>
+  </ul></li>
+  <li><a href="#python-persian-reources" id="toc-python-persian-reources" class="nav-link" data-scroll-target="#python-persian-reources"><span class="header-section-number">7.3</span> Python persian reources</a></li>
+  <li><a href="#python-fast-tutorial" id="toc-python-fast-tutorial" class="nav-link" data-scroll-target="#python-fast-tutorial"><span class="header-section-number">7.4</span> Python fast tutorial</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/computer_science_fundamentals.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./prerequisites.html">Prerequisites</a></li><li class="breadcrumb-item"><a href="./computer_science_fundamentals.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></a></li></ol></nav>
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Computer science fundamentals and resources</span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<ul>
+<li><em>Bioinformatics Data Skills</em> by Vince Buffalo</li>
+</ul>
+<section id="operating-system-linux" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Operating system Linux</h1>
+<section id="linux-basic-resources" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="linux-basic-resources"><span class="header-section-number">4.1</span> Linux basic resources</h2>
+<section id="books" class="level3" data-number="4.1.1">
+<h3 data-number="4.1.1" class="anchored" data-anchor-id="books"><span class="header-section-number">4.1.1</span> Books</h3>
+</section>
+<section id="online-courses" class="level3" data-number="4.1.2">
+<h3 data-number="4.1.2" class="anchored" data-anchor-id="online-courses"><span class="header-section-number">4.1.2</span> Online courses</h3>
+</section>
+</section>
+<section id="linux-advanced-resources" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="linux-advanced-resources"><span class="header-section-number">4.2</span> Linux advanced resources</h2>
+<section id="books-1" class="level3" data-number="4.2.1">
+<h3 data-number="4.2.1" class="anchored" data-anchor-id="books-1"><span class="header-section-number">4.2.1</span> Books</h3>
+</section>
+<section id="online-courses-1" class="level3" data-number="4.2.2">
+<h3 data-number="4.2.2" class="anchored" data-anchor-id="online-courses-1"><span class="header-section-number">4.2.2</span> Online courses</h3>
+</section>
+</section>
+<section id="linux-persian-reources" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="linux-persian-reources"><span class="header-section-number">4.3</span> Linux persian reources</h2>
+</section>
+<section id="linux-fast-tutorial" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="linux-fast-tutorial"><span class="header-section-number">4.4</span> Linux fast tutorial</h2>
+</section>
+</section>
+<section id="git-and-github" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Git and Github</h1>
+<section id="git-basic-resources" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="git-basic-resources"><span class="header-section-number">5.1</span> Git basic resources</h2>
+<section id="books-2" class="level3" data-number="5.1.1">
+<h3 data-number="5.1.1" class="anchored" data-anchor-id="books-2"><span class="header-section-number">5.1.1</span> Books</h3>
+<ul>
+<li><a href="https://i-love-git.com/">head first git</a></li>
+</ul>
+</section>
+<section id="online-courses-2" class="level3" data-number="5.1.2">
+<h3 data-number="5.1.2" class="anchored" data-anchor-id="online-courses-2"><span class="header-section-number">5.1.2</span> Online courses</h3>
+<ul>
+<li><a href="https://rogerdudler.github.io/git-guide/">git - the simple guide - no deep shit!</a></li>
+<li><a href="https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940">Git Tutorial - Medium by Jaaeehoonkim</a></li>
+</ul>
+</section>
+</section>
+<section id="git-advanced-resources" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="git-advanced-resources"><span class="header-section-number">5.2</span> Git advanced resources</h2>
+<section id="books-3" class="level3" data-number="5.2.1">
+<h3 data-number="5.2.1" class="anchored" data-anchor-id="books-3"><span class="header-section-number">5.2.1</span> Books</h3>
+<ul>
+<li>The best and most reliable: <a href="https://git-scm.com/book/en/v2">Free book of Pro Git</a><br>
+</li>
+<li><a href="https://happygitwithr.com/">Happy Git and GitHub for the useR</a></li>
+</ul>
+</section>
+<section id="online-courses-3" class="level3" data-number="5.2.2">
+<h3 data-number="5.2.2" class="anchored" data-anchor-id="online-courses-3"><span class="header-section-number">5.2.2</span> Online courses</h3>
+<ul>
+<li><a href="https://www.coursera.org/learn/introduction-git-github">Introduction to Git and GitHub</a> on Coursera</li>
+</ul>
+</section>
+</section>
+<section id="git-persian-reources" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="git-persian-reources"><span class="header-section-number">5.3</span> Git persian reources</h2>
+<ul>
+<li><a href="https://faradars.org/courses/fvgit9609-git-github-gitlab">دوره رایگان، جذاب و خیلییی کوتاه گیت جادی تو فرادرس</a><br>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLhpS3tgUDZcpamFNTdjXyRKzFGaBAkcLq">Milad Bahrami youtube playlist</a><br>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLG-hncsy5aQ4keIG-pNoGj-zzU7TpFNPR">Ashkan Rahmani youtube playlist</a><br>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PL1xdRbCBrpofX93iVIkyujskR4cCy261S">Git mag youtube playlist</a><br>
+</li>
+<li><a href="https://www.youtube.com/playlist?list=PLprvbQiR3cN9M3g22ui3MiEFkqLpVubAU">Salar Hagh youtube playlist</a><br>
+</li>
+<li><a href="https://www.youtube.com/watch?v=TEx_mRpIDkA">neolearn youtube video</a><br>
+</li>
+<li><a href="https://www.youtube.com/watch?v=xDdal3QSypE">Sarvin Style Coding youtube video</a></li>
+</ul>
+</section>
+<section id="git-fast-tutorial" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="git-fast-tutorial"><span class="header-section-number">5.4</span> Git fast tutorial</h2>
+<div style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/git/git_finalfinal.jpg" class="image img-fluid figure-img" width="700"></p>
+<figcaption>Source: Google Images</figcaption>
+</figure>
+</div>
+</div>
+<section id="what-is-version-control" class="level3" data-number="5.4.1">
+<h3 data-number="5.4.1" class="anchored" data-anchor-id="what-is-version-control"><span class="header-section-number">5.4.1</span> What is Version Control?</h3>
+<p>Imagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.</p>
+<p>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like <code>paper_FINAL_final_UPDATED_NEW.docx</code> or <code>proj_NEW_LASTEST.R</code>, Git keeps track of all changes automatically.</p>
+</section>
+<section id="basic-git-concepts-commands" class="level3" data-number="5.4.2">
+<h3 data-number="5.4.2" class="anchored" data-anchor-id="basic-git-concepts-commands"><span class="header-section-number">5.4.2</span> Basic Git Concepts &amp; Commands</h3>
+<ul>
+<li><p><strong>Repository (Repo)</strong>: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions. <strong>Local repo</strong> is a copy of the remote repo on your computer. <strong>Remote repo</strong> can be the version stored on GitHub or GitLab.</p></li>
+<li><p><strong>Commit</strong>: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</p></li>
+</ul>
+<div style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/git/git-medium.png" class="image img-fluid figure-img" width="600"></p>
+<figcaption>Git in a nutshell - <a href="https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940">Source</a></figcaption>
+</figure>
+</div>
+</div>
+<ul>
+<li><strong>Branch</strong>: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can <strong>Merge</strong> your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.</li>
+</ul>
+<div style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/git/git-branches-merge.png" class="image img-fluid figure-img" width="500"></p>
+<figcaption>Git Branches - <a href="https://www.nobledesktop.com/learn/git/git-branches">Source</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the status of your files</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Add files to be saved (staging)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add filename.txt    <span class="co"># Add specific file</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .              <span class="co"># Add all files</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Save your changes (commit)</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="co"># See your project history</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset your branch to the latest commit</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="github-your-projects-home-on-the-internet" class="level3" data-number="5.4.3">
+<h3 data-number="5.4.3" class="anchored" data-anchor-id="github-your-projects-home-on-the-internet"><span class="header-section-number">5.4.3</span> GitHub: Your Project’s Home on the Internet</h3>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/git/github.jpg" class="img-fluid figure-img"></p>
+<figcaption>GitHub vs Bitbucket vs GitLab</figcaption>
+</figure>
+</div>
+<p>GitHub is like a social network for your code. It’s where you can store your projects online, collaborate with others and share your work with the world. GitHub has <strong>Repository Hosting</strong> - a cloud storage specifically for code, <strong>Issue Tracking</strong> - a to-do list for your project and bug reporting, <strong>Pull Requests</strong> - suggesting changes to someone else’s work or requesting changes to your own work, <strong>Code Review</strong> - peer review process for your code, and <strong>CI/CD</strong> features. Common workflows in GitHub: <strong>Fork a Repository</strong>: Like making a copy of someone else’s project. You can modify it without affecting the original. <strong>Push Changes</strong>: Like uploading your changes to GitHub. <strong>Clone a Repository</strong>: Like downloading a project to your computer.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Clone a repository</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/username/repository.git</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Get updates from remote repository</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Send your changes to remote repository</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="common-scenarios-and-best-practices" class="level3" data-number="5.4.4">
+<h3 data-number="5.4.4" class="anchored" data-anchor-id="common-scenarios-and-best-practices"><span class="header-section-number">5.4.4</span> Common Scenarios and Best Practices</h3>
+<p>When working with Git, follow these key practices: write short &amp; clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, <strong>start with basic commands and simple projects</strong>, you can utilize visual tools like GitHub Desktop or VS Code’s Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!</p>
+<p>What usually happens daily:</p>
+<ol type="1">
+<li><p><strong>Starting a New Project</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ol>
+<ul>
+<li><strong>Note</strong>: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.</li>
+</ul>
+<ol start="2" type="1">
+<li><p><strong>Updating Your Work</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Make changes</span></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+<li><p><strong>Working with Branches</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout <span class="at">-b</span> new-branch-name</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Make changes</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout main</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> merge new-branch-name</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
+</ol>
+<div style="text-align: center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./images/git/git-bcell-r.png" class="image img-fluid figure-img" width="500"></p>
+<figcaption>Git and B Cell Analogy!</figcaption>
+</figure>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="r" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> R</h1>
+<section id="link-to-fast-tutorial" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="link-to-fast-tutorial"><span class="header-section-number">6.1</span> Link to fast tutorial</h2>
+</section>
+<section id="r-basic-resources" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="r-basic-resources"><span class="header-section-number">6.2</span> R basic resources</h2>
+<section id="books-4" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="books-4"><span class="header-section-number">6.2.1</span> Books</h3>
+</section>
+<section id="online-courses-4" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="online-courses-4"><span class="header-section-number">6.2.2</span> Online courses</h3>
+</section>
+</section>
+<section id="r-advanced-resources" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="r-advanced-resources"><span class="header-section-number">6.3</span> R advanced resources</h2>
+<section id="books-5" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="books-5"><span class="header-section-number">6.3.1</span> Books</h3>
+</section>
+<section id="online-courses-5" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="online-courses-5"><span class="header-section-number">6.3.2</span> Online courses</h3>
+</section>
+</section>
+<section id="r-persian-reources" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="r-persian-reources"><span class="header-section-number">6.4</span> R persian reources</h2>
+<ul>
+<li><em>R for Data Science</em> by Hadley Wickham</li>
+<li><a href="https://www.coursera.org/learn/r-programming">R Programming</a> on Coursera</li>
+</ul>
+</section>
+<section id="r-fast-tutorial" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="r-fast-tutorial"><span class="header-section-number">6.5</span> R fast tutorial</h2>
+</section>
+</section>
+<section id="python" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Python</h1>
+<section id="python-basic-resources" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="python-basic-resources"><span class="header-section-number">7.1</span> Python basic resources</h2>
+<section id="books-6" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="books-6"><span class="header-section-number">7.1.1</span> Books</h3>
+<ul>
+<li><em>Python for Biologists</em> by Martin Jones ### Online courses</li>
+</ul>
+</section>
+</section>
+<section id="python-advanced-resources" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="python-advanced-resources"><span class="header-section-number">7.2</span> Python advanced resources</h2>
+<section id="books-7" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="books-7"><span class="header-section-number">7.2.1</span> Books</h3>
+</section>
+<section id="online-courses-6" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="online-courses-6"><span class="header-section-number">7.2.2</span> Online courses</h3>
+<ul>
+<li><a href="https://www.coursera.org/learn/python-for-applied-data-science-ai">Python for Data Science and AI</a> on Coursera</li>
+</ul>
+</section>
+</section>
+<section id="python-persian-reources" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="python-persian-reources"><span class="header-section-number">7.3</span> Python persian reources</h2>
+</section>
+<section id="python-fast-tutorial" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="python-fast-tutorial"><span class="header-section-number">7.4</span> Python fast tutorial</h2>
+
+
+<!-- -->
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./mathematics_fundamentals.html" class="pagination-link  aria-label=" &lt;span="" fundamentals="" and="" resources&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mathematics fundamentals and resources</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./omics-data.html" class="pagination-link" aria-label="<span class='chapter-number'>4</span>&nbsp; <span class='chapter-title'>Omics Data Analysis and Interpretation</span>">
+        <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Omics Data Analysis and Interpretation</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Computer science fundamentals and resources</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>*Bioinformatics Data Skills* by Vince Buffalo</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="fu"># Operating system Linux</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="fu">## Linux basic resources</span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="fu">## Linux advanced resources</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="fu">## Linux persian reources</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="fu">## Linux fast tutorial</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="fu"># Git and Github</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="fu">## Git basic resources</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">head first git</span><span class="co">](https://i-love-git.com/)</span></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">git - the simple guide - no deep shit!</span><span class="co">](https://rogerdudler.github.io/git-guide/)</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Git Tutorial - Medium by Jaaeehoonkim</span><span class="co">](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a><span class="fu">## Git advanced resources</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>The best and most reliable: <span class="co">[</span><span class="ot">Free book of Pro Git</span><span class="co">](https://git-scm.com/book/en/v2)</span>  </span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Happy Git and GitHub for the useR</span><span class="co">](https://happygitwithr.com/)</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Introduction to Git and GitHub</span><span class="co">](https://www.coursera.org/learn/introduction-git-github)</span> on Coursera</span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="fu">## Git persian reources</span></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot"> دوره رایگان، جذاب و خیلییی کوتاه گیت جادی تو فرادرس</span><span class="co">](https://faradars.org/courses/fvgit9609-git-github-gitlab)</span>  </span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Milad Bahrami youtube playlist</span><span class="co">](https://www.youtube.com/playlist?list=PLhpS3tgUDZcpamFNTdjXyRKzFGaBAkcLq)</span>  </span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Ashkan Rahmani youtube playlist</span><span class="co">](https://www.youtube.com/playlist?list=PLG-hncsy5aQ4keIG-pNoGj-zzU7TpFNPR)</span>  </span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Git mag youtube playlist</span><span class="co">](https://www.youtube.com/playlist?list=PL1xdRbCBrpofX93iVIkyujskR4cCy261S)</span>  </span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Salar Hagh youtube playlist</span><span class="co">](https://www.youtube.com/playlist?list=PLprvbQiR3cN9M3g22ui3MiEFkqLpVubAU)</span>  </span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">neolearn youtube video</span><span class="co">](https://www.youtube.com/watch?v=TEx_mRpIDkA)</span>  </span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Sarvin Style Coding youtube video</span><span class="co">](https://www.youtube.com/watch?v=xDdal3QSypE)</span>  </span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a><span class="fu">## Git fast tutorial</span></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a><span class="al">![Source: Google Images](./images/git/git_finalfinal.jpg)</span>{.image width="700px"}</span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a><span class="fu">### What is Version Control?</span></span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a>Imagine you're writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.</span>
+<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a>Git was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like <span class="in">`paper_FINAL_final_UPDATED_NEW.docx`</span> or <span class="in">`proj_NEW_LASTEST.R`</span>, Git keeps track of all changes automatically.</span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a><span class="fu">### Basic Git Concepts &amp; Commands</span></span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Repository (Repo)**: Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project's versions. **Local repo** is a copy of the remote repo on your computer. **Remote repo** can be the version stored on GitHub or GitLab.</span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Commit**: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.</span>
+<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-67"><a href="#cb6-67" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb6-68"><a href="#cb6-68" aria-hidden="true" tabindex="-1"></a>!<span class="co">[</span><span class="ot">Git in a nutshell - [Source](https://medium.com/@jaaeehoonkim/git-tutorial-1-31d0b1db1940)</span><span class="co">](./images/git/git-medium.png)</span>{.image width="600px"}</span>
+<span id="cb6-69"><a href="#cb6-69" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb6-70"><a href="#cb6-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-71"><a href="#cb6-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Branch**: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can **Merge** your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.</span>
+<span id="cb6-72"><a href="#cb6-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-73"><a href="#cb6-73" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb6-74"><a href="#cb6-74" aria-hidden="true" tabindex="-1"></a>!<span class="co">[</span><span class="ot">Git Branches - [Source](https://www.nobledesktop.com/learn/git/git-branches)</span><span class="co">](./images/git/git-branches-merge.png)</span>{.image width="500px"}</span>
+<span id="cb6-75"><a href="#cb6-75" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb6-76"><a href="#cb6-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-77"><a href="#cb6-77" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb6-78"><a href="#cb6-78" aria-hidden="true" tabindex="-1"></a><span class="co"># Start a new project (create a new repository)</span></span>
+<span id="cb6-79"><a href="#cb6-79" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> init</span>
+<span id="cb6-80"><a href="#cb6-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-81"><a href="#cb6-81" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the status of your files</span></span>
+<span id="cb6-82"><a href="#cb6-82" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> status</span>
+<span id="cb6-83"><a href="#cb6-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-84"><a href="#cb6-84" aria-hidden="true" tabindex="-1"></a><span class="co"># Add files to be saved (staging)</span></span>
+<span id="cb6-85"><a href="#cb6-85" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add filename.txt    <span class="co"># Add specific file</span></span>
+<span id="cb6-86"><a href="#cb6-86" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .              <span class="co"># Add all files</span></span>
+<span id="cb6-87"><a href="#cb6-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-88"><a href="#cb6-88" aria-hidden="true" tabindex="-1"></a><span class="co"># Save your changes (commit)</span></span>
+<span id="cb6-89"><a href="#cb6-89" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb6-90"><a href="#cb6-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-91"><a href="#cb6-91" aria-hidden="true" tabindex="-1"></a><span class="co"># See your project history</span></span>
+<span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log</span>
+<span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a><span class="co"># Reset your branch to the latest commit</span></span>
+<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> reset <span class="at">--hard</span></span>
+<span id="cb6-96"><a href="#cb6-96" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-97"><a href="#cb6-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-98"><a href="#cb6-98" aria-hidden="true" tabindex="-1"></a><span class="fu">### GitHub: Your Project's Home on the Internet</span></span>
+<span id="cb6-99"><a href="#cb6-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-100"><a href="#cb6-100" aria-hidden="true" tabindex="-1"></a><span class="al">![GitHub vs Bitbucket vs GitLab](./images/git/github.jpg)</span></span>
+<span id="cb6-101"><a href="#cb6-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-102"><a href="#cb6-102" aria-hidden="true" tabindex="-1"></a>GitHub is like a social network for your code. It's where you can store your projects online, collaborate with others and share your work with the world. GitHub has **Repository Hosting** - a cloud storage specifically for code, **Issue Tracking** - a to-do list for your project and bug reporting, **Pull Requests** - suggesting changes to someone else's work or requesting changes to your own work, **Code Review** - peer review process for your code, and **CI/CD** features. </span>
+<span id="cb6-103"><a href="#cb6-103" aria-hidden="true" tabindex="-1"></a>Common workflows in GitHub: **Fork a Repository**: Like making a copy of someone else's project. You can modify it without affecting the original. **Push Changes**: Like uploading your changes to GitHub. **Clone a Repository**: Like downloading a project to your computer.</span>
+<span id="cb6-104"><a href="#cb6-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-105"><a href="#cb6-105" aria-hidden="true" tabindex="-1"></a><span class="in">```bash</span></span>
+<span id="cb6-106"><a href="#cb6-106" aria-hidden="true" tabindex="-1"></a><span class="co"># Clone a repository</span></span>
+<span id="cb6-107"><a href="#cb6-107" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/username/repository.git</span>
+<span id="cb6-108"><a href="#cb6-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-109"><a href="#cb6-109" aria-hidden="true" tabindex="-1"></a><span class="co"># Get updates from remote repository</span></span>
+<span id="cb6-110"><a href="#cb6-110" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> pull</span>
+<span id="cb6-111"><a href="#cb6-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-112"><a href="#cb6-112" aria-hidden="true" tabindex="-1"></a><span class="co"># Send your changes to remote repository</span></span>
+<span id="cb6-113"><a href="#cb6-113" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push</span>
+<span id="cb6-114"><a href="#cb6-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-115"><a href="#cb6-115" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-116"><a href="#cb6-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-117"><a href="#cb6-117" aria-hidden="true" tabindex="-1"></a><span class="fu">### Common Scenarios and Best Practices</span></span>
+<span id="cb6-118"><a href="#cb6-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-119"><a href="#cb6-119" aria-hidden="true" tabindex="-1"></a>When working with Git, follow these key practices: write short &amp; clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, **start with basic commands and simple projects**, you can utilize visual tools like GitHub Desktop or VS Code's Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!</span>
+<span id="cb6-120"><a href="#cb6-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-121"><a href="#cb6-121" aria-hidden="true" tabindex="-1"></a>What usually happens daily:</span>
+<span id="cb6-122"><a href="#cb6-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-123"><a href="#cb6-123" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Starting a New Project**</span>
+<span id="cb6-124"><a href="#cb6-124" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb6-125"><a href="#cb6-125" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> init</span>
+<span id="cb6-126"><a href="#cb6-126" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
+<span id="cb6-127"><a href="#cb6-127" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial commit"</span></span>
+<span id="cb6-128"><a href="#cb6-128" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb6-129"><a href="#cb6-129" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Note**: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.</span>
+<span id="cb6-130"><a href="#cb6-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-131"><a href="#cb6-131" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Updating Your Work**</span>
+<span id="cb6-132"><a href="#cb6-132" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb6-133"><a href="#cb6-133" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> pull</span>
+<span id="cb6-134"><a href="#cb6-134" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Make changes</span></span>
+<span id="cb6-135"><a href="#cb6-135" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
+<span id="cb6-136"><a href="#cb6-136" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb6-137"><a href="#cb6-137" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span>
+<span id="cb6-138"><a href="#cb6-138" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb6-139"><a href="#cb6-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-140"><a href="#cb6-140" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>**Working with Branches**</span>
+<span id="cb6-141"><a href="#cb6-141" aria-hidden="true" tabindex="-1"></a>   <span class="in">```bash</span></span>
+<span id="cb6-142"><a href="#cb6-142" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> checkout <span class="at">-b</span> new-branch-name</span>
+<span id="cb6-143"><a href="#cb6-143" aria-hidden="true" tabindex="-1"></a>   <span class="co"># Make changes</span></span>
+<span id="cb6-144"><a href="#cb6-144" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> add .</span>
+<span id="cb6-145"><a href="#cb6-145" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Description of changes"</span></span>
+<span id="cb6-146"><a href="#cb6-146" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> push</span>
+<span id="cb6-147"><a href="#cb6-147" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> checkout main</span>
+<span id="cb6-148"><a href="#cb6-148" aria-hidden="true" tabindex="-1"></a>   <span class="fu">git</span> merge new-branch-name</span>
+<span id="cb6-149"><a href="#cb6-149" aria-hidden="true" tabindex="-1"></a>   <span class="in">```</span></span>
+<span id="cb6-150"><a href="#cb6-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-151"><a href="#cb6-151" aria-hidden="true" tabindex="-1"></a>&lt;div style="text-align: center"&gt;</span>
+<span id="cb6-152"><a href="#cb6-152" aria-hidden="true" tabindex="-1"></a><span class="al">![Git and B Cell Analogy!](./images/git/git-bcell-r.png)</span>{.image width="500px"}</span>
+<span id="cb6-153"><a href="#cb6-153" aria-hidden="true" tabindex="-1"></a>&lt;/div&gt;</span>
+<span id="cb6-154"><a href="#cb6-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-155"><a href="#cb6-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-156"><a href="#cb6-156" aria-hidden="true" tabindex="-1"></a><span class="fu"># R</span></span>
+<span id="cb6-157"><a href="#cb6-157" aria-hidden="true" tabindex="-1"></a><span class="fu">## Link to fast tutorial</span></span>
+<span id="cb6-158"><a href="#cb6-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-159"><a href="#cb6-159" aria-hidden="true" tabindex="-1"></a><span class="fu">## R basic resources</span></span>
+<span id="cb6-160"><a href="#cb6-160" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-161"><a href="#cb6-161" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-162"><a href="#cb6-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-163"><a href="#cb6-163" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-164"><a href="#cb6-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-165"><a href="#cb6-165" aria-hidden="true" tabindex="-1"></a><span class="fu">## R advanced resources</span></span>
+<span id="cb6-166"><a href="#cb6-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-167"><a href="#cb6-167" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-168"><a href="#cb6-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-169"><a href="#cb6-169" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-170"><a href="#cb6-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-171"><a href="#cb6-171" aria-hidden="true" tabindex="-1"></a><span class="fu">## R persian reources  </span></span>
+<span id="cb6-172"><a href="#cb6-172" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>*R for Data Science* by Hadley Wickham</span>
+<span id="cb6-173"><a href="#cb6-173" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span><span class="co">[</span><span class="ot">R Programming</span><span class="co">](https://www.coursera.org/learn/r-programming)</span> on Coursera  </span>
+<span id="cb6-174"><a href="#cb6-174" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-175"><a href="#cb6-175" aria-hidden="true" tabindex="-1"></a><span class="fu">## R fast tutorial</span></span>
+<span id="cb6-176"><a href="#cb6-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-177"><a href="#cb6-177" aria-hidden="true" tabindex="-1"></a><span class="fu"># Python</span></span>
+<span id="cb6-178"><a href="#cb6-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-179"><a href="#cb6-179" aria-hidden="true" tabindex="-1"></a><span class="fu">## Python basic resources</span></span>
+<span id="cb6-180"><a href="#cb6-180" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-181"><a href="#cb6-181" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>*Python for Biologists* by Martin Jones</span>
+<span id="cb6-182"><a href="#cb6-182" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-183"><a href="#cb6-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-184"><a href="#cb6-184" aria-hidden="true" tabindex="-1"></a><span class="fu">## Python advanced resources</span></span>
+<span id="cb6-185"><a href="#cb6-185" aria-hidden="true" tabindex="-1"></a><span class="fu">### Books</span></span>
+<span id="cb6-186"><a href="#cb6-186" aria-hidden="true" tabindex="-1"></a><span class="fu">### Online courses</span></span>
+<span id="cb6-187"><a href="#cb6-187" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span><span class="co">[</span><span class="ot">Python for Data Science and AI</span><span class="co">](https://www.coursera.org/learn/python-for-applied-data-science-ai)</span> on Coursera</span>
+<span id="cb6-188"><a href="#cb6-188" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-189"><a href="#cb6-189" aria-hidden="true" tabindex="-1"></a><span class="fu">## Python persian reources</span></span>
+<span id="cb6-190"><a href="#cb6-190" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-191"><a href="#cb6-191" aria-hidden="true" tabindex="-1"></a><span class="fu">## Python fast tutorial</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+
+
+
+
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/computer_science_fundamentals.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
