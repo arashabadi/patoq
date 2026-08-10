@@ -1,0 +1,329 @@
+:root {
+  --patoq-ink: #173d55;
+  --patoq-lapis: #0d5670;
+  --patoq-lapis-dark: #083b50;
+  --patoq-gold: #b88a3b;
+  --patoq-gold-soft: #ddc48d;
+  --patoq-stone: #f1e7d3;
+  --patoq-parchment: #fbf7ee;
+  --patoq-paper: #fffdf8;
+  --patoq-rust: #9f4d2f;
+  --patoq-text: #302e2a;
+  --patoq-muted: #6c665d;
+  --patoq-border: #d8c7a5;
+  --patoq-shadow: 0 18px 45px rgba(67, 49, 24, 0.14);
+}
+
+body {
+  background:
+    radial-gradient(circle at 72% 8%, rgba(184, 138, 59, 0.08), transparent 28rem),
+    var(--patoq-parchment);
+  color: var(--patoq-text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.7;
+}
+
+a {
+  color: var(--patoq-lapis);
+  text-decoration-color: rgba(13, 86, 112, 0.35);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+a:hover {
+  color: var(--patoq-rust);
+  text-decoration-color: currentColor;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid rgba(184, 138, 59, 0.55);
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+h3,
+h4,
+.sidebar-title {
+  color: var(--patoq-ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-weight: 650;
+}
+
+h1 {
+  font-size: clamp(2.35rem, 5vw, 4.25rem);
+  letter-spacing: -0.035em;
+  margin-bottom: 0.2rem;
+}
+
+h1::after {
+  background: linear-gradient(90deg, var(--patoq-gold), transparent);
+  content: "";
+  display: block;
+  height: 3px;
+  margin-top: 0.45rem;
+  width: 5.5rem;
+}
+
+h2 {
+  border-bottom: 1px solid var(--patoq-border);
+  margin-top: 2.75rem;
+  padding-bottom: 0.45rem;
+}
+
+#quarto-sidebar {
+  background:
+    linear-gradient(180deg, rgba(13, 86, 112, 0.07), transparent 16rem),
+    #f5eddf;
+  border-right: 1px solid var(--patoq-border);
+  box-shadow: 8px 0 30px rgba(67, 49, 24, 0.04);
+}
+
+.sidebar-title {
+  font-size: 1.45rem;
+  letter-spacing: 0.14em;
+}
+
+.sidebar-title a {
+  color: var(--patoq-ink);
+  text-decoration: none;
+}
+
+.sidebar-item .sidebar-link {
+  border-left: 3px solid transparent;
+  border-radius: 0 0.55rem 0.55rem 0;
+  color: #4e4a43;
+  margin: 0.05rem 0;
+  padding-bottom: 0.42rem;
+  padding-top: 0.42rem;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+}
+
+.sidebar-item .sidebar-link:hover {
+  background: rgba(255, 253, 248, 0.72);
+  color: var(--patoq-lapis-dark);
+}
+
+.sidebar-item .sidebar-link.active {
+  background: rgba(184, 138, 59, 0.13);
+  border-left-color: var(--patoq-gold);
+  color: var(--patoq-lapis-dark);
+  font-weight: 650;
+}
+
+.quarto-secondary-nav {
+  background: rgba(251, 247, 238, 0.94);
+  border-bottom: 1px solid var(--patoq-border);
+  backdrop-filter: blur(12px);
+}
+
+main.content {
+  font-size: 1.03rem;
+  padding-bottom: 4rem;
+}
+
+.quarto-cover-image {
+  background: #161512;
+  border: 1px solid rgba(88, 62, 23, 0.5);
+  border-radius: 0.7rem 0.25rem 0.25rem 0.7rem;
+  box-shadow: var(--patoq-shadow);
+  margin: 0.25rem 0 2rem 2.25rem;
+  max-width: 38%;
+  transform: rotate(0.35deg);
+}
+
+.patoq-kicker {
+  color: var(--patoq-gold);
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.17em;
+  margin: 1.25rem 0 0.7rem;
+}
+
+.patoq-intro {
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1.65;
+}
+
+.patoq-intro strong {
+  color: var(--patoq-ink);
+}
+
+.persepolis-note {
+  background: linear-gradient(135deg, rgba(241, 231, 211, 0.92), rgba(255, 253, 248, 0.92));
+  border: 1px solid var(--patoq-border);
+  border-left: 5px solid var(--patoq-gold);
+  border-radius: 0.25rem 0.8rem 0.8rem 0.25rem;
+  color: #504b43;
+  font-size: 0.94rem;
+  margin: 1.45rem 0;
+  padding: 1rem 1.15rem;
+}
+
+.persepolis-note p:last-child,
+.patoq-meta p:last-child,
+.patoq-card p:last-child {
+  margin-bottom: 0;
+}
+
+.patoq-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.patoq-actions .btn {
+  border-radius: 999px;
+  font-weight: 650;
+  padding: 0.62rem 1.1rem;
+  text-decoration: none;
+}
+
+.patoq-actions .btn-primary {
+  background: var(--patoq-lapis);
+  border-color: var(--patoq-lapis);
+}
+
+.patoq-actions .btn-primary:hover {
+  background: var(--patoq-lapis-dark);
+  border-color: var(--patoq-lapis-dark);
+}
+
+.patoq-actions .btn-outline-primary {
+  border-color: var(--patoq-lapis);
+  color: var(--patoq-lapis);
+}
+
+.patoq-actions .btn-outline-primary:hover {
+  background: rgba(13, 86, 112, 0.08);
+  color: var(--patoq-lapis-dark);
+}
+
+.patoq-paths {
+  clear: both;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 1.35rem 0 2.25rem;
+}
+
+.patoq-card {
+  background: rgba(255, 253, 248, 0.88);
+  border: 1px solid var(--patoq-border);
+  border-radius: 0.9rem;
+  box-shadow: 0 10px 24px rgba(67, 49, 24, 0.055);
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem;
+}
+
+.patoq-card::before {
+  background: var(--patoq-gold);
+  border-radius: 999px;
+  content: "";
+  display: block;
+  height: 0.24rem;
+  margin-bottom: 0.9rem;
+  width: 2.6rem;
+}
+
+.patoq-card h3 {
+  border: 0;
+  font-size: 1.2rem;
+  margin: 0 0 0.65rem;
+}
+
+.patoq-card p {
+  color: var(--patoq-muted);
+  font-size: 0.93rem;
+}
+
+.patoq-card p:last-child {
+  margin-top: auto;
+  padding-top: 0.7rem;
+}
+
+.patoq-card p:last-child a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.patoq-meta {
+  border-top: 1px solid var(--patoq-border);
+  color: var(--patoq-muted);
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  padding-top: 1.2rem;
+}
+
+.nav-page a {
+  color: var(--patoq-lapis);
+}
+
+.nav-footer {
+  background: #f1e7d3;
+  border-top: 1px solid var(--patoq-border);
+  color: var(--patoq-muted);
+}
+
+pre,
+code {
+  border-radius: 0.35rem;
+}
+
+pre {
+  border-color: var(--patoq-border);
+}
+
+@media (max-width: 991.98px) {
+  .patoq-paths {
+    grid-template-columns: 1fr;
+  }
+
+  .quarto-cover-image {
+    max-width: 42%;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.55rem;
+  }
+
+  .quarto-cover-image {
+    display: block;
+    float: none;
+    margin: 1rem auto 1.75rem;
+    max-width: min(82%, 22rem);
+    transform: none;
+  }
+
+  .patoq-kicker {
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+  }
+
+  .patoq-intro {
+    font-size: 1.08rem;
+  }
+
+  .patoq-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .patoq-actions .btn {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
