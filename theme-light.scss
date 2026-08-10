@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+
+$body-bg: #f6f8f9;
+$body-color: #2b3742;
+$link-color: #087f8c;
+$selection-bg: #bce7eb;
+$code-bg: #edf1f3;
+$code-color: #7c4d13;
+$border-color: #d8e0e5;
+
+$font-family-sans-serif: "Manrope", "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family: "Newsreader", "Vazirmatn", Georgia, serif;
+$headings-color: #17384a;
+$headings-font-weight: 600;
+
+$sidebar-bg: #eef2f4;
+$sidebar-fg: #46545f;
+$sidebar-hl: #076f7a;
+$toc-color: #087f8c;
+$footer-bg: #eef2f4;
+$navbar-bg: #eef2f4;
+
+/*-- scss:rules --*/
+
+.quarto-light {
+  color-scheme: light;
+}
