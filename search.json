@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "PATOQ",
     "section": "",
-    "text": "Welcome\nPATOQ (پاتوق) is a curated collection of resources & quick tutorials around Bioinformatics, Data Science, ML, etc.\nThe term “Patoq” is a Persian (Farsi) word that means “gathering place” or “social hangout”.\nPATOQ is a gathering place where individuals interested in bioinformatics, computational biology, data science, machine learning, and related fields can find valuable information and stay current with the latest advancements.\nContributors: Hossein Asadkhanipour\nThis book is a Quarto-based online HTML book for the PATOQ project. See CONTRIBUTING.md for more information.\n\n    Edit this page",
+    "text": "Welcome",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "index.html#choose-a-path",
+    "href": "index.html#choose-a-path",
+    "title": "PATOQ",
+    "section": "Choose a path",
+    "text": "Choose a path\n\n\nBuild the foundations\nRefresh the biology, mathematics, statistics, Linux, Git, R, and Python concepts that support computational research.\nBrowse prerequisites →\n\n\nExplore biological data\nMove through genomics, transcriptomics, proteomics, metabolomics, epigenomics, and metagenomics resources.\nExplore omics data →\n\n\nFind tools and workflows\nDiscover workflow systems, cloud and HPC resources, visualization approaches, platforms, courses, and references.\nOpen the toolkit →\n\n\n\nPATOQ is an open, Quarto-based online book. Contributor: Hossein Asadkhanipour",
     "crumbs": [
       "Welcome"
     ]
