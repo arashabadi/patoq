@@ -24,6 +24,7 @@ book:
   
   chapters:
     - index.qmd
+    - learning-map.qmd
     - part: prerequisites.qmd
       chapters: 
         - biology_fundamentals.qmd

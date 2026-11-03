@@ -15,6 +15,7 @@ BIOINFORMATICS · DATA SCIENCE · MACHINE LEARNING
 :::
 
 ::: {.patoq-actions}
+[Explore the interactive map](learning-map.qmd){.btn .btn-outline-primary}
 [Start with the prerequisites](prerequisites.qmd){.btn .btn-primary}
 [Contribute on GitHub](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md){.btn .btn-outline-primary}
 :::

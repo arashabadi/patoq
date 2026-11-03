@@ -1,0 +1,79 @@
+---
+title: "Find your path"
+subtitle: "An interactive map of bioinformatics & computational biology"
+toc: false
+number-sections: false
+page-layout: full
+format:
+  html:
+    css: [styles.css, assets/learning-map.css]
+    resources: [assets/learning-map.js]
+---
+
+```{=html}
+<div class="learning-map" id="learning-map">
+  <header class="lm-intro">
+    <p class="lm-eyebrow">PATOQ FIELD GUIDE <span>01 / EXPLORE</span></p>
+    <h2>A big field.<br><em>A small place to begin.</em></h2>
+    <p>Start with a question that interests you. Explore the connections, then choose one small project. You can learn the foundations alongside it.</p>
+    <div class="lm-stats"><span><b>8</b> connected fields</span><span><b>6</b> shared approaches</span><span><b>1</b> question to start</span></div>
+  </header>
+
+  <div class="lm-controls">
+    <label for="lm-background">I am starting from
+      <select id="lm-background">
+        <option value="exploring">Still exploring</option>
+        <option value="biology">Biology / life sciences</option>
+        <option value="computing">Computer science / software</option>
+        <option value="math">Mathematics / physics</option>
+      </select>
+    </label>
+    <label for="lm-role">I would like to
+      <select id="lm-role">
+        <option value="analyse">Analyse biological data</option>
+        <option value="model">Model a biological system</option>
+        <option value="build">Develop methods & tools</option>
+        <option value="experiment">Connect experiments & computation</option>
+      </select>
+    </label>
+    <button type="button" id="lm-reset" class="lm-quiet">Reset map</button>
+  </div>
+
+  <section class="lm-explorer" aria-labelledby="lm-explore-title">
+    <div class="lm-map-panel">
+      <div class="lm-section-head"><div><p class="lm-eyebrow">THE SCIENTIFIC LANDSCAPE</p><h3 id="lm-explore-title">Choose a field</h3></div><span class="lm-small">Connected, not sequential</span></div>
+      <div class="lm-graph" id="lm-graph"></div>
+      <div class="lm-field-list" id="lm-field-list" role="group" aria-label="Scientific fields"></div>
+      <p class="lm-map-key"><span class="lm-key-line"></span>Selected conceptual bridges, not prerequisite or causal arrows. Choose a field or use the list below the map.</p>
+      <div class="lm-lenses"><p class="lm-eyebrow">SHARED APPROACHES <span>Highlight an overlap</span></p><div id="lm-methods" role="group" aria-label="Filter by shared approach"></div><p id="lm-method-note" class="lm-small" aria-live="polite"></p></div>
+    </div>
+    <div class="lm-detail" id="lm-detail" role="complementary" aria-labelledby="lm-field-title"></div>
+  </section>
+
+  <section class="lm-route" aria-labelledby="lm-route-title">
+    <div class="lm-section-head"><div><p class="lm-eyebrow">02 / MAKE IT PRACTICAL</p><h3 id="lm-route-title">Your first learning loop</h3></div><button type="button" id="lm-share" class="lm-action">Copy this path</button></div>
+    <p id="lm-route-intro"></p>
+    <ol id="lm-route-steps" class="lm-steps"></ol>
+    <div class="lm-route-bottom"><p><strong>A useful first milestone:</strong> explain one result, show how you checked it, and name the next uncertainty. No need to master the entire map first.</p><button type="button" id="lm-print" class="lm-quiet">Print / save PDF</button></div>
+    <p id="lm-status" role="status"></p>
+  </section>
+
+  <section class="lm-common" aria-labelledby="lm-common-title">
+    <div><p class="lm-eyebrow">FOUNDATIONS YOU REVISIT</p><h3 id="lm-common-title">The ground beneath every path.</h3><p>Go deeper where your question needs it. These are recurring practices, not a gate you must pass before starting.</p></div>
+    <div class="lm-common-grid">
+      <article><span>01</span><h4>Know the measurement</h4><p>What was sampled, measured and missed? Identify independent samples, controls and uncertainty.</p><a href="mathematics_fundamentals.html#statistics-fundamentals-and-resources">Statistics & study design →</a></article>
+      <article><span>02</span><h4>Read the evidence</h4><p>Inspect the relevant methods, figures and supplements. Keep observation, interpretation and hypothesis distinct.</p><a href="biology_fundamentals.html">Biological foundations →</a></article>
+      <article><span>03</span><h4>Build a second brain</h4><p>Link sources, questions and changing explanations. Keep the evidence and provenance behind each connection.</p><a href="#lm-knowledge">A small knowledge practice →</a></article>
+      <article><span>04</span><h4>Work with AI critically</h4><p>Use help with code and exploration. Inspect outputs, compare a baseline and keep the analysis reproducible.</p><a href="specialized-topics.html#artificial-intelligence">AI & learning methods →</a></article>
+    </div>
+  </section>
+  <section class="lm-footnotes" id="lm-knowledge">
+    <h3>Keep what changes your mind.</h3>
+    <p>Start with a source, a question, a result you checked, a competing explanation and a next test. Link them in a notebook or personal wiki. A larger graph is useful when its connections help you retrieve evidence and revise a decision.</p>
+    <p>This is PATOQ’s curated learning map, not a universal taxonomy or a career forecast. Fields overlap. Single-cell and multi-omics describe ways to measure or integrate biology; AI is a shared method and an area of method research. Clinical, agricultural, environmental and industrial work can draw on several fields.</p>
+    <p class="lm-small">Classification context: <a href="https://www.iscb.org/ismb2026/whats-happening/track-details">ISCB scientific communities</a> · <a href="https://edamontology.org/">EDAM: topics, operations and data</a>. Entry links lead to existing PATOQ chapters; coverage varies.</p>
+  </section>
+  <noscript><p>The interactive map needs JavaScript. You can still use the <a href="prerequisites.html">foundations</a>, <a href="omics-data.html">omics chapters</a>, <a href="modeling-simulation.html">modeling chapters</a> and <a href="specialized-topics.html">specialized topics</a>.</p></noscript>
+</div>
+<script src="assets/learning-map.js" defer></script>
+```
