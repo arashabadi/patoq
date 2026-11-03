@@ -24,6 +24,7 @@ book:
   
   chapters:
     - index.qmd
+    - atlas.qmd
     - learning-map.qmd
     - research-directions.qmd
     - part: prerequisites.qmd
@@ -49,6 +50,8 @@ format:
       dark: [darkly, theme-dark.scss]
       light: [flatly, theme-light.scss]
     css: styles.css
+    include-after-body: assets/reader.html
+    resources: [assets/reader.css, assets/reader.js]
     highlight-style: arrow
     number-sections: true
     code-fold: true

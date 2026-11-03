@@ -1,0 +1,41 @@
+---
+title: "PATOQ — A living atlas"
+toc: false
+number-sections: false
+page-layout: custom
+format:
+  html:
+    css: [styles.css, assets/atlas.css]
+    resources: [assets/atlas.js]
+---
+
+```{=html}
+<div id="atlas">
+<nav class="at-nav" aria-label="Atlas navigation"><a class="at-brand" href="atlas.html">PATOQ<span>پاتوق</span></a><span class="at-nav-note">A FIELD GUIDE TO COMPUTATIONAL LIFE</span><button class="at-menu" aria-haspopup="dialog">Index <span>↗</span></button></nav>
+<div class="at-progress" aria-hidden="true"></div>
+<section class="at-journey" id="journey" aria-label="Explore the scientific landscape">
+<div class="at-stage">
+<div class="at-heading"><p class="at-eyebrow">AN OPEN BOOK. AN OPEN QUESTION.</p><h1>Life is connected.<br><em>Learn it that way.</em></h1><p class="at-deck">Biology × mathematics × computation.<br>Follow a question. Build your own way through.</p><a class="at-enter" href="#landscape">Enter the atlas <span>↘</span></a></div>
+<div class="at-map" aria-label="Eight connected research fields"><svg class="at-lines" viewBox="0 0 1000 720" aria-hidden="true"></svg><div class="at-orbit" aria-hidden="true"></div><div class="at-core" aria-hidden="true"><span>ASK<br>A BETTER<br><i>QUESTION.</i></span></div><div id="at-nodes"></div></div>
+<div class="at-map-caption"><span>01 — THE LANDSCAPE</span><p>Eight doors. No single starting point.<br><b>Click a field to look inside.</b></p><small>Connections suggest overlap, not prerequisites or causality.</small></div>
+<div class="at-scroll-cue">SCROLL TO CONNECT <span>↓</span></div>
+</div><div id="landscape" class="at-landmark"></div>
+</section>
+<section class="at-practice" id="practice"><div class="at-section-label">02 / THE PRACTICE <span>SCIENCE IS A LOOP, NOT A CHECKLIST</span></div><h2>Less collecting.<br><em>More connecting.</em></h2><div class="at-loop">
+<button class="at-step" aria-expanded="false"><span>01 ↗</span><h3>Observe.</h3><p>What was actually measured?</p><div hidden>Start with the organism, tissue, time and assay. Inspect the figures and supplements. Separate a measurement from its interpretation.</div></button>
+<button class="at-step" aria-expanded="false"><span>02 ↗</span><h3>Question.</h3><p>What else could explain it?</p><div hidden>Write one biological question and a competing explanation. Define an observation that would help distinguish them.</div></button>
+<button class="at-step" aria-expanded="false"><span>03 ↗</span><h3>Build.</h3><p>Make a small idea testable.</p><div hidden>Use code, a model or an experiment. Let AI assist; keep inputs, assumptions and outputs inspectable. Compare a simple baseline.</div></button>
+<button class="at-step" aria-expanded="false"><span>04 ↗</span><h3>Revise.</h3><p>Keep what changes your mind.</p><div hidden>Check uncertainty and independent evidence. Connect the result to its source in your knowledge base. Record what failed and ask the next question.</div></button>
+</div><a href="research-directions.html" class="at-text-link">Where does AI change this loop? Read the evidence ↗</a></section>
+<section class="at-library" id="library"><div class="at-section-label">03 / YOUR NEXT OPEN DOOR <span>GO DEEP WHERE YOUR QUESTION NEEDS IT</span></div><h2>A place to <em>begin.</em><br>A place to return.</h2><div class="at-books">
+<a href="biology_fundamentals.html"><span>01 / LIFE</span><h3>Think<br>biologically.</h3><p>Mechanism · anatomy · experiment</p><b>↗</b></a>
+<a href="mathematics_fundamentals.html"><span>02 / REASON</span><h3>Learn to<br>doubt a result.</h3><p>Probability · statistics · models</p><b>↗</b></a>
+<a href="computer_science_fundamentals.html"><span>03 / MAKE</span><h3>Turn a question<br>into a test.</h3><p>Code · algorithms · reproducibility</p><b>↗</b></a>
+</div><p class="at-library-note">Not an entrance exam. Start a small project and return to the foundations when you need them.</p></section>
+<footer class="at-footer"><a href="#journey" class="at-wordmark">PATOQ ↗</a><div>A gathering place for computational life science.<br>Curated by Arash B. Abadi & Hossein Asadkhanipour.</div><a href="research-directions.html">Research & perspectives ↗</a><a href="https://github.com/arashabadi/patoq">Open source ↗</a></footer>
+<dialog id="at-detail" aria-labelledby="at-detail-title"><button class="at-close" aria-label="Close field">×</button><div id="at-detail-content"></div></dialog>
+<dialog id="at-index" aria-labelledby="at-index-title"><button class="at-close" aria-label="Close index">×</button><p class="at-eyebrow">THE OPEN BOOK</p><h2 id="at-index-title">Follow your curiosity.</h2><div class="at-index-links"></div></dialog>
+<noscript><p>Explore the <a href="prerequisites.html">foundations</a>, <a href="omics-data.html">omics</a>, <a href="modeling-simulation.html">modeling</a>, or <a href="research-directions.html">research directions</a>.</p></noscript>
+</div>
+<script src="assets/atlas.js" defer></script>
+```
