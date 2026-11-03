@@ -78,7 +78,7 @@
   {
     "id": "cells",
     "number": "05",
-    "legacy": "omics-data.html#transcriptomics",
+    "legacy": "spatial-python.html",
     "en": {
       "title": "Cells, tissues & spatial biology",
       "question": "Where are cells, how do their states change, and how does tissue organization constrain what they do?",
