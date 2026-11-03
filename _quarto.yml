@@ -17,7 +17,7 @@ book:
     search: true
     collapse-level: 1
   page-footer:
-    left: "PATOQ — a gathering place for computational life science"
+    left: "PATOQ — Let’s grow together · همگی در کنار هم رشد کنیم"
     right: "[Contribute](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md)"
   
   chapters:
@@ -50,8 +50,9 @@ format:
       dark: [darkly, theme-dark.scss]
       light: [flatly, theme-light.scss]
     css: styles.css
+    include-in-header: assets/palace-head.html
     include-after-body: assets/reader.html
-    resources: [assets/reader.css, assets/reader.js]
+    resources: [assets/reader.css, assets/reader.js, assets/palace.css, assets/fonts.css, assets/fonts/**, assets/palace.js, assets/stone.svg, assets/relief.svg, images/patoq-entry.png]
     highlight-style: arrow
     number-sections: true
     code-fold: true
@@ -63,7 +64,7 @@ format:
     toc: true
     toc-expand: false
     toc-depth: 2
-    smooth-scroll: true
+    smooth-scroll: false
     link-external-icon: true
     link-external-newwindow: true
     grid:

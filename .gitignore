@@ -4,3 +4,10 @@
 
 # Private editorial intake and local safety copies
 /.patoq/
+
+# Local editorial checkpoints and source-to-message audits
+/design/*.md
+.DS_Store
+.env
+.env.*
+!.env.example

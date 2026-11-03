@@ -1,0 +1,249 @@
+[
+  {
+    "id": "part1",
+    "en": "Part 1 · What is being transported?",
+    "fa": "پارت ۱ · چه چیزی منتقل می‌شود؟",
+    "lab": "pushforward",
+    "lessons": [
+      "assignment",
+      "coupling"
+    ],
+    "topics": [
+      {
+        "en": "Start with cellular dynamics",
+        "fa": "از دینامیک سلولی شروع کن",
+        "body_en": "We begin with a practical obstacle: sequencing usually destroys the measured cell. Cells sampled before and after differentiation or treatment are therefore often unpaired snapshots. A cell state is a representation of measured features, not necessarily a stable cell type. OT searches for distributional correspondences under a chosen cost and constraints. Time, perturbation, spatial reconstruction and cross-modality integration are different tasks; a good correspondence in one task does not validate the others.",
+        "body_fa": "از یک مانع عملی شروع کنیم: توالی‌یابی معمولاً سلول اندازه‌گیری‌شده را از بین می‌برد. بنابراین نمونه‌های پیش و پس از تمایز یا درمان اغلب تصویرهای لحظه‌ایِ بدون جفت‌اند. حالت سلولی نمایش ویژگی‌های اندازه‌گیری‌شده است، نه لزوماً یک نوع سلولی پایدار. OT تحت هزینه و قیود انتخاب‌شده، تناظر بین توزیع‌ها را می‌جوید. زمان، مداخله، بازسازی فضایی و ادغام مودالیته‌ها مسئله‌های متفاوت‌اند؛ تناظر خوب در یکی، بقیه را معتبر نمی‌کند."
+      },
+      {
+        "en": "Permutation: the restricted assignment case",
+        "fa": "جایگشت: حالت محدودِ تخصیص",
+        "body_en": "With n equally weighted source and target points, a permutation matches each source once and uses each target once. Three points have six possible assignments. This special case is a useful first exercise, but cells need not have equal counts or one-to-one biological fates. For n equally weighted sources, averaging their assigned costs is the same as weighting each by 1/n.",
+        "body_fa": "با n نقطهٔ مبدأ و مقصد هم‌وزن، جایگشت هر مبدأ را یک بار وصل می‌کند و هر مقصد را یک بار به کار می‌برد. سه نقطه شش تخصیص ممکن دارند. این حالت خاص برای شروع مفید است، اما تعداد سلول‌ها یا سرنوشت زیستی آن‌ها لزوماً یک‌به‌یک نیست. برای n مبدأ هم‌وزن، میانگین هزینه‌های تخصیص‌یافته همان وزن‌دادن 1/n به هر مبدأ است."
+      },
+      {
+        "en": "Pushforward: a map must deliver the prescribed masses",
+        "fa": "Pushforward: تابع باید جرم‌های مقرر را برساند",
+        "body_en": "A map T assigns each source point to one target. The condition T#μ=ν means that the source distribution μ, after mapping, equals the specified target distribution ν; # denotes pushforward. Several sources may share a target only if their masses add to its required mass. Being a function is not enough for feasibility. In the new experiment, three sources each weigh 1/3, while two targets require 2/3 and 1/3. Route sources yourself and check both totals.",
+        "body_fa": "تابع T هر نقطهٔ مبدأ را به یک مقصد می‌فرستد. شرط T#μ=ν یعنی توزیع مبدأ μ پس از نگاشت با توزیع مقصدِ مقرر ν برابر شود؛ # نماد pushforward است. چند مبدأ فقط وقتی می‌توانند مقصد مشترک داشته باشند که جمع جرمشان با جرم لازم آن مقصد برابر شود. تابع‌بودن به‌تنهایی برای مجازبودن کافی نیست. در آزمایش تازه، سه مبدأ هرکدام ۱/۳ جرم دارند و دو مقصد به ۲/۳ و ۱/۳ نیاز دارند. خودت مسیرها را تعیین کن و هر دو جمع را بررسی کن."
+      },
+      {
+        "en": "Coupling: joint mass versus a conditional fraction",
+        "fa": "Coupling: جرم مشترک یا سهم شرطی؟",
+        "body_en": "A nonnegative matrix P may split the mass of a source among targets. Its row sums equal source masses a and its column sums equal target masses b in balanced OT. Pij is joint mass; Pij/ai is the fraction conditional on source i, when ai>0. Thus a source of mass 0.5 sending 70% toward one target contributes 0.35 to P, not 0.7. Splitting represents distributional allocation, not a physical cell breaking apart.",
+        "body_fa": "ماتریس نامنفی P می‌تواند جرم یک مبدأ را میان چند مقصد تقسیم کند. در OT متوازن، جمع سطرها جرم مبدأ a و جمع ستون‌ها جرم مقصد b است. Pij جرم مشترک است؛ Pij/ai سهم شرطیِ مبدأ i است، اگر ai>0 باشد. پس مبدأ با جرم ۰٫۵ که ۷۰ درصدش به یک مقصد می‌رود، ۰٫۳۵ به P اضافه می‌کند، نه ۰٫۷. تقسیم جرم تخصیص توزیعی است، نه تکه‌شدن فیزیکی سلول."
+      },
+      {
+        "en": "Correction: optimal means a complete feasible plan",
+        "fa": "اصلاح علمی: بهینه یعنی یک طرح کامل و مجاز",
+        "body_en": "For pair costs 3 and 5 with equal weights, the plan costs (3+5)/2=4. Neither 3 nor 1.5 is the optimum merely because it is a small individual contribution. For conditional weights 0.7 and 0.3, the row-conditional expected cost is 0.7×3+0.3×5=3.6; multiply by the source mass for its contribution to the global objective. Optimality requires comparing complete feasible plans. Euclidean and squared-Euclidean costs are different choices, not interchangeable notation.",
+        "body_fa": "برای هزینه‌های جفتی ۳ و ۵ با وزن برابر، هزینهٔ طرح (3+5)/2=4 است. نه ۳ و نه ۱٫۵ صرفاً به دلیل سهم کوچک‌تر، مقدار بهینه نیستند. با سهم‌های شرطی ۰٫۷ و ۰٫۳، هزینهٔ موردانتظار شرطیِ سطر 0.7×3+0.3×5=3.6 می‌شود؛ برای سهم آن در هدف کل، در جرم مبدأ ضربش کن. بهینگی به مقایسهٔ طرح‌های کامل و مجاز نیاز دارد. هزینهٔ اقلیدسی و مربع اقلیدسی انتخاب‌های متفاوت‌اند، نه دو نماد هم‌معنی."
+      }
+    ]
+  },
+  {
+    "id": "part2",
+    "en": "Part 2 · Solvers, duality and Brenier",
+    "fa": "پارت ۲ · حل‌گرها، دوگان و Brenier",
+    "lab": "brenier",
+    "lessons": [
+      "assignment",
+      "dual"
+    ],
+    "topics": [
+      {
+        "en": "Separate a problem, an algorithm and a theorem",
+        "fa": "مسئله، الگوریتم و قضیه را جدا کن",
+        "body_en": "The Hungarian algorithm solves an assignment problem. The Kantorovich formulation optimizes over couplings; it is not itself an algorithm. Network simplex is one solver for the finite linear transport problem. Entropically regularized transport is a modified objective commonly solved with Sinkhorn iterations. Brenier’s theorem characterizes an optimal map under assumptions; it is not a final software step that makes any problem convex.",
+        "body_fa": "الگوریتم Hungarian مسئلهٔ تخصیص را حل می‌کند. صورت‌بندی Kantorovich روی couplingها بهینه‌سازی می‌کند و خودش الگوریتم نیست. Network simplex یکی از حل‌گرهای مسئلهٔ خطیِ متناهی انتقال است. انتقال با منظم‌سازی آنتروپیک هدف تغییر‌یافته‌ای است که معمولاً با تکرارهای Sinkhorn حل می‌شود. قضیهٔ Brenier تحت فرض‌هایی نگاشت بهینه را توصیف می‌کند؛ مرحلهٔ آخر یک نرم‌افزار نیست که هر مسئله‌ای را محدب کند."
+      },
+      {
+        "en": "Duality: fewer variables does not erase constraints",
+        "fa": "دوگان: متغیر کمتر، به‌معنی حذف قیدها نیست",
+        "body_en": "The finite primal has n×m coupling entries. Its dual uses source potentials f and target potentials g, with n+m values, but must satisfy fi+gj≤Cij for every source–target pair. One thousand points on each side therefore give 2,000 potential values and potentially a million pairwise constraints. A feasible dual objective is a lower bound on the primal minimum; an infeasible dual value is not. Runtime and memory depend on how the solver represents and evaluates the problem.",
+        "body_fa": "مسئلهٔ اولیهٔ متناهی n×m درایهٔ coupling دارد. دوگان از پتانسیل‌های مبدأ f و مقصد g با n+m مقدار استفاده می‌کند، اما باید برای هر جفت مبدأ–مقصد شرط fi+gj≤Cij را رعایت کند. هزار نقطه در هر طرف یعنی ۲۰۰۰ پتانسیل و بالقوه یک میلیون قید جفتی. مقدار هدف دوگان مجاز، کران پایینِ کمینهٔ مسئلهٔ اولیه است؛ مقدار دوگان نامجاز چنین اعتباری ندارد. زمان و حافظه به شیوهٔ نمایش و ارزیابی مسئله در حل‌گر بستگی دارد."
+      },
+      {
+        "en": "Brenier: a convex potential, not downhill cell motion",
+        "fa": "Brenier: پتانسیل محدب، نه غلتیدن سلول در کاسه",
+        "body_en": "For quadratic transport in Euclidean space, the standard existence/uniqueness result assumes finite second moments and an absolutely continuous source distribution. The optimal map is the gradient of a convex potential, up to source-almost-everywhere equivalence. The gradient maps coordinates; it is not a statement that a cell follows a downhill trajectory. The potential must also push the source to the desired target. A finite empirical cloud alone does not automatically satisfy the theorem’s continuum assumptions.",
+        "body_fa": "برای انتقال با هزینهٔ درجه‌دو در فضای اقلیدسی، نتیجهٔ استاندارد وجود و یکتایی، گشتاور دوم متناهی و توزیع مبدأِ مطلقاً پیوسته را فرض می‌کند. نگاشت بهینه گرادیان یک پتانسیل محدب است، تا برابری تقریباً همه‌جا نسبت به مبدأ. گرادیان مختصات را نگاشت می‌کند؛ این گفته نیست که سلول در مسیر سرازیری حرکت می‌کند. پتانسیل باید توزیع مبدأ را هم به مقصد موردنظر برساند. ابر نقاط تجربیِ متناهی به‌تنهایی خودکار فرض‌های پیوستهٔ قضیه را برآورده نمی‌کند."
+      },
+      {
+        "en": "The Gaussian example makes the distinction visible",
+        "fa": "مثال گوسی تفاوت را دیدنی می‌کند",
+        "body_en": "In the new scalar experiment, X follows a standard normal distribution and T(x)=αx+1. Both α and −α produce target mean 1 and variance α². Yet for negative α the map reverses order and costs more than the increasing map with slope |α|. The potential is φ(x)=αx²/2+x, with derivative T and curvature α. In multiple dimensions, a quadratic potential yields Ax+b only for symmetric A; convexity requires A positive semidefinite. Nondegenerate Gaussian-to-Gaussian OT uses the covariance-compatible positive-definite choice. Arbitrary mean matching does not determine A.",
+        "body_fa": "در آزمایش اسکالر تازه، X توزیع نرمال استاندارد دارد و T(x)=αx+1 است. هم α و هم −α میانگین مقصد ۱ و واریانس α² می‌دهند. با این حال α منفی ترتیب را وارونه می‌کند و از نگاشت صعودی با شیب |α| پرهزینه‌تر است. پتانسیل φ(x)=αx²/2+x، مشتقش T و انحنایش α است. در چند بُعد، پتانسیل درجه‌دو فقط برای A متقارن گرادیان Ax+b می‌دهد؛ محدب‌بودن A مثبت نیمه‌معین می‌خواهد. انتقال گوسیِ غیرتبهگن از انتخاب مثبت‌معینِ سازگار با کوواریانس استفاده می‌کند. تطبیق میانگین‌ها به‌تنهایی A را مشخص نمی‌کند."
+      }
+    ]
+  },
+  {
+    "id": "part3",
+    "en": "Part 3 · Sinkhorn and an unseen cell",
+    "fa": "پارت ۳ · Sinkhorn و سلول دیده‌نشده",
+    "lab": "newcell",
+    "lessons": [
+      "sinkhorn",
+      "map"
+    ],
+    "topics": [
+      {
+        "en": "What entropy changes",
+        "fa": "آنتروپی چه چیزی را تغییر می‌دهد؟",
+        "body_en": "The regularized problem minimizes transport cost plus ε times an entropy-related penalty, under marginal constraints. For positive ε and finite costs, its kernel has entries exp(−Cij/ε); alternating row/column scalings produce P=diag(u)Kdiag(v). ε is a regularization strength, not “the entropy” or a truth score. A solution to this modified problem is not simply an unfinished exact solution of the unregularized problem. Small ε often sharpens the plan but can worsen numerical conditioning.",
+        "body_fa": "مسئلهٔ منظم‌شده، هزینهٔ انتقال به‌علاوهٔ ε برابر یک جریمهٔ مرتبط با آنتروپی را تحت قیود حاشیه‌ای کمینه می‌کند. برای ε مثبت و هزینه‌های متناهی، درایه‌های کرنل exp(−Cij/ε) هستند؛ مقیاس‌کردن متناوب سطر و ستون P=diag(u)Kdiag(v) را می‌سازد. ε شدت منظم‌سازی است، نه «خود آنتروپی» یا امتیاز حقیقت. جواب این مسئلهٔ تغییر‌یافته صرفاً حل دقیقِ نیمه‌کارهٔ مسئلهٔ بدون منظم‌سازی نیست. ε کوچک معمولاً طرح را تیزتر می‌کند، اما ممکن است وضعیت عددی را بدتر کند."
+      },
+      {
+        "en": "Check the arithmetic before interpreting the model",
+        "fa": "پیش از تفسیر مدل، حساب را بررسی کن",
+        "body_en": "For A=(1,2), X=(2,2) and Y=(4,5), Euclidean costs are 1 and √18≈4.243, rather than 1 and 5. Squared distances would be 1 and 18. Changing this convention changes the meaningful scale of ε. Always inspect marginal residuals and numerical stability. The existing Sinkhorn lab reports residuals and the linear transport cost separately from the full regularized objective.",
+        "body_fa": "برای A=(1,2)، X=(2,2) و Y=(4,5)، هزینه‌های اقلیدسی ۱ و √18≈4.243 هستند، نه ۱ و ۵. مربع فاصله‌ها ۱ و ۱۸ می‌شود. تغییر این قرارداد، مقیاس معنادار ε را عوض می‌کند. باقیماندهٔ قیود حاشیه‌ای و پایداری عددی را بررسی کن. آزمایش Sinkhorn موجود، باقیمانده و هزینهٔ خطی انتقال را جدا از هدف کامل منظم‌شده گزارش می‌کند."
+      },
+      {
+        "en": "An existing matrix has no row for tomorrow’s cell",
+        "fa": "ماتریس امروز برای سلول فردا سطر ندارد",
+        "body_en": "A coupling describes its fitted source and target supports. It does not by itself define a prediction rule for a new feature vector. One extension uses learned dual potentials and a specified cost to compute normalized target weights at a new x, then a weighted target mean. The new experiment shows this calculation with two equal target masses, zero toy potentials and a half-squared cost. It illustrates a formula, not a fitted OT map. Even a valid extension may average incompatible states or extrapolate poorly.",
+        "body_fa": "coupling تکیه‌گاه‌های مبدأ و مقصدی را توصیف می‌کند که روی آن‌ها برازش شده؛ به‌تنهایی قانون پیش‌بینی برای یک بردار ویژگی تازه نیست. یکی از بسط‌ها از پتانسیل‌های دوگان آموخته‌شده و هزینهٔ مشخص برای محاسبهٔ وزن‌های نرمال‌شدهٔ مقصد در x تازه، و سپس میانگین وزن‌دار مقصد استفاده می‌کند. آزمایش تازه این حساب را با دو جرم مقصد برابر، پتانسیل‌های نمونهٔ صفر و نصف مربع فاصله نشان می‌دهد. نمایش یک فرمول است، نه نگاشت OT برازش‌شده. حتی یک بسط معتبر ممکن است حالت‌های ناسازگار را میانگین بگیرد یا در برون‌یابی ضعیف باشد."
+      },
+      {
+        "en": "What an input-convex network contributes",
+        "fa": "شبکهٔ input-convex چه کمکی می‌کند؟",
+        "body_en": "An input-convex neural network constrains its architecture and weights so a scalar output is convex with respect to designated inputs. Its gradient can parameterize a candidate transport map for a suitable quadratic-cost formulation. Convexity with respect to inputs is different from convexity of the training problem in network parameters. Distribution matching, optimization and validation are still necessary. A learned map may be evaluated on unseen cells, but held-out donors, conditions and doses are stronger tests than randomly splitting cells from the same donors.",
+        "body_fa": "شبکهٔ عصبی input-convex معماری و وزن‌ها را محدود می‌کند تا خروجی اسکالر نسبت به ورودی‌های مشخص محدب باشد. گرادیان آن می‌تواند در صورت‌بندی مناسب با هزینهٔ درجه‌دو، پارامترسازیِ یک نگاشت انتقالِ نامزد باشد. محدب‌بودن نسبت به ورودی با محدب‌بودن مسئلهٔ آموزش نسبت به پارامترهای شبکه متفاوت است. تطبیق توزیع، بهینه‌سازی و اعتبارسنجی همچنان لازم‌اند. نگاشت آموخته‌شده را می‌توان روی سلول تازه ارزیابی کرد، اما کنارگذاشتن اهداکنندگان، شرایط و دوزها آزمون قوی‌تری از تقسیم تصادفی سلول‌های همان اهداکنندگان است."
+      }
+    ]
+  },
+  {
+    "id": "part4",
+    "en": "Part 4 · Unequal mass and different modalities",
+    "fa": "پارت ۴ · جرم نابرابر و مودالیته‌های متفاوت",
+    "lab": "pixels",
+    "lessons": [
+      "mass",
+      "gw"
+    ],
+    "topics": [
+      {
+        "en": "Balanced does not mean equal cell counts",
+        "fa": "متوازن به‌معنی تعداد سلول برابر نیست",
+        "body_en": "Balanced OT requires equal total source and target mass, not equal point counts, equal mass for each cell or ai=bj for every pair. Three source cells and five target cells can each represent a probability distribution of total mass one. Normalizing snapshots removes information about absolute population growth unless that information is supplied separately. Sampling efficiency, migration and cell loss can also alter observed proportions.",
+        "body_fa": "OT متوازن برابری جرم کل مبدأ و مقصد می‌خواهد، نه تعداد نقاط برابر، جرم برابر برای هر سلول یا ai=bj برای هر جفت. سه سلول مبدأ و پنج سلول مقصد می‌توانند هرکدام توزیع احتمالی با جرم کل یک را نمایش دهند. نرمال‌کردن تصویرهای لحظه‌ای اطلاعات رشد مطلق جمعیت را حذف می‌کند، مگر آن اطلاعات جداگانه داده شود. بازده نمونه‌گیری، مهاجرت و ازدست‌رفتن سلول‌ها هم می‌توانند نسبت‌های مشاهده‌شده را تغییر دهند."
+      },
+      {
+        "en": "Partial and unbalanced are different models",
+        "fa": "Partial و unbalanced مدل‌های متفاوت‌اند",
+        "body_en": "Partial OT transports a specified amount m while allowing some mass to remain unmatched; row and column totals are bounded by available masses. Unbalanced OT instead relaxes marginal equality, for example with τa KL(P1|a)+τb KL(Pᵀ1|b). Here 1 is an all-ones vector; P1 and Pᵀ1 collect row and column totals. The generalized KL for nonnegative masses sums r log(r/a)−r+a, with appropriate zero conventions. Its penalty strengths control tolerance to marginal mismatch; they do not directly estimate proliferation or apoptosis rates. Entropic regularization is a separate optional choice.",
+        "body_fa": "Partial OT مقدار مقرر m را منتقل می‌کند و اجازه می‌دهد بخشی از جرم بی‌تطبیق بماند؛ جمع سطر و ستون از جرم موجود بیشتر نمی‌شود. Unbalanced OT در عوض برابری حاشیه‌ها را نرم می‌کند، مثلاً با τa KL(P1|a)+τb KL(Pᵀ1|b). اینجا 1 بردارِ همه‌یک است؛ P1 و Pᵀ1 جمع سطرها و ستون‌ها را می‌دهند. KL تعمیم‌یافته برای جرم نامنفی، r log(r/a)−r+a را با قرارداد مناسب صفرها جمع می‌کند. شدت جریمه تحملِ ناسازگاری حاشیه‌ای را کنترل می‌کند؛ مستقیماً نرخ تکثیر یا آپوپتوز نیست. منظم‌سازی آنتروپیک انتخاب اختیاریِ جداگانه‌ای است."
+      },
+      {
+        "en": "GW compares relations within each modality",
+        "fa": "GW روابط درون هر مودالیته را مقایسه می‌کند",
+        "body_en": "RNA expression and methylation fractions do not automatically occupy one comparable feature space. Gromov–Wasserstein compares within-modality distances and weights mismatches between distance pairs through a coupling. Its result depends on feature construction, normalization and the chosen internal metrics. Similar geometry can leave multiple equally good alignments, as the three-point reversal lab shows. A geometric correspondence does not establish that methylation caused a gene-expression change or identify a regulatory element on its own.",
+        "body_fa": "بیان RNA و کسر متیلاسیون خودکار در یک فضای ویژگی قابل‌مقایسه قرار ندارند. Gromov–Wasserstein فاصله‌های درون هر مودالیته را مقایسه می‌کند و ناسازگاریِ جفت‌فاصله‌ها را از طریق coupling وزن می‌دهد. نتیجه به ساخت ویژگی، نرمال‌سازی و معیار فاصلهٔ داخلی بستگی دارد. هندسهٔ مشابه می‌تواند چند تراز هم‌ارزش باقی بگذارد؛ آزمایش وارونگی سه‌نقطه‌ای همین را نشان می‌دهد. تناظر هندسی به‌تنهایی اثبات نمی‌کند متیلاسیون علت تغییر بیان ژن بوده یا یک عنصر تنظیمی را شناسایی نمی‌کند."
+      },
+      {
+        "en": "A transport subproblem does not convexify all of GW",
+        "fa": "حل زیرمسئلهٔ انتقال، کل GW را محدب نمی‌کند",
+        "body_en": "The usual GW objective is nonconvex in the coupling. Algorithms can solve a sequence of simpler transport subproblems, sometimes entropically regularized, but Sinkhorn does not turn the full objective into a globally convex problem. Initialization, convergence checks and alternative alignments matter. Fused formulations can combine cross-modal feature information with relational geometry when that feature comparison is justified.",
+        "body_fa": "هدف معمول GW نسبت به coupling غیرمحدب است. الگوریتم می‌تواند دنباله‌ای از زیرمسئله‌های ساده‌تر انتقال را حل کند که گاهی منظم‌سازی آنتروپیک دارند، اما Sinkhorn کل هدف را به مسئله‌ای globally convex تبدیل نمی‌کند. مقداردهی اولیه، بررسی همگرایی و ترازهای جایگزین مهم‌اند. صورت‌بندی‌های fused می‌توانند اطلاعات ویژگیِ بین‌مودالیته‌ای را با هندسهٔ روابط ترکیب کنند، اگر مقایسهٔ آن ویژگی‌ها موجه باشد."
+      },
+      {
+        "en": "Image coordinates need calibration and biological anchors",
+        "fa": "مختصات تصویر به کالیبراسیون و لنگر زیستی نیاز دارد",
+        "body_en": "Centers (100,200) and (110,200) are ten pixels apart. With isotropic calibration 0.5 μm/pixel, the distance is 5 μm. This conversion changes units; it does not turn transcriptomic similarity into physical distance. Segmentation, tissue orientation, distortion and registration affect coordinates. Mapping dissociated cells to an image requires biological or structural assumptions and preferably independent anchors. Nearby gene-expression states need not occupy nearby tissue positions.",
+        "body_fa": "مرکزهای (100,200) و (110,200) ده پیکسل فاصله دارند. با کالیبراسیون همسانگردِ ۰٫۵ میکرومتر بر پیکسل، فاصله ۵ میکرومتر می‌شود. این تبدیل واحد است؛ شباهت ترنسکریپتومی را به فاصلهٔ فیزیکی تبدیل نمی‌کند. Segmentation، جهت بافت، اعوجاج و registration روی مختصات اثر دارند. نگاشت سلول‌های جداشده به تصویر به فرض زیستی یا ساختاری و ترجیحاً لنگر مستقل نیاز دارد. حالت‌های نزدیک در بیان ژن الزاماً در بافت نزدیک نیستند."
+      }
+    ]
+  },
+  {
+    "id": "part5",
+    "en": "Part 5 · Paths, lineage and prediction",
+    "fa": "پارت ۵ · مسیر، lineage و پیش‌بینی",
+    "lab": "bridge",
+    "lessons": [
+      "dynamic",
+      "perturbation",
+      "gw"
+    ],
+    "topics": [
+      {
+        "en": "Dynamic transport adds a constrained path",
+        "fa": "انتقال دینامیک مسیرِ مقید اضافه می‌کند",
+        "body_en": "A static coupling joins endpoint distributions. A dynamic formulation describes a density ρt and velocity vt over time, minimizing an integrated mass-weighted squared speed. The balanced continuity equation links density changes to spatial flow and conserves total mass; boundary distributions must also match. Arbitrarily choosing velocities and integrating them does not guarantee a feasible solution. Birth/death extensions need additional terms or assumptions. Here state-space velocity need not be literal movement through tissue.",
+        "body_fa": "coupling ایستا توزیع‌های ابتدا و انتها را وصل می‌کند. صورت‌بندی دینامیک چگالی ρt و سرعت vt را در طول زمان توصیف می‌کند و انتگرال مربع سرعتِ وزن‌دارشده با جرم را کمینه می‌کند. معادلهٔ پیوستگیِ متوازن، تغییر چگالی را به جریان وصل و جرم کل را حفظ می‌کند؛ توزیع‌های مرزی هم باید تطبیق کنند. انتخاب دلخواه سرعت و انتگرال‌گرفتن، راه‌حل مجاز را تضمین نمی‌کند. بسط‌های تولد/مرگ به جمله‌ها یا فرض‌های اضافی نیاز دارند. سرعت در فضای حالت الزاماً حرکت واقعی در بافت نیست."
+      },
+      {
+        "en": "Recalculate the two-interval example",
+        "fa": "مثال دو بازه را دوباره حساب کن",
+        "body_en": "The illustrative weighted speed term is 0.5×6²+0.3×2²=19.2 in the first interval. In the second it is 0.5×0.4²+0.3×0.2²=0.092, not 9.2. With each interval of length 3, the sum is 19.2×3+0.092×3=57.876. These weights total 0.8, so the calculation is a selected contribution, not a normalized two-cell population unless redefined. Correct arithmetic still does not verify continuity, endpoint distributions or optimality. The earlier dynamic lab instead uses an explicitly defined unit mass and fixed displacement.",
+        "body_fa": "جملهٔ نمونهٔ سرعت وزن‌دار در بازهٔ اول 0.5×6²+0.3×2²=19.2 است. در بازهٔ دوم 0.5×0.4²+0.3×0.2²=0.092 می‌شود، نه ۹٫۲. با طول ۳ برای هر بازه، جمع 19.2×3+0.092×3=57.876 است. وزن‌ها جمعاً ۰٫۸ هستند؛ پس این حساب سهمی منتخب است، نه جمعیت دوسلولیِ نرمال‌شده، مگر دوباره تعریف شود. حساب درست هم پیوستگی، توزیع مرزی یا بهینگی را تأیید نمی‌کند. آزمایش دینامیک قبلی در عوض جرم واحد و جابه‌جایی ثابتِ مشخص دارد."
+      },
+      {
+        "en": "A Schrödinger bridge is not an added error percentage",
+        "fa": "پل شرودینگر درصد خطای اضافه‌شده نیست",
+        "body_en": "A Schrödinger bridge searches for a stochastic path distribution close to a specified reference process, subject to endpoint-distribution constraints. Its connection to entropy-regularized OT depends on the reference kernel and conventions. A Brownian reference introduces diffusion; stronger diffusion is a changed modeling assumption, not automatically more realistic biology. The new lab is only a one-dimensional Brownian bridge between fixed endpoints: mean 6t and variance σ²t(1−t). Its shaded band is mean ±2 standard deviations of that toy process, not a fitted confidence interval or a solved population bridge.",
+        "body_fa": "پل شرودینگر توزیعی تصادفی از مسیرها را می‌جوید که با رعایت قیود توزیع‌های ابتدا و انتها، به فرایند مرجعِ مشخص نزدیک باشد. ارتباط آن با OT منظم‌شدهٔ آنتروپیک به کرنل مرجع و قراردادها بستگی دارد. مرجع براونی پخش تصادفی وارد می‌کند؛ پخش قوی‌تر فرض مدل را عوض می‌کند و خودکار زیست‌شناسی واقعی‌تر نیست. آزمایش تازه فقط پل براونی یک‌بُعدی میان دو انتهای ثابت است: میانگین 6t و واریانس σ²t(1−t). ناحیهٔ سایه‌دار میانگین ±۲ انحراف معیارِ همین فرایند نمونه است، نه فاصلهٔ اطمینان برازش‌شده یا پل جمعیتیِ حل‌شده."
+      },
+      {
+        "en": "Fate correspondence and lineage ancestry are different",
+        "fa": "تناظر سرنوشت با نسبِ lineage متفاوت است",
+        "body_en": "Another question is lineage reconstruction and the relatively stereotyped development of C. elegans. Lineage information can constrain transport when a lineage tree or tracing measurements are supplied; that is different from discovering ancestry from expression similarity alone. A known developmental program provides information unavailable in many disease samples. Keep observed ancestry, inferred fate probabilities and transported expression trends separately labeled. Even adding time points does not remove every ambiguity in an unpaired design.",
+        "body_fa": "بازسازی lineage و رشد نسبتاً الگوپذیر C. elegans هم مطرح است. وقتی درخت lineage یا اندازه‌گیری ردیابی وجود دارد، می‌تواند انتقال را مقید کند؛ این با کشف نسب فقط از شباهت بیان ژن متفاوت است. برنامهٔ رشدِ شناخته‌شده اطلاعاتی می‌دهد که در بسیاری از نمونه‌های بیماری نداریم. نسب مشاهده‌شده، احتمال سرنوشتِ استنباط‌شده و روند بیان انتقال‌یافته را جدا برچسب بزن. حتی افزودن نقاط زمانی همهٔ ابهام‌های طراحیِ بدون جفت را حذف نمی‌کند."
+      },
+      {
+        "en": "Predicting a new patient needs a test of generalization",
+        "fa": "پیش‌بینی بیمار تازه به آزمون تعمیم نیاز دارد",
+        "body_en": "A model trained on untreated and treated populations from patients A and B can output a prediction for patient C, but producing that output does not establish its accuracy. Genetic background, treatment history, dose, sampling and batch effects may shift the problem. Reserve independent donors or conditions for evaluation, compare simple baselines and examine population-level and subgroup errors. Predictions of response, growth or death remain conditional on the model and data; they do not replace experimental or clinical validation.",
+        "body_fa": "مدلی که با جمعیت‌های قبل و بعد از درمان بیماران A و B آموزش دیده می‌تواند برای C پیش‌بینی بسازد، اما تولید خروجی دقت آن را ثابت نمی‌کند. زمینهٔ ژنتیکی، سابقهٔ درمان، دوز، نمونه‌گیری و batch ممکن است مسئله را تغییر دهند. اهداکننده یا شرایط مستقل را برای ارزیابی نگه دار، با baseline ساده مقایسه کن و خطای جمعیت و زیرگروه‌ها را ببین. پیش‌بینی پاسخ، رشد یا مرگ مشروط به مدل و داده باقی می‌ماند؛ جای اعتبارسنجی تجربی یا بالینی را نمی‌گیرد."
+      },
+      {
+        "en": "Three integration strategies, not a single universal recipe",
+        "fa": "سه راهبرد ادغام، نه یک دستور عمومی",
+        "body_en": "A shared-latent approach uses modality-specific encoders to represent measurements in comparable coordinates; decoders and other objectives constrain what is retained. GW instead compares relational geometry without requiring identical observed features. Hybrid methods can combine representation learning with transport or geometric constraints, including partial transport when overlap is incomplete. GW is not synonymous with partial matching, and two separately trained autoencoders do not automatically produce aligned latent coordinates. Evaluate whether biology is retained rather than whether a plot merely looks mixed.",
+        "body_fa": "رویکرد فضای نهفتهٔ مشترک از encoderهای ویژهٔ هر مودالیته برای نمایش اندازه‌گیری‌ها در مختصات قابل‌مقایسه استفاده می‌کند؛ decoderها و هدف‌های دیگر، اطلاعات حفظ‌شده را مقید می‌کنند. GW در عوض هندسهٔ روابط را بدون نیاز به ویژگی‌های مشاهده‌شدهٔ یکسان مقایسه می‌کند. روش‌های ترکیبی می‌توانند یادگیری نمایش را با قیود انتقال یا هندسی ترکیب کنند؛ در هم‌پوشانی ناقص، partial transport هم ممکن است به کار رود. GW هم‌معنی partial matching نیست و دو autoencoder جداگانه خودکار مختصات نهفتهٔ هم‌تراز نمی‌سازند. حفظ زیست‌شناسی را ارزیابی کن، نه صرفاً مخلوط‌به‌نظررسیدن نقاط در نمودار."
+      }
+    ]
+  },
+  {
+    "id": "part6",
+    "en": "Part 6 · Tools and applications",
+    "fa": "پارت ۶ · ابزارها و مثال‌های کاربردی",
+    "lab": "ranking",
+    "lessons": [
+      "tools",
+      "perturbation"
+    ],
+    "topics": [
+      {
+        "en": "Choose a tool from the mathematical task",
+        "fa": "ابزار را از روی مسئلهٔ ریاضی انتخاب کن",
+        "body_en": "Four useful tools are POT, OTT, GeomLoss and moscot. POT offers a broad collection of transport solvers and examples; OTT-JAX emphasizes differentiable computations in JAX; GeomLoss provides differentiable geometric losses with efficient kernel reductions; moscot organizes transport problems around omics workflows, including temporal, lineage-informed, spatial and multimodal tasks. These are overlapping roles, not interchangeable APIs or a guarantee that every model in the Primer runs unchanged. Pin versions and check the specific solver’s documentation.",
+        "body_fa": "چهار ابزار مفید عبارت‌اند از POT، OTT، GeomLoss و moscot. POT مجموعهٔ گسترده‌ای از حل‌گرها و مثال‌های انتقال دارد؛ OTT-JAX بر محاسبات مشتق‌پذیر در JAX تمرکز دارد؛ GeomLoss lossهای هندسی مشتق‌پذیر با کاهش‌های کرنلی کارآمد فراهم می‌کند؛ moscot مسئله‌های انتقال را حول workflowهای اومیکس، از جمله زمانی، آگاه از lineage، فضایی و چندمودالیته‌ای سازمان می‌دهد. این نقش‌ها هم‌پوشانی دارند، اما API یکسان یا تضمین اجرای بی‌تغییر همهٔ مدل‌های Primer نیستند. نسخه‌ها و مستندات حل‌گر مشخص را بررسی کن."
+      },
+      {
+        "en": "A laptop pilot is a good first experiment",
+        "fa": "آزمایش کوچک روی لپ‌تاپ شروع خوبی است",
+        "body_en": "Begin with a small synthetic problem with a known answer, then a documented subset of public data. One n×m float64 array needs 8nm bytes; a full run may hold costs, couplings, buffers and gradients. GPU needs depend on method and scale, not the word “OT”. Low-rank or kernel-based methods can avoid some dense storage but change computation and sometimes the admissible model. The book’s browser examples are small calculations, not timings or memory benchmarks for these libraries.",
+        "body_fa": "از مسئلهٔ مصنوعی کوچک با جواب معلوم شروع کن، سپس زیرمجموعه‌ای مستند از دادهٔ عمومی. یک آرایهٔ float64 با ابعاد n×m به 8nm بایت نیاز دارد؛ اجرای کامل ممکن است هزینه‌ها، coupling، بافر و گرادیان را هم نگه دارد. نیاز به GPU به روش و مقیاس بستگی دارد، نه کلمهٔ «OT». روش‌های کم‌رتبه یا کرنلی می‌توانند بخشی از ذخیره‌سازی متراکم را حذف کنند، اما محاسبه و گاهی مدل مجاز را عوض می‌کنند. مثال‌های مرورگری کتاب حساب‌های کوچک‌اند، نه benchmark زمان یا حافظهٔ این کتابخانه‌ها."
+      },
+      {
+        "en": "Distance, plan and map answer different questions",
+        "fa": "فاصله، طرح و نگاشت سؤال‌های متفاوت را جواب می‌دهند",
+        "body_en": "A scalar transport value summarizes a difference between distributions under a specified cost. A plan describes modeled allocation between sampled states. A map supplies a rule to transform inputs, with out-of-sample behavior requiring justification. Not every arbitrary optimal cost is a Wasserstein metric; for a p-Wasserstein distance, use an appropriate metric ground cost raised to p and take the pth root of the optimum. A score ranking drugs by distributional change does not rank clinical benefit, selectivity or toxicity.",
+        "body_fa": "مقدار اسکالر انتقال، تفاوت توزیع‌ها را تحت هزینهٔ مشخص خلاصه می‌کند. طرح، تخصیص مدل‌شده میان حالت‌های نمونه‌گیری‌شده را توصیف می‌کند. نگاشت، قاعده‌ای برای تبدیل ورودی می‌دهد که رفتار آن خارج از نمونه به توجیه نیاز دارد. هر هزینهٔ بهینهٔ دلخواه، متریک Wasserstein نیست؛ برای فاصلهٔ p-Wasserstein باید فاصلهٔ پایهٔ مناسب را به توان p رساند و از مقدار بهینه ریشهٔ pاُم گرفت. رتبه‌بندی داروها از نظر تغییر توزیع، رتبه‌بندی منفعت بالینی، انتخاب‌پذیری یا سمیت نیست."
+      },
+      {
+        "en": "The pAKT/pERK example: what the counts cannot tell us",
+        "fa": "مثال pAKT/pERK: شمارش‌ها چه چیزی نمی‌گویند؟",
+        "body_en": "Consider an example that compares state A changing from 60 to 40 cells and B from 40 to 60. With normalized masses, every P=[[t,0.6−t],[0.4−t,t]] for 0≤t≤0.4 has those margins. At t=0.4, net change can be represented by 20 A→B and no B→A; at t=0.3 it can be represented by 30 A→B and 10 B→A. Counts alone cannot select one. Even a fitted plan suggesting pAKT-high→pERK-high requires functional, temporal or perturbational evidence before claiming pathway switching or drug resistance. Growth, death and sampling offer additional explanations.",
+        "body_fa": "مثال زیر حالت A را از ۶۰ به ۴۰ سلول و B را از ۴۰ به ۶۰ مقایسه می‌کند. با جرم نرمال‌شده، هر P=[[t,0.6−t],[0.4−t,t]] برای 0≤t≤0.4 همین حاشیه‌ها را دارد. در t=0.4، تغییر خالص را می‌توان با ۲۰ انتقال A→B و بدون B→A نشان داد؛ در t=0.3 با ۳۰ انتقال A→B و ۱۰ انتقال B→A. شمارش‌ها به‌تنهایی یکی را انتخاب نمی‌کنند. حتی طرح برازش‌شدهٔ pAKT-high→pERK-high، پیش از ادعای تعویض مسیر یا مقاومت دارویی، به شواهد عملکردی، زمانی یا مداخله‌ای نیاز دارد. رشد، مرگ و نمونه‌گیری هم توضیح‌های دیگری‌اند."
+      },
+      {
+        "en": "Application examples and the boundary of this lesson",
+        "fa": "مثال‌های کاربردی و محدودهٔ این درس",
+        "body_en": "Applications include ranking perturbations, before/after cluster relationships, a comparison involving 35 drugs and feature-based similarity. Our new ranking lab uses three synthetic one-point populations so you can isolate the role of feature weights. It does not recreate the original study or establish the efficacy of any treatment. Additional article panels without supplied explanatory notes are outside this teaching coverage; the original figures are not reproduced.",
+        "body_fa": "کاربردها شامل رتبه‌بندی مداخله‌ها، رابطهٔ کلاسترهای قبل و بعد، مقایسه‌ای شامل ۳۵ دارو و شباهت بر اساس ویژگی‌اند. آزمایش تازه از سه جمعیت تک‌نقطه‌ای مصنوعی استفاده می‌کند تا بتوانی نقش وزن ویژگی را جداگانه ببینی. این مثال مطالعهٔ اصلی را بازسازی نمی‌کند و اثربخشی هیچ درمانی را ثابت نمی‌کند. پنل‌های دیگری که توضیحی برایشان در مطالب مبنا موجود نبود، در محدودهٔ این آموزش نیستند؛ شکل‌های اصلی هم بازنشر نمی‌شوند."
+      }
+    ]
+  }
+]
