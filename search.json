@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "PATOQ",
     "section": "",
-    "text": "پاتوق / PATOQArash B. Abadi · Hossein AsadkhanipourGitHub ↗",
+    "text": "PATOQ / SPATIAL BIOLOGY IN PYTHONاز بافت تا استنباط زیستی.From tissue to biological inference.مسیر تخصصی با نقشهٔ فصل‌ها و درس تعاملی حساسیت همسایگی؛ توسعه‌یافته با کمک میرزا.A specialist pathway with a curriculum and an interactive neighborhood sensitivity lesson, developed with Mirza.ورود به بخش زیست‌شناسی فضایی ↗Enter spatial biology ↗\n\n\nپاتوق / PATOQArash B. Abadi · Hossein AsadkhanipourGitHub ↗",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>PATOQ | پاتوق</span>"
     ]
@@ -90,6 +90,26 @@
     ]
   },
   {
+    "objectID": "spatial-python.html",
+    "href": "spatial-python.html",
+    "title": "Spatial Biology in Python | زیست‌شناسی فضایی با پایتون",
+    "section": "",
+    "text": "SPATIAL BIOLOGY IN PYTHONاز بافت،تا استنباط زیستی.From tissue.To biological inference.کنار هم بودن دو سلول، تازه شروع سؤال است. این مسیر کمک می‌کند بفهمیم داده چطور ساخته شده، چرا یک روش را انتخاب می‌کنیم و نتیجه تا کجا قابل‌دفاع است.Two nearby cells are the beginning of a question. Learn how the data were made, why a method fits the question and how far the evidence supports an interpretation.آزمایشگاه همسایگی را باز کن ↓Enter the neighborhood lab ↓نسخهٔ اول: مسیر آموزشی + درس تعاملی مصنوعی. workflow واقعی Xenium و Visium هنوز اجرا نشده است.First edition: curriculum + synthetic interactive lesson. Real Xenium and Visium workflows have not yet been executed.\n01 / THE SCIENTIFIC CONTRACTقبل از کد، سؤال را روشن کن.Define the question before the code.چرا این روش؟Why this method?واحد مشاهده، نوع داده و کمیت موردنظر را مشخص کن: مالکیت یک نشانگر در سلول، نزدیکی دو جمعیت، همبستگی میدان‌ها یا موقعیت نسبت به یک ساختار آناتومیک؟ این‌ها یک سؤال نیستند.Name the observation unit, modality and estimand: marker ownership within a cell, proximity between populations, field association or position relative to anatomy? These are different questions.چقدر پایدار است؟How sensitive is it?ببین با تغییر شعاع، segmentation، annotation یا تعریف ناحیه، نتیجه چقدر عوض می‌شود. سناریوی اصلی را پیش از جست‌وجوی نتیجهٔ جذاب ثبت کن.Check changes in radius, segmentation, annotation and ROI definition. Record the primary analysis before searching for an attractive result.چه چیزی می‌فهمیم؟What can we infer?نزدیکی با تماس، سیگنال‌دهی یا علت یکسان نیست. سلول‌ها، میدان‌ها و برش‌ها را در سلسله‌مراتب نمونه نگه دار؛ تعدادشان به‌تنهایی تعداد حیوان یا بیمار مستقل را زیاد نمی‌کند.Proximity is distinct from contact, signaling and causality. Retain cells, fields and sections within their specimen hierarchy; more observations do not create more independent animals or patients.\nCOMMUNITY × PATOQانتقال بهینه، با آموزش‌های حمیدOptimal transport, inspired by Hamidشش پارت گروه در ده درس دوزبانه، با محاسبه، پیش‌بینی و بازخورد؛ از coupling تا چنداُمیکس و دینامیک.Six community parts organized into ten bilingual lessons with computation, prediction and feedback, from coupling to multi-omics and dynamics.ورود به آزمایشگاه OT ↗Enter the OT lab ↗\n02 / THE LEARNING PATHفصل را با مسئله باز کن.Open a chapter through its question.\n03 / INTERACTIVE LESSONهمسایه یعنی چه؟What counts as a neighbor?این سلول‌ها و مختصات ساختگی‌اند. شعاع را تغییر بده؛ بعد فاصلهٔ خالی بین دو قطعه را از گراف حذف کن. تعداد اتصال‌های آبی–نارنجی چقدر تغییر می‌کند؟These cells and coordinates are synthetic. Change the radius, then exclude edges crossing the gap between fragments. How much does the blue–orange edge count change?r = 25r = 55r = 95حذف اتصال‌های عبوری از شکافExclude gap-crossing edgesSynthetic radius graph with a gap between two fragmentsآبی = A، نارنجی = B؛ هر خط یک جفت بدون جهت است و یک‌بار شمرده می‌شود. شکاف بین x=280 و x=320 است. واحدها قراردادی‌اند، نه میکرومتر. امتیاز enrichment، آزمون فرض یا دادهٔ زیستی نمایش داده نمی‌شود.Blue = A, orange = B; each undirected pair is counted once. The gap spans x=280 to x=320. Coordinates use arbitrary units, not micrometers. No enrichment score, hypothesis test or biological data are shown.مشاهدهObserveشعاع بزرگ‌تر تعریف «همسایه» را تغییر می‌دهد. خطی که از ناحیهٔ فاقد بافت می‌گذرد ممکن است برای سؤال تماس موضعی نامعتبر باشد.A larger radius changes the definition of a neighbor. An edge crossing missing tissue may be inappropriate for a local-contact question.توضیح جایگزینAlternative explanationافزایش جفت‌های A–B می‌تواند از تعریف گراف، تعداد سلول‌ها یا هم‌مکانی با یک ساختار بیاید. این نمودار هیچ‌کدام را به‌تنهایی جدا نمی‌کند.More A–B pairs can arise from graph definition, cell abundance or shared anatomical positioning. This diagram does not isolate these explanations.قدم بعدیNext testبرای دادهٔ واقعی، گراف را روی تصویر ببین، فراوانی و حمایت فضایی را گزارش کن و null را متناسب با سؤال و نمونه طراحی کن.On real data, inspect the graph over the tissue, report abundance and spatial support, and choose a null consistent with the question and specimen.\n04 / FROM DEMO TO ANALYSISاز شکل آموزشی تا نتیجهٔ قابل‌دفاع.From a teaching diagram to a defensible result.درس اول: حساسیت، تراکم و nullLesson one: sensitivity, density and the nullاول کمیت را تعریف کن: آیا تعداد جفت‌ها مهم است، سهم یک نوع همسایه، فاصله تا نزدیک‌ترین سلول، یا موقعیت نسبت به مرز راه هوایی؟ فاصله تا مرکز یک ساختار با فاصله تا مرز آن یکسان نیست. موقعیت دوبعدی یک برش هم بازسازی سه‌بعدی اندام نیست.در گراف شعاعی، فاصلهٔ فیزیکی مشترکی تعریف می‌کنی و تعداد همسایه می‌تواند تغییر کند. در kNN تعداد انتخاب اولیهٔ همسایه‌ها مشخص است، اما فاصلهٔ آن‌ها می‌تواند در نواحی کم‌تراکم بزرگ شود؛ متقارن‌سازی هم درجهٔ نهایی را عوض می‌کند. هیچ انتخابی برای همهٔ سؤال‌ها مناسب نیست. مقیاس، تراکم، مرزها و اتصال اجزای جدا را روی نقشه بررسی کن.جابجایی تصادفی برچسب‌ها روی گراف ثابت می‌پرسد آیا این آرایش برچسب نسبت به بازتخصیص انتخاب‌شده متفاوت است. اگر برچسب‌ها به آناتومی یا کیفیت اندازه‌گیری وابسته باشند، این جابه‌جایی ممکن است برای سؤال تو موجه نباشد. محدودکردن جابه‌جایی به compartmentها هم سؤال را عوض می‌کند و ممکن است بخشی از سیگنال موردنظر را شرطی کند؛ null را از روی فرض زیستی انتخاب کن، نه برای کوچک‌شدن p-value.در چند نمونه، ابتدا اثر و عدم‌قطعیت را در سطح نمونه تعریف کن. مقایسهٔ هزاران سلول یک حیوان با هزاران سلول حیوان دیگر جای تکرار مستقل را نمی‌گیرد. برای آزمون‌های چند شعاع و چند جفت، خانوادهٔ مقایسه‌ها را مشخص کن. یک نمودار «پایدار/ناپایدار» به‌تنهایی اعتبارسنجی زیستی نیست.Define the estimand first: pair count, neighbor composition, nearest-cell distance or position relative to an airway boundary? Distance to a structure's center differs from distance to its boundary. A two-dimensional section is not a three-dimensional reconstruction.A radius graph uses a shared physical distance, with a variable number of neighbors. kNN fixes the initial number selected, but distances may become large in sparse areas; symmetrization also changes final degree. Neither is universally appropriate. Inspect scale, density, boundaries and disconnected fragments on the native map.Randomly permuting labels on a fixed graph asks whether the observed labeling differs from the chosen reallocation scheme. If labels depend on anatomy or measurement quality, exchangeability may not hold for your question. Restricting permutations within compartments changes the question and can condition away part of the signal of interest. Choose the null from the biological hypothesis, not to obtain a small p-value.Across specimens, define effects and uncertainty at the specimen level. Thousands of cells from one animal versus thousands from another do not replace independent replication. Prespecify the comparison family across radii and population pairs. A stable/unstable sensitivity display alone is not biological validation.قرارداد workflowهای Xenium و VisiumContract for the Xenium and Visium workflowsهر workflow باید شناسه و نسخهٔ دادهٔ عمومی، مجوز، جاندار و بافت، واحد مستقل، نسخهٔ segmentation، واحد مختصات و تبدیل‌ها، محیط قفل‌شده، counts و لایه‌های تبدیل‌شده، seed، پارامترها، خروجی‌های میانی و آزمون‌های صحت را ثبت کند. زمان، RAM و GPU از اجرای واقعی گزارش می‌شوند؛ هنوز عددی اندازه‌گیری نشده است. در Xenium مالکیت مولکول و مرز سلول مهم‌اند؛ spot یا bin در Visium را به‌طور خودکار سلول ننام.Each workflow must retain public dataset accession/version, license, organism/tissue, independent specimen unit, segmentation version, coordinate units/transforms, locked environment, counts and transformed layers, seeds, parameters, intermediate outputs and correctness checks. Runtime, RAM and GPU requirements come from actual execution; none have been measured yet. Xenium requires molecule-ownership and boundary review; a Visium spot or bin must not automatically be called a cell.\n05 / SOURCES & COVERAGEبه منابع وصل بمان.Keep the evidence within reach.این مسیر یک طراحی آموزشی مستقل در پاتوق است؛ ترجمهٔ رسمی OSTA یا همکاری تأییدشده با scverse نیست. نقشهٔ منابع میرزا برای جهت‌دهی استفاده شد و مستندات زیر در ۲ نوامبر ۲۰۲۶ بررسی شدند. صرف دیدن مستندات به‌معنی اجرای آموزش‌ها نیست.This is an independent PATOQ curriculum, not an official OSTA translation or an endorsed scverse collaboration. Mirza's source map informed the design; the documentation below was checked on 2 November 2026. Documentation inspection is not tutorial execution.SpatialData tutorials — ساختار داده، مختصات و تبدیل‌ها؛ فهرست آموزش‌ها بررسی شد.Data structure, coordinate systems and transforms; tutorial index inspected.Squidpy spatial neighbors — مستندات گراف بررسی شد؛ API و نسخه باید پیش از workflow قفل شوند.Graph documentation inspected; pin the API and version before workflow execution.Single-cell Best Practices: neighborhood analysis — توضیح و نمونه‌های فصل بررسی شد؛ نوت‌بوک اجرا نشد.Chapter explanation/examples inspected; notebook not executed.OSTA — منبع مکمل R/Bioconductor از نقشهٔ منابع میرزا؛ این درس متن یا شکل آن را بازتولید نمی‌کند.Complementary R/Bioconductor resource retained in Mirza's source map; no text or figures reproduced here.تفسیرهای مربوط به آناتومی، null، segmentation و تکرار زیستی، سنتز آموزشی این فصل‌اند. نمایش تعاملی فقط محاسبهٔ هندسی روی نقاط مصنوعی است و اجرای Squidpy یا benchmark محسوب نمی‌شود.Anatomy, null-model, segmentation and replication guidance is this chapter's educational synthesis. The interactive display computes geometry on synthetic points; it is not a Squidpy run or benchmark.\nپاتوق / PATOQ ↗یادگیری با پرسش، شواهد و بازبینی.Learning through questions, evidence and revision.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Spatial Biology in Python | زیست‌شناسی فضایی با پایتون</span>"
+    ]
+  },
+  {
+    "objectID": "optimal-transport.html",
+    "href": "optimal-transport.html",
+    "title": "Optimal Transport | انتقال بهینه",
+    "section": "",
+    "text": "OPTIMAL TRANSPORT / LEARN BY EXPERIMENTINGاز دو جمعیت،تا یک طرح انتقال.Two populations.A transport plan.با الهام از آموزش‌های حمید در شبکهٔ زیست‌شناسی فضایی؛ بازنویسی، بررسی و طراحی تعاملی از پاتوق. این درس‌ها متن تأییدشدهٔ حمید یا بازنشر مقاله نیستند.Inspired by Hamid’s explanations in the Spatial Biology Network; independently rewritten, reviewed and made interactive by PATOQ. These are not Hamid-approved text or a reproduction of the paper.شش پارت اصلی و پیام‌های تکمیلی در ده درس؛ همهٔ داده‌ها مصنوعی و شکل‌ها محاسبه‌شده‌اند. انتخاب‌ها و جواب‌ها فقط تا وقتی همین صفحه باز است حفظ می‌شوند.Six original parts and follow-up explanations, organized into ten lessons. All data are synthetic and diagrams computed afresh. Choices and answers are kept only while this page is open.درس‌ها را باز کن ↓Open the lessons ↓\n\nمنبع، اعتبار و سهم هر نفرSources, credit and scopeنقطهٔ شروع: آموزش‌های حمید، پارت‌های ۱ تا ۶ و مثال‌های تکمیلی او در خروجی ارسالی گروه. توضیح و مثال تازهٔ پاتوق از پیام‌های شخصی، عکس‌ها و شکل‌های مقاله جدا نگه داشته شده است. اصلاح‌ها و گسترش‌های علمی این نسخه مسئولیت تحریریهٔ پاتوق‌اند و نباید گفتهٔ حمید تلقی شوند.Starting point: Hamid’s parts1–6 and follow-up examples in the supplied group export. PATOQ’s new explanations and examples are separated from personal messages, photographs and article figures. Corrections and extensions are editorial work and must not be attributed to Hamid as his statements.Bunne, Schiebinger, Krause, Regev & Cuturi (2024). Optimal transport for single-cell and spatial omics. Nature Reviews Methods Primers 4, 58. هویت و چکیده و وضعیت حقوق ناشر بررسی شد؛ متن کامل در این کار در دسترس نبود. مقاله با PrimeView همراهش یک رکورد نیست.Identity, abstract and publisher rights inspected; full text unavailable in this task. The related PrimeView is a different record.Peyré & Cuturi — Computational Optimal Transport / author manuscriptPOT documentation: primal/dual, regularization, Gaussian maps, unbalanced, partial and GWOTT · GeomLoss · moscotبررسی مستندات: ۲ نوامبر ۲۰۲۶. نمونه‌ها حل‌گرهای کوچک آموزشی یا محاسبهٔ مستقیم‌اند؛ هیچ بسته، مدل عصبی، Schrödinger bridge، دادهٔ بیمار یا benchmark مقاله اینجا اجرا نشده است. بازسازی مختصات یا سرنوشت مدل‌محور به‌معنی اثبات lineage، تماس یا علت نیست.Documentation checked2 November2026. Examples use tiny teaching solvers or direct calculations; no package workflow, neural model, Schrödinger bridge, patient data or paper benchmark is executed here. Model-based coordinates or fate estimates do not establish lineage, contact or causation.دربارهٔ استفاده از مطالب دیگرانAbout reuseمقالهٔ مرجع در صفحهٔ ناشر اشتراکی و دارای حقوق انحصاری معرفی شده است. هیچ متن یا شکل آن وارد این درس نشده است. مفاهیم را با بیان، ساختار و مثال‌های مستقل آموزش می‌دهیم؛ انتساب نام و لینک منبع جای مجوز بازتولید بیان یا شکل را نمی‌گیرد. دسترسی آزاد هم به‌تنهایی مجوز هر نوع استفاده نیست؛ مجوز هر اثر و اقلام شخص ثالث باید جدا بررسی شود.The publisher identifies the reference as subscription content with exclusive rights. No article text or figures are included here. Concepts are taught through independently written explanations, structure and examples; attribution is not permission to reproduce protected expression or figures. Open access alone does not determine all reuse conditions; check each work’s license and third-party material separately.\nبازگشت به مسیر فضایی ↗Back to spatial learning ↗PATOQ × Hamid’s community explanations",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Optimal Transport | انتقال بهینه</span>"
+    ]
+  },
+  {
     "objectID": "prerequisites.html",
     "href": "prerequisites.html",
     "title": "Prerequisites",
@@ -102,804 +122,804 @@
   {
     "objectID": "biology_fundamentals.html",
     "href": "biology_fundamentals.html",
-    "title": "5  Biology fundamentals and resources",
+    "title": "7  Biology fundamentals and resources",
     "section": "",
-    "text": "5.1 Key Concepts In Biology",
+    "text": "7.1 Key Concepts In Biology",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Biology fundamentals and resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Biology fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "biology_fundamentals.html#key-concepts-in-biology",
     "href": "biology_fundamentals.html#key-concepts-in-biology",
-    "title": "5  Biology fundamentals and resources",
+    "title": "7  Biology fundamentals and resources",
     "section": "",
     "text": "Molecular Biology: DNA, RNA, proteins, gene expression\nCell Biology: Cell structure, organelles, and functions\nGenetics: Inheritance, genetic variation, genomics\nBiochemistry: Metabolic pathways, enzyme kinetics\nBiophysics: Physical principles in biological systems",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Biology fundamentals and resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Biology fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "biology_fundamentals.html#recommended-resources",
     "href": "biology_fundamentals.html#recommended-resources",
-    "title": "5  Biology fundamentals and resources",
-    "section": "5.2 Recommended Resources",
-    "text": "5.2 Recommended Resources\n\nBooks:\n\nMolecular Biology of the Cell by Bruce Alberts\nLewin’s Genes by Jocelyn E. Krebs et al.\nLehninger Principles of Biochemistry by Nelson and Cox\nPhysical Biology of the Cell by Rob Phillips\n\nOnline Courses:\n\nIntroduction to Biology: The Secret of Life on edX\nMIT OpenCourseWare: Introduction to Biology",
+    "title": "7  Biology fundamentals and resources",
+    "section": "7.2 Recommended Resources",
+    "text": "7.2 Recommended Resources\n\nBooks:\n\nMolecular Biology of the Cell by Bruce Alberts\nLewin’s Genes by Jocelyn E. Krebs et al.\nLehninger Principles of Biochemistry by Nelson and Cox\nPhysical Biology of the Cell by Rob Phillips\n\nOnline Courses:\n\nIntroduction to Biology: The Secret of Life on edX\nMIT OpenCourseWare: Introduction to Biology",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Biology fundamentals and resources</span>"
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Biology fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "mathematics_fundamentals.html",
     "href": "mathematics_fundamentals.html",
-    "title": "6  Mathematics fundamentals and resources",
+    "title": "8  Mathematics fundamentals and resources",
     "section": "",
-    "text": "6.1 Key Concepts",
+    "text": "8.1 Key Concepts",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "mathematics_fundamentals.html#key-concepts",
     "href": "mathematics_fundamentals.html#key-concepts",
-    "title": "6  Mathematics fundamentals and resources",
+    "title": "8  Mathematics fundamentals and resources",
     "section": "",
     "text": "Linear Algebra: Vectors, matrices, and their applications\nCalculus: Differential and integral calculus\nDiscrete Mathematics: Combinatorics, graph theory\nAlgorithms and Data Structures\nNumerical Methods",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "mathematics_fundamentals.html#recommended-resources",
     "href": "mathematics_fundamentals.html#recommended-resources",
-    "title": "6  Mathematics fundamentals and resources",
-    "section": "6.2 Recommended Resources",
-    "text": "6.2 Recommended Resources\n\nBooks:\n\nIntroduction to Linear Algebra by Gilbert Strang\nDiscrete Mathematics and Its Applications by Kenneth H. Rosen\nNumerical Recipes by William H. Press et al.\n\nOnline Courses:\n\nLinear Algebra on edX\nCalculus 1A: Differentiation on edX",
+    "title": "8  Mathematics fundamentals and resources",
+    "section": "8.2 Recommended Resources",
+    "text": "8.2 Recommended Resources\n\nBooks:\n\nIntroduction to Linear Algebra by Gilbert Strang\nDiscrete Mathematics and Its Applications by Kenneth H. Rosen\nNumerical Recipes by William H. Press et al.\n\nOnline Courses:\n\nLinear Algebra on edX\nCalculus 1A: Differentiation on edX",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "mathematics_fundamentals.html#key-concepts-1",
     "href": "mathematics_fundamentals.html#key-concepts-1",
-    "title": "6  Mathematics fundamentals and resources",
-    "section": "7.1 Key Concepts",
-    "text": "7.1 Key Concepts\n\nProbability Theory: Distributions, random variables\nStatistical Inference: Hypothesis testing, confidence intervals\nRegression Analysis: Linear and non-linear models\nMultivariate Statistics\nMachine Learning Basics",
+    "title": "8  Mathematics fundamentals and resources",
+    "section": "9.1 Key Concepts",
+    "text": "9.1 Key Concepts\n\nProbability Theory: Distributions, random variables\nStatistical Inference: Hypothesis testing, confidence intervals\nRegression Analysis: Linear and non-linear models\nMultivariate Statistics\nMachine Learning Basics",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "mathematics_fundamentals.html#recommended-resources-1",
     "href": "mathematics_fundamentals.html#recommended-resources-1",
-    "title": "6  Mathematics fundamentals and resources",
-    "section": "7.2 Recommended Resources",
-    "text": "7.2 Recommended Resources\n\nBooks:\n\nThe Elements of Statistical Learning by Trevor Hastie et al.\nApplied Multivariate Statistical Analysis by Richard A. Johnson\nStatistical Inference by George Casella and Roger L. Berger\n\nOnline Courses:\n\nStatistics and Data Science on edX\nProbability and Statistics on Coursera",
+    "title": "8  Mathematics fundamentals and resources",
+    "section": "9.2 Recommended Resources",
+    "text": "9.2 Recommended Resources\n\nBooks:\n\nThe Elements of Statistical Learning by Trevor Hastie et al.\nApplied Multivariate Statistical Analysis by Richard A. Johnson\nStatistical Inference by George Casella and Roger L. Berger\n\nOnline Courses:\n\nStatistics and Data Science on edX\nProbability and Statistics on Coursera",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Mathematics fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html",
     "href": "computer_science_fundamentals.html",
-    "title": "7  Computer science fundamentals and resources",
+    "title": "9  Computer science fundamentals and resources",
     "section": "",
-    "text": "8 Operating system Linux",
+    "text": "10 Operating system Linux",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#linux-basic-resources",
     "href": "computer_science_fundamentals.html#linux-basic-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "8.1 Linux basic resources",
-    "text": "8.1 Linux basic resources\n\n8.1.1 Books\n\n\n8.1.2 Online courses",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "10.1 Linux basic resources",
+    "text": "10.1 Linux basic resources\n\n10.1.1 Books\n\n\n10.1.2 Online courses",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#linux-advanced-resources",
     "href": "computer_science_fundamentals.html#linux-advanced-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "8.2 Linux advanced resources",
-    "text": "8.2 Linux advanced resources\n\n8.2.1 Books\n\n\n8.2.2 Online courses",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "10.2 Linux advanced resources",
+    "text": "10.2 Linux advanced resources\n\n10.2.1 Books\n\n\n10.2.2 Online courses",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#linux-persian-reources",
     "href": "computer_science_fundamentals.html#linux-persian-reources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "8.3 Linux persian reources",
-    "text": "8.3 Linux persian reources",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "10.3 Linux persian reources",
+    "text": "10.3 Linux persian reources",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#linux-fast-tutorial",
     "href": "computer_science_fundamentals.html#linux-fast-tutorial",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "8.4 Linux fast tutorial",
-    "text": "8.4 Linux fast tutorial",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "10.4 Linux fast tutorial",
+    "text": "10.4 Linux fast tutorial",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#git-basic-resources",
     "href": "computer_science_fundamentals.html#git-basic-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "9.1 Git basic resources",
-    "text": "9.1 Git basic resources\n\n9.1.1 Books\n\nhead first git\n\n\n\n9.1.2 Online courses\n\ngit - the simple guide - no deep shit!\nGit Tutorial - Medium by Jaaeehoonkim",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "11.1 Git basic resources",
+    "text": "11.1 Git basic resources\n\n11.1.1 Books\n\nhead first git\n\n\n\n11.1.2 Online courses\n\ngit - the simple guide - no deep shit!\nGit Tutorial - Medium by Jaaeehoonkim",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#git-advanced-resources",
     "href": "computer_science_fundamentals.html#git-advanced-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "9.2 Git advanced resources",
-    "text": "9.2 Git advanced resources\n\n9.2.1 Books\n\nThe best and most reliable: Free book of Pro Git\n\nHappy Git and GitHub for the useR\n\n\n\n9.2.2 Online courses\n\nIntroduction to Git and GitHub on Coursera",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "11.2 Git advanced resources",
+    "text": "11.2 Git advanced resources\n\n11.2.1 Books\n\nThe best and most reliable: Free book of Pro Git\n\nHappy Git and GitHub for the useR\n\n\n\n11.2.2 Online courses\n\nIntroduction to Git and GitHub on Coursera",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#git-persian-reources",
     "href": "computer_science_fundamentals.html#git-persian-reources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "9.3 Git persian reources",
-    "text": "9.3 Git persian reources\n\nدوره رایگان، جذاب و خیلییی کوتاه گیت جادی تو فرادرس\n\nMilad Bahrami youtube playlist\n\nAshkan Rahmani youtube playlist\n\nGit mag youtube playlist\n\nSalar Hagh youtube playlist\n\nneolearn youtube video\n\nSarvin Style Coding youtube video",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "11.3 Git persian reources",
+    "text": "11.3 Git persian reources\n\nدوره رایگان، جذاب و خیلییی کوتاه گیت جادی تو فرادرس\n\nMilad Bahrami youtube playlist\n\nAshkan Rahmani youtube playlist\n\nGit mag youtube playlist\n\nSalar Hagh youtube playlist\n\nneolearn youtube video\n\nSarvin Style Coding youtube video",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#git-fast-tutorial",
     "href": "computer_science_fundamentals.html#git-fast-tutorial",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "9.4 Git fast tutorial",
-    "text": "9.4 Git fast tutorial\n\n\n\n\nSource: Google Images\n\n\n\n\n9.4.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\nGit was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like paper_FINAL_final_UPDATED_NEW.docx or proj_NEW_LASTEST.R, Git keeps track of all changes automatically.\n\n\n9.4.2 Basic Git Concepts & Commands\n\nRepository (Repo): Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions. Local repo is a copy of the remote repo on your computer. Remote repo can be the version stored on GitHub or GitLab.\nCommit: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.\n\n\n\n\n\nGit in a nutshell - Source\n\n\n\n\nBranch: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can Merge your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.\n\n\n\n\n\nGit Branches - Source\n\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Reset your branch to the latest commit\ngit reset --hard\n\n\n9.4.3 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can store your projects online, collaborate with others and share your work with the world. GitHub has Repository Hosting - a cloud storage specifically for code, Issue Tracking - a to-do list for your project and bug reporting, Pull Requests - suggesting changes to someone else’s work or requesting changes to your own work, Code Review - peer review process for your code, and CI/CD features. Common workflows in GitHub: Fork a Repository: Like making a copy of someone else’s project. You can modify it without affecting the original. Push Changes: Like uploading your changes to GitHub. Clone a Repository: Like downloading a project to your computer.\n# Clone a repository\ngit clone https://github.com/username/repository.git\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n\n9.4.4 Common Scenarios and Best Practices\nWhen working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, start with basic commands and simple projects, you can utilize visual tools like GitHub Desktop or VS Code’s Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!\nWhat usually happens daily:\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\n\n\nNote: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.\n\n\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nWorking with Branches\ngit checkout -b new-branch-name\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\ngit checkout main\ngit merge new-branch-name\n\n\n\n\n\nGit and B Cell Analogy!",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "11.4 Git fast tutorial",
+    "text": "11.4 Git fast tutorial\n\n\n\n\nSource: Google Images\n\n\n\n\n11.4.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\nGit was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like paper_FINAL_final_UPDATED_NEW.docx or proj_NEW_LASTEST.R, Git keeps track of all changes automatically.\n\n\n11.4.2 Basic Git Concepts & Commands\n\nRepository (Repo): Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions. Local repo is a copy of the remote repo on your computer. Remote repo can be the version stored on GitHub or GitLab.\nCommit: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.\n\n\n\n\n\nGit in a nutshell - Source\n\n\n\n\nBranch: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can Merge your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.\n\n\n\n\n\nGit Branches - Source\n\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Reset your branch to the latest commit\ngit reset --hard\n\n\n11.4.3 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can store your projects online, collaborate with others and share your work with the world. GitHub has Repository Hosting - a cloud storage specifically for code, Issue Tracking - a to-do list for your project and bug reporting, Pull Requests - suggesting changes to someone else’s work or requesting changes to your own work, Code Review - peer review process for your code, and CI/CD features. Common workflows in GitHub: Fork a Repository: Like making a copy of someone else’s project. You can modify it without affecting the original. Push Changes: Like uploading your changes to GitHub. Clone a Repository: Like downloading a project to your computer.\n# Clone a repository\ngit clone https://github.com/username/repository.git\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n\n11.4.4 Common Scenarios and Best Practices\nWhen working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, start with basic commands and simple projects, you can utilize visual tools like GitHub Desktop or VS Code’s Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!\nWhat usually happens daily:\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\n\n\nNote: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.\n\n\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nWorking with Branches\ngit checkout -b new-branch-name\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\ngit checkout main\ngit merge new-branch-name\n\n\n\n\n\nGit and B Cell Analogy!",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#link-to-fast-tutorial",
     "href": "computer_science_fundamentals.html#link-to-fast-tutorial",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "10.1 Link to fast tutorial",
-    "text": "10.1 Link to fast tutorial",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "12.1 Link to fast tutorial",
+    "text": "12.1 Link to fast tutorial",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#r-basic-resources",
     "href": "computer_science_fundamentals.html#r-basic-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "10.2 R basic resources",
-    "text": "10.2 R basic resources\n\n10.2.1 Books\n\n\n10.2.2 Online courses",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "12.2 R basic resources",
+    "text": "12.2 R basic resources\n\n12.2.1 Books\n\n\n12.2.2 Online courses",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#r-advanced-resources",
     "href": "computer_science_fundamentals.html#r-advanced-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "10.3 R advanced resources",
-    "text": "10.3 R advanced resources\n\n10.3.1 Books\n\n\n10.3.2 Online courses",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "12.3 R advanced resources",
+    "text": "12.3 R advanced resources\n\n12.3.1 Books\n\n\n12.3.2 Online courses",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#r-persian-reources",
     "href": "computer_science_fundamentals.html#r-persian-reources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "10.4 R persian reources",
-    "text": "10.4 R persian reources\n\nR for Data Science by Hadley Wickham\nR Programming on Coursera",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "12.4 R persian reources",
+    "text": "12.4 R persian reources\n\nR for Data Science by Hadley Wickham\nR Programming on Coursera",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#r-fast-tutorial",
     "href": "computer_science_fundamentals.html#r-fast-tutorial",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "10.5 R fast tutorial",
-    "text": "10.5 R fast tutorial",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "12.5 R fast tutorial",
+    "text": "12.5 R fast tutorial",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#python-basic-resources",
     "href": "computer_science_fundamentals.html#python-basic-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "11.1 Python basic resources",
-    "text": "11.1 Python basic resources\n\n11.1.1 Books\n\nPython for Biologists by Martin Jones ### Online courses",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "13.1 Python basic resources",
+    "text": "13.1 Python basic resources\n\n13.1.1 Books\n\nPython for Biologists by Martin Jones ### Online courses",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#python-advanced-resources",
     "href": "computer_science_fundamentals.html#python-advanced-resources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "11.2 Python advanced resources",
-    "text": "11.2 Python advanced resources\n\n11.2.1 Books\n\n\n11.2.2 Online courses\n\nPython for Data Science and AI on Coursera",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "13.2 Python advanced resources",
+    "text": "13.2 Python advanced resources\n\n13.2.1 Books\n\n\n13.2.2 Online courses\n\nPython for Data Science and AI on Coursera",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#python-persian-reources",
     "href": "computer_science_fundamentals.html#python-persian-reources",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "11.3 Python persian reources",
-    "text": "11.3 Python persian reources",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "13.3 Python persian reources",
+    "text": "13.3 Python persian reources",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "computer_science_fundamentals.html#python-fast-tutorial",
     "href": "computer_science_fundamentals.html#python-fast-tutorial",
-    "title": "7  Computer science fundamentals and resources",
-    "section": "11.4 Python fast tutorial",
-    "text": "11.4 Python fast tutorial",
+    "title": "9  Computer science fundamentals and resources",
+    "section": "13.4 Python fast tutorial",
+    "text": "13.4 Python fast tutorial",
     "crumbs": [
       "Prerequisites",
-      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Computer science fundamentals and resources</span>"
     ]
   },
   {
     "objectID": "omics-data.html",
     "href": "omics-data.html",
-    "title": "8  Omics Data Analysis and Interpretation",
+    "title": "10  Omics Data Analysis and Interpretation",
     "section": "",
-    "text": "8.1 Genomics",
+    "text": "10.1 Genomics",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#genomics",
     "href": "omics-data.html#genomics",
-    "title": "8  Omics Data Analysis and Interpretation",
+    "title": "10  Omics Data Analysis and Interpretation",
     "section": "",
-    "text": "8.1.1 Key Concepts\n\nWhole Genome Sequencing (WGS) Analysis\nVariant Calling and Analysis\nGenome Assembly and Annotation\nComparative Genomics\nPopulation Genomics\n\n\n\n8.1.2 Recommended Resources\n\nTools and Software:\n\nGATK - Genome Analysis Toolkit\nBWA - Burrows-Wheeler Aligner\nSAMtools - Sequence Alignment/Map tools\nIGV - Integrative Genomics Viewer\n\nLearning Resources:\n\nGATK Best Practices\nGalaxy Training Network",
+    "text": "10.1.1 Key Concepts\n\nWhole Genome Sequencing (WGS) Analysis\nVariant Calling and Analysis\nGenome Assembly and Annotation\nComparative Genomics\nPopulation Genomics\n\n\n\n10.1.2 Recommended Resources\n\nTools and Software:\n\nGATK - Genome Analysis Toolkit\nBWA - Burrows-Wheeler Aligner\nSAMtools - Sequence Alignment/Map tools\nIGV - Integrative Genomics Viewer\n\nLearning Resources:\n\nGATK Best Practices\nGalaxy Training Network",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#transcriptomics",
     "href": "omics-data.html#transcriptomics",
-    "title": "8  Omics Data Analysis and Interpretation",
-    "section": "8.2 Transcriptomics",
-    "text": "8.2 Transcriptomics\n\n8.2.1 Key Concepts\n\nRNA-Seq Data Analysis\nDifferential Expression Analysis\nAlternative Splicing Analysis\nSingle-Cell RNA-Seq\nLong-Read RNA Sequencing\n\n\n\n8.2.2 Recommended Resources\n\nTools and Software:\n\nDESeq2 - Differential Expression Analysis\nSTAR - RNA-Seq Aligner\nSeurat - Single-Cell Analysis\nScanpy - Single-Cell Analysis in Python\n\nLearning Resources:\n\nRNA-Seq Analysis Course\nSingle-Cell RNA-Seq Analysis",
+    "title": "10  Omics Data Analysis and Interpretation",
+    "section": "10.2 Transcriptomics",
+    "text": "10.2 Transcriptomics\n\n10.2.1 Key Concepts\n\nRNA-Seq Data Analysis\nDifferential Expression Analysis\nAlternative Splicing Analysis\nSingle-Cell RNA-Seq\nLong-Read RNA Sequencing\n\n\n\n10.2.2 Recommended Resources\n\nTools and Software:\n\nDESeq2 - Differential Expression Analysis\nSTAR - RNA-Seq Aligner\nSeurat - Single-Cell Analysis\nScanpy - Single-Cell Analysis in Python\n\nLearning Resources:\n\nRNA-Seq Analysis Course\nSingle-Cell RNA-Seq Analysis",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#proteomics",
     "href": "omics-data.html#proteomics",
-    "title": "8  Omics Data Analysis and Interpretation",
-    "section": "8.3 Proteomics",
-    "text": "8.3 Proteomics\n\n8.3.1 Key Concepts\n\nMass Spectrometry Data Analysis\nProtein Identification and Quantification\nPost-Translational Modifications\nProtein-Protein Interactions\nStructural Proteomics\n\n\n\n8.3.2 Recommended Resources\n\nTools and Software:\n\nMaxQuant - Quantitative Proteomics\nOpenMS - Open Source Mass Spectrometry\nPerseus - Proteomics Data Analysis\nSTRING - Protein-Protein Interaction Networks\n\nLearning Resources:\n\nProteomics Data Analysis Course\nMaxQuant Tutorials",
+    "title": "10  Omics Data Analysis and Interpretation",
+    "section": "10.3 Proteomics",
+    "text": "10.3 Proteomics\n\n10.3.1 Key Concepts\n\nMass Spectrometry Data Analysis\nProtein Identification and Quantification\nPost-Translational Modifications\nProtein-Protein Interactions\nStructural Proteomics\n\n\n\n10.3.2 Recommended Resources\n\nTools and Software:\n\nMaxQuant - Quantitative Proteomics\nOpenMS - Open Source Mass Spectrometry\nPerseus - Proteomics Data Analysis\nSTRING - Protein-Protein Interaction Networks\n\nLearning Resources:\n\nProteomics Data Analysis Course\nMaxQuant Tutorials",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#metabolomics",
     "href": "omics-data.html#metabolomics",
-    "title": "8  Omics Data Analysis and Interpretation",
-    "section": "8.4 Metabolomics",
-    "text": "8.4 Metabolomics\n\n8.4.1 Key Concepts\n\nMetabolite Identification\nMetabolic Pathway Analysis\nFlux Balance Analysis\nMetabolite Profiling\nIntegration with Other Omics Data\n\n\n\n8.4.2 Recommended Resources\n\nTools and Software:\n\nXCMS Online - Metabolomics Data Processing\nMetaboAnalyst - Comprehensive Metabolomics Analysis\nMZmine - Mass Spectrometry Data Processing\nKEGG - Metabolic Pathways Database\n\nLearning Resources:\n\nMetabolomics Society Training\nMetabolomics Data Analysis Course",
+    "title": "10  Omics Data Analysis and Interpretation",
+    "section": "10.4 Metabolomics",
+    "text": "10.4 Metabolomics\n\n10.4.1 Key Concepts\n\nMetabolite Identification\nMetabolic Pathway Analysis\nFlux Balance Analysis\nMetabolite Profiling\nIntegration with Other Omics Data\n\n\n\n10.4.2 Recommended Resources\n\nTools and Software:\n\nXCMS Online - Metabolomics Data Processing\nMetaboAnalyst - Comprehensive Metabolomics Analysis\nMZmine - Mass Spectrometry Data Processing\nKEGG - Metabolic Pathways Database\n\nLearning Resources:\n\nMetabolomics Society Training\nMetabolomics Data Analysis Course",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#epigenomics",
     "href": "omics-data.html#epigenomics",
-    "title": "8  Omics Data Analysis and Interpretation",
-    "section": "8.5 Epigenomics",
-    "text": "8.5 Epigenomics\n\n8.5.1 Key Concepts\n\nDNA Methylation Analysis\nChromatin Accessibility (ATAC-Seq)\nHistone Modification Analysis\nChIP-Seq Analysis\nEpigenetic Regulation\n\n\n\n8.5.2 Recommended Resources\n\nTools and Software:\n\nBismark - DNA Methylation Analysis\nMACS2 - ChIP-Seq Peak Calling\nHOMER - Motif Discovery\nDeepTools - ChIP-Seq Data Analysis\n\nLearning Resources:\n\nEpigenomics Data Analysis Course\nChIP-Seq Analysis Tutorial",
+    "title": "10  Omics Data Analysis and Interpretation",
+    "section": "10.5 Epigenomics",
+    "text": "10.5 Epigenomics\n\n10.5.1 Key Concepts\n\nDNA Methylation Analysis\nChromatin Accessibility (ATAC-Seq)\nHistone Modification Analysis\nChIP-Seq Analysis\nEpigenetic Regulation\n\n\n\n10.5.2 Recommended Resources\n\nTools and Software:\n\nBismark - DNA Methylation Analysis\nMACS2 - ChIP-Seq Peak Calling\nHOMER - Motif Discovery\nDeepTools - ChIP-Seq Data Analysis\n\nLearning Resources:\n\nEpigenomics Data Analysis Course\nChIP-Seq Analysis Tutorial",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#metagenomics",
     "href": "omics-data.html#metagenomics",
-    "title": "8  Omics Data Analysis and Interpretation",
-    "section": "8.6 Metagenomics",
-    "text": "8.6 Metagenomics\n\n8.6.1 Key Concepts\n\n16S rRNA Analysis\nShotgun Metagenomics\nTaxonomic Classification\nFunctional Profiling\nMicrobial Community Analysis\n\n\n\n8.6.2 Recommended Resources\n\nTools and Software:\n\nQIIME2 - Microbiome Analysis\nMetaPhlAn - Metagenomic Profiling\nKraken2 - Taxonomic Classification\nMG-RAST - Metagenomics Analysis Server\n\nLearning Resources:\n\nQIIME2 Tutorials\nMetagenomics Analysis Course",
+    "title": "10  Omics Data Analysis and Interpretation",
+    "section": "10.6 Metagenomics",
+    "text": "10.6 Metagenomics\n\n10.6.1 Key Concepts\n\n16S rRNA Analysis\nShotgun Metagenomics\nTaxonomic Classification\nFunctional Profiling\nMicrobial Community Analysis\n\n\n\n10.6.2 Recommended Resources\n\nTools and Software:\n\nQIIME2 - Microbiome Analysis\nMetaPhlAn - Metagenomic Profiling\nKraken2 - Taxonomic Classification\nMG-RAST - Metagenomics Analysis Server\n\nLearning Resources:\n\nQIIME2 Tutorials\nMetagenomics Analysis Course",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "omics-data.html#network-and-pathway-analysis",
     "href": "omics-data.html#network-and-pathway-analysis",
-    "title": "8  Omics Data Analysis and Interpretation",
-    "section": "8.7 Network and Pathway Analysis",
-    "text": "8.7 Network and Pathway Analysis\n\n8.7.1 Key Concepts\n\nGene Regulatory Networks\nProtein-Protein Interaction Networks\nMetabolic Networks\nPathway Enrichment Analysis\nNetwork Visualization\n\n\n\n8.7.2 Recommended Resources\n\nTools and Software:\n\nCytoscape - Network Visualization\nSTRING - Protein Interaction Networks\nGSEA - Gene Set Enrichment Analysis\nReactome - Pathway Database\n\nLearning Resources:\n\nCytoscape Tutorials\nPathway Analysis Course",
+    "title": "10  Omics Data Analysis and Interpretation",
+    "section": "10.7 Network and Pathway Analysis",
+    "text": "10.7 Network and Pathway Analysis\n\n10.7.1 Key Concepts\n\nGene Regulatory Networks\nProtein-Protein Interaction Networks\nMetabolic Networks\nPathway Enrichment Analysis\nNetwork Visualization\n\n\n\n10.7.2 Recommended Resources\n\nTools and Software:\n\nCytoscape - Network Visualization\nSTRING - Protein Interaction Networks\nGSEA - Gene Set Enrichment Analysis\nReactome - Pathway Database\n\nLearning Resources:\n\nCytoscape Tutorials\nPathway Analysis Course",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Omics Data Analysis and Interpretation</span>"
     ]
   },
   {
     "objectID": "modeling-simulation.html",
     "href": "modeling-simulation.html",
-    "title": "9  Modeling and Simulation",
+    "title": "11  Modeling and Simulation",
     "section": "",
-    "text": "9.1 Molecular Modeling and Dynamics",
+    "text": "11.1 Molecular Modeling and Dynamics",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
     "objectID": "modeling-simulation.html#molecular-modeling-and-dynamics",
     "href": "modeling-simulation.html#molecular-modeling-and-dynamics",
-    "title": "9  Modeling and Simulation",
+    "title": "11  Modeling and Simulation",
     "section": "",
-    "text": "9.1.1 Key Concepts\n\nProtein Structure Prediction\nMolecular Docking\nMolecular Dynamics Simulations\nFree Energy Calculations\nProtein-Ligand Interactions\n\n\n\n9.1.2 Recommended Resources\n\nTools and Software:\n\nGROMACS - Molecular Dynamics\nAutoDock - Molecular Docking\nPyMOL - Molecular Visualization\nAMBER - Molecular Dynamics\n\nLearning Resources:\n\nGROMACS Tutorials\nMolecular Dynamics Course",
+    "text": "11.1.1 Key Concepts\n\nProtein Structure Prediction\nMolecular Docking\nMolecular Dynamics Simulations\nFree Energy Calculations\nProtein-Ligand Interactions\n\n\n\n11.1.2 Recommended Resources\n\nTools and Software:\n\nGROMACS - Molecular Dynamics\nAutoDock - Molecular Docking\nPyMOL - Molecular Visualization\nAMBER - Molecular Dynamics\n\nLearning Resources:\n\nGROMACS Tutorials\nMolecular Dynamics Course",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
     "objectID": "modeling-simulation.html#systems-biology",
     "href": "modeling-simulation.html#systems-biology",
-    "title": "9  Modeling and Simulation",
-    "section": "9.2 Systems Biology",
-    "text": "9.2 Systems Biology\n\n9.2.1 Key Concepts\n\nMathematical Modeling of Biological Systems\nNetwork Analysis\nDynamic Systems\nMetabolic Network Modeling\nCell Signaling Networks\n\n\n\n9.2.2 Recommended Resources\n\nTools and Software:\n\nCOPASI - Biochemical Network Simulator\nCellDesigner - Network Modeling\nSBML - Systems Biology Markup Language\nBioNetGen - Rule-based Modeling\n\nLearning Resources:\n\nSystems Biology Course\nCOPASI Tutorials",
+    "title": "11  Modeling and Simulation",
+    "section": "11.2 Systems Biology",
+    "text": "11.2 Systems Biology\n\n11.2.1 Key Concepts\n\nMathematical Modeling of Biological Systems\nNetwork Analysis\nDynamic Systems\nMetabolic Network Modeling\nCell Signaling Networks\n\n\n\n11.2.2 Recommended Resources\n\nTools and Software:\n\nCOPASI - Biochemical Network Simulator\nCellDesigner - Network Modeling\nSBML - Systems Biology Markup Language\nBioNetGen - Rule-based Modeling\n\nLearning Resources:\n\nSystems Biology Course\nCOPASI Tutorials",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
     "objectID": "modeling-simulation.html#computational-ecology-evolution-and-phylogenetics",
     "href": "modeling-simulation.html#computational-ecology-evolution-and-phylogenetics",
-    "title": "9  Modeling and Simulation",
-    "section": "9.3 Computational Ecology, Evolution and Phylogenetics",
-    "text": "9.3 Computational Ecology, Evolution and Phylogenetics\n\n9.3.1 Key Concepts\n\nPhylogenetic Tree Construction\nPopulation Genetics\nEvolutionary Analysis\nEcological Modeling\nSpecies Distribution Modeling\n\n\n\n9.3.2 Recommended Resources\n\nTools and Software:\n\nBEAST2 - Bayesian Evolutionary Analysis\nRAxML - Phylogenetic Analysis\nBEAST - Bayesian Evolutionary Analysis\nPhyloBayes - Bayesian Phylogenetic Inference\n\nLearning Resources:\n\nPhylogenetics Course\nBEAST2 Tutorials",
+    "title": "11  Modeling and Simulation",
+    "section": "11.3 Computational Ecology, Evolution and Phylogenetics",
+    "text": "11.3 Computational Ecology, Evolution and Phylogenetics\n\n11.3.1 Key Concepts\n\nPhylogenetic Tree Construction\nPopulation Genetics\nEvolutionary Analysis\nEcological Modeling\nSpecies Distribution Modeling\n\n\n\n11.3.2 Recommended Resources\n\nTools and Software:\n\nBEAST2 - Bayesian Evolutionary Analysis\nRAxML - Phylogenetic Analysis\nBEAST - Bayesian Evolutionary Analysis\nPhyloBayes - Bayesian Phylogenetic Inference\n\nLearning Resources:\n\nPhylogenetics Course\nBEAST2 Tutorials",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
     "objectID": "modeling-simulation.html#computational-pharmacology-and-drug-design",
     "href": "modeling-simulation.html#computational-pharmacology-and-drug-design",
-    "title": "9  Modeling and Simulation",
-    "section": "9.4 Computational Pharmacology and Drug Design",
-    "text": "9.4 Computational Pharmacology and Drug Design\n\n9.4.1 Key Concepts\n\nStructure-Based Drug Design\nVirtual Screening\nADME/Tox Prediction\nPharmacophore Modeling\nDrug-Target Interactions\n\n\n\n9.4.2 Recommended Resources\n\nTools and Software:\n\nOpenEye - Drug Design Software\nSchrödinger - Drug Discovery Platform\nMOE - Molecular Operating Environment\nRDKit - Cheminformatics Toolkit\n\nLearning Resources:\n\nDrug Design Course\nRDKit Tutorials",
+    "title": "11  Modeling and Simulation",
+    "section": "11.4 Computational Pharmacology and Drug Design",
+    "text": "11.4 Computational Pharmacology and Drug Design\n\n11.4.1 Key Concepts\n\nStructure-Based Drug Design\nVirtual Screening\nADME/Tox Prediction\nPharmacophore Modeling\nDrug-Target Interactions\n\n\n\n11.4.2 Recommended Resources\n\nTools and Software:\n\nOpenEye - Drug Design Software\nSchrödinger - Drug Discovery Platform\nMOE - Molecular Operating Environment\nRDKit - Cheminformatics Toolkit\n\nLearning Resources:\n\nDrug Design Course\nRDKit Tutorials",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
     "objectID": "modeling-simulation.html#mathematical-modeling-of-biological-systems",
     "href": "modeling-simulation.html#mathematical-modeling-of-biological-systems",
-    "title": "9  Modeling and Simulation",
-    "section": "9.5 Mathematical Modeling of Biological Systems",
-    "text": "9.5 Mathematical Modeling of Biological Systems\n\n9.5.1 Key Concepts\n\nDifferential Equations\nStochastic Modeling\nAgent-Based Modeling\nSpatial Modeling\nMulti-Scale Modeling\n\n\n\n9.5.2 Recommended Resources\n\nTools and Software:\n\nMATLAB - Numerical Computing\nPython SciPy - Scientific Computing\nR - Statistical Computing\nNetLogo - Agent-Based Modeling\n\nLearning Resources:\n\nMathematical Biology Course\nPython for Scientific Computing",
+    "title": "11  Modeling and Simulation",
+    "section": "11.5 Mathematical Modeling of Biological Systems",
+    "text": "11.5 Mathematical Modeling of Biological Systems\n\n11.5.1 Key Concepts\n\nDifferential Equations\nStochastic Modeling\nAgent-Based Modeling\nSpatial Modeling\nMulti-Scale Modeling\n\n\n\n11.5.2 Recommended Resources\n\nTools and Software:\n\nMATLAB - Numerical Computing\nPython SciPy - Scientific Computing\nR - Statistical Computing\nNetLogo - Agent-Based Modeling\n\nLearning Resources:\n\nMathematical Biology Course\nPython for Scientific Computing",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Modeling and Simulation</span>"
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Modeling and Simulation</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html",
     "href": "integrated-platforms.html",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
     "section": "",
-    "text": "10.1 Version Control: Git & GitHub",
+    "text": "12.1 Version Control: Git & GitHub",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#version-control-git-github",
     "href": "integrated-platforms.html#version-control-git-github",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
     "section": "",
-    "text": "Source: Google Images\n\n\n\n\n10.1.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\nGit was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like paper_FINAL_final_UPDATED_NEW.docx or proj_NEW_LASTEST.R, Git keeps track of all changes automatically.\n\n\n10.1.2 Basic Git Concepts & Commands\n\nRepository (Repo): Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions. Local repo is a copy of the remote repo on your computer. Remote repo can be the version stored on GitHub or GitLab.\nCommit: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.\n\n\n\n\n\nGit in a nutshell - Source\n\n\n\n\nBranch: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can Merge your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.\n\n\n\n\n\nGit Branches - Source\n\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Reset your branch to the latest commit\ngit reset --hard\n\n\n10.1.3 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can store your projects online, collaborate with others and share your work with the world. GitHub has Repository Hosting - a cloud storage specifically for code, Issue Tracking - a to-do list for your project and bug reporting, Pull Requests - suggesting changes to someone else’s work or requesting changes to your own work, Code Review - peer review process for your code, and CI/CD features. Common workflows in GitHub: Fork a Repository: Like making a copy of someone else’s project. You can modify it without affecting the original. Push Changes: Like uploading your changes to GitHub. Clone a Repository: Like downloading a project to your computer.\n# Clone a repository\ngit clone https://github.com/username/repository.git\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n\n10.1.4 Common Scenarios and Best Practices\nWhen working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, start with basic commands and simple projects, you can utilize visual tools like GitHub Desktop or VS Code’s Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!\nWhat usually happens daily:\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\n\n\nNote: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.\n\n\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nWorking with Branches\ngit checkout -b new-branch-name\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\ngit checkout main\ngit merge new-branch-name\n\n\n\n\n\nGit and B Cell Analogy!\n\n\n\n\n\n10.1.5 Learning resources\n\ngit - the simple guide - no deep shit!\nGit Tutorial - Medium by Jaaeehoonkim\nThe best and most reliable: Free book of Pro Git\nGitHub documentation\nYouTube and ChatGPT are your best friends!\n\n\n\n\n\nGit Cheat Sheet! PDF",
+    "text": "Source: Google Images\n\n\n\n\n12.1.1 What is Version Control?\nImagine you’re writing a research paper. You make changes, save different versions, and sometimes want to go back to previous versions. Version control is like having a time machine for your files - it helps you track changes, collaborate with others, and maintain a history of your work.\nGit was made by Linus Torvalds, the same person who made Linux! It is like a super-powered save system. Instead of saving files with names like paper_FINAL_final_UPDATED_NEW.docx or proj_NEW_LASTEST.R, Git keeps track of all changes automatically.\n\n\n12.1.2 Basic Git Concepts & Commands\n\nRepository (Repo): Think of it as a project folder that Git watches. Like a photo album that keeps track of all your project’s versions. Local repo is a copy of the remote repo on your computer. Remote repo can be the version stored on GitHub or GitLab.\nCommit: Like taking a snapshot of your work. Each commit is a saved point you can return to. Like saving a checkpoint in a video game or giving your file a name/version.\n\n\n\n\n\nGit in a nutshell - Source\n\n\n\n\nBranch: Like creating a parallel universe for your work. You can experiment without affecting the main project. Like writing a draft of your paper without changing the original. Also can be used to collaborate with others, simultaneously working on the same project! You can Merge your changes back to the main branch after you are done. Master/Main branch is the main branch of the repo.\n\n\n\n\n\nGit Branches - Source\n\n\n\n# Start a new project (create a new repository)\ngit init\n\n# Check the status of your files\ngit status\n\n# Add files to be saved (staging)\ngit add filename.txt    # Add specific file\ngit add .              # Add all files\n\n# Save your changes (commit)\ngit commit -m \"Description of changes\"\n\n# See your project history\ngit log\n\n# Reset your branch to the latest commit\ngit reset --hard\n\n\n12.1.3 GitHub: Your Project’s Home on the Internet\n\n\n\nGitHub vs Bitbucket vs GitLab\n\n\nGitHub is like a social network for your code. It’s where you can store your projects online, collaborate with others and share your work with the world. GitHub has Repository Hosting - a cloud storage specifically for code, Issue Tracking - a to-do list for your project and bug reporting, Pull Requests - suggesting changes to someone else’s work or requesting changes to your own work, Code Review - peer review process for your code, and CI/CD features. Common workflows in GitHub: Fork a Repository: Like making a copy of someone else’s project. You can modify it without affecting the original. Push Changes: Like uploading your changes to GitHub. Clone a Repository: Like downloading a project to your computer.\n# Clone a repository\ngit clone https://github.com/username/repository.git\n\n# Get updates from remote repository\ngit pull\n\n# Send your changes to remote repository\ngit push\n\n\n12.1.4 Common Scenarios and Best Practices\nWhen working with Git, follow these key practices: write short & clear commit messages to document changes, create feature branches for new work, keep your local copy updated regularly, and review changes before committing. For beginners, start with basic commands and simple projects, you can utilize visual tools like GitHub Desktop or VS Code’s Git integration but I prefer to use the command line (more straightforward), learn from mistakes. Git maintains history so you can always revert!!\nWhat usually happens daily:\n\nStarting a New Project\ngit init\ngit add .\ngit commit -m \"Initial commit\"\n\n\nNote: I prefer to initialize a new repository in GitHub with a README file and LICENSE, and then clone it to my local machine.\n\n\nUpdating Your Work\ngit pull\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\nWorking with Branches\ngit checkout -b new-branch-name\n# Make changes\ngit add .\ngit commit -m \"Description of changes\"\ngit push\ngit checkout main\ngit merge new-branch-name\n\n\n\n\n\nGit and B Cell Analogy!\n\n\n\n\n\n12.1.5 Learning resources\n\ngit - the simple guide - no deep shit!\nGit Tutorial - Medium by Jaaeehoonkim\nThe best and most reliable: Free book of Pro Git\nGitHub documentation\nYouTube and ChatGPT are your best friends!\n\n\n\n\n\nGit Cheat Sheet! PDF",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#devops-for-bioinformatics",
     "href": "integrated-platforms.html#devops-for-bioinformatics",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.2 DevOps for Bioinformatics",
-    "text": "10.2 DevOps for Bioinformatics\n\nDevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.\n\n\n10.2.1 Key Concepts\n\nContinuous Integration/Continuous Deployment (CI/CD)\nInfrastructure as Code (IaC)\nContainer Orchestration\nAutomated Testing\nMonitoring and Logging\nReproducible Environments\n\n\n\n10.2.2 Recommended Resources\n\nTools and Software:\n\nDocker - Containerization\nSingularity - Container Platform for HPC\nKubernetes - Container Orchestration\nGitHub Actions - CI/CD\nTerraform - Infrastructure as Code\nPrometheus - Monitoring\nGrafana - Visualization and Monitoring\n\nLearning Resources:\n\nDocker for Bioinformatics\nBioconda - Package Management\nBioconductor Docker - R/Bioconductor Containers\nBioContainers - Container Registry for Bioinformatics\n\n\n\n\n10.2.3 Essential DevOps Skills for Bioinformaticians\n\nContainerization\n\nCreating reproducible environments\nManaging dependencies\nBuilding and sharing containers\nExample: Creating a Dockerfile for a bioinformatics pipeline\n\nWorkflow Management\n\nNextflow/Snakemake for pipeline automation\nVersion control for workflows\nExample: Setting up a CI/CD pipeline for genomic analysis\n\nInfrastructure Management\n\nCloud resource provisioning\nCost optimization\nExample: Setting up a cloud-based analysis environment\n\nMonitoring and Logging\n\nTracking pipeline performance\nError handling and debugging\nExample: Setting up monitoring for a production pipeline\n\nSecurity Best Practices\n\nData protection\nAccess control\nExample: Implementing secure data transfer protocols\n\n\n\n\n10.2.4 Common DevOps Workflows in Bioinformatics\n\nPipeline Development\n# Example GitHub Actions workflow for testing a bioinformatics pipeline\nname: Pipeline Tests\non: [push, pull_request]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v2\n      - name: Run Tests\n        run: |\n          docker build -t mypipeline .\n          docker run mypipeline test\nEnvironment Management\n# Example Dockerfile for a bioinformatics environment\nFROM continuumio/miniconda3\nRUN conda install -c bioconda -c conda-forge \\\n    bwa \\\n    samtools \\\n    bedtools\nInfrastructure as Code\n# Example Terraform configuration for cloud resources\nresource \"aws_instance\" \"bioinfo_server\" {\n  ami           = \"ami-0c55b159cbfafe1f0\"\n  instance_type = \"t2.large\"\n  tags = {\n    Name = \"bioinfo-analysis-server\"\n  }\n}\n\n\n\n10.2.5 Best Practices\n\nVersion Control\n\nUse Git for all code and configuration\nImplement branching strategies\nDocument changes thoroughly\n\nTesting\n\nWrite unit tests for scripts\nImplement integration tests\nUse test data sets\n\nDocumentation\n\nMaintain README files\nDocument dependencies\nKeep changelogs\n\nSecurity\n\nFollow data protection guidelines\nImplement access controls\nRegular security audits\n\nPerformance\n\nMonitor resource usage\nOptimize workflows\nImplement caching strategies",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.2 DevOps for Bioinformatics",
+    "text": "12.2 DevOps for Bioinformatics\n\nDevOps is a set of practices that combines software development (Dev) and operations (Ops) to improve collaboration and speed of delivery. Bioinformatitians need it to make their pipelines reproducible, scalable, and efficient.\n\n\n12.2.1 Key Concepts\n\nContinuous Integration/Continuous Deployment (CI/CD)\nInfrastructure as Code (IaC)\nContainer Orchestration\nAutomated Testing\nMonitoring and Logging\nReproducible Environments\n\n\n\n12.2.2 Recommended Resources\n\nTools and Software:\n\nDocker - Containerization\nSingularity - Container Platform for HPC\nKubernetes - Container Orchestration\nGitHub Actions - CI/CD\nTerraform - Infrastructure as Code\nPrometheus - Monitoring\nGrafana - Visualization and Monitoring\n\nLearning Resources:\n\nDocker for Bioinformatics\nBioconda - Package Management\nBioconductor Docker - R/Bioconductor Containers\nBioContainers - Container Registry for Bioinformatics\n\n\n\n\n12.2.3 Essential DevOps Skills for Bioinformaticians\n\nContainerization\n\nCreating reproducible environments\nManaging dependencies\nBuilding and sharing containers\nExample: Creating a Dockerfile for a bioinformatics pipeline\n\nWorkflow Management\n\nNextflow/Snakemake for pipeline automation\nVersion control for workflows\nExample: Setting up a CI/CD pipeline for genomic analysis\n\nInfrastructure Management\n\nCloud resource provisioning\nCost optimization\nExample: Setting up a cloud-based analysis environment\n\nMonitoring and Logging\n\nTracking pipeline performance\nError handling and debugging\nExample: Setting up monitoring for a production pipeline\n\nSecurity Best Practices\n\nData protection\nAccess control\nExample: Implementing secure data transfer protocols\n\n\n\n\n12.2.4 Common DevOps Workflows in Bioinformatics\n\nPipeline Development\n# Example GitHub Actions workflow for testing a bioinformatics pipeline\nname: Pipeline Tests\non: [push, pull_request]\njobs:\n  test:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v2\n      - name: Run Tests\n        run: |\n          docker build -t mypipeline .\n          docker run mypipeline test\nEnvironment Management\n# Example Dockerfile for a bioinformatics environment\nFROM continuumio/miniconda3\nRUN conda install -c bioconda -c conda-forge \\\n    bwa \\\n    samtools \\\n    bedtools\nInfrastructure as Code\n# Example Terraform configuration for cloud resources\nresource \"aws_instance\" \"bioinfo_server\" {\n  ami           = \"ami-0c55b159cbfafe1f0\"\n  instance_type = \"t2.large\"\n  tags = {\n    Name = \"bioinfo-analysis-server\"\n  }\n}\n\n\n\n12.2.5 Best Practices\n\nVersion Control\n\nUse Git for all code and configuration\nImplement branching strategies\nDocument changes thoroughly\n\nTesting\n\nWrite unit tests for scripts\nImplement integration tests\nUse test data sets\n\nDocumentation\n\nMaintain README files\nDocument dependencies\nKeep changelogs\n\nSecurity\n\nFollow data protection guidelines\nImplement access controls\nRegular security audits\n\nPerformance\n\nMonitor resource usage\nOptimize workflows\nImplement caching strategies",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#workflow-management-systems",
     "href": "integrated-platforms.html#workflow-management-systems",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.3 Workflow Management Systems",
-    "text": "10.3 Workflow Management Systems\n\n10.3.1 Key Concepts\n\nPipeline Automation\nReproducible Analysis\nResource Management\nParallel Processing\nError Handling\n\n\n\n10.3.2 Recommended Resources\n\nTools and Software:\n\nNextflow - Workflow Management System\nSnakemake - Workflow Management System\nCWL - Common Workflow Language\nWDL - Workflow Description Language\n\nLearning Resources:\n\nNextflow Training\nSnakemake Tutorial\nCWL User Guide\n\n\n\n\n10.3.3 Essential Workflow Management Skills\n\nPipeline Design\n\nModular workflow components\nParameter management\nError handling\nExample: Creating a Nextflow script for RNA-seq analysis\n\nResource Optimization\n\nParallel processing\nMemory management\nCPU utilization\nExample: Configuring resource allocation in workflows\n\nIntegration with DevOps\n\nContainerization\nVersion control\nCI/CD integration\nExample: Setting up automated testing for workflows\n\nMonitoring and Debugging\n\nWorkflow execution tracking\nError reporting\nPerformance monitoring\nExample: Implementing logging and monitoring in workflows\n\n\n\n\n10.3.4 Common Workflow Patterns\n\nData Processing Pipeline\n# Example Nextflow script for data processing\n#!/usr/bin/env nextflow\n\nparams.input = \"data/raw/*.fastq.gz\"\nparams.outdir = \"results\"\n\nprocess PROCESS_DATA {\n  input:\n  path reads\n\n  output:\n  path \"*.processed\", emit: processed\n\n  script:\n  \"\"\"\n  process_data.sh $reads &gt; processed.txt\n  \"\"\"\n}\n\nworkflow {\n  reads = Channel.fromPath(params.input)\n  PROCESS_DATA(reads)\n}\nParallel Analysis\n# Example Nextflow script for parallel analysis\n#!/usr/bin/env nextflow\n\nprocess PARALLEL_ANALYSIS {\n  input:\n  path data\n\n  output:\n  path \"*.results\", emit: results\n\n  script:\n  \"\"\"\n  analyze.sh $data &gt; results.txt\n  \"\"\"\n}\n\nworkflow {\n  data = Channel.fromPath(\"data/*.txt\")\n  PARALLEL_ANALYSIS(data)\n}",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.3 Workflow Management Systems",
+    "text": "12.3 Workflow Management Systems\n\n12.3.1 Key Concepts\n\nPipeline Automation\nReproducible Analysis\nResource Management\nParallel Processing\nError Handling\n\n\n\n12.3.2 Recommended Resources\n\nTools and Software:\n\nNextflow - Workflow Management System\nSnakemake - Workflow Management System\nCWL - Common Workflow Language\nWDL - Workflow Description Language\n\nLearning Resources:\n\nNextflow Training\nSnakemake Tutorial\nCWL User Guide\n\n\n\n\n12.3.3 Essential Workflow Management Skills\n\nPipeline Design\n\nModular workflow components\nParameter management\nError handling\nExample: Creating a Nextflow script for RNA-seq analysis\n\nResource Optimization\n\nParallel processing\nMemory management\nCPU utilization\nExample: Configuring resource allocation in workflows\n\nIntegration with DevOps\n\nContainerization\nVersion control\nCI/CD integration\nExample: Setting up automated testing for workflows\n\nMonitoring and Debugging\n\nWorkflow execution tracking\nError reporting\nPerformance monitoring\nExample: Implementing logging and monitoring in workflows\n\n\n\n\n12.3.4 Common Workflow Patterns\n\nData Processing Pipeline\n# Example Nextflow script for data processing\n#!/usr/bin/env nextflow\n\nparams.input = \"data/raw/*.fastq.gz\"\nparams.outdir = \"results\"\n\nprocess PROCESS_DATA {\n  input:\n  path reads\n\n  output:\n  path \"*.processed\", emit: processed\n\n  script:\n  \"\"\"\n  process_data.sh $reads &gt; processed.txt\n  \"\"\"\n}\n\nworkflow {\n  reads = Channel.fromPath(params.input)\n  PROCESS_DATA(reads)\n}\nParallel Analysis\n# Example Nextflow script for parallel analysis\n#!/usr/bin/env nextflow\n\nprocess PARALLEL_ANALYSIS {\n  input:\n  path data\n\n  output:\n  path \"*.results\", emit: results\n\n  script:\n  \"\"\"\n  analyze.sh $data &gt; results.txt\n  \"\"\"\n}\n\nworkflow {\n  data = Channel.fromPath(\"data/*.txt\")\n  PARALLEL_ANALYSIS(data)\n}",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#saas-platforms",
     "href": "integrated-platforms.html#saas-platforms",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.4 SaaS Platforms",
-    "text": "10.4 SaaS Platforms\n\n10.4.1 Key Concepts\n\nCloud-Based Bioinformatics Tools\nWeb-Based Analysis Platforms\nCollaborative Research Environments\nData Sharing and Management\nWorkflow Automation\n\n\n\n10.4.2 Recommended Resources\n\nPlatforms:\n\nGalaxy - Web-based platform for data analysis\nBaseSpace - Illumina’s cloud platform\nDNAnexus - Cloud-based genomics platform\nSeven Bridges - Biomedical data analysis platform\n\nLearning Resources:\n\nGalaxy Training Network\nBaseSpace Learning Center",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.4 SaaS Platforms",
+    "text": "12.4 SaaS Platforms\n\n12.4.1 Key Concepts\n\nCloud-Based Bioinformatics Tools\nWeb-Based Analysis Platforms\nCollaborative Research Environments\nData Sharing and Management\nWorkflow Automation\n\n\n\n12.4.2 Recommended Resources\n\nPlatforms:\n\nGalaxy - Web-based platform for data analysis\nBaseSpace - Illumina’s cloud platform\nDNAnexus - Cloud-based genomics platform\nSeven Bridges - Biomedical data analysis platform\n\nLearning Resources:\n\nGalaxy Training Network\nBaseSpace Learning Center",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#cloud-computing-and-data-management",
     "href": "integrated-platforms.html#cloud-computing-and-data-management",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.5 Cloud Computing and Data Management",
-    "text": "10.5 Cloud Computing and Data Management\n\n10.5.1 Key Concepts\n\nCloud Infrastructure (AWS, GCP, Azure)\nContainerization (Docker, Singularity)\nWorkflow Management\nData Storage and Transfer\nCost Optimization\n\n\n\n10.5.2 Recommended Resources\n\nTools and Software:\n\nAWS Genomics CLI - Genomics on AWS\nTerraform - Infrastructure as Code\nNextflow - Workflow Management\nS3FS - S3 File System\n\nLearning Resources:\n\nAWS Genomics Workshop\nNextflow Training",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.5 Cloud Computing and Data Management",
+    "text": "12.5 Cloud Computing and Data Management\n\n12.5.1 Key Concepts\n\nCloud Infrastructure (AWS, GCP, Azure)\nContainerization (Docker, Singularity)\nWorkflow Management\nData Storage and Transfer\nCost Optimization\n\n\n\n12.5.2 Recommended Resources\n\nTools and Software:\n\nAWS Genomics CLI - Genomics on AWS\nTerraform - Infrastructure as Code\nNextflow - Workflow Management\nS3FS - S3 File System\n\nLearning Resources:\n\nAWS Genomics Workshop\nNextflow Training",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#high-performance-computing-hpc",
     "href": "integrated-platforms.html#high-performance-computing-hpc",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.6 High-Performance Computing (HPC)",
-    "text": "10.6 High-Performance Computing (HPC)\n\n10.6.1 Key Concepts\n\nCluster Computing\nParallel Processing\nJob Scheduling\nResource Management\nPerformance Optimization\n\n\n\n10.6.2 Recommended Resources\n\nTools and Software:\n\nSLURM - Job Scheduler\nOpenMPI - Message Passing Interface\nHTCondor - Distributed Computing\nLmod - Environment Modules\n\nLearning Resources:\n\nHPC Carpentry\nSLURM Documentation",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.6 High-Performance Computing (HPC)",
+    "text": "12.6 High-Performance Computing (HPC)\n\n12.6.1 Key Concepts\n\nCluster Computing\nParallel Processing\nJob Scheduling\nResource Management\nPerformance Optimization\n\n\n\n12.6.2 Recommended Resources\n\nTools and Software:\n\nSLURM - Job Scheduler\nOpenMPI - Message Passing Interface\nHTCondor - Distributed Computing\nLmod - Environment Modules\n\nLearning Resources:\n\nHPC Carpentry\nSLURM Documentation",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#data-visualization-techniques",
     "href": "integrated-platforms.html#data-visualization-techniques",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.7 Data Visualization Techniques",
-    "text": "10.7 Data Visualization Techniques\n\n10.7.1 Key Concepts\n\nScientific Visualization\nInteractive Dashboards\nStatistical Graphics\nNetwork Visualization\n3D Visualization\n\n\n\n10.7.2 Recommended Resources\n\nTools and Software:\n\nPlotly - Interactive Visualization\nTableau - Data Visualization\nD3.js - Web-based Visualization\nBioRender - Scientific Illustration\n\nLearning Resources:\n\nData Visualization Course\nPlotly Python Documentation",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.7 Data Visualization Techniques",
+    "text": "12.7 Data Visualization Techniques\n\n12.7.1 Key Concepts\n\nScientific Visualization\nInteractive Dashboards\nStatistical Graphics\nNetwork Visualization\n3D Visualization\n\n\n\n12.7.2 Recommended Resources\n\nTools and Software:\n\nPlotly - Interactive Visualization\nTableau - Data Visualization\nD3.js - Web-based Visualization\nBioRender - Scientific Illustration\n\nLearning Resources:\n\nData Visualization Course\nPlotly Python Documentation",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "integrated-platforms.html#big-data-analysis",
     "href": "integrated-platforms.html#big-data-analysis",
-    "title": "10  Integrated Platforms, Tools, and Technologies",
-    "section": "10.8 Big Data Analysis",
-    "text": "10.8 Big Data Analysis\n\n10.8.1 Key Concepts\n\nDistributed Computing\nData Processing Frameworks\nMachine Learning at Scale\nReal-time Analytics\nData Warehousing\n\n\n\n10.8.2 Recommended Resources\n\nTools and Software:\n\nApache Spark - Distributed Computing\nHadoop - Distributed Storage\nDask - Parallel Computing\nApache Kafka - Stream Processing\n\nLearning Resources:\n\nSpark Documentation\nDask Tutorial",
+    "title": "12  Integrated Platforms, Tools, and Technologies",
+    "section": "12.8 Big Data Analysis",
+    "text": "12.8 Big Data Analysis\n\n12.8.1 Key Concepts\n\nDistributed Computing\nData Processing Frameworks\nMachine Learning at Scale\nReal-time Analytics\nData Warehousing\n\n\n\n12.8.2 Recommended Resources\n\nTools and Software:\n\nApache Spark - Distributed Computing\nHadoop - Distributed Storage\nDask - Parallel Computing\nApache Kafka - Stream Processing\n\nLearning Resources:\n\nSpark Documentation\nDask Tutorial",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Integrated Platforms, Tools, and Technologies</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html",
     "href": "specialized-topics.html",
-    "title": "11  Specialized Topics",
+    "title": "13  Specialized Topics",
     "section": "",
-    "text": "11.1 Artificial Intelligence\nSee Research in the AI era for recent evidence, competing perspectives and the implications for learning bioinformatics.",
+    "text": "13.1 Artificial Intelligence\nSee Research in the AI era for recent evidence, competing perspectives and the implications for learning bioinformatics.",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#artificial-intelligence",
     "href": "specialized-topics.html#artificial-intelligence",
-    "title": "11  Specialized Topics",
+    "title": "13  Specialized Topics",
     "section": "",
-    "text": "11.1.1 Key Concepts\n\nMachine Learning in Bioinformatics\nDeep Learning for Genomics\nNatural Language Processing\nComputer Vision in Biology\nReinforcement Learning\n\n\n\n11.1.2 Recommended Resources\n\nTools and Software:\n\nTensorFlow - Deep Learning Framework\nPyTorch - Machine Learning Library\nscikit-learn - Machine Learning in Python\nKeras - Deep Learning API\n\nLearning Resources:\n\nDeep Learning for Genomics\nMachine Learning for Bioinformatics",
+    "text": "13.1.1 Key Concepts\n\nMachine Learning in Bioinformatics\nDeep Learning for Genomics\nNatural Language Processing\nComputer Vision in Biology\nReinforcement Learning\n\n\n\n13.1.2 Recommended Resources\n\nTools and Software:\n\nTensorFlow - Deep Learning Framework\nPyTorch - Machine Learning Library\nscikit-learn - Machine Learning in Python\nKeras - Deep Learning API\n\nLearning Resources:\n\nDeep Learning for Genomics\nMachine Learning for Bioinformatics",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#clinical-bioinformatics",
     "href": "specialized-topics.html#clinical-bioinformatics",
-    "title": "11  Specialized Topics",
-    "section": "11.2 Clinical Bioinformatics",
-    "text": "11.2 Clinical Bioinformatics\n\n11.2.1 Key Concepts\n\nClinical Genomics\nPrecision Medicine\nMedical Imaging Analysis\nClinical Decision Support\nHealthcare Data Integration\n\n\n\n11.2.2 Recommended Resources\n\nTools and Software:\n\nOMIM - Online Mendelian Inheritance in Man\nClinVar - Clinical Variants Database\ncBioPortal - Cancer Genomics\nMonarch Initiative - Disease Analysis\n\nLearning Resources:\n\nClinical Bioinformatics Course\nPrecision Medicine Training",
+    "title": "13  Specialized Topics",
+    "section": "13.2 Clinical Bioinformatics",
+    "text": "13.2 Clinical Bioinformatics\n\n13.2.1 Key Concepts\n\nClinical Genomics\nPrecision Medicine\nMedical Imaging Analysis\nClinical Decision Support\nHealthcare Data Integration\n\n\n\n13.2.2 Recommended Resources\n\nTools and Software:\n\nOMIM - Online Mendelian Inheritance in Man\nClinVar - Clinical Variants Database\ncBioPortal - Cancer Genomics\nMonarch Initiative - Disease Analysis\n\nLearning Resources:\n\nClinical Bioinformatics Course\nPrecision Medicine Training",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#agricultural-bioinformatics",
     "href": "specialized-topics.html#agricultural-bioinformatics",
-    "title": "11  Specialized Topics",
-    "section": "11.3 Agricultural Bioinformatics",
-    "text": "11.3 Agricultural Bioinformatics\n\n11.3.1 Key Concepts\n\nPlant Genomics\nCrop Improvement\nAgricultural Metagenomics\nPlant-Microbe Interactions\nAgricultural Biotechnology\n\n\n\n11.3.2 Recommended Resources\n\nTools and Software:\n\nEnsembl Plants - Plant Genomics\nGramene - Plant Comparative Genomics\nPhytozome - Plant Genomics\nPlantGDB - Plant Genome Database\n\nLearning Resources:\n\nPlant Bioinformatics Course\nAgricultural Genomics Resources",
+    "title": "13  Specialized Topics",
+    "section": "13.3 Agricultural Bioinformatics",
+    "text": "13.3 Agricultural Bioinformatics\n\n13.3.1 Key Concepts\n\nPlant Genomics\nCrop Improvement\nAgricultural Metagenomics\nPlant-Microbe Interactions\nAgricultural Biotechnology\n\n\n\n13.3.2 Recommended Resources\n\nTools and Software:\n\nEnsembl Plants - Plant Genomics\nGramene - Plant Comparative Genomics\nPhytozome - Plant Genomics\nPlantGDB - Plant Genome Database\n\nLearning Resources:\n\nPlant Bioinformatics Course\nAgricultural Genomics Resources",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#synthetic-biology",
     "href": "specialized-topics.html#synthetic-biology",
-    "title": "11  Specialized Topics",
-    "section": "11.4 Synthetic Biology",
-    "text": "11.4 Synthetic Biology\n\n11.4.1 Key Concepts\n\nDNA Synthesis\nGenetic Circuit Design\nMetabolic Engineering\nCell-Free Systems\nBioprinting\n\n\n\n11.4.2 Recommended Resources\n\nTools and Software:\n\nSnapGene - Molecular Biology Software\nBenchling - Molecular Biology Platform\niGEM - Synthetic Biology Competition\nSynBioHub - Synthetic Biology Repository\n\nLearning Resources:\n\nSynthetic Biology Course\niGEM Learning Resources",
+    "title": "13  Specialized Topics",
+    "section": "13.4 Synthetic Biology",
+    "text": "13.4 Synthetic Biology\n\n13.4.1 Key Concepts\n\nDNA Synthesis\nGenetic Circuit Design\nMetabolic Engineering\nCell-Free Systems\nBioprinting\n\n\n\n13.4.2 Recommended Resources\n\nTools and Software:\n\nSnapGene - Molecular Biology Software\nBenchling - Molecular Biology Platform\niGEM - Synthetic Biology Competition\nSynBioHub - Synthetic Biology Repository\n\nLearning Resources:\n\nSynthetic Biology Course\niGEM Learning Resources",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#personalized-medicine",
     "href": "specialized-topics.html#personalized-medicine",
-    "title": "11  Specialized Topics",
-    "section": "11.5 Personalized Medicine",
-    "text": "11.5 Personalized Medicine\n\n11.5.1 Key Concepts\n\nPharmacogenomics\nIndividualized Treatment\nPatient Stratification\nBiomarker Discovery\nClinical Decision Making\n\n\n\n11.5.2 Recommended Resources\n\nTools and Software:\n\nPharmGKB - Pharmacogenomics Knowledge Base\nCPIC - Clinical Pharmacogenetics Implementation Consortium\nDGIdb - Drug-Gene Interaction Database\nMyCancerGenome - Cancer Genomics\n\nLearning Resources:\n\nPersonalized Medicine Course\nPharmacogenomics Training",
+    "title": "13  Specialized Topics",
+    "section": "13.5 Personalized Medicine",
+    "text": "13.5 Personalized Medicine\n\n13.5.1 Key Concepts\n\nPharmacogenomics\nIndividualized Treatment\nPatient Stratification\nBiomarker Discovery\nClinical Decision Making\n\n\n\n13.5.2 Recommended Resources\n\nTools and Software:\n\nPharmGKB - Pharmacogenomics Knowledge Base\nCPIC - Clinical Pharmacogenetics Implementation Consortium\nDGIdb - Drug-Gene Interaction Database\nMyCancerGenome - Cancer Genomics\n\nLearning Resources:\n\nPersonalized Medicine Course\nPharmacogenomics Training",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#environmental-bioinformatics-epidemiology",
     "href": "specialized-topics.html#environmental-bioinformatics-epidemiology",
-    "title": "11  Specialized Topics",
-    "section": "11.6 Environmental Bioinformatics & Epidemiology",
-    "text": "11.6 Environmental Bioinformatics & Epidemiology\n\n11.6.1 Key Concepts\n\nEnvironmental Genomics\nDisease Surveillance\nPathogen Tracking\nEnvironmental Monitoring\nPublic Health Informatics\n\n\n\n11.6.2 Recommended Resources\n\nTools and Software:\n\nNCBI Pathogen Detection - Pathogen Analysis\nGISAID - Global Initiative on Sharing All Influenza Data\nViPR - Virus Pathogen Resource\nEpiCollect - Field Data Collection\n\nLearning Resources:\n\nEnvironmental Genomics Course\nEpidemiology Training",
+    "title": "13  Specialized Topics",
+    "section": "13.6 Environmental Bioinformatics & Epidemiology",
+    "text": "13.6 Environmental Bioinformatics & Epidemiology\n\n13.6.1 Key Concepts\n\nEnvironmental Genomics\nDisease Surveillance\nPathogen Tracking\nEnvironmental Monitoring\nPublic Health Informatics\n\n\n\n13.6.2 Recommended Resources\n\nTools and Software:\n\nNCBI Pathogen Detection - Pathogen Analysis\nGISAID - Global Initiative on Sharing All Influenza Data\nViPR - Virus Pathogen Resource\nEpiCollect - Field Data Collection\n\nLearning Resources:\n\nEnvironmental Genomics Course\nEpidemiology Training",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#biomolecular-engineering",
     "href": "specialized-topics.html#biomolecular-engineering",
-    "title": "11  Specialized Topics",
-    "section": "11.7 Biomolecular Engineering",
-    "text": "11.7 Biomolecular Engineering\n\n11.7.1 Key Concepts\n\nProtein Engineering\nEnzyme Design\nBiomaterials\nBioprocessing\nMetabolic Engineering\n\n\n\n11.7.2 Recommended Resources\n\nTools and Software:\n\nRosetta - Protein Structure Prediction\nFoldX - Protein Design\nPyRosetta - Python Interface to Rosetta\nModeller - Protein Structure Modeling\n\nLearning Resources:\n\nProtein Engineering Course\nRosetta Documentation",
+    "title": "13  Specialized Topics",
+    "section": "13.7 Biomolecular Engineering",
+    "text": "13.7 Biomolecular Engineering\n\n13.7.1 Key Concepts\n\nProtein Engineering\nEnzyme Design\nBiomaterials\nBioprocessing\nMetabolic Engineering\n\n\n\n13.7.2 Recommended Resources\n\nTools and Software:\n\nRosetta - Protein Structure Prediction\nFoldX - Protein Design\nPyRosetta - Python Interface to Rosetta\nModeller - Protein Structure Modeling\n\nLearning Resources:\n\nProtein Engineering Course\nRosetta Documentation",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "specialized-topics.html#genetic-engineering",
     "href": "specialized-topics.html#genetic-engineering",
-    "title": "11  Specialized Topics",
-    "section": "11.8 Genetic Engineering",
-    "text": "11.8 Genetic Engineering\n\n11.8.1 Key Concepts\n\nCRISPR-Cas9\nGene Editing\nGenome Engineering\nSynthetic Biology\nGenetic Modification\n\n\n\n11.8.2 Recommended Resources\n\nTools and Software:\n\nCRISPOR - CRISPR Design Tool\nCHOPCHOP - CRISPR Target Design\nGuideScan - CRISPR Guide RNA Design\nCRISPR-ERA - CRISPR Editing Design\n\nLearning Resources:\n\nCRISPR Course\nGenetic Engineering Resources",
+    "title": "13  Specialized Topics",
+    "section": "13.8 Genetic Engineering",
+    "text": "13.8 Genetic Engineering\n\n13.8.1 Key Concepts\n\nCRISPR-Cas9\nGene Editing\nGenome Engineering\nSynthetic Biology\nGenetic Modification\n\n\n\n13.8.2 Recommended Resources\n\nTools and Software:\n\nCRISPOR - CRISPR Design Tool\nCHOPCHOP - CRISPR Target Design\nGuideScan - CRISPR Guide RNA Design\nCRISPR-ERA - CRISPR Editing Design\n\nLearning Resources:\n\nCRISPR Course\nGenetic Engineering Resources",
     "crumbs": [
       "Special topics",
-      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Specialized Topics</span>"
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Specialized Topics</span>"
     ]
   },
   {
     "objectID": "additional-resources.html",
     "href": "additional-resources.html",
-    "title": "12  Additional Resources",
+    "title": "14  Additional Resources",
     "section": "",
-    "text": "12.1 Working With HPC\nhttps://epcced.github.io/hpc-intro/12-cluster/index.html",
+    "text": "14.1 Working With HPC\nhttps://epcced.github.io/hpc-intro/12-cluster/index.html",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#youtube-channels",
     "href": "additional-resources.html#youtube-channels",
-    "title": "12  Additional Resources",
-    "section": "12.2 YouTube Channels",
-    "text": "12.2 YouTube Channels\n\nBioinformatics DotCa\n\nBioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content. Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io.\n\nPine Biotech\n\nReally a good page!\n\nSanbomics\n\nBioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more.\n\nStat Genetics\n\nGenomics, Transcriptomics, Linuc, etc.\n\nBioinformagician\n\na new page uploading bioinformatics videos(Suggested)\n\nFarhan Haq\n\nThe channel is dedicated for developing skilled bioinformatics students and researchers. Our lectures and tutorials from interdisciplinary fields are recorded and uploaded here. The administrator and main instructor of this channel is a Professor of Bioinformatics in a renowned university of Pakistan.\n\nOMGenomics\n\nBioinformatics discussions and training videos.Hosted by Maria Nattestad.\n\nOGGY INFORMATICS\n\na new page uploading bioinformatics videos\n\nDanny Arends\n\nWorld-class geneticist, Lecturencer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube. I create educational streams about my work on genetics and multi-omics analysis using amongst others DNA and RNA sequencing techniques. Occasionally, you can find me playing games on my Twitch.tv channel.\n\nStatistics & Theory\n\na YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular.\n\nLana Caldarevic\n\nLearn biopython with her + extra bioinformatics stuff!\n\nBioinformatica\n\n“BIOINFORMATICA” is an initiative to provide quality videos on bioinformatics related topics for a better understanding of the students who are studying bioinformatics or those who want to join bioinformatics.\n\nData Science Bioinformatics\n\nThis channel aims to provide best possible information related to Bioinformatics and data science.\n\nBioinformatics Coach\n\nThis Channels provides tutorials on bioinformatics and big data analysis. The content is suitable for both beginners and advanced learners.\n\nFenyo Lab\n\nGene Expression Analysis\n\nrebelScience\n\ndedicated to all things Programming, Bioinformatics, Machine Learning and Open-Source Software.\n\nNiema Moshiri\n\nMostly Genomics\n\nMichael Gonzalez\n\nGenomics and Transcriptomics (Suggested)\n\nX-omics\n\nThe project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis).\n\nIowa Institute of Human Genetics\n\nThe IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa.\n\nprofbiot\n\nBioinformatics and R\n\nLearn-at-ease\n\nVery useful videos about biochemistry and Bioinformatics (especcially MD and structural biology) [Thanks to Amir].\n\nImmune Epitope Database\n\nThe Immune Epitope Database and Analysis Resource (IEDB) serves the scientific community as an online, freely available, one-stop resource to advance immunology research.\n\nSanket Bapat\n\nHi, Dr. Sanket Bapat here, I make Bioinformatics video lectures and tutorials for students and everyone who is new to this field!\n\nBio-Informatics - IITM\nBioinformatics Tools - Explanation\nYann Academy\nScribbles in Bioinformatics\nOmicsLogic\n\nOur core technology is a research platform design to simplify processing, integration and mining of big biomedical data - especially molecular data like NGS, Mass-Spec and structural biology.\n\nMichael Edwards\n\nI am founder and CEO of the data analytics company, Bioinfo Solutions LLC, where I specialize in extracting wisdom out of a sea of information.\n\n12.2.0.1 Selected playlists:\n\nBioinformatics for precision medicine 2020\nBiochemistry bootcamp\nEpigenetics explained\nPopular Programming Courses by freecodecamp",
+    "title": "14  Additional Resources",
+    "section": "14.2 YouTube Channels",
+    "text": "14.2 YouTube Channels\n\nBioinformatics DotCa\n\nBioinformatics.ca is dedicated to creating and maintaining a skilled bioinformatics workforce through open content. Our workshops are recorded and posted here and our materials can be found at https://bioinformaticsdotca.github.io.\n\nPine Biotech\n\nReally a good page!\n\nSanbomics\n\nBioinformatics tutorials with a focus on next-generation sequencing analysis. Topics cover RNAseq, single-cell RNAseq, linux/shell usage, python, R, phylogenetics, alignments, and more.\n\nStat Genetics\n\nGenomics, Transcriptomics, Linuc, etc.\n\nBioinformagician\n\na new page uploading bioinformatics videos(Suggested)\n\nFarhan Haq\n\nThe channel is dedicated for developing skilled bioinformatics students and researchers. Our lectures and tutorials from interdisciplinary fields are recorded and uploaded here. The administrator and main instructor of this channel is a Professor of Bioinformatics in a renowned university of Pakistan.\n\nOMGenomics\n\nBioinformatics discussions and training videos.Hosted by Maria Nattestad.\n\nOGGY INFORMATICS\n\na new page uploading bioinformatics videos\n\nDanny Arends\n\nWorld-class geneticist, Lecturencer, ESPRIT Fanboy, and Associate Professor in Bioinformatics at Northumbria University. I live-stream my lectures (R programming & Bioinformatics) for MSc and PhD students on YouTube. I create educational streams about my work on genetics and multi-omics analysis using amongst others DNA and RNA sequencing techniques. Occasionally, you can find me playing games on my Twitch.tv channel.\n\nStatistics & Theory\n\na YouTube channel dedicated to promoting and propagating anything scientific about language in general and quantitative and assessment methods in particular.\n\nLana Caldarevic\n\nLearn biopython with her + extra bioinformatics stuff!\n\nBioinformatica\n\n“BIOINFORMATICA” is an initiative to provide quality videos on bioinformatics related topics for a better understanding of the students who are studying bioinformatics or those who want to join bioinformatics.\n\nData Science Bioinformatics\n\nThis channel aims to provide best possible information related to Bioinformatics and data science.\n\nBioinformatics Coach\n\nThis Channels provides tutorials on bioinformatics and big data analysis. The content is suitable for both beginners and advanced learners.\n\nFenyo Lab\n\nGene Expression Analysis\n\nrebelScience\n\ndedicated to all things Programming, Bioinformatics, Machine Learning and Open-Source Software.\n\nNiema Moshiri\n\nMostly Genomics\n\nMichael Gonzalez\n\nGenomics and Transcriptomics (Suggested)\n\nX-omics\n\nThe project aims to establish a X-omics research infrastructure across the Netherlands consisting of several existing facilities with various expertise’s related to molecular biology research (genomics, proteomics, metabolomics and data integration & analysis).\n\nIowa Institute of Human Genetics\n\nThe IIHG is a statewide resource that promotes clinical care, research, and education in human genetics and is focused on bringing personalized genomic medicine to the state of Iowa.\n\nprofbiot\n\nBioinformatics and R\n\nLearn-at-ease\n\nVery useful videos about biochemistry and Bioinformatics (especcially MD and structural biology) [Thanks to Amir].\n\nImmune Epitope Database\n\nThe Immune Epitope Database and Analysis Resource (IEDB) serves the scientific community as an online, freely available, one-stop resource to advance immunology research.\n\nSanket Bapat\n\nHi, Dr. Sanket Bapat here, I make Bioinformatics video lectures and tutorials for students and everyone who is new to this field!\n\nBio-Informatics - IITM\nBioinformatics Tools - Explanation\nYann Academy\nScribbles in Bioinformatics\nOmicsLogic\n\nOur core technology is a research platform design to simplify processing, integration and mining of big biomedical data - especially molecular data like NGS, Mass-Spec and structural biology.\n\nMichael Edwards\n\nI am founder and CEO of the data analytics company, Bioinfo Solutions LLC, where I specialize in extracting wisdom out of a sea of information.\n\n14.2.0.1 Selected playlists:\n\nBioinformatics for precision medicine 2020\nBiochemistry bootcamp\nEpigenetics explained\nPopular Programming Courses by freecodecamp",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#persian-resources-بنمایگان-پارسی",
     "href": "additional-resources.html#persian-resources-بنمایگان-پارسی",
-    "title": "12  Additional Resources",
-    "section": "12.3 Persian Resources (بنمایگان پارسی)",
-    "text": "12.3 Persian Resources (بنمایگان پارسی)\n\nBioinformatics with Dr. Ali Sharifi-Zarchi\n\na list of free courses about bioinformatics in persian. If you are at beginner level, consider learning first from: this and then this\n\nBioinformatics with Dr. Farshid Noorbakhsh\n\nThis is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!\n\nBioskill with Dr. Milad Ghafoori\n\nLearn structural biology with dear Milad for free!\n\nELMIUM with Arash\n\nLearn computational biology with me! (in progress)",
+    "title": "14  Additional Resources",
+    "section": "14.3 Persian Resources (بنمایگان پارسی)",
+    "text": "14.3 Persian Resources (بنمایگان پارسی)\n\nBioinformatics with Dr. Ali Sharifi-Zarchi\n\na list of free courses about bioinformatics in persian. If you are at beginner level, consider learning first from: this and then this\n\nBioinformatics with Dr. Farshid Noorbakhsh\n\nThis is the link for the playlists in TUMS Immuno Aparat Channel. Consider viewing the courses based on your need!\n\nBioskill with Dr. Milad Ghafoori\n\nLearn structural biology with dear Milad for free!\n\nELMIUM with Arash\n\nLearn computational biology with me! (in progress)",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#github-repositories",
     "href": "additional-resources.html#github-repositories",
-    "title": "12  Additional Resources",
-    "section": "12.4 GitHub Repositories",
-    "text": "12.4 GitHub Repositories\n\nOpen Source Society University_Bioinformatics\n\nThis is a solid path for those of you who want to complete a Bioinformatics course on your own time, for free, with courses from the best universities in the World.\n\nAwesome Series\n\na great curated collection series for many things…\nThanks to https://t.me/Genome_X/99 , here are three selected awsome repo for the field of Computational Biology and Bioinformatics:\n\nopenbiox-awosome-bioinformatics\n\nA curated list of resources for learning bioinformatics.\n\ninoue0426-awesome-computational-biology\n\nA knowledge collection of databases, software and papers related to computational biology.\n\ndanielecook-awosome-bioinformatics\n\nA curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source.\n\nawesome-r-dataviz\n\nA Curated resources for Data Visualization, Drawing & Publishing in R\n\nIntroduction to R and differential gene expression (DGE) analysis\n\n_By Bioinformatics Training at the Harvard Chan Bioinformatics Core: hbctraining.github.io/main",
+    "title": "14  Additional Resources",
+    "section": "14.4 GitHub Repositories",
+    "text": "14.4 GitHub Repositories\n\nOpen Source Society University_Bioinformatics\n\nThis is a solid path for those of you who want to complete a Bioinformatics course on your own time, for free, with courses from the best universities in the World.\n\nAwesome Series\n\na great curated collection series for many things…\nThanks to https://t.me/Genome_X/99 , here are three selected awsome repo for the field of Computational Biology and Bioinformatics:\n\nopenbiox-awosome-bioinformatics\n\nA curated list of resources for learning bioinformatics.\n\ninoue0426-awesome-computational-biology\n\nA knowledge collection of databases, software and papers related to computational biology.\n\ndanielecook-awosome-bioinformatics\n\nA curated list of awesome Bioinformatics software, resources, and libraries. Mostly command line based, and free or open-source.\n\nawesome-r-dataviz\n\nA Curated resources for Data Visualization, Drawing & Publishing in R\n\nIntroduction to R and differential gene expression (DGE) analysis\n\n_By Bioinformatics Training at the Harvard Chan Bioinformatics Core: hbctraining.github.io/main",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#courses",
     "href": "additional-resources.html#courses",
-    "title": "12  Additional Resources",
-    "section": "12.5 Courses",
-    "text": "12.5 Courses\n\nFoundations Of Computational And Systems Biology\n\nMIT OCW / This course is an introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis; it also includes an introduction to the analysis of complex biological systems. Topics covered in the course include principles and methods used for sequence alignment, motif finding, structural modeling, structure prediction and network modeling, as well as currently emerging research areas. 7.91J | Spring 2014 | Graduate\n\nCOURSERA_Python for Genomic Data Science",
+    "title": "14  Additional Resources",
+    "section": "14.5 Courses",
+    "text": "14.5 Courses\n\nFoundations Of Computational And Systems Biology\n\nMIT OCW / This course is an introduction to computational biology emphasizing the fundamentals of nucleic acid and protein sequence and structural analysis; it also includes an introduction to the analysis of complex biological systems. Topics covered in the course include principles and methods used for sequence alignment, motif finding, structural modeling, structure prediction and network modeling, as well as currently emerging research areas. 7.91J | Spring 2014 | Graduate\n\nCOURSERA_Python for Genomic Data Science",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#books",
     "href": "additional-resources.html#books",
-    "title": "12  Additional Resources",
-    "section": "12.6 Books",
-    "text": "12.6 Books\n\n12.6.0.1 Learn R programming for FREE:\n\nHands-On Programming with R\n\nThis is the website for “Hands-On Programming with R”. This book will teach you how to program in R, with hands-on examples. He wrote it for non-programmers to provide a friendly introduction to the R language.\n\nR for Data Science (1e)\n\nThis is the website for the first edition of “R for Data Science”, published January 2017.\n\nR for Data Science (2e)\n\nThis is the website for the work-in-progress 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize.\n\nAdvanced R (1e)\n\nThis is the companion website for “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language.\n\nAdvanced R (2e)\n\nThis is the website for 2nd edition of “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nThis is the on-line version of work-in-progress 3rd edition of “ggplot2: elegant graphics for data analysis” published by Springer.\n\nR Cookbook, 2nd Edition\n\nThis book is full of how-to recipes, each of which solves a specific problem. The recipe includes a quick introduction to the solution followed by a discussion that aims to unpack the solution and give you some insight into how it works. We know these recipes are useful and we know they work, because we use them ourselves.\n\nText Mining with R: A Tidy Approach\n\nThis book serves as an introduction of text mining using the tidytext package and other tidy tools in R. The functions provided by the tidytext package are relatively simple; what is important are the possible applications. Thus, this book provides compelling examples of real text mining problems.",
+    "title": "14  Additional Resources",
+    "section": "14.6 Books",
+    "text": "14.6 Books\n\n14.6.0.1 Learn R programming for FREE:\n\nHands-On Programming with R\n\nThis is the website for “Hands-On Programming with R”. This book will teach you how to program in R, with hands-on examples. He wrote it for non-programmers to provide a friendly introduction to the R language.\n\nR for Data Science (1e)\n\nThis is the website for the first edition of “R for Data Science”, published January 2017.\n\nR for Data Science (2e)\n\nThis is the website for the work-in-progress 2nd edition of “R for Data Science”. This book will teach you how to do data science with R: You’ll learn how to get your data into R, get it into the most useful structure, transform it and visualize.\n\nAdvanced R (1e)\n\nThis is the companion website for “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language.\n\nAdvanced R (2e)\n\nThis is the website for 2nd edition of “Advanced R”, a book in Chapman & Hall’s R Series. The book is designed primarily for R users who want to improve their programming skills and understanding of the language.\n\nggplot2: Elegant Graphics for Data Analysis (3e)\n\nThis is the on-line version of work-in-progress 3rd edition of “ggplot2: elegant graphics for data analysis” published by Springer.\n\nR Cookbook, 2nd Edition\n\nThis book is full of how-to recipes, each of which solves a specific problem. The recipe includes a quick introduction to the solution followed by a discussion that aims to unpack the solution and give you some insight into how it works. We know these recipes are useful and we know they work, because we use them ourselves.\n\nText Mining with R: A Tidy Approach\n\nThis book serves as an introduction of text mining using the tidytext package and other tidy tools in R. The functions provided by the tidytext package are relatively simple; what is important are the possible applications. Thus, this book provides compelling examples of real text mining problems.",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#papers",
     "href": "additional-resources.html#papers",
-    "title": "12  Additional Resources",
-    "section": "12.7 Papers",
-    "text": "12.7 Papers\n\nA guide to machine learning for biologists\n\nJoe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)\n\nDifferential expression analysis for sequence count data\n\nAnders, S., Huber, W. Genome Biol 11, R106 (2010)\n\n12.7.1 Meta analysis bioinformatics (integration datasets)\n\nRecent developments and future directions in meta-analysis of differential gene expression in livestock RNA-Seq\nBatch effect detection and correction in RNA-seq data using machine-learning-based automated assessment of quality\nIntegration of RNA-Seq data with heterogeneous microarray data for breast cancer profiling\nIntegrated Analysis of Microarray and RNA-Seq Data for the Identification of Hub Genes and Networks Involved in the Pancreatic Cancer\nComBat-seq: batch effect adjustment for RNA-seq count data\nA benchmark of batch-effect correction methods for single-cell RNA sequencing data\nBatch effect in integrated RNA-seq analysis_Biostars\nIntegrating bulk RNA-Seq data with different sequencing depths and from different sources_bioinformatics.stackexchange",
+    "title": "14  Additional Resources",
+    "section": "14.7 Papers",
+    "text": "14.7 Papers\n\nA guide to machine learning for biologists\n\nJoe G. Greener, Shaun M. Kandathil, Lewis Moffat & David T. Jones Nature Reviews Molecular Cell Biology volume 23, pages40–55 (2022)\n\nDifferential expression analysis for sequence count data\n\nAnders, S., Huber, W. Genome Biol 11, R106 (2010)\n\n14.7.1 Meta analysis bioinformatics (integration datasets)\n\nRecent developments and future directions in meta-analysis of differential gene expression in livestock RNA-Seq\nBatch effect detection and correction in RNA-seq data using machine-learning-based automated assessment of quality\nIntegration of RNA-Seq data with heterogeneous microarray data for breast cancer profiling\nIntegrated Analysis of Microarray and RNA-Seq Data for the Identification of Hub Genes and Networks Involved in the Pancreatic Cancer\nComBat-seq: batch effect adjustment for RNA-seq count data\nA benchmark of batch-effect correction methods for single-cell RNA sequencing data\nBatch effect in integrated RNA-seq analysis_Biostars\nIntegrating bulk RNA-Seq data with different sequencing depths and from different sources_bioinformatics.stackexchange",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#vignettes-and-websites",
     "href": "additional-resources.html#vignettes-and-websites",
-    "title": "12  Additional Resources",
-    "section": "12.8 Vignettes and Websites",
-    "text": "12.8 Vignettes and Websites\n\nclusterProfiler\n\nclusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters\n\nMD Tutorials\n\nOn this site, you will find tutorials written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates.\n\nMassive open online course (MOOC)\n\nMOOC.org is an extension of edX.org, a leader in online courses. Whether you’re interested in learning for yourself, leveraging online courses to educate your workforce, or creating a MOOC, edX can help.",
+    "title": "14  Additional Resources",
+    "section": "14.8 Vignettes and Websites",
+    "text": "14.8 Vignettes and Websites\n\nclusterProfiler\n\nclusterProfiler is an R package that implements methods to analyze and visualize functional profiles of genomic coordinates (supported by ChIPseeker), gene and gene clusters\n\nMD Tutorials\n\nOn this site, you will find tutorials written for various molecular dynamics programs. This site is still very much under construction, so please check back frequently for updates.\n\nMassive open online course (MOOC)\n\nMOOC.org is an extension of edX.org, a leader in online courses. Whether you’re interested in learning for yourself, leveraging online courses to educate your workforce, or creating a MOOC, edX can help.",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#r-packages",
     "href": "additional-resources.html#r-packages",
-    "title": "12  Additional Resources",
-    "section": "12.9 R packages",
-    "text": "12.9 R packages\n\nTCGAVisualize_volcano\n\nCreates a volcano plot for DNA methylation or expression",
+    "title": "14  Additional Resources",
+    "section": "14.9 R packages",
+    "text": "14.9 R packages\n\nTCGAVisualize_volcano\n\nCreates a volcano plot for DNA methylation or expression",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#miscellaneous",
     "href": "additional-resources.html#miscellaneous",
-    "title": "12  Additional Resources",
-    "section": "12.10 Miscellaneous",
-    "text": "12.10 Miscellaneous\n\nWelcome to Galaxy Training!\nbioinformatics.org\n15 Best Bioinformatics Youtube Channels For Training\n\nAs it says in the title!\n\n12.10.0.1 Become a graphic designer as a biologist:\n\nDrawBioMed\n\nThe scientific illustration channel for scientists\n\nAnimated biology With arpan\n\nIdeas for your design + learn basic biology\n\nNikolay’s Genetics Lessons\n\nThis YouTube Channel is designed to provide students with a basic understanding of the concepts of human genetics and genomics, in preparation for later application in the context of human development and congenital and acquired disease.\n\nBiology Lectures\n\nThey are dedicated to providing you with the highest quality and most up-to-date lectures in the fields of general biology, microbiology, immunology, pharmacology, bioinformatics, and other life sciences_\n\nthe bumbling biochemist\n\nJust a postdoc trying to make biochemistry fun and accessible for all.\n\nGaBI Academy\nTCGA Barcode\nDifferential gene expression\n\nBy NBIS - National Bioinformatics Infrastructure Sweden\n\nSeurat\nRemoving low count genes for RNA-seq downstream analysis\nRNA-seq analysis in R\nChapter 4 Differential expression analysis\n\nOmics Data Analysis by Laurent Gatto\n\nAnalysis of microarray data\n\nEBI , Functional genomics II, Common technologies and data analysis methods",
+    "title": "14  Additional Resources",
+    "section": "14.10 Miscellaneous",
+    "text": "14.10 Miscellaneous\n\nWelcome to Galaxy Training!\nbioinformatics.org\n15 Best Bioinformatics Youtube Channels For Training\n\nAs it says in the title!\n\n14.10.0.1 Become a graphic designer as a biologist:\n\nDrawBioMed\n\nThe scientific illustration channel for scientists\n\nAnimated biology With arpan\n\nIdeas for your design + learn basic biology\n\nNikolay’s Genetics Lessons\n\nThis YouTube Channel is designed to provide students with a basic understanding of the concepts of human genetics and genomics, in preparation for later application in the context of human development and congenital and acquired disease.\n\nBiology Lectures\n\nThey are dedicated to providing you with the highest quality and most up-to-date lectures in the fields of general biology, microbiology, immunology, pharmacology, bioinformatics, and other life sciences_\n\nthe bumbling biochemist\n\nJust a postdoc trying to make biochemistry fun and accessible for all.\n\nGaBI Academy\nTCGA Barcode\nDifferential gene expression\n\nBy NBIS - National Bioinformatics Infrastructure Sweden\n\nSeurat\nRemoving low count genes for RNA-seq downstream analysis\nRNA-seq analysis in R\nChapter 4 Differential expression analysis\n\nOmics Data Analysis by Laurent Gatto\n\nAnalysis of microarray data\n\nEBI , Functional genomics II, Common technologies and data analysis methods",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#topic-based",
     "href": "additional-resources.html#topic-based",
-    "title": "12  Additional Resources",
-    "section": "12.11 Topic Based",
-    "text": "12.11 Topic Based\n\n12.11.1 Molecular Dynamics Simulation\n\na Good Playlist on YouTube (Learn-at-ease)\n\nThanks to Amir\n\nMDTutorials\n\nThanks to Mohammad\n\nComputer Aided Drug Design\n\nNPTEL-NOC IITM\n\nQuora Ideas\nMatter Modeling Ideas\nGROMACS Reference Manual\nLAMMPS Tutorials\nClassical Allen-Tildesley book, Computer Simulation of Liquids\nStatistical foundation video by MIT OCW\n\n\n\n12.11.2 Biopython\n\nYouTube playlist\n\nA Good Playlist by Lana Dominkovic for biopython\n\nBiopython Tutorial PDF\n\nI think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: biopython.org\n\nUDEMY_Biopython\nTraining Courses_ babraham bioinformatics",
+    "title": "14  Additional Resources",
+    "section": "14.11 Topic Based",
+    "text": "14.11 Topic Based\n\n14.11.1 Molecular Dynamics Simulation\n\na Good Playlist on YouTube (Learn-at-ease)\n\nThanks to Amir\n\nMDTutorials\n\nThanks to Mohammad\n\nComputer Aided Drug Design\n\nNPTEL-NOC IITM\n\nQuora Ideas\nMatter Modeling Ideas\nGROMACS Reference Manual\nLAMMPS Tutorials\nClassical Allen-Tildesley book, Computer Simulation of Liquids\nStatistical foundation video by MIT OCW\n\n\n\n14.11.2 Biopython\n\nYouTube playlist\n\nA Good Playlist by Lana Dominkovic for biopython\n\nBiopython Tutorial PDF\n\nI think this is a very useful file to learn and deepen your understanding of the subject. Obtained from: biopython.org\n\nUDEMY_Biopython\nTraining Courses_ babraham bioinformatics",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#conferences-workshops-and-webinars",
     "href": "additional-resources.html#conferences-workshops-and-webinars",
-    "title": "12  Additional Resources",
-    "section": "12.12 Conferences, Workshops, and Webinars",
-    "text": "12.12 Conferences, Workshops, and Webinars",
+    "title": "14  Additional Resources",
+    "section": "14.12 Conferences, Workshops, and Webinars",
+    "text": "14.12 Conferences, Workshops, and Webinars",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#career-guidance-and-job-opportunities",
     "href": "additional-resources.html#career-guidance-and-job-opportunities",
-    "title": "12  Additional Resources",
-    "section": "12.13 Career Guidance and Job Opportunities",
-    "text": "12.13 Career Guidance and Job Opportunities",
+    "title": "14  Additional Resources",
+    "section": "14.13 Career Guidance and Job Opportunities",
+    "text": "14.13 Career Guidance and Job Opportunities",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#networking-and-collaboration",
     "href": "additional-resources.html#networking-and-collaboration",
-    "title": "12  Additional Resources",
-    "section": "12.14 Networking and Collaboration",
-    "text": "12.14 Networking and Collaboration",
+    "title": "14  Additional Resources",
+    "section": "14.14 Networking and Collaboration",
+    "text": "14.14 Networking and Collaboration",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   },
   {
     "objectID": "additional-resources.html#regular-updates",
     "href": "additional-resources.html#regular-updates",
-    "title": "12  Additional Resources",
-    "section": "12.15 Regular Updates",
-    "text": "12.15 Regular Updates",
+    "title": "14  Additional Resources",
+    "section": "14.15 Regular Updates",
+    "text": "14.15 Regular Updates",
     "crumbs": [
       "Additional Resources",
-      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Additional Resources</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Additional Resources</span>"
     ]
   }
 ]

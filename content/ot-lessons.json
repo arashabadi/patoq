@@ -1,0 +1,310 @@
+[
+  {
+    "id": "assignment",
+    "messages": [
+      "722"
+    ],
+    "number": 1,
+    "answer": 0,
+    "fa": {
+      "title": "جفت ارزان یا طرح کم‌هزینه؟",
+      "body": "حمید از مثال سلول‌های روز اول و روز پانزدهم شروع کرد. وقتی اندازه‌گیری مخرب است، معمولاً هویت مشترک سلول‌ها را در دو زمان نداریم. OT تحت یک هزینه و قیود مشخص، تناظر توزیع‌ها را مدل می‌کند؛ این تناظر مشاهدهٔ مستقیم سرنوشت نیست. در مثال هم‌وزن و هم‌تعداد، permutation هر مبدأ را یک‌به‌یک به مقصد وصل می‌کند. برای n=3 فقط شش جایگشت داریم؛ کمترین هزینه باید در میان طرح‌های کامل مقایسه شود.",
+      "instruction": "هر جایگشت را امتحان کن. هزینهٔ هر واحد جرم را با مجموع PᵢⱼCᵢⱼ حساب می‌کنیم. انتخاب ارزان‌ترین خانه به‌تنهایی قیود همهٔ سلول‌ها را رعایت نمی‌کند.",
+      "question": "اگر فقط ارزان‌ترین جفت را برداریم، OT حل شده؟",
+      "options": [
+        "نه؛ باید طرح کامل و قیود را بررسی کنیم",
+        "بله؛ کوچک‌ترین فاصله کافی است"
+      ],
+      "feedback": "هدف کمینه‌کردن هزینهٔ کل طرح مجاز است. یک جفت ارزان می‌تواند مقصد لازم برای مبدأ دیگری را اشغال کند."
+    },
+    "en": {
+      "title": "A cheap pair or a low-cost plan?",
+      "body": "Hamid began with cells measured on two different days. Destructive measurements generally do not retain paired cell identities. OT models correspondences between distributions under specified costs and constraints; correspondence is not observed fate. For equally weighted populations of equal size, a permutation gives a one-to-one assignment. With n=3 there are six permutations; compare complete plans, not isolated cheap edges.",
+      "instruction": "Try each permutation. The cost is the sum of PᵢⱼCᵢⱼ across the whole plan. Selecting the cheapest entry alone does not satisfy all cells’ constraints.",
+      "question": "Does selecting only the cheapest pair solve OT?",
+      "options": [
+        "No; the complete plan and constraints matter",
+        "Yes; the smallest distance suffices"
+      ],
+      "feedback": "The objective minimizes total cost over feasible plans. A cheap pair may occupy a target needed by another source."
+    }
+  },
+  {
+    "id": "coupling",
+    "messages": [
+      "722"
+    ],
+    "number": 2,
+    "answer": 1,
+    "fa": {
+      "title": "جرم، pushforward و coupling",
+      "body": "در Monge، تابع T هر نقطهٔ مبدأ را به یک مقصد می‌فرستد و باید توزیع مقصدِ مقرر را بسازد: T#μ=ν. چند مبدأ می‌توانند یک مقصد مشترک داشته باشند فقط اگر جرم‌های هدف اجازه بدهند؛ یک تابع دلخواه الزاماً feasible نیست. coupling جرم را بین چند مقصد تقسیم می‌کند. Pᵢⱼ جرم مشترک است؛ احتمال شرطی مقصد j برای مبدأ i، برابر Pᵢⱼ/aᵢ است، اگر aᵢ مثبت باشد. splitting به‌معنی تکه‌شدن فیزیکی یک سلول نیست.",
+      "instruction": "جرم خانهٔ بالا-چپ را تغییر بده؛ سه خانهٔ دیگر طوری محاسبه می‌شوند که هر حاشیه ۰٫۵ بماند. ببین همهٔ این طرح‌ها حاشیهٔ یکسان دارند.",
+      "question": "آیا تقسیم جرم در P، تقسیم فیزیکی سلول را ثابت می‌کند؟",
+      "options": [
+        "بله",
+        "نه؛ جرم و وزن مدل است"
+      ],
+      "feedback": "P توصیف یک طرح ریاضی است. برای نتیجه‌گیری دربارهٔ تقسیم یا تبار، شواهد مستقل لازم است."
+    },
+    "en": {
+      "title": "Mass, pushforward and coupling",
+      "body": "A Monge map sends each source point to one target and must push the source measure to the prescribed target: T#μ=ν. Many-to-one mapping is possible only when target masses permit it; an arbitrary function need not be feasible. A coupling can split mass across targets. Pᵢⱼ is joint mass; conditional target probability is Pᵢⱼ/aᵢ for positive aᵢ. Splitting does not mean physically dividing a cell.",
+      "instruction": "Change the top-left mass. The other three entries keep all marginals at 0.5. Multiple plans share identical marginals.",
+      "question": "Does split coupling mass establish physical cell division?",
+      "options": [
+        "Yes",
+        "No; these are model weights"
+      ],
+      "feedback": "P describes a mathematical plan. Cell division or lineage claims need independent evidence."
+    }
+  },
+  {
+    "id": "dual",
+    "messages": [
+      "723"
+    ],
+    "number": 3,
+    "answer": 0,
+    "fa": {
+      "title": "Kantorovich، dual و Brenier",
+      "body": "Kantorovich یک صورت‌بندی است؛ network simplex یک الگوریتم حل است و Hungarian مسئلهٔ assignment را حل می‌کند. در dual برای هر مبدأ f و مقصد g داریم: fᵢ+gⱼ≤Cᵢⱼ. با وجود n+m متغیر پتانسیل، ممکن است هنوز nm قید یا هزینه بررسی شود؛ کاهش تعداد متغیرها تضمین حذف هزینهٔ محاسبه نیست. برای هزینهٔ درجه‌دو و مفروضات لازم، از جمله پیوستگی مطلق مبدأ و گشتاور دوم متناهی، نگاشت بهینه گرادیان تابع محدب است. Brenier الگوریتم تبدیل هر مسئله به کاسه نیست. نگاشت affine برای گوسین‌های مناسب یک حالت خاص است، نه نتیجهٔ داشتن چند ژن. برای نمونهٔ تازه، φ(x)=x²/2+2x محدب است و گرادیانش T(x)=x+2 است؛ این مثال یک انتقال ساده را توصیف می‌کند، نه همهٔ توزیع‌ها را. در چندبعدی، φ(x)=xᵀAx/2+bᵀx وقتی A متقارن مثبت نیمه‌معین است گرادیان Ax+b می‌دهد؛ هر A دلخواه چنین تضمینی ندارد.",
+      "instruction": "یک پتانسیل مقصد را بالا ببر. آیا dual هنوز مجاز است؟ هزینهٔ primal ثابت است و تنها برای dual مجاز، کران پایین معتبر داریم.",
+      "question": "کمتر بودن تعداد پتانسیل‌ها یعنی همیشه محاسبه ارزان‌تر است؟",
+      "options": [
+        "نه؛ قیود و ارزیابی هزینه هم مهم‌اند",
+        "بله"
+      ],
+      "feedback": "تعداد متغیر به‌تنهایی پیچیدگی محاسبه یا حافظه را مشخص نمی‌کند."
+    },
+    "en": {
+      "title": "Kantorovich, the dual and Brenier",
+      "body": "Kantorovich is a formulation; network simplex is a solver and Hungarian solves assignment. Dual potentials satisfy fᵢ+gⱼ≤Cᵢⱼ. Having n+m potentials may still leave nm constraints or cost evaluations; fewer variables do not guarantee cheap computation. Under the required assumptions, including an absolutely continuous source and finite second moments, quadratic-cost OT admits an optimal map that is a convex-potential gradient. Brenier is not an algorithm that turns every problem into a bowl. An affine Gaussian map is a special case, not a consequence of using multiple genes. For example, the convex φ(x)=x²/2+2x has gradient T(x)=x+2, illustrating a translation rather than all distributions. In multiple dimensions, φ(x)=xᵀAx/2+bᵀx has gradient Ax+b for symmetric positive-semidefinite A; an arbitrary matrix does not provide that guarantee.",
+      "instruction": "Raise one target potential. Is the dual still feasible? The primal cost stays fixed; only feasible dual values provide the stated lower bound.",
+      "question": "Do fewer potentials always guarantee cheap computation?",
+      "options": [
+        "No; constraints and cost evaluations matter",
+        "Yes"
+      ],
+      "feedback": "Variable count alone does not determine computational complexity or memory."
+    }
+  },
+  {
+    "id": "sinkhorn",
+    "messages": [
+      "742"
+    ],
+    "number": 4,
+    "answer": 1,
+    "fa": {
+      "title": "Sinkhorn و ε: نرمی، نه حقیقت",
+      "body": "در OT آنتروپی‌دار یک هدف متفاوت حل می‌کنیم: هزینهٔ انتقال به‌اضافهٔ εΣP(logP−1). برای ε مثبت، K=exp(−C/ε) و P=diag(u)Kdiag(v) است؛ مقیاس‌گذاری‌ها حاشیه‌ها را تنظیم می‌کنند. ε خود آنتروپی نیست، شدت regularization است. کوچک‌شدنش می‌تواند طرح را متمرکزتر کند و محاسبه را دشوارتر، اما صحت زیستی را تضمین نمی‌کند. هزینه، ویژگی‌ها، نمونه‌گیری و فرض‌های مدل همچنان تعیین‌کننده‌اند. در مثال A=(1,2)، X=(2,2)، Y=(4,5)، فاصلهٔ اقلیدسی A تا X برابر ۱ و تا Y برابر √۱۸≈۴٫۲۴۳ است؛ اگر هزینهٔ مربع فاصله باشد، مقادیر ۱ و ۱۸ می‌شوند. انتخاب این دو هزینه را نباید مخلوط کرد.",
+      "instruction": "ε را تغییر بده و طرح محاسبه‌شده، هزینهٔ خطی و خطای حاشیه را ببین. این حل کوچک در مرورگر است؛ اجرای POT یا نتیجهٔ مقاله نیست.",
+      "question": "کدام انتخاب همیشه سرنوشت زیستی درست‌تر می‌دهد؟",
+      "options": [
+        "همیشه کوچک‌ترین ε",
+        "هیچ‌کدام بدون اعتبارسنجی چنین تضمینی ندارند"
+      ],
+      "feedback": "نرمی یک انتخاب مدل است؛ برای اعتبار زیستی باید داده و پیش‌بینی مستقل را بررسی کرد."
+    },
+    "en": {
+      "title": "Sinkhorn and ε: smoothness, not truth",
+      "body": "Entropic OT solves a different objective: transport cost plus εΣP(logP−1). For positive ε, K=exp(−C/ε) and P=diag(u)Kdiag(v); scaling enforces marginals. ε is regularization strength, not entropy itself. Smaller ε can concentrate a plan and make computation harder, but does not guarantee biological correctness. Features, costs, sampling and model assumptions still matter. For A=(1,2), X=(2,2), Y=(4,5), Euclidean costs are1 and √18≈4.243; squared-distance costs are1 and18. Do not mix these cost definitions.",
+      "instruction": "Change ε and inspect the computed plan, linear transport cost and marginal residual. This tiny browser solve is not a POT run or a paper result.",
+      "question": "Which setting always gives more accurate biological fate?",
+      "options": [
+        "Always the smallest ε",
+        "Neither has that guarantee without validation"
+      ],
+      "feedback": "Smoothness is a modeling choice. Biological validity requires independent data and predictive checks."
+    }
+  },
+  {
+    "id": "map",
+    "messages": [
+      "742"
+    ],
+    "number": 5,
+    "answer": 0,
+    "fa": {
+      "title": "سلول تازه و نگاشت آموخته‌شده",
+      "body": "جدول P فقط نقاط دیده‌شده را پوشش می‌دهد. برای ورودی تازه به یک قاعدهٔ تعمیم، بازحل یا نگاشت آموخته‌شده نیاز داریم. barycentric projection میانگین شرطی مقصد را می‌دهد؛ ممکن است در فضای خالی بین دو حالت قرار بگیرد. شبکه‌های با پتانسیل محدب و نگاشت‌های شرطی راه‌هایی برای برآورد T هستند، ولی دنبالهٔ Kantorovich→Sinkhorn→Brenier به‌تنهایی نگاشت معتبر برای هر سلول تازه تولید نمی‌کند. خود نگاشت هم بدون آزمون خارج از نمونه معتبر نیست.",
+      "instruction": "وزن دو مقصد را تغییر بده و مکان میانگین را ببین؛ وجود یک میانگین به‌معنی وجود سلول واقعی در آن مکان نیست.",
+      "question": "نقطهٔ barycentric حتماً یک حالت سلولی مشاهده‌شده است؟",
+      "options": [
+        "نه؛ می‌تواند بین حالت‌ها باشد",
+        "بله"
+      ],
+      "feedback": "میانگین شرطی را از نمونهٔ واقعی و پیش‌بینی معتبر خارج از نمونه جدا کن."
+    },
+    "en": {
+      "title": "A new cell and an estimated map",
+      "body": "A finite P covers observed supports only. New inputs need an extension rule, re-solving or an estimated map. Barycentric projection gives a conditional target average, which may lie between real states. Convex-potential networks and conditional maps are approaches to estimating T, but Kantorovich→Sinkhorn→Brenier is not an automatic recipe for a valid map on every new cell. Out-of-sample validity must be tested.",
+      "instruction": "Change the weights of two targets and observe the mean; a mean does not establish a real cell at that location.",
+      "question": "Must a barycentric point be an observed cell state?",
+      "options": [
+        "No; it can lie between states",
+        "Yes"
+      ],
+      "feedback": "Distinguish a conditional average from a real observation or validated out-of-sample prediction."
+    }
+  },
+  {
+    "id": "mass",
+    "messages": [
+      "748"
+    ],
+    "number": 6,
+    "answer": 1,
+    "fa": {
+      "title": "Balanced، unbalanced و partial",
+      "body": "Balanced به جرم کل برابر نیاز دارد، نه تعداد سلول برابر یا یکسان‌بودن تک‌تک وزن‌ها. توزیع‌های ۳ و ۵ سلولی می‌توانند هر دو به جرم یک نرمال شوند. Unbalanced با جریمهٔ انحراف حاشیه‌ها کار می‌کند؛ partial مقدار مشخصی از جرم را با قیود نامساوی منتقل می‌کند. این‌ها مترادف نیستند. رشد و مرگ می‌توانند انگیزهٔ مدل نامتوازن باشند، ولی تفاوت نمونه‌برداری هم جرم ظاهری را تغییر می‌دهد؛ جریمهٔ KL به‌تنهایی تقسیم یا مرگ را شناسایی نمی‌کند.",
+      "instruction": "مسئلهٔ یک مبدأ با جرم ۱ و یک مقصد با جرم ۲ را ببین. با جریمهٔ KL و هزینهٔ واحد ثابت، جرم بهینه محاسبه می‌شود؛ partial فقط جرم انتخاب‌شده را جابه‌جا می‌کند.",
+      "question": "۳ سلول در برابر ۵ سلول لزوماً balanced OT را ناممکن می‌کند؟",
+      "options": [
+        "بله",
+        "نه؛ جرم کل و وزن‌ها مهم‌اند"
+      ],
+      "feedback": "تعداد نقاط با جرم کل یکی نیست؛ نرمال‌سازی می‌تواند اطلاعات فراوانی مطلق را حذف کند."
+    },
+    "en": {
+      "title": "Balanced, unbalanced and partial",
+      "body": "Balanced OT requires equal total mass, not equal cell counts or identical individual weights. Three-cell and five-cell populations can each normalize to mass one. Unbalanced OT penalizes marginal deviations; partial OT transports a specified amount subject to marginal inequalities. They are not synonyms. Growth and death can motivate unbalanced models, but sampling differences also change apparent mass; a KL penalty alone does not identify division or death.",
+      "instruction": "Inspect one source of mass1 and one target of mass2. With KL penalties and fixed unit cost, the unbalanced optimum is computed; partial OT moves only the chosen mass.",
+      "question": "Do 3 versus 5 cells necessarily make balanced OT impossible?",
+      "options": [
+        "Yes",
+        "No; total mass and weights matter"
+      ],
+      "feedback": "Support size is not total mass; normalization can discard absolute abundance information."
+    }
+  },
+  {
+    "id": "gw",
+    "messages": [
+      "748",
+      "750",
+      "754"
+    ],
+    "number": 7,
+    "answer": 0,
+    "fa": {
+      "title": "چند اُمیکس و Gromov–Wasserstein",
+      "body": "اگر ویژگی‌ها هم‌معنا نیستند، فاصلهٔ مستقیم RNA و درصد متیلاسیون انتخاب بدیهی‌ای نیست. GW ساختار فاصله‌های درون هر فضا را مقایسه می‌کند و FGW می‌تواند اطلاعات ویژگی‌های مشترک را هم اضافه کند. مسئلهٔ عمومی GW غیرمحدب است؛ زیرمسئلهٔ Sinkhorn آن را خودکار globally convex نمی‌کند. شباهت ساختار هم ممکن است چند جواب هم‌ارز بدهد. latent space حاصل autoencoder نیاز به ارزیابی دارد؛ نه شباهت embedding و نه alignment به‌تنهایی رابطهٔ تنظیمی یا علت اپی‌ژنتیکی را اثبات نمی‌کند.",
+      "instruction": "دو ساختار سه‌نقطه‌ای را تراز کن و هزینهٔ اختلاف فاصله‌ها را ببین. در حالت متقارن، دو جهت می‌توانند امتیاز یکسان داشته باشند. این فقط جست‌وجوی جایگشت‌های یک fixture است، نه حل عمومی GW.",
+      "question": "اگر دو تراز امتیاز برابر داشته باشند، مختصات واقعی یکتا معلوم شده؟",
+      "options": [
+        "نه؛ اطلاعات راهنما یا شواهد دیگر لازم است",
+        "بله"
+      ],
+      "feedback": "هم‌ارزی ساختاری می‌تواند ابهام باقی بگذارد. نزدیک‌بودن بیان ژن الزاماً نزدیک‌بودن فیزیکی نیست."
+    },
+    "en": {
+      "title": "Multi-omics and Gromov–Wasserstein",
+      "body": "When features are not commensurate, direct RNA-to-methylation distances are not automatically meaningful. GW compares within-space distance structures; FGW can add shared feature information. General GW is nonconvex; a Sinkhorn subproblem does not make it globally convex. Structural symmetry can produce equivalent alignments. Autoencoder latent spaces need evaluation; neither embedding similarity nor alignment alone establishes regulation or epigenetic causation.",
+      "instruction": "Align two three-point structures and inspect distance mismatch. Symmetry can give two equally scoring orientations. This enumerates permutations of a fixture, not general GW.",
+      "question": "Do tied alignments establish unique true coordinates?",
+      "options": [
+        "No; anchors or other evidence are needed",
+        "Yes"
+      ],
+      "feedback": "Structural equivalence can leave ambiguity. Expression similarity need not imply physical proximity."
+    }
+  },
+  {
+    "id": "dynamic",
+    "messages": [
+      "750"
+    ],
+    "number": 8,
+    "answer": 1,
+    "fa": {
+      "title": "زمان، انرژی و Schrödinger bridge",
+      "body": "در صورت‌بندی دینامیک درجه‌دو، چگالی و سرعت با معادلهٔ پیوستگی به هم مرتبط‌اند و کنش انتگرال جرم×سرعت² در زمان است. مسیر بین چند snapshot تخمین مدل است، نه فیلم واقعی سلول‌ها. در حساب مثال گروه، ۰٫۵×۰٫۴²+۰٫۳×۰٫۲² برابر ۰٫۰۹۲ است؛ با بازه‌های سه‌واحدی، جمع ۵۷٫۸۷۶ می‌شود. این حساب به‌تنهایی حل OT نیست. Schrödinger bridge یک مسئلهٔ احتمالی نسبت به فرایند مرجع و قیود حاشیه‌ای است؛ ε را نمی‌توان صرفاً درصد خطا یا دکمهٔ واقعی‌ترشدن زیست‌شناسی دانست.",
+      "instruction": "مدت حرکت بین دو نقطهٔ ثابت را تغییر بده. سرعت ثابت فاصله/زمان و کنش m×فاصله²/زمان است. این فقط محاسبهٔ سرعت و کنش برای دو سر ثابت است؛ شبیه‌ساز سلول یا حل bridge نیست.",
+      "question": "مسیر درون‌یابی‌شده همان lineage مشاهده‌شده است؟",
+      "options": [
+        "بله",
+        "نه؛ یک مسیر تحت فرض مدل است"
+      ],
+      "feedback": "برای تبار و پیش‌بینی زمانی، lineage tracing، زمان‌های نگه‌داشته‌شده یا شواهد مستقل اهمیت دارند."
+    },
+    "en": {
+      "title": "Time, action and the Schrödinger bridge",
+      "body": "In quadratic dynamic OT, density and velocity obey a continuity constraint, and action integrates mass×squared speed over time. An inferred path between snapshots is not an observed cell movie. In the group arithmetic, 0.5×0.4²+0.3×0.2² equals0.092; two intervals of length3 give57.876. This arithmetic alone does not solve OT. A Schrödinger bridge is a stochastic inference problem relative to a reference process with marginal constraints, not simply an error percentage or biological-realism knob.",
+      "instruction": "Change duration between fixed endpoints. Constant speed is distance/time and action is mass×distance²/time. This computes speed and action for fixed endpoints, not a cell simulator or bridge solver.",
+      "question": "Is an interpolated path an observed lineage?",
+      "options": [
+        "Yes",
+        "No; it is a path under model assumptions"
+      ],
+      "feedback": "Lineage tracing, held-out time points or independent evidence matter for fate and temporal predictions."
+    }
+  },
+  {
+    "id": "perturbation",
+    "messages": [
+      "741",
+      "750",
+      "754",
+      "756"
+    ],
+    "number": 9,
+    "answer": 0,
+    "fa": {
+      "title": "دارو، سرنوشت و چند توضیح ممکن",
+      "body": "حمید مثال A و B پیش و پس از دارو، مسیرهای pAKT و pERK و مقایسهٔ چند دارو را مطرح کرد. تغییر فراوانی از ۶۰/۴۰ به ۴۰/۶۰ به‌تنهایی مشخص نمی‌کند کدام سلول به کدام حالت رفته است. چند coupling می‌تواند همان حاشیه‌ها را بسازد. هزینه و prior یکی را ترجیح می‌دهند؛ مقاومت دارویی، خاموش‌شدن pathway یا علت دارویی به‌طور خودکار ثابت نمی‌شود. کاربرد OT در prediction و precision medicine نیاز به اعتبارسنجی بیمار یا perturbation نگه‌داشته‌شده دارد؛ جای آزمون تجربی را پیشاپیش نمی‌گیرد.",
+      "instruction": "حاشیهٔ قبل ۰٫۶/۰٫۴ و بعد ۰٫۴/۰٫۶ ثابت است. طرح را تغییر بده؛ تعداد تغییر حالتِ فرضی عوض می‌شود ولی دادهٔ فراوانی یکسان می‌ماند.",
+      "question": "فراوانی قبل و بعد، مقاومت دارویی را یکتا تعیین می‌کند؟",
+      "options": [
+        "نه؛ چند توضیح با داده سازگار است",
+        "بله"
+      ],
+      "feedback": "طرح برآوردشده یک توضیح مدل‌محور است، نه اثبات مسیر یا علت."
+    },
+    "en": {
+      "title": "Drugs, fate and multiple possible explanations",
+      "body": "Hamid discussed A/B populations before and after treatment, pAKT/pERK states and comparisons across drugs. An abundance shift from60/40 to40/60 alone does not identify which cells changed state. Multiple couplings produce the same marginals. Costs and priors can favor one; resistance, pathway switching and drug causality are not automatically established. Perturbation prediction and precision-medicine applications need held-out patients or perturbations; experimental validation is not replaced by assumption.",
+      "instruction": "Before marginals are0.6/0.4 and after marginals0.4/0.6. Change the coupling: proposed state transitions change while observed abundances stay fixed.",
+      "question": "Do before/after abundances uniquely identify drug resistance?",
+      "options": [
+        "No; several explanations fit",
+        "Yes"
+      ],
+      "feedback": "An estimated plan is a model-based explanation, not proof of a pathway or cause."
+    }
+  },
+  {
+    "id": "tools",
+    "messages": [
+      "541",
+      "544",
+      "751",
+      "752"
+    ],
+    "number": 10,
+    "answer": 1,
+    "fa": {
+      "title": "از مثال کوچک تا POT، OTT، GeomLoss و moscot",
+      "body": "پارت ششم حمید به کتابخانه‌ها و امتحان‌کردن مثال کوچک وصل شد. POT مجموعه‌ای از حل‌گرها، OTT ابزارهای مبتنی بر JAX، GeomLoss ابزار lossهای هندسی و moscot چارچوب کاربردهای اُمیکس فراهم می‌کنند. API و سازگاری نسخه‌ها باید پیش از اجرای واقعی بررسی شوند. یک ماتریس dense با n×m ورودی float64 فقط برای همان آرایه به ۸nm بایت نیاز دارد؛ هزینه‌ها، طرح، گرادیان و کپی‌ها حافظهٔ بیشتری می‌خواهند. روش‌های ضمنی، کم‌رتبه و minibatch قرارداد و مصالحهٔ متفاوت دارند.",
+      "instruction": "تعداد سلول در هر طرف را تغییر بده و فقط حافظهٔ یک آرایه را ببین. این عدد اندازه‌گیری runtime یا توصیهٔ سخت‌افزار نیست.",
+      "question": "اندازهٔ یک ماتریس، RAM کل اجرا را می‌دهد؟",
+      "options": [
+        "بله",
+        "نه؛ آرایه‌ها و مراحل دیگر هم وجود دارند"
+      ],
+      "feedback": "برای اجرای واقعی، محیط و داده را نسخه‌دار کن، نمونهٔ کوچک را اجرا و RAM، زمان و خطای عددی را اندازه‌گیری کن."
+    },
+    "en": {
+      "title": "From a tiny example to POT, OTT, GeomLoss and moscot",
+      "body": "Hamid’s sixth part connected the mathematics to libraries and small trials. POT supplies OT solvers, OTT JAX-based tools, GeomLoss geometric losses and moscot omics applications. Check actual APIs and compatible versions before execution. One dense n×m float64 array alone needs8nm bytes; costs, plans, gradients and copies add memory. Implicit, low-rank and minibatch approaches have different contracts and tradeoffs.",
+      "instruction": "Change cells per side and inspect memory for one array only. This is neither measured runtime nor a hardware recommendation.",
+      "question": "Does one matrix size equal total runtime RAM?",
+      "options": [
+        "Yes",
+        "No; other arrays and stages contribute"
+      ],
+      "feedback": "For a real run, version the environment and data, execute a small case and measure RAM, time and numerical error."
+    }
+  }
+]

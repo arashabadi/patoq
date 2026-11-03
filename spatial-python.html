@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.549">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>PATOQ - Spatial Biology in Python | زیست‌شناسی فضایی با پایتون</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="assets/living-book.css">
+<link rel="stylesheet" href="assets/spatial-book.css">
+</head>
+
+<body class="nav-sidebar fullcontent">
+
+<div id="quarto-search-results"></div>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-layout-custom">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+<!-- main -->
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Spatial Biology in Python | زیست‌شناسی فضایی با پایتون</span></h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="living-book" class="spatial-book" lang="fa" dir="rtl">
+<nav class="lb-nav"><a href="index.html" class="lb-brand">پاتوق <span>PATOQ / SPATIAL</span></a><div><button id="sp-language">English</button><button id="sp-theme" aria-label="Toggle theme">☾</button><a href="#curriculum"><span lang="fa">فصل‌ها</span><span lang="en">Chapters</span></a></div></nav>
+<main>
+<header class="lb-section sp-intro"><p class="lb-eyebrow">SPATIAL BIOLOGY IN PYTHON</p><h1><span lang="fa">از بافت،<br>تا استنباط زیستی.</span><span lang="en">From tissue.<br>To biological inference.</span></h1><p class="lb-lead" lang="fa">کنار هم بودن دو سلول، تازه شروع سؤال است. این مسیر کمک می‌کند بفهمیم داده چطور ساخته شده، چرا یک روش را انتخاب می‌کنیم و نتیجه تا کجا قابل‌دفاع است.</p><p class="lb-lead" lang="en">Two nearby cells are the beginning of a question. Learn how the data were made, why a method fits the question and how far the evidence supports an interpretation.</p><a class="lb-enter" href="#lab"><span lang="fa">آزمایشگاه همسایگی را باز کن ↓</span><span lang="en">Enter the neighborhood lab ↓</span></a><p class="sp-status"><span lang="fa">نسخهٔ اول: مسیر آموزشی + درس تعاملی مصنوعی. workflow واقعی Xenium و Visium هنوز اجرا نشده است.</span><span lang="en">First edition: curriculum + synthetic interactive lesson. Real Xenium and Visium workflows have not yet been executed.</span></p></header>
+<section class="lb-section lb-foundations"><div class="lb-section-label">01 / THE SCIENTIFIC CONTRACT</div><h2 lang="fa" class="anchored">قبل از کد، سؤال را روشن کن.</h2><h2 lang="en" class="anchored">Define the question before the code.</h2><div class="sp-three"><article><h3 lang="fa" class="anchored">چرا این روش؟</h3><h3 lang="en" class="anchored">Why this method?</h3><p lang="fa">واحد مشاهده، نوع داده و کمیت موردنظر را مشخص کن: مالکیت یک نشانگر در سلول، نزدیکی دو جمعیت، همبستگی میدان‌ها یا موقعیت نسبت به یک ساختار آناتومیک؟ این‌ها یک سؤال نیستند.</p><p lang="en">Name the observation unit, modality and estimand: marker ownership within a cell, proximity between populations, field association or position relative to anatomy? These are different questions.</p></article><article><h3 lang="fa" class="anchored">چقدر پایدار است؟</h3><h3 lang="en" class="anchored">How sensitive is it?</h3><p lang="fa">ببین با تغییر شعاع، segmentation، annotation یا تعریف ناحیه، نتیجه چقدر عوض می‌شود. سناریوی اصلی را پیش از جست‌وجوی نتیجهٔ جذاب ثبت کن.</p><p lang="en">Check changes in radius, segmentation, annotation and ROI definition. Record the primary analysis before searching for an attractive result.</p></article><article><h3 lang="fa" class="anchored">چه چیزی می‌فهمیم؟</h3><h3 lang="en" class="anchored">What can we infer?</h3><p lang="fa">نزدیکی با تماس، سیگنال‌دهی یا علت یکسان نیست. سلول‌ها، میدان‌ها و برش‌ها را در سلسله‌مراتب نمونه نگه دار؛ تعدادشان به‌تنهایی تعداد حیوان یا بیمار مستقل را زیاد نمی‌کند.</p><p lang="en">Proximity is distinct from contact, signaling and causality. Retain cells, fields and sections within their specimen hierarchy; more observations do not create more independent animals or patients.</p></article></div></section>
+<section class="lb-section"><p class="lb-eyebrow">COMMUNITY × PATOQ</p><h2 lang="fa" class="anchored">انتقال بهینه، با آموزش‌های حمید</h2><h2 lang="en" class="anchored">Optimal transport, inspired by Hamid</h2><p lang="fa">شش پارت گروه در ده درس دوزبانه، با محاسبه، پیش‌بینی و بازخورد؛ از coupling تا چنداُمیکس و دینامیک.</p><p lang="en">Six community parts organized into ten bilingual lessons with computation, prediction and feedback, from coupling to multi-omics and dynamics.</p><a class="lb-enter" href="optimal-transport.html"><span lang="fa">ورود به آزمایشگاه OT ↗</span><span lang="en">Enter the OT lab ↗</span></a></section>
+<section class="lb-section" id="curriculum"><div class="lb-section-label">02 / THE LEARNING PATH</div><h2 lang="fa" class="anchored">فصل را با مسئله باز کن.</h2><h2 lang="en" class="anchored">Open a chapter through its question.</h2><div id="sp-curriculum"></div></section>
+<section class="lb-section lb-foundations" id="lab"><div class="lb-section-label">03 / INTERACTIVE LESSON</div><h2 lang="fa" class="anchored">همسایه یعنی چه؟</h2><h2 lang="en" class="anchored">What counts as a neighbor?</h2><p class="lb-lead" lang="fa">این سلول‌ها و مختصات ساختگی‌اند. شعاع را تغییر بده؛ بعد فاصلهٔ خالی بین دو قطعه را از گراف حذف کن. تعداد اتصال‌های آبی–نارنجی چقدر تغییر می‌کند؟</p><p class="lb-lead" lang="en">These cells and coordinates are synthetic. Change the radius, then exclude edges crossing the gap between fragments. How much does the blue–orange edge count change?</p><div id="sp-challenge" class="sp-challenge" aria-label="Guided learning challenge"></div><div class="sp-lab-controls"><div role="group" aria-label="Radius in synthetic units"><button data-radius="25">r = 25</button><button data-radius="55">r = 55</button><button data-radius="95">r = 95</button></div><button id="sp-mask" aria-pressed="false"><span lang="fa">حذف اتصال‌های عبوری از شکاف</span><span lang="en">Exclude gap-crossing edges</span></button></div><svg id="sp-map" viewbox="0 0 600 320" role="img" aria-labelledby="sp-map-title"><title id="sp-map-title">Synthetic radius graph with a gap between two fragments</title></svg><div class="sp-result" aria-live="polite" id="sp-result"></div><p class="sp-status" lang="fa">آبی = A، نارنجی = B؛ هر خط یک جفت بدون جهت است و یک‌بار شمرده می‌شود. شکاف بین x=280 و x=320 است. واحدها قراردادی‌اند، نه میکرومتر. امتیاز enrichment، آزمون فرض یا دادهٔ زیستی نمایش داده نمی‌شود.</p><p class="sp-status" lang="en">Blue = A, orange = B; each undirected pair is counted once. The gap spans x=280 to x=320. Coordinates use arbitrary units, not micrometers. No enrichment score, hypothesis test or biological data are shown.</p><div class="sp-three"><article><h3 lang="fa" class="anchored">مشاهده</h3><h3 lang="en" class="anchored">Observe</h3><p lang="fa">شعاع بزرگ‌تر تعریف «همسایه» را تغییر می‌دهد. خطی که از ناحیهٔ فاقد بافت می‌گذرد ممکن است برای سؤال تماس موضعی نامعتبر باشد.</p><p lang="en">A larger radius changes the definition of a neighbor. An edge crossing missing tissue may be inappropriate for a local-contact question.</p></article><article><h3 lang="fa" class="anchored">توضیح جایگزین</h3><h3 lang="en" class="anchored">Alternative explanation</h3><p lang="fa">افزایش جفت‌های A–B می‌تواند از تعریف گراف، تعداد سلول‌ها یا هم‌مکانی با یک ساختار بیاید. این نمودار هیچ‌کدام را به‌تنهایی جدا نمی‌کند.</p><p lang="en">More A–B pairs can arise from graph definition, cell abundance or shared anatomical positioning. This diagram does not isolate these explanations.</p></article><article><h3 lang="fa" class="anchored">قدم بعدی</h3><h3 lang="en" class="anchored">Next test</h3><p lang="fa">برای دادهٔ واقعی، گراف را روی تصویر ببین، فراوانی و حمایت فضایی را گزارش کن و null را متناسب با سؤال و نمونه طراحی کن.</p><p lang="en">On real data, inspect the graph over the tissue, report abundance and spatial support, and choose a null consistent with the question and specimen.</p></article></div></section>
+<section class="lb-section"><div class="lb-section-label">04 / FROM DEMO TO ANALYSIS</div><h2 lang="fa" class="anchored">از شکل آموزشی تا نتیجهٔ قابل‌دفاع.</h2><h2 lang="en" class="anchored">From a teaching diagram to a defensible result.</h2><details open=""><summary><span lang="fa">درس اول: حساسیت، تراکم و null</span><span lang="en">Lesson one: sensitivity, density and the null</span></summary><div lang="fa"><p>اول کمیت را تعریف کن: آیا تعداد جفت‌ها مهم است، سهم یک نوع همسایه، فاصله تا نزدیک‌ترین سلول، یا موقعیت نسبت به مرز راه هوایی؟ فاصله تا مرکز یک ساختار با فاصله تا مرز آن یکسان نیست. موقعیت دوبعدی یک برش هم بازسازی سه‌بعدی اندام نیست.</p><p>در گراف شعاعی، فاصلهٔ فیزیکی مشترکی تعریف می‌کنی و تعداد همسایه می‌تواند تغییر کند. در kNN تعداد انتخاب اولیهٔ همسایه‌ها مشخص است، اما فاصلهٔ آن‌ها می‌تواند در نواحی کم‌تراکم بزرگ شود؛ متقارن‌سازی هم درجهٔ نهایی را عوض می‌کند. هیچ انتخابی برای همهٔ سؤال‌ها مناسب نیست. مقیاس، تراکم، مرزها و اتصال اجزای جدا را روی نقشه بررسی کن.</p><p>جابجایی تصادفی برچسب‌ها روی گراف ثابت می‌پرسد آیا این آرایش برچسب نسبت به بازتخصیص انتخاب‌شده متفاوت است. اگر برچسب‌ها به آناتومی یا کیفیت اندازه‌گیری وابسته باشند، این جابه‌جایی ممکن است برای سؤال تو موجه نباشد. محدودکردن جابه‌جایی به compartmentها هم سؤال را عوض می‌کند و ممکن است بخشی از سیگنال موردنظر را شرطی کند؛ null را از روی فرض زیستی انتخاب کن، نه برای کوچک‌شدن p-value.</p><p>در چند نمونه، ابتدا اثر و عدم‌قطعیت را در سطح نمونه تعریف کن. مقایسهٔ هزاران سلول یک حیوان با هزاران سلول حیوان دیگر جای تکرار مستقل را نمی‌گیرد. برای آزمون‌های چند شعاع و چند جفت، خانوادهٔ مقایسه‌ها را مشخص کن. یک نمودار «پایدار/ناپایدار» به‌تنهایی اعتبارسنجی زیستی نیست.</p></div><div lang="en"><p>Define the estimand first: pair count, neighbor composition, nearest-cell distance or position relative to an airway boundary? Distance to a structure's center differs from distance to its boundary. A two-dimensional section is not a three-dimensional reconstruction.</p><p>A radius graph uses a shared physical distance, with a variable number of neighbors. kNN fixes the initial number selected, but distances may become large in sparse areas; symmetrization also changes final degree. Neither is universally appropriate. Inspect scale, density, boundaries and disconnected fragments on the native map.</p><p>Randomly permuting labels on a fixed graph asks whether the observed labeling differs from the chosen reallocation scheme. If labels depend on anatomy or measurement quality, exchangeability may not hold for your question. Restricting permutations within compartments changes the question and can condition away part of the signal of interest. Choose the null from the biological hypothesis, not to obtain a small p-value.</p><p>Across specimens, define effects and uncertainty at the specimen level. Thousands of cells from one animal versus thousands from another do not replace independent replication. Prespecify the comparison family across radii and population pairs. A stable/unstable sensitivity display alone is not biological validation.</p></div></details><details><summary><span lang="fa">قرارداد workflowهای Xenium و Visium</span><span lang="en">Contract for the Xenium and Visium workflows</span></summary><p lang="fa">هر workflow باید شناسه و نسخهٔ دادهٔ عمومی، مجوز، جاندار و بافت، واحد مستقل، نسخهٔ segmentation، واحد مختصات و تبدیل‌ها، محیط قفل‌شده، counts و لایه‌های تبدیل‌شده، seed، پارامترها، خروجی‌های میانی و آزمون‌های صحت را ثبت کند. زمان، RAM و GPU از اجرای واقعی گزارش می‌شوند؛ هنوز عددی اندازه‌گیری نشده است. در Xenium مالکیت مولکول و مرز سلول مهم‌اند؛ spot یا bin در Visium را به‌طور خودکار سلول ننام.</p><p lang="en">Each workflow must retain public dataset accession/version, license, organism/tissue, independent specimen unit, segmentation version, coordinate units/transforms, locked environment, counts and transformed layers, seeds, parameters, intermediate outputs and correctness checks. Runtime, RAM and GPU requirements come from actual execution; none have been measured yet. Xenium requires molecule-ownership and boundary review; a Visium spot or bin must not automatically be called a cell.</p></details></section>
+<section class="lb-section lb-foundations" id="sources"><div class="lb-section-label">05 / SOURCES &amp; COVERAGE</div><h2 lang="fa" class="anchored">به منابع وصل بمان.</h2><h2 lang="en" class="anchored">Keep the evidence within reach.</h2><p lang="fa">این مسیر یک طراحی آموزشی مستقل در پاتوق است؛ ترجمهٔ رسمی OSTA یا همکاری تأییدشده با scverse نیست. نقشهٔ منابع میرزا برای جهت‌دهی استفاده شد و مستندات زیر در ۲ نوامبر ۲۰۲۶ بررسی شدند. صرف دیدن مستندات به‌معنی اجرای آموزش‌ها نیست.</p><p lang="en">This is an independent PATOQ curriculum, not an official OSTA translation or an endorsed scverse collaboration. Mirza's source map informed the design; the documentation below was checked on 2 November 2026. Documentation inspection is not tutorial execution.</p><ul><li><a href="https://spatialdata.scverse.org/en/stable/tutorials/notebooks/notebooks.html">SpatialData tutorials</a> — <span lang="fa">ساختار داده، مختصات و تبدیل‌ها؛ فهرست آموزش‌ها بررسی شد.</span><span lang="en">Data structure, coordinate systems and transforms; tutorial index inspected.</span></li><li><a href="https://squidpy.readthedocs.io/en/stable/api/squidpy.gr.spatial_neighbors.html">Squidpy spatial neighbors</a> — <span lang="fa">مستندات گراف بررسی شد؛ API و نسخه باید پیش از workflow قفل شوند.</span><span lang="en">Graph documentation inspected; pin the API and version before workflow execution.</span></li><li><a href="https://www.sc-best-practices.org/spatial/neighborhood/">Single-cell Best Practices: neighborhood analysis</a> — <span lang="fa">توضیح و نمونه‌های فصل بررسی شد؛ نوت‌بوک اجرا نشد.</span><span lang="en">Chapter explanation/examples inspected; notebook not executed.</span></li><li><a href="https://bioconductor.org/books/release/OSTA/">OSTA</a> — <span lang="fa">منبع مکمل R/Bioconductor از نقشهٔ منابع میرزا؛ این درس متن یا شکل آن را بازتولید نمی‌کند.</span><span lang="en">Complementary R/Bioconductor resource retained in Mirza's source map; no text or figures reproduced here.</span></li></ul><p class="sp-status" lang="fa">تفسیرهای مربوط به آناتومی، null، segmentation و تکرار زیستی، سنتز آموزشی این فصل‌اند. نمایش تعاملی فقط محاسبهٔ هندسی روی نقاط مصنوعی است و اجرای Squidpy یا benchmark محسوب نمی‌شود.</p><p class="sp-status" lang="en">Anatomy, null-model, segmentation and replication guidance is this chapter's educational synthesis. The interactive display computes geometry on synthetic points; it is not a Squidpy run or benchmark.</p></section>
+<footer><a href="index.html">پاتوق / PATOQ ↗</a><p lang="fa">یادگیری با پرسش، شواهد و بازبینی.</p><p lang="en">Learning through questions, evidence and revision.</p></footer>
+</main></div><script src="assets/spatial-book.js" defer=""></script>
+
+
+
+
+<link rel="stylesheet" href="assets/reader.css">
+<script src="assets/reader.js" defer=""></script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = true;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+          if (link.getAttribute("rel") === null) {
+            link.setAttribute("rel", "noopener");
+          }
+          // default icon
+          link.classList.add("external");
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>PATOQ — a gathering place for computational life science</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions"><ul><li><a href="https://github.com/arashabadi/patoq/edit/main/spatial-python.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/arashabadi/patoq/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p><a href="https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md">Contribute</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
