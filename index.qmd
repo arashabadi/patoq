@@ -1,70 +1,23 @@
 ---
+title: "PATOQ | پاتوق"
 toc: false
 number-sections: false
+page-layout: custom
+format:
+  html:
+    css: [styles.css, assets/living-book.css]
+    resources: [assets/living-book.js, content/chapters.json, images/patoq-persian-future-v1.png]
 ---
 
-::::: {.patoq-home}
-:::: {.patoq-hero}
-::: {.patoq-hero-copy}
-# Welcome {.unnumbered}
-
-::: {.patoq-kicker}
-BIOINFORMATICS · DATA SCIENCE · MACHINE LEARNING
-:::
-
-::: {.patoq-intro}
-**PATOQ (پاتوق)** is a living field guide to bioinformatics, computational biology, data science, and machine learning.
-
-It turns scattered resources into clear learning paths, practical workflows, and carefully curated references.
-:::
-
-::: {.patoq-byline}
-Curated by [Arash B. Abadi](https://arashabadi.github.io/) and [Hossein Asadkhanipour](https://github.com/h-asadkhanipour)
-:::
-
-::: {.patoq-actions}
-[Explore the interactive map](learning-map.qmd){.btn .btn-outline-primary}
-[Start learning](prerequisites.qmd){.btn .btn-primary}
-[Contribute on GitHub](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md){.btn .btn-outline-primary}
-:::
-:::
-
-::: {.patoq-cover-panel}
-![](images/patoq_cover_achaemenid_modern_transparent.png){.patoq-cover-art fig-alt="PATOQ scholars at Persepolis combining manuscripts with modern computing"}
-
-**Persepolis, Fars, Iran.** The cover imagines an ancient gathering place reactivated for modern science. [About Persepolis →](https://whc.unesco.org/en/list/114)
-:::
-::::
-
-## Choose a path {.unnumbered}
-
-:::: {.patoq-paths}
-::: {.patoq-card}
-### Build the foundations
-
-Refresh the biology, mathematics, statistics, Linux, Git, R, and Python concepts behind computational research.
-
-[Browse prerequisites →](prerequisites.qmd)
-:::
-
-::: {.patoq-card}
-### Explore biological data
-
-Move through genomics, transcriptomics, proteomics, metabolomics, epigenomics, and metagenomics.
-
-[Explore omics data →](omics-data.qmd)
-:::
-
-::: {.patoq-card}
-### Find tools and workflows
-
-Discover reproducible workflows, cloud and HPC resources, visualization approaches, platforms, and references.
-
-[Open the toolkit →](integrated-platforms.qmd)
-:::
-::::
-
-::: {.patoq-meta}
-Open, versioned, and built with Quarto. New material is curated into the right learning path instead of added as an endless feed.
-:::
-:::::
+```{=html}
+<div id="living-book">
+<nav class="lb-nav" aria-label="Book navigation"><a href="#" class="lb-brand">پاتوق <span>PATOQ</span></a><div><button id="lb-language">English</button><button id="lb-theme" aria-label="Change color theme">☾</button><a href="#shelf" data-i="contents"></a></div></nav>
+<header class="lb-hero"><img src="images/patoq-persian-future-v1.png" alt="" fetchpriority="high"><div class="lb-hero-shade"></div><div class="lb-hero-copy"><p class="lb-eyebrow" data-i="eyebrow"></p><h1 data-i="headline"></h1><p data-i="intro"></p><a href="#shelf" class="lb-enter" data-i="enter"></a><small data-i="imageNote"></small></div><span class="lb-scroll" data-i="scroll"></span></header>
+<main><section id="shelf" class="lb-section"><div class="lb-section-label"><span data-i="chapterLabel"></span><a href="atlas.html" data-i="atlas"></a></div><h2 data-i="shelfTitle"></h2><p class="lb-lead" data-i="shelfIntro"></p><div id="lb-shelf" class="lb-shelf"></div></section>
+<section class="lb-foundations lb-section"><div class="lb-section-label" data-i="foundationLabel"></div><h2 data-i="foundationTitle"></h2><div id="lb-foundations" class="lb-foundation-grid"></div></section>
+<section class="lb-section" id="updates"><div class="lb-section-label" data-i="updateLabel"></div><h2 data-i="updateTitle"></h2><p class="lb-lead" data-i="updateIntro"></p><div class="lb-workflow" id="lb-workflow"></div><details><summary data-i="editorialTitle"></summary><p data-i="editorialText"></p></details><a href="research-directions.html" class="lb-source-link" data-i="research"></a></section>
+<footer><strong>پاتوق / PATOQ</strong><p data-i="footer"></p><p>Arash B. Abadi · Hossein Asadkhanipour</p><a href="https://github.com/arashabadi/patoq">GitHub ↗</a></footer></main>
+<dialog id="lb-reader" aria-labelledby="lb-title"><div class="lb-reader-tools"><button id="lb-close" data-i="close"></button><span id="lb-reading-label"></span><button id="lb-reader-language">English</button></div><article id="lb-article"></article><div class="lb-pagination"><button id="lb-prev" data-i="previous"></button><button id="lb-next" data-i="next"></button></div></dialog>
+<noscript><p><a href="atlas.html">Atlas / اطلس</a> · <a href="biology_fundamentals.html">Biology</a> · <a href="research-directions.html">Research directions</a></p></noscript>
+</div><script src="assets/living-book.js" defer></script>
+```

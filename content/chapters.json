@@ -1,0 +1,154 @@
+[
+  {
+    "id": "genomes",
+    "number": "01",
+    "legacy": "omics-data.html#genomics",
+    "en": {
+      "title": "Sequence, genomes & variation",
+      "question": "Which sequence differences matter, and how can we distinguish them from measurement error?",
+      "concepts": "Alignment, assembly and annotation · Genetic variation and population structure · Coverage, reference bias and uncertainty",
+      "project": "Reproduce a small variant-analysis example. Trace one call back to its read evidence and test how a quality threshold changes it.",
+      "check": "Check coverage and mapping quality; distinguish a detected variant from evidence that it causes a phenotype."
+    },
+    "fa": {
+      "title": "ژنوم و تنوع",
+      "question": "کدام تفاوت‌های توالی اهمیت زیستی دارند و چگونه آن‌ها را از خطای اندازه‌گیری جدا می‌کنیم؟",
+      "concepts": "هم‌ترازی، سرهم‌بندی و حاشیه‌نویسی؛ تنوع ژنتیکی و ساختار جمعیت؛ پوشش خوانش، سوگیری ژنوم مرجع و عدم‌قطعیت.",
+      "project": "یک نمونهٔ کوچک تحلیل واریانت را بازتولید کن. شواهد خوانش را برای یک واریانت ببین و اثر تغییر آستانهٔ کیفیت را بررسی کن.",
+      "check": "پوشش و کیفیت نگاشت را بررسی کن. یافتن یک واریانت به‌تنهایی نشان نمی‌دهد که علت یک فنوتیپ است."
+    }
+  },
+  {
+    "id": "regulation",
+    "number": "02",
+    "legacy": "omics-data.html#transcriptomics",
+    "en": {
+      "title": "Gene regulation & functional genomics",
+      "question": "When does a gene act, what regulates it, and what changes when we perturb the system?",
+      "concepts": "Transcription, RNA processing and chromatin · Controls, perturbations and confounding · Context-dependent regulatory effects",
+      "project": "Reproduce one expression contrast from a small public study. Check the sample design and whether the conclusion survives a reasonable alternative model.",
+      "check": "Keep independent samples distinct from cells or reads. An association or enriched gene set alone does not establish a regulatory mechanism."
+    },
+    "fa": {
+      "title": "تنظیم ژن و عملکرد",
+      "question": "یک ژن چه زمانی عمل می‌کند، چه چیزی آن را تنظیم می‌کند و با دست‌کاری سامانه چه تغییری رخ می‌دهد؟",
+      "concepts": "رونویسی، پردازش RNA و کروماتین؛ کنترل‌ها و عوامل مخدوش‌کننده؛ وابستگی اثر تنظیمی به زمینهٔ زیستی.",
+      "project": "یک مقایسهٔ بیان ژن را در مطالعه‌ای کوچک بازتولید کن. طرح نمونه‌گیری و پایداری نتیجه در برابر یک مدل جایگزین را بررسی کن.",
+      "check": "نمونهٔ مستقل را از سلول یا خوانش جدا نگه دار. همبستگی یا غنی‌شدن یک مجموعهٔ ژنی، به‌تنهایی سازوکار تنظیمی را اثبات نمی‌کند."
+    }
+  },
+  {
+    "id": "molecules",
+    "number": "03",
+    "legacy": "omics-data.html#proteomics",
+    "en": {
+      "title": "Proteomes, metabolites & molecular omics",
+      "question": "Which molecules change, how reliably were they identified, and what does that imply about function?",
+      "concepts": "Mass spectra, identification and quantification · Protein modification and metabolite identity · Abundance, enzyme activity and metabolic flux",
+      "project": "Reproduce a small protein- or metabolite-abundance comparison. Examine missingness, normalization and identification confidence.",
+      "check": "Separate identification from quantification. Transcript abundance, protein abundance, activity and flux are different measurements."
+    },
+    "fa": {
+      "title": "اُمیکس مولکولی",
+      "question": "چه مولکول‌هایی تغییر کرده‌اند، شناسایی آن‌ها چقدر قابل‌اعتماد است و این تغییر چه معنایی برای عملکرد دارد؟",
+      "concepts": "طیف جرمی، شناسایی و کمّی‌سازی؛ تغییرات پروتئین و هویت متابولیت؛ تفاوت فراوانی، فعالیت آنزیمی و شار متابولیک.",
+      "project": "یک مقایسهٔ کوچک پروتئین یا متابولیت را بازتولید کن. داده‌های گمشده، نرمال‌سازی و اطمینان شناسایی را بررسی کن.",
+      "check": "شناسایی و کمّی‌سازی دو مسئله‌اند. مقدار RNA، مقدار پروتئین، فعالیت و شار یک اندازه‌گیری واحد نیستند."
+    }
+  },
+  {
+    "id": "structure",
+    "number": "04",
+    "legacy": "modeling-simulation.html#molecular-modeling-and-dynamics",
+    "en": {
+      "title": "Structural biology & computational biophysics",
+      "question": "How do molecular structure, motion and energetics constrain biological function?",
+      "concepts": "Structure quality and molecular interactions · Conformational dynamics and thermodynamics · Prediction, simulation and experimental validation",
+      "project": "Compare a predicted structure with an experimental structure. Inspect confidence, interfaces and one alternative conformation; propose a testable functional hypothesis.",
+      "check": "A plausible pose does not measure binding affinity or prove function. Match the structural state and experimental conditions."
+    },
+    "fa": {
+      "title": "ساختار و زیست‌فیزیک",
+      "question": "ساختار، حرکت و انرژی مولکولی چگونه عملکرد زیستی را محدود می‌کنند؟",
+      "concepts": "کیفیت ساختار و برهم‌کنش مولکولی؛ پویایی ساختاری و ترمودینامیک؛ پیش‌بینی، شبیه‌سازی و اعتبارسنجی تجربی.",
+      "project": "یک ساختار پیش‌بینی‌شده را با ساختار تجربی مقایسه کن. اطمینان مدل، سطح تماس و یک حالت ساختاری دیگر را ببین و فرضیه‌ای آزمون‌پذیر پیشنهاد بده.",
+      "check": "یک حالت اتصال ظاهراً مناسب، اندازه‌گیری میل اتصال یا اثبات عملکرد نیست. حالت مولکول و شرایط آزمایش را تطبیق بده."
+    }
+  },
+  {
+    "id": "cells",
+    "number": "05",
+    "legacy": "omics-data.html#transcriptomics",
+    "en": {
+      "title": "Cells, tissues & spatial biology",
+      "question": "Where are cells, how do their states change, and how does tissue organization constrain what they do?",
+      "concepts": "Cell identity, state and measurement quality · Anatomy, section orientation and spatial scale · Time, lineage and functional evidence",
+      "project": "Reproduce a small cell-state or spatial comparison. Check sample identities, annotation evidence and anatomical context before interpreting a pattern.",
+      "check": "Nearby cells need not communicate. A two-dimensional section is incomplete evidence of three-dimensional organization; cells are not independent biological replicates."
+    },
+    "fa": {
+      "title": "سلول، بافت و فضا",
+      "question": "سلول‌ها کجا هستند، حالتشان چگونه تغییر می‌کند و سازمان بافت چه محدودیت‌هایی بر رفتارشان می‌گذارد؟",
+      "concepts": "هویت و حالت سلول؛ آناتومی، جهت برش و مقیاس فضایی؛ زمان، تبار و شواهد عملکردی.",
+      "project": "یک مقایسهٔ کوچک سلولی یا فضایی را بازتولید کن. پیش از تفسیر الگو، هویت نمونه‌ها، شواهد نام‌گذاری سلول و زمینهٔ آناتومیک را بررسی کن.",
+      "check": "نزدیکی دو سلول الزاماً ارتباط نیست. برش دوبعدی نمای کاملی از سازمان سه‌بعدی نمی‌دهد؛ سلول‌ها تکرار زیستی مستقل نیستند."
+    }
+  },
+  {
+    "id": "systems",
+    "number": "06",
+    "legacy": "modeling-simulation.html#systems-biology",
+    "en": {
+      "title": "Systems biology & multiscale modeling",
+      "question": "How do interacting components produce feedback, stability, oscillation or change across scales?",
+      "concepts": "Regulatory, signaling and metabolic networks · Kinetics, feedback and dynamical systems · Identifiability, sensitivity and model assumptions",
+      "project": "Build a minimal feedback model. Reproduce one qualitative behavior, vary its parameters and identify a measurement that could distinguish competing mechanisms.",
+      "check": "A model fitting observed data may have non-unique mechanisms or parameters. Test sensitivity and predictions beyond the fitted observations."
+    },
+    "fa": {
+      "title": "سامانه‌ها و پویایی",
+      "question": "برهم‌کنش اجزا چگونه رفتار یک سامانه را در طول زمان شکل می‌دهد؟",
+      "concepts": "بازخورد و شبکه‌ها؛ مدل‌های پویای کمی؛ حساسیت، شناسایی‌پذیری و پیش‌بینی.",
+      "project": "یک سامانهٔ کوچک بازخوردی را مدل کن. یک پارامتر را تغییر بده و بررسی کن کدام مشاهده می‌تواند دو توضیح را از هم جدا کند.",
+      "check": "برازش خوب لزوماً سازوکار یکتا نمی‌دهد. فرض‌ها، حساسیت پارامترها و پیش‌بینی خارج از دادهٔ برازش را بررسی کن."
+    }
+  },
+  {
+    "id": "evolution",
+    "number": "07",
+    "legacy": "modeling-simulation.html#computational-ecology-evolution-and-phylogenetics",
+    "en": {
+      "title": "Evolution, populations & communities",
+      "question": "How do ancestry, selection and environment shape variation within and between populations or communities?",
+      "concepts": "Phylogeny, selection, drift and sampling · Population structure and ecological context · Microbial composition versus absolute abundance",
+      "project": "Reproduce a small phylogeny or community comparison. Test how sampling and an alternative analysis choice change the interpretation.",
+      "check": "Respect shared ancestry and sampling structure. Relative microbial abundance can change without an absolute increase in the organism."
+    },
+    "fa": {
+      "title": "تکامل و بوم‌شناسی",
+      "question": "تاریخچهٔ تبار، انتخاب و محیط چگونه تفاوت‌های زیستی را شکل می‌دهند؟",
+      "concepts": "تبارزایی و ژنتیک جمعیت؛ تنوع و ساختار اجتماع؛ نمونه‌گیری و زمینهٔ محیطی.",
+      "project": "یک مجموعهٔ کوچک توالی یا دادهٔ اجتماع را تحلیل کن و پایداری یک نتیجه را با بازنمونه‌گیری بررسی کن.",
+      "check": "تبار مشترک و طرح نمونه‌گیری را نادیده نگیر. تفاوت مشاهده‌شده لزوماً سازگاری تکاملی نیست."
+    }
+  },
+  {
+    "id": "engineering",
+    "number": "08",
+    "legacy": "specialized-topics.html#synthetic-biology",
+    "en": {
+      "title": "Computational design & bioengineering",
+      "question": "Can we design a molecule or biological system with a specified, measurable behavior?",
+      "concepts": "Design objectives and biological constraints · Protein, enzyme and genetic-circuit design · Design–build–test–learn cycles",
+      "project": "Reproduce a small published design example. Compare candidates against a simple baseline and define the experimental success criterion before ranking them.",
+      "check": "A high computational score is not a measured biological outcome. Check specificity, stability and feasibility in the intended setting."
+    },
+    "fa": {
+      "title": "طراحی و زیست‌مهندسی",
+      "question": "آیا می‌توان مولکول یا سامانه‌ای با رفتار مشخص و قابل‌اندازه‌گیری طراحی کرد؟",
+      "concepts": "هدف و محدودیت زیستی؛ طراحی پروتئین، آنزیم و مدار ژنی؛ چرخهٔ طراحی، ساخت، آزمون و یادگیری.",
+      "project": "یک مثال کوچک طراحی را بازتولید کن. نامزدها را با مبنایی ساده مقایسه و پیش از رتبه‌بندی، معیار موفقیت تجربی را مشخص کن.",
+      "check": "امتیاز محاسباتی بالا پیامد زیستی اندازه‌گیری‌شده نیست. اختصاصیت، پایداری و امکان آزمون را در زمینهٔ موردنظر بررسی کن."
+    }
+  }
+]

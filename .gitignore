@@ -1,3 +1,6 @@
 /.quarto/
 /docs/
 **/*.quarto_ipynb
+
+# Private editorial intake and local safety copies
+/.patoq/
