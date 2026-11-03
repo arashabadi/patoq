@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap");
 
 :root {
   --patoq-font-body: "Source Sans 3", "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --patoq-font-heading: "Manrope", "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --patoq-font-heading: "Source Sans 3", "Vazirmatn", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --patoq-radius-sm: 0.45rem;
   --patoq-radius: 0.8rem;
   --patoq-transition: 150ms ease;

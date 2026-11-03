@@ -234,6 +234,7 @@
     if (field && field.tagName.toLowerCase() !== 'line') {
       state.field = field.dataset.field;
       render();
+      byId('lm-field-title').tabIndex=-1;byId('lm-field-title').focus({preventScroll:true});byId('lm-detail').scrollIntoView({behavior:'instant',block:'start'});
       return;
     }
     const method = event.target.closest('[data-method]');
@@ -243,7 +244,7 @@
     const node = event.target.closest('.lm-node');
     if (!node) return;
     if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault(); state.field = node.dataset.field; render();
+      event.preventDefault(); state.field = node.dataset.field; render();byId('lm-field-title').tabIndex=-1;byId('lm-field-title').focus({preventScroll:true});byId('lm-detail').scrollIntoView({behavior:'instant',block:'start'});
     } else if (['ArrowRight', 'ArrowDown', 'ArrowLeft', 'ArrowUp'].includes(event.key)) {
       event.preventDefault();
       const index = fields.findIndex(f => f.id === node.dataset.field);

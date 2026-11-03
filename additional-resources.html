@@ -69,7 +69,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
+<script>
+(()=>{let theme='night';try{theme=localStorage.getItem('patoq-theme')||'night'}catch{}document.documentElement.dataset.palaceTheme=theme==='day'?'day':'night'})();
+</script>
+<meta name="theme-color" content="#151b20">
+<link rel="stylesheet" href="assets/fonts.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -657,6 +661,9 @@ ul.task-list li input[type="checkbox"] {
 </main> <!-- /main -->
 <link rel="stylesheet" href="assets/reader.css">
 <script src="assets/reader.js" defer=""></script>
+
+<link rel="stylesheet" href="assets/palace.css">
+<script src="assets/palace.js" defer=""></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1221,7 +1228,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>PATOQ — a gathering place for computational life science</p>
+<p>PATOQ — Let’s grow together · همگی در کنار هم رشد کنیم</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -1235,5 +1242,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

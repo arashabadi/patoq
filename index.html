@@ -71,7 +71,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<style>html{ scroll-behavior: smooth; }</style>
+<script>
+(()=>{let theme='night';try{theme=localStorage.getItem('patoq-theme')||'night'}catch{}document.documentElement.dataset.palaceTheme=theme==='day'?'day':'night'})();
+</script>
+<meta name="theme-color" content="#151b20">
+<link rel="stylesheet" href="assets/fonts.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -119,10 +123,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div id="living-book">
+<div id="living-book" lang="en" dir="ltr" data-theme="night">
 <nav class="lb-nav" aria-label="Book navigation"><a href="#" class="lb-brand">پاتوق <span>PATOQ</span></a><div><button id="lb-language">English</button><button id="lb-theme" aria-label="Change color theme">☾</button><a href="#shelf" data-i="contents"></a></div></nav>
-<header class="lb-hero"><img src="images/patoq-persian-future-v1.png" alt="" fetchpriority="high"><div class="lb-hero-shade"></div><div class="lb-hero-copy"><p class="lb-eyebrow" data-i="eyebrow"></p><h1 data-i="headline"></h1><p data-i="intro"></p><a href="#shelf" class="lb-enter" data-i="enter"></a><small data-i="imageNote"></small></div><span class="lb-scroll" data-i="scroll"></span></header>
-<main><section id="shelf" class="lb-section"><div class="lb-section-label"><span data-i="chapterLabel"></span><a href="atlas.html" data-i="atlas"></a></div><h2 data-i="shelfTitle" class="anchored"></h2><p class="lb-lead" data-i="shelfIntro"></p><div id="lb-shelf" class="lb-shelf"></div></section>
+<header class="lb-hero"><picture><source media="(max-width: 680px)" srcset="images/patoq-entry-mobile.png"><img src="images/patoq-entry.png" alt="Four scholars learning together at an imagined Persepolis, with a book, laptop and mixed-reality display." fetchpriority="high" width="1672" height="941"></picture><div class="lb-hero-shade"></div><div class="lb-hero-copy"><p class="lb-eyebrow" data-i="eyebrow"></p><h1 class="palace-motto"><span lang="en">Let’s grow<br><em>together.</em></span><span lang="fa">همگی در کنار هم<br><em>رشد کنیم.</em></span></h1><p data-i="intro"></p><a href="#shelf" class="lb-enter" data-i="enter"></a><a class="palace-film" href="https://www.youtube.com/watch?v=DYM3PSwpELw" target="_blank" rel="noopener"><span class="palace-play" aria-hidden="true">▷</span><span><span lang="en">Visit Persepolis</span><span lang="fa">قدم در تخت‌جمشید بگذار</span><small>YouTube ↗</small></span></a><small data-i="imageNote"></small></div><span class="lb-scroll" data-i="scroll"></span></header>
+<main><section class="palace-portals lb-section" aria-label="Learning journeys"><div class="lb-section-label"><span lang="en">YOUR NEXT DISCOVERY</span><span lang="fa">کشف بعدی تو</span><span class="palace-visit-count"></span></div><div class="palace-portal-grid"><a href="atlas.html"><span class="portal-mark">✧</span><small>01 / EXPLORE</small><h2 class="anchored"><span lang="en">Find your constellation.</span><span lang="fa">مسیرت را کشف کن.</span></h2><p><span lang="en">Connect biology, mathematics and computation.</span><span lang="fa">زیست‌شناسی، ریاضی و محاسبات را به هم وصل کن.</span></p><b>↗</b></a><a href="spatial-python.html"><span class="portal-mark">⌘</span><small>02 / EXPERIMENT</small><h2 class="anchored"><span lang="en">Step inside the tissue.</span><span lang="fa">وارد بافت شو.</span></h2><p><span lang="en">Change a neighborhood. Question the result.</span><span lang="fa">همسایگی را تغییر بده. نتیجه را به پرسش بکش.</span></p><b>↗</b></a><a href="optimal-transport.html"><span class="portal-mark">⇌</span><small>03 / DISCOVER</small><h2 class="anchored"><span lang="en">Move an idea forward.</span><span lang="fa">یک ایده را جلو ببر.</span></h2><p><span lang="en">Six parts. Sixteen transport experiments.</span><span lang="fa">شش پارت و شانزده آزمایش انتقال بهینه.</span></p><b>↗</b></a></div></section><section id="shelf" class="lb-section"><div class="lb-section-label"><span data-i="chapterLabel"></span><a href="atlas.html" data-i="atlas"></a></div><h2 data-i="shelfTitle" class="anchored"></h2><p class="lb-lead" data-i="shelfIntro"></p><div id="lb-shelf" class="lb-shelf"></div></section>
 <section class="lb-section"><p class="lb-eyebrow">PATOQ / SPATIAL BIOLOGY IN PYTHON</p><h2 class="anchored"><span lang="fa">از بافت تا استنباط زیستی.</span><span lang="en">From tissue to biological inference.</span></h2><p class="lb-lead"><span lang="fa">مسیر تخصصی با نقشهٔ فصل‌ها و درس تعاملی حساسیت همسایگی؛ توسعه‌یافته با کمک میرزا.</span><span lang="en">A specialist pathway with a curriculum and an interactive neighborhood sensitivity lesson, developed with Mirza.</span></p><a class="lb-enter" href="spatial-python.html"><span lang="fa">ورود به بخش زیست‌شناسی فضایی ↗</span><span lang="en">Enter spatial biology ↗</span></a></section>
 <section class="lb-foundations lb-section"><div class="lb-section-label" data-i="foundationLabel"></div><h2 data-i="foundationTitle" class="anchored"></h2><div id="lb-foundations" class="lb-foundation-grid"></div></section>
 <section class="lb-section" id="updates"><div class="lb-section-label" data-i="updateLabel"></div><h2 data-i="updateTitle" class="anchored"></h2><p class="lb-lead" data-i="updateIntro"></p><div class="lb-workflow" id="lb-workflow"></div><details><summary data-i="editorialTitle"></summary><p data-i="editorialText"></p></details><a href="research-directions.html" class="lb-source-link" data-i="research"></a></section>
@@ -136,6 +140,9 @@ ul.task-list li input[type="checkbox"] {
 
 <link rel="stylesheet" href="assets/reader.css">
 <script src="assets/reader.js" defer=""></script>
+
+<link rel="stylesheet" href="assets/palace.css">
+<script src="assets/palace.js" defer=""></script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -691,7 +698,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>PATOQ — a gathering place for computational life science</p>
+<p>PATOQ — Let’s grow together · همگی در کنار هم رشد کنیم</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
@@ -705,5 +712,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
