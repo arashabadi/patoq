@@ -2,6 +2,8 @@
 
 ## Artificial Intelligence
 
+See [Research in the AI era](research-directions.qmd) for recent evidence, competing perspectives and the implications for learning bioinformatics.
+
 ### Key Concepts
 - Machine Learning in Bioinformatics
 - Deep Learning for Genomics

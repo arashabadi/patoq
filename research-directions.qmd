@@ -1,0 +1,80 @@
+---
+title: "Research in the AI era"
+subtitle: "Evidence, competing perspectives, and what to learn next"
+toc: true
+number-sections: false
+---
+
+A coding agent can make a new workflow easier to execute. That changes how we learn and work, but it does not tell us how many jobs will exist, which result is biologically useful, or how a beginner develops judgment. This chapter connects recent sources to practical learning decisions. **It is a dated reading guide, not a forecast or an exhaustive review.**
+
+[Explore the interactive learning map](learning-map.qmd){.btn .btn-outline-primary}
+
+## Start with the right distinction
+
+Three developments overlap but need different evaluation:
+
+- **General-purpose language models** help with text, code and reasoning tasks. Inspect the actual code, sources and outputs.
+- **Specialized biological models** predict or generate a specified biological object or outcome. Check the training domain, relevant baselines and independent validation.
+- **Agentic systems** coordinate models, tools, memory and feedback across multiple steps. Check the intermediate decisions, tool results and recovery from errors as well as the final answer.
+
+Goh and colleagues make this distinction in their 2026 Perspective (PDF p. 1). Their larger argument is that bioinformatics expertise shifts toward designing, curating, interpreting and governing AI-assisted work. This is an argument about professional responsibilities, not evidence that every current position will survive. [Goh et al., 2026](https://doi.org/10.1038/s41746-026-02777-1).
+
+## What recent sources change about the roadmap
+
+::: {.table-responsive role="region" tabindex="0" aria-label="Research directions comparison; scroll horizontally on small screens"}
+
+| Development | What the source supports | What to practice | What remains uncertain |
+|---|---|---|---|
+| **Expertise beyond pipeline execution** | Goh et al. argue for responsibility for valid, reproducible and biologically meaningful outputs; they also warn that prompts can degrade after model updates (PDF pp. 2–4). | Frame the biological question, audit the inputs, version the workflow and repeat checks after tool updates. | This Perspective does not measure future employment or establish that a degree guarantees a role. |
+| **Coordinated AI research workflows** | Li et al. discuss agent architectures, applications and deployment challenges. The reviewed abstract describes an emerging research direction, not a universal capability test. | Break a project into inspectable steps with explicit inputs, outputs and validation checkpoints. | Performance is system-, task- and context-dependent. More agents do not by themselves establish better science. |
+| **AI-assisted molecular design with experimental follow-up** | The Virtual Lab study reports a human-guided agent workflow that produced nanobody candidates followed by experimental testing. | Connect structure/design computations to a biological assay and a predeclared success criterion. | A demonstrated design task is not proof of reliable autonomous discovery across biology. |
+| **Biologically meaningful evaluation** | Systema evaluates perturbation-response prediction and shows how systematic differences between treated and control cells can inflate apparent performance. | Compare simple baselines; choose splits and metrics that test the biological effect of interest. | Results from these tasks and datasets do not establish that all biological foundation models succeed or fail. |
+| **Decision value beyond benchmark scores** | Bender et al. argue that AI in drug discovery should be assessed in its project and decision context, including useful data generation and prospective follow-up (PDF pp. 10, 15). | State what decision a prediction changes, which experiment follows and what would count as improvement. | This is a Perspective, not a new clinical trial or a general estimate of AI's effect on drug-development success. |
+
+:::
+
+Sources: [Goh et al.](https://doi.org/10.1038/s41746-026-02777-1), [Li et al.](https://doi.org/10.1038/s41587-026-03035-1), [The Virtual Lab](https://doi.org/10.1038/s41586-025-09442-9), [Systema](https://doi.org/10.1038/s41587-025-02777-8), [Bender et al.](https://doi.org/10.1038/s41573-026-01496-2).
+
+## The beginner's problem deserves its own answer
+
+“Experts remain important” does not explain how someone becomes an expert. Routine analysis and debugging have also served as apprenticeships. In *Fewer Rungs on the Ladder*, Stephen Turner questions whether automating junior work will automatically create more senior positions, and argues for deliberately preserving opportunities to develop scientific judgment. This is a practitioner commentary, not a labor-market study. [Turner, 6 July 2026](https://blog.stephenturner.us/p/fewer-rungs-on-the-ladder).
+
+For PATOQ, the educational implication is to build practice into AI-assisted work:
+
+1. Choose one small biological question and understand how its data were measured.
+2. Predict a result or failure mode before running the analysis. Use AI to explain or implement, then inspect what happened.
+3. Reproduce a result and change one assumption, parameter or comparison. Explain why it did or did not change the conclusion.
+4. Discuss the result with someone who can challenge your interpretation. Record the correction and the next question.
+
+There is no requirement to finish every prerequisite before beginning. Add the relevant biology, statistics and computing as the project exposes a specific gap. A useful milestone is a result you can explain, reproduce and qualify.
+
+## How this applies across biological fields
+
+**Structure and design.** Learn molecular interactions, energetics, model confidence and experimental conditions alongside prediction tools. Use a prediction to choose a test. Computational plausibility and experimentally measured function are different endpoints.
+
+**Genomes, regulation and molecular omics.** Learn the measurement process, reference choices, sample design, missingness and appropriate comparisons. For perturbation models, ask whether the evaluation distinguishes the specific intervention from shared shifts or confounders.
+
+**Cells, tissues and spatial biology.** Connect cell states to anatomy, spatial scale and time. Establish what sectioning, segmentation and assay coverage permit you to infer before proposing interactions or lineage histories.
+
+**Systems, evolution and ecology.** State the mechanisms or statistical assumptions behind the model. Test sensitivity, identifiability and predictions outside the fitted observations; respect ancestry, sampling and environmental context.
+
+These are PATOQ's proposed learning connections. The cited papers do not validate every field-specific recommendation. The [interactive map](learning-map.qmd) links each field to an initial project and existing book chapters.
+
+## Keep the second brain connected to evidence
+
+A personal wiki can retain source passages, questions, competing explanations and changes of mind. Keep citations and the original evidence accessible. Mark a model suggestion as a suggestion until you have checked it. Graph size is not a measure of understanding.
+
+For a project, retain the question, sample unit, data version, code and environment, analysis decisions, validation result, uncertainty and next discriminating observation. This practice supports both human recall and a future assistant's ability to continue the work without silently treating a previous summary as evidence.
+
+## Sources and actual reading coverage
+
+Checked for this chapter on **2 November 2026**. These are published sources plus one explicitly labelled practitioner commentary. No preprint is counted as separate corroboration of a published successor.
+
+1. **Goh, W. W. B., Polster, A., Wong, L. & Cvijovic, M. (2026).** *Rethinking bioinformatics expertise in the era of artificial intelligence.* **npj Digital Medicine 9, 398.** [Publisher](https://www.nature.com/articles/s41746-026-02777-1). **Perspective.** Local publisher-PDF text pp. 1–4 checked for the distinctions, prompt drift, data curation and interpretive responsibilities used here. Underlying cited experiments, figures and later sections were not systematically audited. Broad assertions about what AI can never understand are author positions, not adopted here as timeless empirical facts.
+2. **Li, B., Saini, A. K., Hernandez, J. G. & Moore, J. H. (2026).** *Agentic AI and the rise of in silico team science in biomedical research.* **Nature Biotechnology 44, 711–725.** [PubMed](https://pubmed.ncbi.nlm.nih.gov/41735549/) · [DOI](https://doi.org/10.1038/s41587-026-03035-1). **Perspective.** Local PDF p. 1 and indexed abstract/metadata checked. Architecture details, application claims and figures remain unreviewed for this chapter.
+3. **Swanson et al. (2025).** *The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies.* **Nature 646, 716–723.** [DOI](https://doi.org/10.1038/s41586-025-09442-9). **Primary research.** Publisher-indexed abstract checked, including experimental follow-up; experimental figures, controls and supplementary material not independently audited here. A direct publisher fetch was blocked.
+4. **Viñas Torné et al. (2025 online; 2026 issue).** *Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation.* **Nature Biotechnology 44, 1050–1059.** [DOI](https://doi.org/10.1038/s41587-025-02777-8). **Primary methods/benchmark research.** Publisher abstract and introductory results checked during roadmap preparation; no independent figure or full-supplement audit. Repeat publisher access was blocked.
+5. **Bender et al. (2026).** *Artificial intelligence in drug discovery — what it is, where we stand and the path forward.* **Nature Reviews Drug Discovery 25, 855–876.** [DOI](https://doi.org/10.1038/s41573-026-01496-2). **Perspective, not a review article.** Local PDF abstract and selected text on pp. 10 and 15 checked for decision-context evaluation and relevant data generation. Figures and cited experimental studies not independently audited.
+6. **Turner, S. D. (6 July 2026).** *Fewer Rungs on the Ladder.* [Original commentary](https://blog.stephenturner.us/p/fewer-rungs-on-the-ladder). **Practitioner commentary; not peer-reviewed empirical employment evidence.** Main essay read; reader comments are not used as evidence.
+
+The learner-facing roadmap is a synthesis informed by these sources. It remains revisable as capabilities, evaluations and educational evidence change.

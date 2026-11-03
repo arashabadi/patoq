@@ -69,6 +69,7 @@ format:
   </section>
   <section class="lm-footnotes" id="lm-knowledge">
     <h3>Keep what changes your mind.</h3>
+    <p><a href="research-directions.html">Research in the AI era: recent evidence, competing perspectives and a reading guide →</a></p>
     <p>Start with a source, a question, a result you checked, a competing explanation and a next test. Link them in a notebook or personal wiki. A larger graph is useful when its connections help you retrieve evidence and revise a decision.</p>
     <p>This is PATOQ’s curated learning map, not a universal taxonomy or a career forecast. Fields overlap. Single-cell and multi-omics describe ways to measure or integrate biology; AI is a shared method and an area of method research. Clinical, agricultural, environmental and industrial work can draw on several fields.</p>
     <p class="lm-small">Classification context: <a href="https://www.iscb.org/ismb2026/whats-happening/track-details">ISCB scientific communities</a> · <a href="https://edamontology.org/">EDAM: topics, operations and data</a>. Entry links lead to existing PATOQ chapters; coverage varies.</p>
