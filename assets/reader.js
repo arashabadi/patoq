@@ -1,5 +1,5 @@
 (()=>{
-  if(document.querySelector('#atlas'))return;
+  if(document.querySelector('#atlas, #living-book'))return;
   const main=document.querySelector('main');if(!main)return;
   const bar=document.createElement('nav');bar.className='pq-reader';bar.setAttribute('aria-label','Reading tools');
   bar.innerHTML='<a href="atlas.html">↖ Atlas</a><span>READ · QUESTION · CONNECT</span><button aria-pressed="false">Focus</button><div class="pq-read-progress"></div>';document.body.append(bar);
