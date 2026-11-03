@@ -1,3 +1,11 @@
+---
+toc: false
+number-sections: false
+---
+
+::::: {.patoq-home}
+:::: {.patoq-hero}
+::: {.patoq-hero-copy}
 # Welcome {.unnumbered}
 
 ::: {.patoq-kicker}
@@ -5,20 +13,28 @@ BIOINFORMATICS · DATA SCIENCE · MACHINE LEARNING
 :::
 
 ::: {.patoq-intro}
-**PATOQ (پاتوق)** is a curated collection of practical resources and quick tutorials for bioinformatics, computational biology, data science, machine learning, and related fields.
+**PATOQ (پاتوق)** is a living field guide to bioinformatics, computational biology, data science, and machine learning.
 
-*Patoq* is a Persian word for a gathering place—a space where people exchange ideas, learn together, and keep up with a fast-moving field.
+It turns scattered resources into clear learning paths, practical workflows, and carefully curated references.
 :::
 
-::: {.persepolis-note}
-**Cover setting — Persepolis.** The cover imagines a modern scientific gathering at Persepolis, the Achaemenid capital founded by Darius I around 518 BCE on a monumental terrace in present-day Fars, Iran. [Explore Persepolis at the UNESCO World Heritage Centre →](https://whc.unesco.org/en/list/114)
+::: {.patoq-byline}
+Curated by [Arash B. Abadi](https://arashabadi.github.io/) and [Hossein Asadkhanipour](https://github.com/h-asadkhanipour)
 :::
 
 ::: {.patoq-actions}
 [Explore the interactive map](learning-map.qmd){.btn .btn-outline-primary}
-[Start with the prerequisites](prerequisites.qmd){.btn .btn-primary}
+[Start learning](prerequisites.qmd){.btn .btn-primary}
 [Contribute on GitHub](https://github.com/arashabadi/patoq/blob/main/CONTRIBUTING.md){.btn .btn-outline-primary}
 :::
+:::
+
+::: {.patoq-cover-panel}
+![](images/patoq_cover_achaemenid_modern_transparent.png){.patoq-cover-art fig-alt="PATOQ scholars at Persepolis combining manuscripts with modern computing"}
+
+**Persepolis, Fars, Iran.** The cover imagines an ancient gathering place reactivated for modern science. [About Persepolis →](https://whc.unesco.org/en/list/114)
+:::
+::::
 
 ## Choose a path {.unnumbered}
 
@@ -26,7 +42,7 @@ BIOINFORMATICS · DATA SCIENCE · MACHINE LEARNING
 ::: {.patoq-card}
 ### Build the foundations
 
-Refresh the biology, mathematics, statistics, Linux, Git, R, and Python concepts that support computational research.
+Refresh the biology, mathematics, statistics, Linux, Git, R, and Python concepts behind computational research.
 
 [Browse prerequisites →](prerequisites.qmd)
 :::
@@ -34,7 +50,7 @@ Refresh the biology, mathematics, statistics, Linux, Git, R, and Python concepts
 ::: {.patoq-card}
 ### Explore biological data
 
-Move through genomics, transcriptomics, proteomics, metabolomics, epigenomics, and metagenomics resources.
+Move through genomics, transcriptomics, proteomics, metabolomics, epigenomics, and metagenomics.
 
 [Explore omics data →](omics-data.qmd)
 :::
@@ -42,12 +58,13 @@ Move through genomics, transcriptomics, proteomics, metabolomics, epigenomics, a
 ::: {.patoq-card}
 ### Find tools and workflows
 
-Discover workflow systems, cloud and HPC resources, visualization approaches, platforms, courses, and references.
+Discover reproducible workflows, cloud and HPC resources, visualization approaches, platforms, and references.
 
 [Open the toolkit →](integrated-platforms.qmd)
 :::
 ::::
 
 ::: {.patoq-meta}
-PATOQ is an open, Quarto-based online book. **Contributor:** [Hossein Asadkhanipour](https://github.com/h-asadkhanipour)
+Open, versioned, and built with Quarto. New material is curated into the right learning path instead of added as an endless feed.
 :::
+:::::

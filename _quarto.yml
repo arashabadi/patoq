@@ -10,8 +10,6 @@ book:
     - name: Hossein Asadkhanipour
       url: https://github.com/h-asadkhanipour
   date: last-modified
-  cover-image: images/patoq_cover_achaemenid_modern_transparent.png
-  cover-image-alt: "PATOQ scholars at Persepolis combining manuscripts with modern computing"
   repo-url: https://github.com/arashabadi/patoq
   repo-actions: [edit, issue]
   sidebar:
@@ -55,22 +53,22 @@ format:
     highlight-style: arrow
     number-sections: true
     code-fold: true
-    code-tools: true
+    code-tools: false
     code-copy: true
     code-overflow: wrap
     repo-url: https://github.com/arashabadi/patoq
     edit-url: https://github.com/arashabadi/patoq/edit/main/
     toc: true
-    toc-expand: true
-    toc-depth: 3
+    toc-expand: false
+    toc-depth: 2
     smooth-scroll: true
     link-external-icon: true
     link-external-newwindow: true
     grid:
-      sidebar-width: 300px
-      body-width: 880px
-      margin-width: 240px
-      gutter-width: 2rem
+      sidebar-width: 270px
+      body-width: 820px
+      margin-width: 220px
+      gutter-width: 2.75rem
     navbar:
       right:
         - icon: github
