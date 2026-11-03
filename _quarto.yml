@@ -26,6 +26,7 @@ book:
     - learning-map.qmd
     - research-directions.qmd
     - spatial-python.qmd
+    - optimal-transport.qmd
     - part: prerequisites.qmd
       chapters: 
         - biology_fundamentals.qmd
